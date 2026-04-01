@@ -1,0 +1,30 @@
+# Ignore everything by default
+/*
+
+# -----------------
+# ALLOWED FOLDERS
+# -----------------
+!/mods/
+!/config/
+!/defaultconfigs/
+!/kubejs/
+!/datapacks/
+!/resourcepacks/
+!/shaderpacks/
+!/patchouli_books/
+!/moonlight-global-datapacks/
+
+# -----------------
+# ALLOWED FILES
+# -----------------
+!/.gitignore
+!/options.txt
+!/instance.png
+
+# -----------------
+# EXCLUDED CACHES & LOCAL DATA
+# -----------------
+/mods/.connector/
+/mods/.index/
+/config/jei/world/
+/kubejs/export/
