@@ -1,0 +1,1640 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: "circle"
+	filename: "002_tierlist"
+	group: "5EA21B61C2E147CB"
+	icon: "draconicevolution:draconic_chestplate"
+	id: "0003000000000001"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&7All weapons ranked from worst to best.\n\nHover each item to see why it is in its tier."]
+			id: "4250EAC828E2FE63"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "310A7DAB7ABF36CD"
+				title: "Swords"
+				type: "checkmark"
+			}]
+			title: "&e&l⚔ Weapons & Swords"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: ["&4Best in slot. Endgame only — Phase 5."]
+			id: "3C70B80D9104BF16"
+			rewards: [{
+				id: "01EF7C359480F72A"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "square"
+			size: 1.5d
+			title: "&4&lS-Tier Mastery"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&7The king of weapons. Infinite RF durability and huge AOE swings."
+				"&cPhase 5."
+			]
+			id: "75680CC7E4E4B965"
+			rewards: [
+				{
+					id: "148E97A485D3497B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "6329681996820E5D"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FF76FD71E3E8127"
+				item: "draconicevolution:draconic_sword"
+				type: "item"
+			}]
+			title: "Draconic Sword"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&7RF-powered sword with extra reach. Your entry into Phase 5 combat."
+				"&cPhase 5."
+			]
+			id: "01A02B682C517149"
+			rewards: [
+				{
+					id: "6617E891DC39CC92"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 4
+					id: "55115D0FA65F5618"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02150BB9E77ED510"
+				item: "draconicevolution:wyvern_sword"
+				type: "item"
+			}]
+			title: "Wyvern Sword"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&7Shoots magic beams for free. Melee damage at range."
+				"&ePhase 4."
+			]
+			id: "493AAC0C4B7E8C7D"
+			rewards: [
+				{
+					id: "645FEC2515DBFEC4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6101776B50B51949"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5219C4EE02CBE86F"
+				item: {
+					Count: 1
+					id: "botania:terra_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Terra Blade"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: ["&bBotania&r\n&7Calls lightning strikes on enemies. Insane AOE.\n&ePhase 4."]
+			id: "10AA464E404A9FA7"
+			tasks: [{
+				id: "056DF7C4F881BCF6"
+				item: {
+					Count: 1
+					id: "botania:thunder_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Thundercaller"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6BetterEnd&r\n&7Crafted from End-exclusive Aeternium. Very high base damage, incredibly durable.\n&cPhase 3+."]
+			id: "23A9A995C4DF0527"
+			tasks: [{
+				id: "049EDE47AE68DF92"
+				item: {
+					Count: 1
+					id: "betterend:aeternium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aeternium Sword"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: ["&4Blood Magic&r\n&7Living weapon upgraded via LP sacrifice. Gets stronger the more LP you have.\n&cPhase 2-3."]
+			id: "0F3FA810563EC23F"
+			tasks: [{
+				id: "407F1ECA8790A5AF"
+				item: "bloodmagic:bound_blade"
+				type: "item"
+			}]
+			title: "Blood Magic Bound Blade"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			description: ["&5KnightQuest&r\n&7The top-tier KnightQuest weapon from the Dragon set.\n&cPhase 4."]
+			id: "20E5DD75D28084C7"
+			tasks: [{
+				id: "2B15F1D663934EE7"
+				item: "knightquest:dragonslayer"
+				type: "item"
+			}]
+			title: "KnightQuest Dragon Sword"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6Very strong. Phase 3-4."]
+			id: "6827AE2378DAC3B8"
+			shape: "square"
+			size: 1.5d
+			title: "&6&lA"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			description: ["&bTwilight Forest&r\n&7One-hit-kill weapon that shatters after one use. Save it for a boss fight.\n&ePhase 3."]
+			id: "107699CE2921232C"
+			tasks: [{
+				id: "0E8839559D86AED0"
+				item: {
+					Count: 1
+					id: "twilightforest:glass_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Twilight Glass Sword"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["&6Twilight Forest&r\n&7Sets enemies permanently on fire. Great against Ender Dragon and Cataclysm bosses.\n&ePhase 3."]
+			id: "4A3DDC66C8497560"
+			tasks: [{
+				id: "0AEF4FDE958B859A"
+				item: {
+					Count: 1
+					id: "twilightforest:fiery_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Twilight Fiery Sword"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			description: ["&aBotania&r\n&7Heals you on hit. Extremely reliable self-sustaining weapon.\n&ePhase 3."]
+			id: "1C62050DAE63423B"
+			tasks: [{
+				id: "21BEE57EBC3B8E29"
+				item: {
+					Count: 1
+					id: "botania:terra_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Terrasteel Sword"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: ["&cTinkers' Construct&r\n&7Severing = drops mob heads. Highest base Tinkers' damage.\n&ePhase 3 (Twilight Forest)."]
+			id: "37DF14DA6C7C18DE"
+			tasks: [{
+				id: "482FAF2FB3B712BE"
+				item: "tconstruct:broadsword"
+				type: "item"
+			}]
+			title: "Tinkers' Broadword (Manyullyn)"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["&fVanilla + Apotheosis&r\n&7Life Steal + Execute affix = nearly self-sustaining in any fight.\n&ePhase 2-3."]
+			id: "383A5D4AEEAA5EF0"
+			tasks: [{
+				id: "603652723DE6169F"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Netherite Sword (Apotheosis)"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			description: ["&2BetterEnd&r\n&7Mid-tier End sword. Good stepping stone between iron and Aeternium.\n&ePhase 3."]
+			id: "4E4D9E8AB85541E6"
+			tasks: [{
+				id: "3368D7A6650FD155"
+				item: {
+					Count: 1
+					id: "betterend:terminite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Terminite Sword"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			description: ["&7KnightQuest&r\n&7Mid-tier KnightQuest sword from the Paladin armor set.\n&ePhase 3."]
+			id: "3327C765C3562B6B"
+			tasks: [{
+				id: "32CB35531D5468F7"
+				item: {
+					Count: 1
+					id: "knightquest:paladin_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "KnightQuest Paladin Sword"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			description: ["&bAether&r\n&7Top Aether sword, crafted from Gravitite — the rarest Aether ore.\n&ePhase 3."]
+			id: "7F80C6F2EBB82FC9"
+			tasks: [{
+				id: "4434F3224392C62E"
+				item: {
+					Count: 1
+					id: "aether:gravitite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aether Gravitite Sword"
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			description: ["&eSolid mid-game. Phase 2-3."]
+			id: "4D3708886B6DDA3E"
+			shape: "square"
+			size: 1.5d
+			title: "&e&lB"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			description: ["&bTwilight Forest&r\n&7Slows enemies on hit. Great crowd control in large fights.\n&ePhase 3."]
+			id: "4EF8F3FB93E0DADC"
+			tasks: [{
+				id: "627A788F7DEA0C23"
+				item: {
+					Count: 1
+					id: "twilightforest:ice_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Twilight Ice Sword"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["&dBotania&r\n&7Spawns Pixies to fight alongside you. Passive damage companion on every swing.\n&ePhase 3."]
+			id: "21F1725F7D894FB1"
+			tasks: [{
+				id: "5D2DBBBE74B1FDFB"
+				item: {
+					Count: 1
+					id: "botania:elementium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Elementium Sword"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			description: ["&9Aether&r\n&7Gets faster as your health decreases — great in desperate situations.\n&ePhase 2."]
+			id: "5F9F5E4E3D1AB513"
+			tasks: [{
+				id: "657A261279573361"
+				item: {
+					Count: 1
+					id: "aether:zanite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aether Zanite Sword"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			description: ["&aTech Reborn&r\n&7High enchantability and decent base damage. A good mid-game option.\n&ePhase 2-3."]
+			id: "70D73AEAE9FBFDF3"
+			tasks: [{
+				id: "4D990CDB97F4718E"
+				item: {
+					Count: 1
+					id: "techreborn:peridot_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tech Reborn Peridot Sword"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			description: ["&cTech Reborn&r\n&7Good early modded sword. Mine Ruby ore from the overworld.\n&ePhase 1-2."]
+			id: "384C0D3BD8826EF3"
+			tasks: [{
+				id: "3C346EC88E6A1007"
+				item: {
+					Count: 1
+					id: "techreborn:ruby_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tech Reborn Ruby Sword"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			description: ["&fVanilla + Apotheosis&r\n&7Well-rolled affixes push this above vanilla. Good before Netherite.\n&ePhase 2."]
+			id: "2558769605D1A15C"
+			tasks: [{
+				id: "11D8D72E7AF8A5CF"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Diamond Sword (Apotheosis)"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			description: ["&7Twilight Forest&r\n&7High durability, solid damage. Found in the Goblin Knight Stronghold.\n&ePhase 3."]
+			id: "04F78181EB128AEB"
+			tasks: [{
+				id: "7344AB0E1B1D9D0A"
+				item: {
+					Count: 1
+					id: "twilightforest:knightmetal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Knightmetal Sword"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			description: ["&6Immersive Engineering&r\n&7The Engineer's Hammer deals decent damage in a pinch. Not a sword but it is a valid weapon.\n&ePhase 1."]
+			id: "02943286832E673C"
+			tasks: [{
+				id: "6E7A604361E63DC3"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "IE Hammer (Combat)"
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			description: ["&aEarly game. Phase 1-2."]
+			id: "3F1D90FCCF262D91"
+			shape: "square"
+			size: 1.5d
+			title: "&a&lC"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			description: ["&2Twilight Forest&r\n&7Repairs with Steeleaf inside the Twilight Forest. Decent early Phase 3 damage.\n&aPhase 3 start."]
+			id: "03E9D90DD6721D23"
+			tasks: [{
+				id: "7F05AAF290C9BEC8"
+				item: {
+					Count: 1
+					id: "twilightforest:steeleaf_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Steeleaf Sword"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			description: ["&aManasteel (Botania)&r\n&7Self-repairing via Mana. Never needs an anvil. Great for Phase 1 players.\n&aPhase 1-2."]
+			id: "6B836981C05631BA"
+			tasks: [{
+				id: "69C7A1EED9A97AD6"
+				item: {
+					Count: 1
+					id: "botania:manasteel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Manasteel Sword"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			description: ["&7Tech Reborn&r\n&7Silver has bonus damage against undead mobs. Looting modifier works well on it.\n&aPhase 1-2."]
+			id: "28D4758DDA8B30F5"
+			tasks: [{
+				id: "484EB353C1955325"
+				item: "techreborn:silver_sword"
+				type: "item"
+			}]
+			title: "Tech Reborn Silver Sword"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			description: ["&6Tech Reborn&r\n&7Slightly better than iron, same tier. Tech Reborn's starter sword.\n&aPhase 1."]
+			id: "027A5920225EDFCE"
+			tasks: [{
+				id: "6C17843DB3247CF6"
+				item: {
+					Count: 1
+					id: "techreborn:bronze_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tech Reborn Bronze Sword"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			description: ["&7Vanilla&r\n&7Enchant with Sharpness III immediately. This serves you until mid Phase 1.\n&aPhase 1."]
+			id: "1AAB6C3A5CCBA62D"
+			tasks: [{
+				id: "513B81852FF4E1F5"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Iron Sword (Enchanted)"
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			description: ["&9Aether&r\n&7Decent early Aether weapon, faster at low health. Available from Aether exploration.\n&aPhase 2."]
+			id: "209C54BC28168CBD"
+			tasks: [{
+				id: "32C4B3EDDC8574E2"
+				item: {
+					Count: 1
+					id: "aether:zanite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aether Zanite Sword"
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			description: ["&7Day 1 only. Replace ASAP."]
+			id: "6BC78C396E539652"
+			shape: "square"
+			size: 1.5d
+			title: "&7&lD"
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			description: ["&7Vanilla&r\n&7Your starting weapon. Replace with iron within 20 minutes.\n&aDay 1."]
+			id: "7BCA5659B34B5CD9"
+			tasks: [{
+				id: "6CFD906BCEBCD055"
+				item: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Stone Sword"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			description: ["&7Vanilla&r\n&7Symbolic. Craft once for the advancement and move on.\n&aDay 1."]
+			id: "7002D8AE2A8826FA"
+			tasks: [{
+				id: "03438FA5D8739726"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Wooden Sword"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			description: ["&6Vanilla&r\n&7Only useful if found in a chest already enchanted. Never craft this.\n&aDay 1."]
+			id: "2FC920B7B6DCDFE2"
+			tasks: [{
+				id: "01EBC15D6BF6D7F3"
+				item: {
+					Count: 1
+					id: "minecraft:golden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Golden Sword"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			description: ["&7All chestplates ranked. Full set bonuses apply where noted."]
+			id: "4B4C2CF207A360EB"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4C63B0E97B070FF1"
+				title: "Armor"
+				type: "checkmark"
+			}]
+			title: "&b&l🛡 Armor (Chestplates)"
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			description: ["&4Best in slot. Phase 5."]
+			id: "7C5E99EF6AC3E054"
+			rewards: [{
+				id: "795A9D3B2C17F564"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "square"
+			size: 1.5d
+			title: "&4&lS-Tier Mastery"
+			x: -2.0d
+			y: 17.5d
+		}
+		{
+			description: [
+				"&7The final set. RF-energy shield absorbs almost all damage. Practically unkillable."
+				"&cPhase 5."
+			]
+			id: "5AA4B449B7DDDF1B"
+			rewards: [
+				{
+					id: "3276EAEF66B053D7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "4807F23213BC693A"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "654171F233E7F616"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-1180957121
+									1493520335
+									-1544683853
+									-34258092
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_chestpiece"
+				}
+				type: "item"
+			}]
+			title: "Draconic Chestplate"
+			x: 0.0d
+			y: 17.5d
+		}
+		{
+			description: [
+				"&7Pre-Draconic energy armor. Powerful RF shield system."
+				"&cPhase 5 entry."
+			]
+			id: "2A00E6A04ECA7EF4"
+			rewards: [
+				{
+					id: "61F7DF9639D1E994"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "01255CAE1204E50D"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16D6E2949B7712A7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-1855818245
+									1883456242
+									-1439007791
+									1738931310
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_chestpiece"
+				}
+				type: "item"
+			}]
+			title: "Wyvern Chestplate"
+			x: 2.0d
+			y: 17.5d
+		}
+		{
+			description: ["&bTech Reborn&r\n&7RF-powered. Gives full armor protection + special charge abilities. Top-tier tech armor.\n&cPhase 4-5."]
+			id: "51A3DF1112BDD301"
+			tasks: [{
+				id: "33A48AE495F86D46"
+				item: "techreborn:quantum_chestplate"
+				type: "item"
+			}]
+			title: "Tech Reborn Quantum Chestplate"
+			x: 4.0d
+			y: 17.5d
+		}
+		{
+			description: ["&4Blood Magic&r\n&7Living armor upgraded with LP and sigil effects. Completely unique passive bonuses.\n&cPhase 3-4."]
+			id: "2262E189FD8031C0"
+			tasks: [{
+				id: "6083733166330681"
+				item: "bloodmagic:bound_chestplate"
+				type: "item"
+			}]
+			title: "Blood Magic Bound Chestplate"
+			x: 6.0d
+			y: 17.5d
+		}
+		{
+			description: ["&6BetterEnd&r\n&7Crafted from Aeternium — the hardest material in the End. Rivals Netherite.\n&cPhase 3+."]
+			id: "3C06F18B2B33450B"
+			tasks: [{
+				id: "45FD14108905E534"
+				item: {
+					Count: 1
+					id: "betterend:aeternium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aeternium Chestplate"
+			x: 8.0d
+			y: 17.5d
+		}
+		{
+			description: ["&6Very strong. Phase 3-4."]
+			id: "2B324712405F50EC"
+			shape: "square"
+			size: 1.5d
+			title: "&6&lA"
+			x: -2.0d
+			y: 20.5d
+		}
+		{
+			description: ["&fVanilla + Apotheosis&r\n&7Fire immune. Socket Resilience + Vitality gems for near-endgame strength.\n&ePhase 2-3."]
+			id: "651B8618F11136D1"
+			tasks: [{
+				id: "7B8521377540B047"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Netherite Chestplate + Gems"
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			description: ["&6Twilight Forest&r\n&7Full set provides fire immunity and unique Fiery bonuses. High base armor.\n&ePhase 3."]
+			id: "767498A84AFDFC49"
+			tasks: [{
+				id: "72324EEDBBF66DC6"
+				item: {
+					Count: 1
+					id: "twilightforest:fiery_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Twilight Fiery Chestplate"
+			x: 2.0d
+			y: 20.5d
+		}
+		{
+			description: ["&fTwilight Forest&r\n&7Full set: Cold immunity + massive knockback resistance. Best tank armor in Phase 3.\n&ePhase 3."]
+			id: "58278D2B42614068"
+			tasks: [{
+				id: "19ED703C116BEA3A"
+				item: {
+					Count: 1
+					id: "twilightforest:yeti_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Twilight Yeti Chestplate"
+			x: 4.0d
+			y: 20.5d
+		}
+		{
+			description: ["&aBotania&r\n&7Full set triggers AOE knockback burst when you are hit. High armor for a magic set.\n&ePhase 3."]
+			id: "44469E448C8F6A13"
+			tasks: [{
+				id: "5BDBC1DD2DDA83E5"
+				item: {
+					Count: 1
+					id: "botania:terrasteel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Terrasteel Chestplate"
+			x: 6.0d
+			y: 20.5d
+		}
+		{
+			description: ["&3Tech Reborn&r\n&7Pre-Quantum energy armor. Very high protection with RF storage.\n&ePhase 3-4."]
+			id: "10D42FF625FED8DC"
+			tasks: [{
+				id: "431309ABA565CE9E"
+				item: "techreborn:nano_chestplate"
+				type: "item"
+			}]
+			title: "Tech Reborn Nano Chestplate"
+			x: 8.0d
+			y: 20.5d
+		}
+		{
+			description: ["&5KnightQuest&r\n&7Top-tier KnightQuest armor. Dragon set is the strongest in the mod.\n&ePhase 4."]
+			id: "168DAFADFF2B029C"
+			tasks: [{
+				id: "1CD9FADC10034CA0"
+				item: {
+					Count: 1
+					id: "knightquest:dragon_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "KnightQuest Dragon Chestplate"
+			x: 10.0d
+			y: 20.5d
+		}
+		{
+			description: ["&cAether&r\n&7Full Phoenix set provides fire immunity + speed. High tier Aether armor.\n&ePhase 3."]
+			id: "724EE5408492C019"
+			tasks: [{
+				id: "5D678ECAB40BA0AB"
+				item: {
+					Count: 1
+					id: "aether:phoenix_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aether Phoenix Chestplate"
+			x: 12.0d
+			y: 20.5d
+		}
+		{
+			description: ["&bIron Jetpacks&r\n&7Replaces your chestplate for flight capability. Best mobility before Draconic.\n&ePhase 3-4."]
+			id: "7BE29C8E1BF67080"
+			tasks: [{
+				id: "783E38802EDD04E8"
+				item: "ironjetpacks:basic_jetpack"
+				type: "item"
+			}]
+			title: "Iron Jetpack (Worn as Chest)"
+			x: 14.0d
+			y: 20.5d
+		}
+		{
+			description: ["&eSolid mid. Phase 2-3."]
+			id: "4DE81E32A8FEFDA6"
+			shape: "square"
+			size: 1.5d
+			title: "&e&lB"
+			x: -2.0d
+			y: 23.5d
+		}
+		{
+			description: ["&fVanilla + Apotheosis&r\n&7Socket Vitality + Resilience gems. Standard Phase 2 armor until Netherite.\n&ePhase 2."]
+			id: "0B8F12D2D5C71950"
+			tasks: [{
+				id: "47C7D6E2BF5E04B1"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Diamond Chestplate + Gems"
+			x: 0.0d
+			y: 23.5d
+		}
+		{
+			description: ["&dBotania&r\n&7Full set summons Pixies to defend you during combat. Passive companion damage.\n&ePhase 3."]
+			id: "003AA42542CE4A5D"
+			tasks: [{
+				id: "31B7CC0520D77C0E"
+				item: {
+					Count: 1
+					id: "botania:elementium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Elementium Chestplate"
+			x: 2.0d
+			y: 23.5d
+		}
+		{
+			description: ["&bAether&r\n&7Made from the rarest Aether ore. Increases jump height.\n&ePhase 3."]
+			id: "4E765CCF7A84F7F1"
+			tasks: [{
+				id: "7C3C256AC70EE2FA"
+				item: {
+					Count: 1
+					id: "aether:gravitite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aether Gravitite Chestplate"
+			x: 4.0d
+			y: 23.5d
+		}
+		{
+			description: ["&7Twilight Forest&r\n&7Found in the Goblin Knight Stronghold. Below Fiery/Yeti but respectable.\n&ePhase 3."]
+			id: "5264415980DC18BA"
+			tasks: [{
+				id: "5B306D3698E8CA3D"
+				item: {
+					Count: 1
+					id: "twilightforest:knightmetal_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Knightmetal Chestplate"
+			x: 6.0d
+			y: 23.5d
+		}
+		{
+			description: ["&2BetterEnd&r\n&7Mid End armor from Terminite. Good bridge gear while farming Aeternium.\n&ePhase 3."]
+			id: "273DD59EFF94A7B8"
+			tasks: [{
+				id: "3C1F66FA0E74ADDC"
+				item: {
+					Count: 1
+					id: "betterend:terminite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Terminite Chestplate"
+			x: 8.0d
+			y: 23.5d
+		}
+		{
+			description: ["&aTech Reborn&r\n&7High enchantability gem armor. Good mid-game stepping stone.\n&ePhase 2."]
+			id: "1A57321CBA9F469F"
+			tasks: [{
+				id: "367C17CFC3C44CBF"
+				item: {
+					Count: 1
+					id: "techreborn:peridot_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tech Reborn Peridot Chestplate"
+			x: 10.0d
+			y: 23.5d
+		}
+		{
+			description: ["&7KnightQuest&r\n&7Mid-tier KnightQuest armor. Good protection for exploring Knight structures.\n&ePhase 2-3."]
+			id: "40924DD68AA34DB5"
+			tasks: [{
+				id: "73CFFAEEB3739099"
+				item: "knightquest:paladin_armor_chestplate"
+				type: "item"
+			}]
+			title: "KnightQuest Paladin Chestplate"
+			x: 12.0d
+			y: 23.5d
+		}
+		{
+			description: ["&2Twilight Forest&r\n&7Repairs itself with Steeleaf inside Twilight. Useful for extended exploration sessions.\n&ePhase 3."]
+			id: "7ECFB94722A4B05D"
+			tasks: [{
+				id: "2851CA0DD652A414"
+				item: {
+					Count: 1
+					id: "twilightforest:steeleaf_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Steeleaf Chestplate"
+			x: 14.0d
+			y: 23.5d
+		}
+		{
+			description: ["&aEarly game. Phase 1-2."]
+			id: "70DEFFDA15429469"
+			shape: "square"
+			size: 1.5d
+			title: "&a&lC"
+			x: -2.0d
+			y: 26.5d
+		}
+		{
+			description: ["&7Vanilla&r\n&7Enchant with Protection III immediately. Carries you through all of Phase 1.\n&aPhase 1."]
+			id: "44F41FFF2D55306E"
+			tasks: [{
+				id: "5CBDCE3557CE33A7"
+				item: {
+					Count: 1
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Iron Chestplate (Enchanted)"
+			x: 0.0d
+			y: 26.5d
+		}
+		{
+			description: ["&aBotania&r\n&7Self-repairing using Mana. Never needs an anvil if you have a Mana Tablet.\n&aPhase 1-2."]
+			id: "103A8B95A6457A58"
+			tasks: [{
+				id: "74D69E62468BE67F"
+				item: {
+					Count: 1
+					id: "botania:manasteel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Manasteel Chestplate"
+			x: 2.0d
+			y: 26.5d
+		}
+		{
+			description: ["&9Aether&r\n&7Gets faster as your health decreases. Decent early Aether armor tier.\n&aPhase 2."]
+			id: "00CDFBCA1BE7D4E9"
+			tasks: [{
+				id: "0D84504358A3B820"
+				item: {
+					Count: 1
+					id: "aether:zanite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aether Zanite Chestplate"
+			x: 4.0d
+			y: 26.5d
+		}
+		{
+			description: ["&6Tech Reborn&r\n&7Between iron and diamond in strength. Craft early if you have tin and copper.\n&aPhase 1."]
+			id: "321D1D8E948A953A"
+			tasks: [{
+				id: "5529D62853C0F20D"
+				item: {
+					Count: 1
+					id: "techreborn:bronze_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tech Reborn Bronze Chestplate"
+			x: 6.0d
+			y: 26.5d
+		}
+		{
+			description: ["&cTech Reborn&r\n&7High enchantability. Slightly above Iron but below Diamond.\n&aPhase 1-2."]
+			id: "512F516B125C035B"
+			tasks: [{
+				id: "06DA6AEAA74307D9"
+				item: {
+					Count: 1
+					id: "techreborn:ruby_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tech Reborn Ruby Chestplate"
+			x: 8.0d
+			y: 26.5d
+		}
+		{
+			description: ["&6Immersive Engineering&r\n&7Provides immunity to electric damage and lightning. Situational but useful.\n&aPhase 1-2."]
+			id: "009A44ECED9694A5"
+			tasks: [{
+				id: "1B674847FC77F2AF"
+				item: {
+					Count: 1
+					id: "immersiveengineering:armor_faraday_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "IE Faraday Chestplate"
+			x: 10.0d
+			y: 26.5d
+		}
+		{
+			description: ["&7Starter only. Replace immediately."]
+			id: "16A17E428F62864E"
+			shape: "square"
+			size: 1.5d
+			title: "&7&lD"
+			x: -2.0d
+			y: 29.5d
+		}
+		{
+			description: ["&6Vanilla&r\n&7Day 1 only. Dye it so you look stylish while being completely breakable.\n&aDay 1."]
+			id: "4871CF0621837F3E"
+			tasks: [{
+				id: "4474AC6159BF90E8"
+				item: {
+					Count: 1
+					id: "minecraft:leather_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Leather Chestplate"
+			x: 0.0d
+			y: 29.5d
+		}
+		{
+			description: ["&6Vanilla&r\n&7High enchantability but breaks instantly. Only if already enchanted in a chest.\n&aDay 1."]
+			id: "2FDC42333AE5D35F"
+			tasks: [{
+				id: "5B7F73F27755BDC0"
+				item: {
+					Count: 1
+					id: "minecraft:golden_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Golden Chestplate"
+			x: 2.0d
+			y: 29.5d
+		}
+		{
+			description: ["&7Vanilla&r\n&7Cannot be crafted, must be found. Slightly better than gold. Skip straight to iron.\n&aDay 1."]
+			id: "083B2239E1028185"
+			tasks: [{
+				id: "660A0C02D4AE359F"
+				item: {
+					Count: 1
+					id: "minecraft:chainmail_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Chainmail Chestplate"
+			x: 4.0d
+			y: 29.5d
+		}
+		{
+			description: ["&cTech Reborn&r\n&7If you cannot find diamond, this is a usable pre-enchant option.\n&aPhase 1 backup."]
+			id: "0125CC2061E33CDA"
+			tasks: [{
+				id: "0BA1102372213F1A"
+				item: {
+					Count: 1
+					id: "techreborn:ruby_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tech Reborn Ruby Chestplate (Early)"
+			x: 6.0d
+			y: 29.5d
+		}
+		{
+			description: ["&7All mining tools ranked from worst to best."]
+			id: "1BECA738FED86935"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1A03AC27AEEF680A"
+				title: "Pickaxes"
+				type: "checkmark"
+			}]
+			title: "&6&l⛏ Pickaxes & Mining Tools"
+			x: 2.0d
+			y: 33.0d
+		}
+		{
+			description: ["&4Best in slot. Phase 4-5."]
+			id: "24A8167301DE5442"
+			shape: "square"
+			size: 1.5d
+			title: "&4&lS"
+			x: -2.0d
+			y: 35.5d
+		}
+		{
+			description: ["&dDraconic Evolution&r\n&7RF powered, 3x3 to 5x5 AOE, infinite durability. The final mining tool.\n&cPhase 5."]
+			id: "0B5D69773A7D9DE6"
+			tasks: [{
+				id: "5B91101022805813"
+				item: "draconicevolution:draconic_pickaxe"
+				type: "item"
+			}]
+			title: "Draconic Pickaxe"
+			x: 0.0d
+			y: 35.5d
+		}
+		{
+			description: ["&bMekanism&r\n&7RF tool, configurable 1x1/3x3/5x5 AOE, infinite durability, mines at insane speed.\n&cPhase 4."]
+			id: "08655397A96E1CCF"
+			tasks: [{
+				id: "0E64F5CD3C37CEC5"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			title: "Atomic Disassembler"
+			x: 2.0d
+			y: 35.5d
+		}
+		{
+			description: ["&6Mekanism&r\n&7Placed block that auto-mines in a configurable radius 24/7. Outclasses all hand-held tools.\n&cPhase 4."]
+			id: "1D66339C820EDF75"
+			tasks: [{
+				id: "1CBA84ABDA8F6D3B"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			title: "Digital Miner (Block)"
+			x: 4.0d
+			y: 35.5d
+		}
+		{
+			description: ["&eTech Reborn&r\n&7RF powered high-durability drill. Auto-smelts and works as a top mid-game mining tool.\n&cPhase 3-4."]
+			id: "489D6A81E94E0DEB"
+			tasks: [{
+				id: "461A81C57645C55A"
+				item: "techreborn:industrial_drill"
+				type: "item"
+			}]
+			title: "Tech Reborn Industrial Drill"
+			x: 6.0d
+			y: 35.5d
+		}
+		{
+			description: ["&6Very strong. Phase 3."]
+			id: "635E7F17A4BBF1B0"
+			shape: "square"
+			size: 1.5d
+			title: "&6&lA"
+			x: -2.0d
+			y: 38.5d
+		}
+		{
+			description: ["&aTinkers' Construct&r\n&7Mines 3x3 blocks. Add Luck modifier for Fortune across all 9 blocks.\n&ePhase 3."]
+			id: "22497CD9AB631A4C"
+			tasks: [{
+				id: "2EFD446F921E881B"
+				item: {
+					Count: 1
+					id: "tconstruct:sledge_hammer"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+					}
+				}
+				type: "item"
+			}]
+			title: "Tinkers' Sledge Hammer (Cobalt)"
+			x: 0.0d
+			y: 38.5d
+		}
+		{
+			description: ["&aTinkers' Construct&r\n&7Fastest mining speed before Draconic. Cobalt found in Twilight Forest.\n&ePhase 3."]
+			id: "09F29C90485D6C12"
+			tasks: [{
+				id: "4752A18D85A41C14"
+				item: {
+					Count: 1
+					id: "tconstruct:pickaxe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+					}
+				}
+				type: "item"
+			}]
+			title: "Tinkers' Pickaxe (Cobalt)"
+			x: 2.0d
+			y: 38.5d
+		}
+		{
+			description: ["&5Draconic Evolution&r\n&7Pre-Draconic energy pickaxe. Already mines AOE with high RF storage.\n&ePhase 5 entry."]
+			id: "44FAA2FB7A334B7E"
+			tasks: [{
+				id: "2F9EA9413E290B42"
+				item: "draconicevolution:wyvern_pickaxe"
+				type: "item"
+			}]
+			title: "Wyvern Pickaxe"
+			x: 4.0d
+			y: 38.5d
+		}
+		{
+			description: ["&6Twilight Forest&r\n&7Auto-smelts everything it mines. Skip the furnace for copper, iron, and gold.\n&ePhase 3."]
+			id: "3202A97FC996C166"
+			tasks: [{
+				id: "7AF0A5D1E78381AC"
+				item: {
+					Count: 1
+					id: "twilightforest:fiery_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Twilight Fiery Pickaxe"
+			x: 6.0d
+			y: 38.5d
+		}
+		{
+			description: ["&eSolid. Phase 2."]
+			id: "5C43A6802BC3BDB2"
+			shape: "square"
+			size: 1.5d
+			title: "&e&lB"
+			x: -2.0d
+			y: 41.5d
+		}
+		{
+			description: ["&fVanilla&r\n&7Fortune III on Netherite triples crystal/gem drops. Standard pre-Tinkers mining pick.\n&ePhase 2."]
+			id: "39DE24E8B1E5AEB7"
+			tasks: [{
+				id: "33C5E4906E0BBEE3"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Netherite Pickaxe (Fortune III)"
+			x: 0.0d
+			y: 41.5d
+		}
+		{
+			description: ["&7Tinkers' Construct&r\n&7Before Cobalt from Twilight, Steel Tinkers' + modifiers beats vanilla Netherite.\n&ePhase 1-2."]
+			id: "7B4B8349998694A1"
+			tasks: [{
+				id: "492E95E7E14CE940"
+				item: {
+					Count: 1
+					id: "tconstruct:pickaxe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+					}
+				}
+				type: "item"
+			}]
+			title: "Tinkers' Pickaxe (Steel)"
+			x: 2.0d
+			y: 41.5d
+		}
+		{
+			description: ["&bTech Reborn&r\n&7RF-powered, fast, high durability. Good before you unlock Tinkers' Cobalt.\n&ePhase 2."]
+			id: "36A8D74454094D51"
+			tasks: [{
+				id: "1F3BFA9D916EF533"
+				item: "techreborn:diamond_drill"
+				type: "item"
+			}]
+			title: "Tech Reborn Diamond Drill"
+			x: 4.0d
+			y: 41.5d
+		}
+		{
+			description: ["&aEarly. Phase 1."]
+			id: "37AAF5A1A6DD18A1"
+			shape: "square"
+			size: 1.5d
+			title: "&a&lC"
+			x: -2.0d
+			y: 44.5d
+		}
+		{
+			description: ["&bVanilla&r\n&7Get Fortune III before you mine Lapis or Diamonds. Triples all gem drops.\n&aPhase 1."]
+			id: "3916BDD038813747"
+			tasks: [{
+				id: "275881834AE9DA35"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Diamond Pickaxe (Fortune III)"
+			x: 0.0d
+			y: 44.5d
+		}
+		{
+			description: ["&7Vanilla&r\n&7Get Efficiency II on this ASAP. Makes a massive speed difference.\n&aPhase 1."]
+			id: "0BBC9CCD57642F35"
+			tasks: [{
+				id: "06DA9677AB7680A7"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Iron Pickaxe (Efficiency)"
+			x: 2.0d
+			y: 44.5d
+		}
+		{
+			description: ["&6Tech Reborn&r\n&7Small RF-powered drill. Between iron and diamond for mining speed early game.\n&aPhase 1."]
+			id: "7D4B354219A48183"
+			tasks: [{
+				id: "7941C113F6B2C462"
+				item: "techreborn:bronze_drill"
+				type: "item"
+			}]
+			title: "Tech Reborn Bronze Drill"
+			x: 4.0d
+			y: 44.5d
+		}
+		{
+			description: ["&7Day 1 only."]
+			id: "6B2FD93BD4A6260E"
+			shape: "square"
+			size: 1.5d
+			title: "&7&lD"
+			x: -2.0d
+			y: 47.5d
+		}
+		{
+			description: ["&7Vanilla&r\n&7Gets you iron. Replace immediately after smelting 3 iron ore.\n&aDay 1."]
+			id: "5DF0DE30708EDAAC"
+			tasks: [{
+				id: "20346EC86D71E989"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Stone Pickaxe"
+			x: 0.0d
+			y: 47.5d
+		}
+		{
+			description: ["&7Vanilla&r\n&7The starting tool. Immediately obsolete after stone.\n&aDay 1."]
+			id: "12F3DF689290F41C"
+			tasks: [{
+				id: "4FF0276F9D91ED8A"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Wooden Pickaxe"
+			x: 2.0d
+			y: 47.5d
+		}
+		{
+			description: ["&6Vanilla&r\n&7Efficiency V enchant makes it fast on stone, but it breaks immediately. Never craft this.\n&aDay 1."]
+			id: "089475FD0262694B"
+			tasks: [{
+				id: "47C28C88D6743BD7"
+				item: {
+					Count: 1
+					id: "minecraft:golden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Golden Pickaxe"
+			x: 4.0d
+			y: 47.5d
+		}
+	]
+	title: "&cGear Tierlist"
+}

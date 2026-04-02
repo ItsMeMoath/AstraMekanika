@@ -1,0 +1,531 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "001_helpful_advices"
+	group: "5EA21B61C2E147CB"
+	icon: "minecraft:knowledge_book"
+	id: "0002000000000001"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&7Five paths branch from here. Each one will save you hours.&r"
+				""
+				"&eRead them all before you do anything else."
+			]
+			id: "0002000000000002"
+			rewards: [{
+				id: "0AE42806155AC97E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "0002000000000003"
+				title: "Open it."
+				type: "checkmark"
+			}]
+			title: "&b&lSurvivor's Handbook"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0002000000000002"]
+			description: ["&cCombat, armor, and staying alive."]
+			id: "0002100000000001"
+			rewards: [{
+				id: "304BFB851126445C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "4E5EEF222C75A956"
+				title: "Noted."
+				type: "checkmark"
+			}]
+			title: "&4&l⚔ Survival"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0002100000000001"]
+			description: [
+				"&cApotheosis &7mods every mob — they can have shields, fire resistance, or speed boosts."
+				""
+				"&eAlways carry a shield. &7It blocks all melee damage on a successful parry."
+				""
+				"Swords do more DPS. Axes break shields. Bow for ranged. &cDon't go in unarmed."
+			]
+			id: "0002100000000002"
+			rewards: [{
+				id: "09082C378D3598BF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "1FF3A616187F9F8C"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&cCombat Mastery"
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0002100000000001"]
+			description: [
+				"&7Don't sit in Diamond gear forever. Upgrade to &6Netherite &7as fast as possible."
+				""
+				"Phase 4 bosses &c(Cataclysm)&7 will one-shot you in Diamond. Seriously."
+				""
+				"&eApotheosis Gem Sockets&7 — socketing Attack Damage gems into your armor matters more than the tier."
+			]
+			id: "0002100000000003"
+			rewards: [{
+				id: "10419B20293B5D73"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "53E11C478A324BC9"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&cArmor Priority"
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0002100000000001"]
+			description: [
+				"&aFarmer's Delight &7adds real cooking. Cooked meals give 10-minute buffs."
+				""
+				"Comfort food = Regeneration. Heavy meals = Absorption. Stews = Haste."
+				""
+				"&eSet up a small farm + cooking pot &7by day 3. It's a permanent advantage."
+				""
+				"&7Also: Sophisticated Backpacks &e(press B)&7 have a Feeding Upgrade. Auto-eat."
+			]
+			id: "0002100000000004"
+			rewards: [{
+				id: "1787F48D29855D92"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "433C2503BDA47FDB"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&cFood & Buffs"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0002000000000002"]
+			description: ["&6Machines, power, and ore processing."]
+			id: "0002200000000001"
+			rewards: [{
+				id: "473A1379E8E5B01C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "466B2F77F18ECC50"
+				title: "Noted."
+				type: "checkmark"
+			}]
+			title: "&6&l⚙ Tech & Power"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0002200000000001"]
+			description: [
+				"&7The power ladder — never skip a rung:"
+				""
+				"&71. &eIE Waterwheel &7— Free and slow. Day 1 power."
+				"&72. &eThermal Dynamos &7— Coal powered. Solid midgame."
+				"&73. &eIE Diesel Generator &7— Biodiesel = serious RF."
+				"&74. &eMekanism Heat Generator + Fission &7— Late game."
+				"&75. &eNuclearCraft Reactor &7— Endgame. Unlimited."
+				""
+				"&cNever wait on power. Build the next tier early."
+			]
+			id: "0002200000000002"
+			rewards: [{
+				id: "1E06BD6AA9AEB246"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "26E0279A134F3830"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&6Power Ladder"
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0002200000000001"]
+			description: [
+				"&cNever smelt raw ore. &7That is 50% of your ore wasted."
+				""
+				"&71x — Furnace (terrible)"
+				"&a2x — Pulverizer / Crusher (build these first)"
+				"&63x — Mekanism Purification Chamber + Enrichment Chamber"
+				"&b5x — Mekanism Factories with Dissolution Chamber"
+				""
+				"&eAlmost Unified &7means all machines share recipes. Use whichever you have."
+			]
+			id: "0002200000000003"
+			rewards: [{
+				id: "2B0E30AEB1B72BA1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "72978F5C4DCDA862"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&6Ore Processing"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0002200000000001"]
+			description: [
+				"&7Automation unlocks the real power of this pack:"
+				""
+				"&eIE Item Router &7— routes items between machines and chests."
+				"&eRefined Storage &7— autocrafting from a single terminal."
+				"&eAE2 &7— the final form. Autocrafts everything on demand."
+				""
+				"&cThe moment you stop manually moving items is when you start winning."
+			]
+			id: "0002200000000004"
+			rewards: [{
+				id: "4352CC546B3DFA4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "640B128F36224A1D"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&6Automate First"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0002000000000002"]
+			description: ["&5Ars Nouveau, Blood Magic, and the arcane."]
+			id: "0002300000000001"
+			rewards: [{
+				id: "440622952233D5B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "3A90947C4DD7C1B9"
+				title: "Noted."
+				type: "checkmark"
+			}]
+			title: "&5&l✦ Magic"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0002300000000001"]
+			description: [
+				"&aSource &7is Ars Nouveau's mana. It drains fast if you spam spells."
+				""
+				"&ePassive generation: &7Place Source Links near crops, flowers, or bookshelves."
+				"&eActive generation: &7Harvest and burn Mana Bloom flowers in a Source Jar."
+				""
+				"Build at least 3 Source Jars before crafting big spells. You'll thank yourself later."
+			]
+			id: "0002300000000002"
+			rewards: [{
+				id: "3A56C6DA6B8ABE51"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "131003A479EA4A29"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&5Source Flow"
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0002300000000001"]
+			description: [
+				"&7You don't have to bleed yourself past Tier 1."
+				""
+				"&eTier 2+ Ritual of Sacrifice: &7Kill mobs near the altar using a &4Ritual Diviner&7."
+				"This fills the altar with LP from mob death — not your own HP."
+				""
+				"&cNever sacrifice yourself when you have a mob farm. &7One Blaze farm + ritual = infinite LP."
+			]
+			id: "0002300000000003"
+			rewards: [{
+				id: "78062317CBA34764"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "34AE4229A97DEB6F"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&5Blood Sacrifice"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0002300000000001"]
+			description: [
+				"&cDon't choose one or the other. &7This pack forces you to use both."
+				""
+				"&eArs Nouveau &7can enchant IE machines and Mekanism tools directly."
+				"&eBlood Magic rituals &7can power Mekanism factories — LP = RF conversion."
+				"&eBotania Runes &7are used in recipes gated behind both systems."
+				""
+				"&7The best Phase 3-5 builds use all of them together."
+			]
+			id: "0002300000000004"
+			rewards: [{
+				id: "3B91BAAC431F514F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3FFB2BEEDB42A9FC"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&5Magic + Tech Synergy"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0002000000000002"]
+			description: ["&2Dimensions, travel, and surviving the world."]
+			id: "0002400000000001"
+			rewards: [{
+				id: "4E2FC2CF43FFCFE9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "75BD2C2522CF0B0B"
+				title: "Noted."
+				type: "checkmark"
+			}]
+			title: "&2&l🌍 Exploration"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0002400000000001"]
+			description: [
+				"&7Visit dimensions in this order or you will regret it:"
+				""
+				"&e1. Nether &7— Phase 2 requires it. Go early."
+				"&e2. Twilight Forest &7— Phase 3. Enter with Netherite."
+				"&e3. The End &7— After Twilight. Dragon must die."
+				"&e4. Better End &7— Explore for Thallasium and Aeternium."
+				"&e5. Better Nether &7— Can revisit anytime for Cincinnasite."
+				""
+				"&cDo NOT enter Twilight Forest in Iron gear."
+			]
+			id: "0002400000000002"
+			rewards: [{
+				id: "2B7B9F786DE09438"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5F915F0C39E53134"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&2Dimension Order"
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0002400000000001"]
+			description: [
+				"&eWaystones &7let you teleport across the world for free."
+				""
+				"Place one at your base immediately. Place one at every boss location."
+				"Place one at your mob farm. Place one at your mining shaft."
+				""
+				"&7You can also right-click a Waystone to warp to any other one you've visited."
+				"&cDon't explore without one in your inventory."
+			]
+			id: "0002400000000003"
+			rewards: [{
+				id: "64C64FAB843A4057"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5C69B4D6FED492A4"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&2Waystones"
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0002400000000001"]
+			description: [
+				"&ePress M &7to open the FTB Map."
+				""
+				"&7Click the sword icon to claim chunks — &emob spawns are suppressed&7 in claimed land."
+				"Claimed chunks also prevent other players from building or breaking blocks there."
+				""
+				"&a/ftbteams create <name> &7— share quest progress with your team."
+				"Teammates auto-unlock each other's completed quests."
+			]
+			id: "0002400000000004"
+			rewards: [{
+				id: "784ECE5AAD62A2DD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2BC1470997DE8F31"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&2Claim Your Land"
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0002000000000002"]
+			description: ["&bReduce lag, use JEI right, and know your keys."]
+			id: "0002500000000001"
+			rewards: [{
+				id: "3748C766AB18F758"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "1A2FDF93936A1C00"
+				title: "Noted."
+				type: "checkmark"
+			}]
+			title: "&b&l💻 Performance"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0002500000000001"]
+			description: [
+				"&7New chunks cause stuttering every time you explore. Pre-generate them:"
+				""
+				"&b/chunky radius 1500"
+				"&b/chunky start"
+				""
+				"&7Leave it running. It takes 5-15 minutes. When it's done, exploration is completely smooth."
+				"&cDo this before your first real session."
+			]
+			id: "0002500000000002"
+			rewards: [{
+				id: "2241E94C05A63FA3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "52141A483C039DE7"
+				title: "Running it."
+				type: "checkmark"
+			}]
+			title: "&bPre-gen the World"
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0002500000000001"]
+			description: [
+				"&7JEI has powerful search modes:"
+				""
+				"&e# &7— search by tag &e(#forge:ingots)"
+				"&e@ &7— search by mod &e(@mekanism)"
+				"&e$ &7— search by tooltip"
+				""
+				"&eRight-click an item &7in JEI to pin it to the corner."
+				"&eU &7shows all uses. &eR &7shows all recipes."
+				"Hold &eCTRL+U &7to see ALL uses in every machine."
+			]
+			id: "0002500000000003"
+			rewards: [{
+				id: "440CEE979E80E184"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6CDF36DEA804ED1E"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&bJEI Pro Tips"
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0002500000000001"]
+			description: [
+				"&7The keybinds that actually matter:"
+				""
+				"&eH &7— Open Quest Book"
+				"&eM &7— Open FTB Map"
+				"&eB &7— Open Backpack"
+				"&eR &7— JEI Recipes (while hovering item)"
+				"&eU &7— JEI Uses (while hovering item)"
+				"&eI &7— Open inventory JEI search"
+				"&eF3+A &7— Reload chunks (reduces visual glitches)"
+				""
+				"&cCheck JEI Keybinds in Options if any are missing."
+			]
+			id: "0002500000000004"
+			rewards: [{
+				id: "582E27F7C32F4DB7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "30BD87436C0D6037"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&bKey Binds"
+			x: -6.5d
+			y: 1.5d
+		}
+	]
+	title: "&bHelpful Advices"
+}

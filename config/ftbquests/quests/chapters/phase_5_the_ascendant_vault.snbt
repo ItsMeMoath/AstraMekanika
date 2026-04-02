@@ -1,0 +1,608 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "phase_5_the_ascendant_vault"
+	group: "3E586F2160161EEA"
+	icon: "draconicevolution:draconic_chestplate"
+	id: "1005000000000001"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1004000000000001"]
+			description: [
+				"§d§lThe final chapter."
+				""
+				"§7Everything you have built leads here. Applied Energistics 2 replaces your Refined Storage network with a true logistics computer. Draconic Evolution gives you weapons that rewrite the rules of combat. Blood Magic reaches its absolute ceiling."
+				""
+				"§dForge the Heart of the Vault to complete MoathCo Adventure."
+			]
+			id: "6042DC0FE3BED1FF"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "70517047DE9D45D9"
+				title: "This is it."
+				type: "checkmark"
+			}]
+			title: "§d§lThe Ascendant Vault"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6042DC0FE3BED1FF"]
+			description: ["Place the AE2 Controller you received from Phase 4. Connect it to power — it needs RF/FE to stay online. The Controller is the brain of your ME network. Everything else connects to it via ME Cable."]
+			id: "48CB5AADA1B20498"
+			rewards: [
+				{
+					id: "00D212225384A6D5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "20FFF106D69BD2EE"
+					item: "ae2:drive"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5B4BD595A08ED89F"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					id: "6A08E336BA495402"
+					item: "ae2:drive"
+					type: "item"
+				}
+			]
+			title: "§9ME Controller"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48CB5AADA1B20498"]
+			description: ["Normal ME Cable carries 8 channels — each device (terminal, drive, bus) uses one. Dense Cable carries 32 and acts as your main trunk line. Plan your network now. Fixing it after it's fully built is painful."]
+			id: "59E2233027B146CA"
+			rewards: [
+				{
+					id: "3C17A81C031D4D75"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "3B45A12A18391931"
+					item: "ae2:dense_covered_cable"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "2C046785F86A48BD"
+				item: "ae2:dense_covered_cable"
+				type: "item"
+			}]
+			title: "§9Dense Cable Network"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["59E2233027B146CA"]
+			description: ["The Crafting Terminal upgrades your ME Terminal with a built-in crafting grid — access your entire stored network and craft directly from it. Add a Pattern Terminal beside it for autocrafting management."]
+			id: "331390C1D0AC5CB2"
+			rewards: [{
+				id: "51E58DB9E427D4CC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "02FE97390EF97F9A"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			title: "§9Crafting Terminal"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["331390C1D0AC5CB2"]
+			description: ["Build an Inscriber and use Press plates to craft three processor types: Logic (Gold), Engineering (Diamond), Calculation (Certus Quartz). You will need hundreds of each. Set up an auto-inscribing line immediately."]
+			id: "52155BB7BEA91260"
+			rewards: [
+				{
+					id: "033E9E4C66B4C78A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "165DDD75647D948B"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6A02C8512EE792CE"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3890411956B8DD7A"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+			]
+			title: "§9Inscriber + Processors"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["52155BB7BEA91260"]
+			description: ["Throw Charged Certus Quartz + Nether Quartz + Redstone together into water. They combine into Fluix Crystals after a moment. Stock up — Fluix is needed in nearly every AE2 component recipe."]
+			id: "1AEF224A6B443716"
+			rewards: [
+				{
+					id: "4059D99596F899C9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "67EDAD02C41628EA"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 8L
+				id: "3623034D0898FDED"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			title: "§9Fluix Crystals"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1AEF224A6B443716"]
+			description: ["The Molecular Assembler connected to an ME Interface is AE2's crafting robot. Unlike RS's Crafter, it physically assembles items inside the machine. Chain multiple Assemblers together for parallel autocrafting throughput."]
+			id: "36B622A3AD484C9A"
+			rewards: [{
+				id: "0F434DD5E6275127"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "2E585DAFC55DDB50"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "1A7745A0C4FE2D17"
+					item: "ae2:interface"
+					type: "item"
+				}
+			]
+			title: "§9Molecular Assembler"
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["36B622A3AD484C9A"]
+			description: ["A single 64M cell holds 64 million items — roughly 260,000 item types. AE2's deep partitioning and filtering system handles logistics that RS simply cannot. Build two and you likely won't need more storage this playthrough."]
+			id: "40A87FA2ACAD37F7"
+			rewards: [
+				{
+					id: "74D9B33D51CF0C32"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3AEC8D3F0879477D"
+					item: "ae2:storage_cell_64m"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 2L
+				id: "639A7448B4D84526"
+				item: "ae2:storage_cell_64m"
+				type: "item"
+			}]
+			title: "§964M Storage Cell"
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["40A87FA2ACAD37F7"]
+			description: ["Draconium spawns in the End and in the Overworld deep underground. You need large quantities of it — the Digital Miner makes this trivial. Mine at least 16 ingots worth before starting the Draconic Evolution build chain."]
+			id: "70C5F7E87AC8EECB"
+			rewards: [
+				{
+					id: "5C20492649F256D8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "4338F27F4AD3F835"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "1A52BB4BD2DE8550"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			title: "§dDraconium Ore"
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["70C5F7E87AC8EECB"]
+			description: ["Kill the Ender Dragon a second time — but this time fight it fully geared. The Dragon Heart only drops from a re-summoned Dragon. Use four End Crystals on the central pillar to resummon it. The Heart is required for Draconic crafting."]
+			id: "5968B1CC44537123"
+			rewards: [
+				{
+					id: "2CAB5C10F11B537F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "16BA75511FA84015"
+					item: "draconicevolution:dragon_heart"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C2EAE4DE5F78CC1"
+				item: "draconicevolution:dragon_heart"
+				type: "item"
+			}]
+			title: "§dDragon Heart"
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["5968B1CC44537123"]
+			description: ["The Draconic Core is the crafting base for all Draconic armor, weapons, and energy storage. Craft it by surrounding a Dragon Heart with Draconium Ingots. Produce at least 4 — you will need many more later."]
+			id: "4318DC09CAF4BDCE"
+			rewards: [
+				{
+					id: "1E2D4201B0D96C58"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "6D9C2C603FCBC800"
+					item: "draconicevolution:draconic_core"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "1966ED4DAE154A78"
+				item: "draconicevolution:draconic_core"
+				type: "item"
+			}]
+			title: "§dDraconic Core"
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["4318DC09CAF4BDCE"]
+			description: ["The Draconic Energy Core is a multiblock RF battery — even Tier 1 stores more energy than everything you have ever built combined. Place the Core Crystal and two Stabilizers around it, then upgrade it with Draconium blocks over time."]
+			id: "7B5B4780C97F5E96"
+			rewards: [{
+				id: "269047390F7B33AF"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "1223F8BF59173E2F"
+				observe_type: 0
+				timer: 0L
+				title: "Build a Draconic Energy Core"
+				to_observe: ""
+				type: "observation"
+			}]
+			title: "§dDraconic Energy Core"
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["7B5B4780C97F5E96"]
+			description: ["Draconic armor runs on RF stored on your person — it absorbs damage into energy instead of durability. The chestplate alone gives you a near-infinite RF shield that makes you practically unkillable as long as it stays charged."]
+			id: "552F3205F600532D"
+			rewards: [
+				{
+					id: "42058690E9034130"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1370DB7B96C30F8C"
+					item: "draconicevolution:draconic_leggings"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75D9578558A50DF1"
+				item: "draconicevolution:draconic_chestplate"
+				type: "item"
+			}]
+			title: "§dDraconic Chestplate"
+			x: 0.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["552F3205F600532D"]
+			description: ["The Draconic Sword fires an AOE energy wave that damages everything in front of you simultaneously. Charged with RF from your Energy Core, it is the strongest weapon available in the entire pack. You earned it."]
+			id: "6C523E54787E6D7F"
+			rewards: [
+				{
+					id: "0FCD700691E033EE"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "41D3F176C61A5B0C"
+					item: "draconicevolution:draconic_pickaxe"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58F9A3A805880923"
+				item: "draconicevolution:draconic_sword"
+				type: "item"
+			}]
+			title: "§d§lDraconic Sword"
+			x: 0.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["6C523E54787E6D7F"]
+			description: ["Build the Fusion Crafting Core surrounded by four or more Fusion Crafting Injectors. Load the Core with a Draconium Ingot, put a Dragon Heart in the Injectors, power it up, and activate. Awakened Draconium is required for the Heart of the Vault."]
+			id: "608417FA73096675"
+			rewards: [
+				{
+					id: "11092B71C27000B5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "64EC47175508282F"
+					item: "draconicevolution:awakened_draconium_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 4L
+				id: "0A3A468E85F9A90E"
+				item: "draconicevolution:awakened_draconium_ingot"
+				type: "item"
+			}]
+			title: "§d§lAwakened Draconium"
+			x: 0.0d
+			y: 28.5d
+		}
+		{
+			dependencies: ["608417FA73096675"]
+			description: ["Upgrade your altar to Tier 5 using high-tier Living and Demon Will Crystals. Full LP capacity allows mass-ritual casting and the most powerful Blood Magic transmutations. Required to craft the Master Blood Orb."]
+			id: "77D85B7459433070"
+			rewards: [
+				{
+					id: "71EB5A1C2D34E9AD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "5CA7E28B60377E73"
+					item: "bloodmagic:demoncrystalcluster"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4A7FB29F4003050B"
+				item: "bloodmagic:magician_blood_orb"
+				type: "item"
+			}]
+			title: "§4Tier 5 Altar"
+			x: 0.0d
+			y: 30.5d
+		}
+		{
+			dependencies: ["77D85B7459433070"]
+			description: ["Place Ritual Stones in the exact pattern for the Ritual of Regeneration. A master-tier ritual that regenerates you rapidly during combat and can invert to drain enemies. Set it near your base before any Phase 5 combat."]
+			id: "00888A1BB5B74666"
+			rewards: [{
+				id: "58D797C8812F0E4B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "05511BCF7EFB6222"
+				item: "bloodmagic:ritual_stone"
+				type: "item"
+			}]
+			title: "§4Ritual of Regeneration"
+			x: 0.0d
+			y: 32.5d
+		}
+		{
+			dependencies: ["00888A1BB5B74666"]
+			description: ["Allows you to transmute items on a large scale using LP. Feed it resources with Demon Will and it will convert them — used for mass transmutation of mundane materials into rare ones, and for ritual casting at scale."]
+			id: "45B0CB390B30F444"
+			rewards: [{
+				id: "4A6796B77B18B463"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "47AF6AB374CBCA32"
+				item: "bloodmagic:alchemy_array"
+				type: "item"
+			}]
+			title: "§4Alchemy Array"
+			x: 0.0d
+			y: 34.5d
+		}
+		{
+			dependencies: ["45B0CB390B30F444"]
+			description: ["The Master Blood Orb is the highest personal orb in Blood Magic — it holds 10,000,000 LP and enables the most powerful altar crafting. Fill your entire altar first, then craft it. One of the three ingredients for the Heart of the Vault."]
+			id: "305D291A527F1817"
+			rewards: [
+				{
+					id: "66A50AED77E724BB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "400C0BF930E57A78"
+					item: "bloodmagic:master_blood_orb"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "22D28293D4C2800D"
+				item: "bloodmagic:master_blood_orb"
+				type: "item"
+			}]
+			title: "§4§lMaster Blood Orb"
+			x: 0.0d
+			y: 36.5d
+		}
+		{
+			dependencies: ["305D291A527F1817"]
+			description: [
+				"§d§lYou built it all.",
+				"§7Iron. Blood. Four Twilight lords. A nuclear reactor.",
+				"§7A digital empire. Two dead gods. A draconic sword.",
+				"",
+				"§eCraft the §dHeart of the Vault§e:",
+				"§f  ADA",
+				"§f  BHB",
+				"§f  ACA",
+				"§9A §f= AE2 Fluix Crystal (×4 corners)",
+				"§dD §f= Draconium Ingot (top)   §4B §f= Master Blood Orb (sides)",
+				"§cH §f= Revenant's Eye (center)   §6C §f= Mekanism Atomic Alloy (bottom)",
+				"",
+				"§a✔ UNLOCKS§f: Draconic Evolution Fusion Crafting Core recipe",
+				"§d▶ You have ascended."
+			]
+			id: "06A69F243471602B"
+			rewards: [
+				{
+					id: "410CBA7D6D82D049"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "1AA76A0019B82D82"
+					item: "draconicevolution:crafting_core"
+					type: "item"
+				}
+				{
+					id: "6D03CA94A3C6D576"
+					item: "draconicevolution:draconic_chestplate"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "370ECC1F907D31D8"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.5d
+			tasks: [{
+				id: "46DA37F45D09BCB7"
+				item: "kubejs:heart_of_the_vault"
+				type: "item"
+			}]
+			title: "§d§l✦ Heart of the Vault ✦"
+			x: 0.0d
+			y: 43.0d
+		}
+		{
+			dependencies: ["06A69F243471602B"]
+			description: [
+				"§6§l✦ THE CONVERGENCE ✦",
+				"",
+				"§7Five phases. Five seals. Every system tamed.",
+				"§7You have bled, burned, and built your way to this moment.",
+				"",
+				"§eNow sacrifice it all. The Dragon's Egg. The Heart itself.",
+				"§eForge the §6Vault Convergence§e — proof that you are the Architect.",
+				"",
+				"§fRecipe (crafting table):",
+				"§f  AEA",
+				"§f  QHQ",
+				"§f  AMA",
+				"§dA §f= Awakened Draconium Ingot (×4)",
+				"§5E §f= Dragon Egg   §dH §f= Heart of the Vault",
+				"§4Q §f= Master Blood Orb (×2)   §6M §f= Atomic Alloy",
+				"",
+				"§c⚠ The Dragon Egg and Heart of the Vault are consumed.",
+				"§a✔ §6You are the Architect. §aMoathCo Adventure — Complete."
+			]
+			id: "7C4A8E1F3B2D9A56"
+			rewards: [
+				{
+					id: "B1C2D3E4F5A67890"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					id: "A9B8C7D6E5F43210"
+					item: "draconicevolution:draconic_chestplate"
+					type: "item"
+				}
+				{
+					id: "1234567890ABCDEF"
+					item: "draconicevolution:draconic_sword"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "FEDCBA9876543210"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				id: "E1F2A3B4C5D67890"
+				item: "kubejs:vault_convergence"
+				type: "item"
+			}]
+			title: "§6§l✦ The Vault Convergence ✦"
+			x: 0.0d
+			y: 57.0d
+		}
+	]
+	title: "§dPhase 5: The Ascendant Vault"
+}
