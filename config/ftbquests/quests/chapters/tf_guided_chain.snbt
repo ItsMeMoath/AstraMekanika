@@ -43,7 +43,7 @@
 			]
 			id: "5F34B84058F67E7D"
 			rewards: [{
-				count: 5
+				count: 2
 				id: "37471C4FA2CB5C89"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -58,6 +58,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["5F34B84058F67E7D"]
 			description: [
 				"§3Boss 2: §fThe Twilight Lich"
 				""
@@ -71,7 +72,7 @@
 			id: "4387320D19987253"
 			rewards: [
 				{
-					count: 8
+					count: 4
 					id: "113BBA4B71E8C496"
 					item: "kubejs:astra_coin"
 					type: "item"
@@ -92,6 +93,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["4387320D19987253"]
 			description: [
 				"§3Boss 3: §fThe Minoshroom"
 				""
@@ -105,7 +107,7 @@
 			]
 			id: "793299863A3FDFB6"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "715CD0DB92B2E09E"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -120,6 +122,7 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["793299863A3FDFB6"]
 			description: [
 				"§3Boss 4: §fThe Hydra"
 				""
@@ -134,7 +137,7 @@
 			id: "6395C80DA20B1064"
 			rewards: [
 				{
-					count: 10
+					count: 5
 					id: "6A00562F603187D1"
 					item: "kubejs:astra_coin"
 					type: "item"
@@ -155,6 +158,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["6395C80DA20B1064"]
 			description: [
 				"§3Boss 5: §fThe Knight Phantom"
 				""
@@ -168,7 +172,7 @@
 			]
 			id: "2835DDB9E19D01FB"
 			rewards: [{
-				count: 10
+				count: 5
 				id: "2867979CFD3B1030"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -183,6 +187,7 @@
 			y: 15.0d
 		}
 		{
+			dependencies: ["2835DDB9E19D01FB"]
 			description: [
 				"§3Boss 6: §fThe Ur-Ghast"
 				""
@@ -197,7 +202,7 @@
 			id: "4A1DAD9016F0A584"
 			rewards: [
 				{
-					count: 12
+					count: 6
 					id: "50E9A96F5A348927"
 					item: "kubejs:astra_coin"
 					type: "item"
@@ -218,6 +223,7 @@
 			y: 18.0d
 		}
 		{
+			dependencies: ["4A1DAD9016F0A584"]
 			description: [
 				"§3Boss 7: §fThe Snow Queen"
 				""
@@ -232,7 +238,7 @@
 			id: "7699D25B2A772768"
 			rewards: [
 				{
-					count: 15
+					count: 7
 					id: "74317DE04F8D71D3"
 					item: "kubejs:astra_coin"
 					type: "item"
@@ -253,6 +259,7 @@
 			y: 21.0d
 		}
 		{
+			dependencies: ["7699D25B2A772768"]
 			description: [
 				"§3§lTwilight Forest: COMPLETE"
 				""
@@ -264,7 +271,7 @@
 			id: "5D65DA0ADF332954"
 			rewards: [
 				{
-					count: 30
+					count: 15
 					id: "7BCD021EC4D39350"
 					item: "kubejs:astra_coin"
 					type: "item"

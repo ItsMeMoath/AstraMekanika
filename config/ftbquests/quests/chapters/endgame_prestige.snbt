@@ -67,7 +67,7 @@
 					type: "item"
 				}
 				{
-					count: 30
+					count: 15
 					id: "785854D185314F44"
 					item: "kubejs:astra_coin"
 					type: "item"
@@ -121,7 +121,7 @@
 					type: "item"
 				}
 				{
-					count: 50
+					count: 25
 					id: "72C065BDF1BA7918"
 					item: "kubejs:astra_coin"
 					type: "item"
@@ -199,7 +199,7 @@
 					type: "item"
 				}
 				{
-					count: 100
+					count: 50
 					id: "29FB412FBC4B834F"
 					item: "kubejs:astra_coin"
 					type: "item"

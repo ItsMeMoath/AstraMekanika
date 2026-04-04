@@ -31,7 +31,7 @@
 			description: ["§7100 zombies. That's a start. Kill them all and collect your due."]
 			id: "44FAAF8FC3ED6965"
 			rewards: [{
-				count: 5
+				count: 3
 				id: "6A49B306C2B4731A"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -50,7 +50,7 @@
 			description: ["§7Creepers don't care about your builds. Return the favor."]
 			id: "361B1B42F4FE997E"
 			rewards: [{
-				count: 5
+				count: 3
 				id: "06C0DB0BD428738A"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -69,7 +69,7 @@
 			description: ["§7200 skeletons. Arrows everywhere. Collect their dust."]
 			id: "7C9E2ABD06C6B71D"
 			rewards: [{
-				count: 5
+				count: 3
 				id: "1EFE9A7F2C6D8739"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -88,7 +88,7 @@
 			description: ["§7100 blazes. You need them anyway. Make it count."]
 			id: "39D9A7894172B224"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "61195A1ECEB4AF46"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -107,7 +107,7 @@
 			description: ["§7Enderman. 50 of them. Watch your eyes."]
 			id: "627BB2CC8A611837"
 			rewards: [{
-				count: 6
+				count: 3
 				id: "0889D60141591A3E"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -130,7 +130,7 @@
 			id: "611FC1FB522210BF"
 			rewards: [
 				{
-					count: 12
+					count: 6
 					id: "1ECA46FA8EBF980C"
 					item: "kubejs:astra_coin"
 					type: "item"
@@ -159,7 +159,7 @@
 			id: "0862C360F1A0007E"
 			rewards: [
 				{
-					count: 10
+					count: 5
 					id: "03A36FBEA9468A8C"
 					item: "kubejs:astra_coin"
 					type: "item"
@@ -188,7 +188,7 @@
 			]
 			id: "43C675916433B4B8"
 			rewards: [{
-				count: 6
+				count: 3
 				id: "01ADF959B58A568F"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -210,7 +210,7 @@
 			]
 			id: "6554AFED74225F0C"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "0C0C9E8BE3D6C5CD"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -231,7 +231,7 @@
 			]
 			id: "37B41ECA87F8A2D8"
 			rewards: [{
-				count: 6
+				count: 3
 				id: "15BD920960BB63F3"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -254,7 +254,7 @@
 			id: "1991F2274A492BB2"
 			rewards: [
 				{
-					count: 15
+					count: 8
 					id: "22B520E3A46A54C2"
 					item: "kubejs:astra_coin"
 					type: "item"
@@ -284,7 +284,7 @@
 			id: "59E66335A2C4890E"
 			rewards: [
 				{
-					count: 15
+					count: 8
 					id: "4ED4A52E12B68495"
 					item: "kubejs:astra_coin"
 					type: "item"
@@ -313,7 +313,7 @@
 			id: "0F04A2D53B19C009"
 			rewards: [
 				{
-					count: 20
+					count: 10
 					id: "0B3843F3F6DBFF54"
 					item: "kubejs:astra_coin"
 					type: "item"
@@ -362,7 +362,7 @@
 			]
 			id: "295AB6C4E1CEBCAA"
 			rewards: [{
-				count: 10
+				count: 5
 				id: "381E44249FDF4EF9"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -383,7 +383,7 @@
 			]
 			id: "27D3F9BF20956889"
 			rewards: [{
-				count: 3
+				count: 2
 				id: "4F6C105663F4D13A"
 				item: "kubejs:astra_coin"
 				type: "item"

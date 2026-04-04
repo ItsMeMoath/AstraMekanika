@@ -45,8 +45,8 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "C2020000000000A1"
+					count: 2
+					id: "4F04B7BBEDC8FD53"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -58,8 +58,8 @@
 				type: "item"
 			}]
 			title: "§4Blood Altar"
-			x: 0.0d
-			y: 2.5d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["164EB377FB00FD36"]
@@ -85,7 +85,7 @@
 			}]
 			title: "Apprentice Orb"
 			x: 0.0d
-			y: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["060C170A2DC0047F"]
@@ -104,8 +104,8 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "C2020000000000A2"
+					count: 2
+					id: "48AD4CBCBDC4A4CB"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -117,8 +117,8 @@
 				type: "item"
 			}]
 			title: "Blood Runes"
-			x: 0.0d
-			y: 6.5d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["21CACE749CA5D6B3"]
@@ -147,21 +147,22 @@
 				type: "item"
 			}]
 			title: "Sigil of the Green Grove"
-			x: 0.0d
-			y: 8.5d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5707766D6ABDF5B5"]
 			description: ["The Magician Blood Orb unlocks Tier 3 altar crafting, larger LP storage, and faster fill rates. You now have access to runes that boost Altar efficiency — upgrade before attempting the Crimson Circuit."]
 			id: "668468B2B3BF8540"
-			rewards: [{
-				id: "2104B25FF77079A4"
-				type: "xp_levels"
-				xp_levels: 5
-			}
+			rewards: [
 				{
-					count: 5
-					id: "C2020000000000A3"
+					id: "2104B25FF77079A4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "18D90A89308231C1"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -172,8 +173,8 @@
 				type: "item"
 			}]
 			title: "Magician's Blood Orb"
-			x: 0.0d
-			y: 10.5d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["668468B2B3BF8540"]
@@ -208,7 +209,7 @@
 			]
 			title: "Sacrifice Runes"
 			x: 0.0d
-			y: 12.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["49A6B2116331F6D5"]
@@ -226,14 +227,14 @@
 					type: "item"
 				}
 				{
-					count: 5
-					id: "C2020000000000A4"
+					count: 3
+					id: "1FCDA25D3D8CB282"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "7EBD488477B3DB88"
 				item: {
@@ -246,8 +247,8 @@
 				type: "item"
 			}]
 			title: "§4Sentient Sword"
-			x: 0.0d
-			y: 14.5d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4BA7C8265D2A69DC"]
@@ -266,8 +267,8 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "C2020000000000A5"
+					count: 2
+					id: "67CA2DBA0C5BCB8D"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -280,8 +281,8 @@
 				type: "item"
 			}]
 			title: "§6HV Wire Network"
-			x: 0.0d
-			y: 16.5d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5E8DD4C0C0E68C73"]
@@ -298,8 +299,8 @@
 				type: "item"
 			}]
 			title: "Diesel Generator"
-			x: 0.0d
-			y: 18.5d
+			x: -6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["17DEEF436A3811E7"]
@@ -325,8 +326,8 @@
 				type: "item"
 			}]
 			title: "IE Conveyor Automation"
-			x: 0.0d
-			y: 20.5d
+			x: -3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7F621D24A10D53CA"]
@@ -345,8 +346,8 @@
 					type: "item"
 				}
 				{
-					count: 5
-					id: "C2020000000000A6"
+					count: 3
+					id: "3FDAC6B0435B47CF"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -357,8 +358,8 @@
 				type: "item"
 			}]
 			title: "§6The Excavator"
-			x: 0.0d
-			y: 22.5d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["65E362C2583EAAC0"]
@@ -384,8 +385,8 @@
 				type: "item"
 			}]
 			title: "§6Arc Furnace"
-			x: 0.0d
-			y: 24.5d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["369BE15C83A8EB70"]
@@ -410,8 +411,8 @@
 				type: "item"
 			}]
 			title: "Alloy Kiln"
-			x: 0.0d
-			y: 26.5d
+			x: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["11900F0C7348C048"]
@@ -430,8 +431,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				count: 8L
 				id: "3703F47E8AC805E9"
@@ -439,8 +440,8 @@
 				type: "item"
 			}]
 			title: "§6Electrum Ingot"
-			x: 0.0d
-			y: 28.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0989B77DACDD9D75"]
@@ -467,8 +468,8 @@
 				type: "item"
 			}]
 			title: "§cInto the Nether"
-			x: 0.0d
-			y: 30.5d
+			x: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5E1FE8F0CB822E82"]
@@ -494,8 +495,8 @@
 				type: "item"
 			}]
 			title: "Blaze Farm"
-			x: 0.0d
-			y: 32.5d
+			x: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7B0DEEA9D243FE7F"]
@@ -513,8 +514,8 @@
 				type: "item"
 			}]
 			title: "Ancient Debris"
-			x: 0.0d
-			y: 34.5d
+			x: 3.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7349CCE34717E81E"]
@@ -533,8 +534,8 @@
 					type: "item"
 				}
 				{
-					count: 8
-					id: "C2020000000000A7"
+					count: 4
+					id: "6987438A98449C21"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -564,8 +565,8 @@
 				}
 			]
 			title: "§cNetherite Armor"
-			x: 0.0d
-			y: 36.5d
+			x: 1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3FE443EE3C6FF703"]
@@ -584,8 +585,8 @@
 					type: "item"
 				}
 				{
-					count: 8
-					id: "C2020000000000A8"
+					count: 4
+					id: "362DB24728FBC138"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -599,8 +600,8 @@
 				type: "item"
 			}]
 			title: "§cWither Trophies"
-			x: 0.0d
-			y: 38.5d
+			x: -0.65d
+			y: 6.500000000000001d
 		}
 		{
 			dependencies: ["66C9753D274441C6"]
@@ -646,8 +647,8 @@
 					type: "item"
 				}
 				{
-					count: 20
-					id: "C2020000000000A9"
+					count: 10
+					id: "72A10DB29E4ACB86"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -660,8 +661,8 @@
 				type: "item"
 			}]
 			title: "§4§l🔥 Crimson Circuit of Passage 🔥"
-			x: 0.0d
-			y: 44.0d
+			x: -6.75d
+			y: 6.75d
 		}
 	]
 	title: "§4Phase 2: Blood and Embers"

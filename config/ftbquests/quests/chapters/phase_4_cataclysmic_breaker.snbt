@@ -46,8 +46,8 @@
 					type: "item"
 				}
 				{
-					count: 5
-					id: "C4040000000000A1"
+					count: 3
+					id: "0DC6D6ECE118F7D2"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -175,8 +175,8 @@
 					type: "item"
 				}
 				{
-					count: 8
-					id: "C4040000000000A2"
+					count: 4
+					id: "678CC3FD674AAFAE"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -307,14 +307,15 @@
 			dependencies: ["3CCFCD661493AF18"]
 			description: ["Build the hollow reactor structure, insert fuel rods and moderators, then activate it with a Reactor Controller. Even a small 3x3x3 reactor outputs more RF than everything you've built in Phases 1-3 combined."]
 			id: "5B4033634B4C4296"
-			rewards: [{
-				id: "0381D1681ED9F405"
-				type: "xp_levels"
-				xp_levels: 10
-			}
+			rewards: [
 				{
-					count: 10
-					id: "C4040000000000A3"
+					id: "0381D1681ED9F405"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "2AD54FB04198AC67"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -395,8 +396,8 @@
 					type: "item"
 				}
 				{
-					count: 10
-					id: "C4040000000000A4"
+					count: 5
+					id: "6C67E437B4E17BC7"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -427,8 +428,8 @@
 					type: "item"
 				}
 				{
-					count: 10
-					id: "C4040000000000A5"
+					count: 5
+					id: "17854A6E7F899BA0"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -486,8 +487,8 @@
 					type: "item"
 				}
 				{
-					count: 25
-					id: "C4040000000000A6"
+					count: 13
+					id: "0F8809E3911D8A14"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}

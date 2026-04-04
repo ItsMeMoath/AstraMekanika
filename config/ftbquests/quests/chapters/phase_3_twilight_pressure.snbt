@@ -45,8 +45,8 @@
 					type: "item"
 				}
 				{
-					count: 5
-					id: "C3030000000000A1"
+					count: 3
+					id: "7CD01AD649CADD3A"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -164,8 +164,8 @@
 					type: "item"
 				}
 				{
-					count: 5
-					id: "C3030000000000A2"
+					count: 3
+					id: "4FD07A4497DBDB39"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -230,8 +230,8 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "C3030000000000A3"
+					count: 2
+					id: "7312A497DCFA6155"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -269,8 +269,8 @@
 					type: "item"
 				}
 				{
-					count: 5
-					id: "C3030000000000A4"
+					count: 3
+					id: "42D8FC9E2B9DB218"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -301,8 +301,8 @@
 					type: "item"
 				}
 				{
-					count: 8
-					id: "C3030000000000A5"
+					count: 4
+					id: "32421A658FCB2D16"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -338,8 +338,8 @@
 					type: "item"
 				}
 				{
-					count: 10
-					id: "C3030000000000A6"
+					count: 5
+					id: "00C76503E851E87B"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -376,8 +376,8 @@
 					type: "item"
 				}
 				{
-					count: 10
-					id: "C3030000000000A7"
+					count: 5
+					id: "21EEC7CF8147BC78"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -469,8 +469,8 @@
 					type: "item"
 				}
 				{
-					count: 10
-					id: "C3030000000000A8"
+					count: 5
+					id: "57C5E13FF878096B"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -528,8 +528,8 @@
 					type: "item"
 				}
 				{
-					count: 5
-					id: "C3030000000000A9"
+					count: 3
+					id: "28A4D1B42B6B525A"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -591,8 +591,8 @@
 					type: "item"
 				}
 				{
-					count: 20
-					id: "C3030000000000AA"
+					count: 10
+					id: "1EB750891C97A238"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}

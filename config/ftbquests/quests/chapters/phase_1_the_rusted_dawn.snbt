@@ -59,15 +59,16 @@
 			dependencies: ["140C190F2236AB9A"]
 			description: ["16 iron ingots minimum. You need iron for everything that comes after this. Start a mine and do not come back until you have stacks."]
 			id: "4C34311594901F7C"
-			rewards: [{
-				count: 8
-				id: "4385562A6E8C7AE5"
-				item: "minecraft:bread"
-				type: "item"
-			}
+			rewards: [
 				{
-					count: 2
-					id: "C1010000000000A1"
+					count: 8
+					id: "4385562A6E8C7AE5"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "11F07A104058FD76"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -99,8 +100,8 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "C1010000000000A2"
+					count: 2
+					id: "4CEA5B9D2B89863A"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -186,8 +187,8 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "C1010000000000A3"
+					count: 2
+					id: "36C1F89B43EF3F5B"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -307,8 +308,8 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "C1010000000000A4"
+					count: 2
+					id: "42D22D1991E6DB68"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -365,8 +366,8 @@
 					type: "item"
 				}
 				{
-					count: 5
-					id: "C1010000000000A5"
+					count: 3
+					id: "6ECC3D7B65ACCEDA"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -387,14 +388,15 @@
 			dependencies: ["2E24A1F16AF4D84B"]
 			description: ["The Machine Frame is Thermal's crafting backbone — every single Thermal machine needs one. Craft from Iron, Copper, and Tin. Keep a stack on hand at all times."]
 			id: "0AEAF6F19EA35B76"
-			rewards: [{
-				id: "0D49AC918CDB91FC"
-				type: "xp_levels"
-				xp_levels: 2
-			}
+			rewards: [
 				{
-					count: 3
-					id: "C1010000000000A6"
+					id: "0D49AC918CDB91FC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "11DB0DDE6444291D"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -522,8 +524,8 @@
 					type: "item"
 				}
 				{
-					count: 5
-					id: "C1010000000000A7"
+					count: 3
+					id: "4A797B369F5070B6"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -622,8 +624,8 @@
 					type: "item"
 				}
 				{
-					count: 4
-					id: "C1010000000000A8"
+					count: 2
+					id: "644BBF6014563D8E"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -680,8 +682,8 @@
 					type: "item"
 				}
 				{
-					count: 5
-					id: "C1010000000000A9"
+					count: 3
+					id: "3D401BB888088848"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -741,8 +743,8 @@
 					type: "item"
 				}
 				{
-					count: 15
-					id: "C1010000000000AA"
+					count: 8
+					id: "56CD7CF594C5A9A2"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
