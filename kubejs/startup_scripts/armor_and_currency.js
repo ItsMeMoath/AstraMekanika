@@ -5,7 +5,6 @@ StartupEvents.registry('item', event => {
     // === Astra Armor Set ===
     event.create('moathco_helmet', 'helmet')
         .tier('diamond')
-        .armorTexture('kubejs:moathco')
         .displayName('§6Astra Helmet')
         .glow(true)
         .tooltip('§6§lAstra Armor Series I')
@@ -14,7 +13,6 @@ StartupEvents.registry('item', event => {
 
     event.create('moathco_chestplate', 'chestplate')
         .tier('diamond')
-        .armorTexture('kubejs:moathco')
         .displayName('§6Astra Chestplate')
         .glow(true)
         .tooltip('§6§lAstra Armor Series I')
@@ -23,7 +21,6 @@ StartupEvents.registry('item', event => {
 
     event.create('moathco_leggings', 'leggings')
         .tier('diamond')
-        .armorTexture('kubejs:moathco')
         .displayName('§6Astra Leggings')
         .glow(true)
         .tooltip('§6§lAstra Armor Series I')
@@ -32,7 +29,6 @@ StartupEvents.registry('item', event => {
 
     event.create('moathco_boots', 'boots')
         .tier('diamond')
-        .armorTexture('kubejs:moathco')
         .displayName('§6Astra Boots')
         .glow(true)
         .tooltip('§6§lAstra Armor Series I')
