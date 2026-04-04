@@ -3,8 +3,12 @@
 StartupEvents.registry('item', event => {
 
     // === Astra Armor Set ===
+    // Do NOT use .tier() — it inherits the material's texture (e.g. diamond).
+    // Set stats manually so KubeJS creates a fresh ArmorMaterial named
+    // "kubejs:moathco", which resolves to kubejs:textures/models/armor/moathco_layer_1/2.png
     event.create('moathco_helmet', 'helmet')
-        .tier('diamond')
+        .defense(3).toughness(2).knockbackResistance(0)
+        .durability(363)
         .displayName('§6Astra Helmet')
         .glow(true)
         .tooltip('§6§lAstra Armor Series I')
@@ -12,7 +16,8 @@ StartupEvents.registry('item', event => {
         .tooltip('§8Defense rating: Industrial Grade');
 
     event.create('moathco_chestplate', 'chestplate')
-        .tier('diamond')
+        .defense(8).toughness(2).knockbackResistance(0)
+        .durability(528)
         .displayName('§6Astra Chestplate')
         .glow(true)
         .tooltip('§6§lAstra Armor Series I')
@@ -20,7 +25,8 @@ StartupEvents.registry('item', event => {
         .tooltip('§8Defense rating: Industrial Grade');
 
     event.create('moathco_leggings', 'leggings')
-        .tier('diamond')
+        .defense(6).toughness(2).knockbackResistance(0)
+        .durability(495)
         .displayName('§6Astra Leggings')
         .glow(true)
         .tooltip('§6§lAstra Armor Series I')
@@ -28,7 +34,8 @@ StartupEvents.registry('item', event => {
         .tooltip('§8Defense rating: Industrial Grade');
 
     event.create('moathco_boots', 'boots')
-        .tier('diamond')
+        .defense(3).toughness(2).knockbackResistance(0)
+        .durability(429)
         .displayName('§6Astra Boots')
         .glow(true)
         .tooltip('§6§lAstra Armor Series I')
