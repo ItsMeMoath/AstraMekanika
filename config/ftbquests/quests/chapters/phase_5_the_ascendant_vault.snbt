@@ -44,6 +44,12 @@
 					item: "ae2:drive"
 					type: "item"
 				}
+				{
+					count: 5
+					id: "C5050000000000A1"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			tasks: [
@@ -121,6 +127,12 @@
 					count: 4
 					id: "165DDD75647D948B"
 					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "C5050000000000A2"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -210,6 +222,12 @@
 					item: "ae2:storage_cell_64m"
 					type: "item"
 				}
+				{
+					count: 8
+					id: "C5050000000000A3"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 1.3d
@@ -239,6 +257,12 @@
 					item: "draconicevolution:draconium_ingot"
 					type: "item"
 				}
+				{
+					count: 5
+					id: "C5050000000000A4"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			tasks: [{
@@ -264,6 +288,12 @@
 				{
 					id: "16BA75511FA84015"
 					item: "draconicevolution:dragon_heart"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "C5050000000000A5"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -390,6 +420,12 @@
 					item: "draconicevolution:awakened_draconium_ingot"
 					type: "item"
 				}
+				{
+					count: 10
+					id: "C5050000000000A6"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 1.3d
@@ -481,6 +517,12 @@
 					item: "bloodmagic:master_blood_orb"
 					type: "item"
 				}
+				{
+					count: 10
+					id: "C5050000000000A7"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 1.3d
@@ -544,6 +586,12 @@
 					item: "kubejs:moathco_files_vol_5"
 					type: "item"
 				}
+				{
+					count: 20
+					id: "C5050000000000A8"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 2.5d
@@ -605,6 +653,12 @@
 					command: "/function moathco:vault_convergence_broadcast"
 					id: "7B21CD88C38F76C3"
 					type: "command"
+				}
+				{
+					count: 30
+					id: "C5050000000000A9"
+					item: "kubejs:astra_coin"
+					type: "item"
 				}
 			]
 			shape: "octagon"

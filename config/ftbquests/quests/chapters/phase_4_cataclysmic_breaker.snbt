@@ -45,6 +45,12 @@
 					item: "mekanism:alloy_infused"
 					type: "item"
 				}
+				{
+					count: 5
+					id: "C4040000000000A1"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			tasks: [{
@@ -166,6 +172,12 @@
 					count: 16
 					id: "4B71C4963866C55B"
 					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "C4040000000000A2"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -299,7 +311,14 @@
 				id: "0381D1681ED9F405"
 				type: "xp_levels"
 				xp_levels: 10
-			}]
+			}
+				{
+					count: 10
+					id: "C4040000000000A3"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.3d
 			tasks: [{
@@ -375,6 +394,12 @@
 					item: "minecraft:netherite_ingot"
 					type: "item"
 				}
+				{
+					count: 10
+					id: "C4040000000000A4"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "26FA1238F3D433C8"
@@ -399,6 +424,12 @@
 					count: 2
 					id: "705556E79E68AC49"
 					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "C4040000000000A5"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -452,6 +483,12 @@
 				{
 					id: "177D7ECB35E64DD2"
 					item: "kubejs:moathco_files_vol_4"
+					type: "item"
+				}
+				{
+					count: 25
+					id: "C4040000000000A6"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]

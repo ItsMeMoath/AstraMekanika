@@ -130,7 +130,7 @@
 			id: "611FC1FB522210BF"
 			rewards: [
 				{
-					count: 20
+					count: 12
 					id: "1ECA46FA8EBF980C"
 					item: "kubejs:astra_coin"
 					type: "item"
@@ -159,7 +159,7 @@
 			id: "0862C360F1A0007E"
 			rewards: [
 				{
-					count: 15
+					count: 10
 					id: "03A36FBEA9468A8C"
 					item: "kubejs:astra_coin"
 					type: "item"
@@ -254,7 +254,7 @@
 			id: "1991F2274A492BB2"
 			rewards: [
 				{
-					count: 25
+					count: 15
 					id: "22B520E3A46A54C2"
 					item: "kubejs:astra_coin"
 					type: "item"
@@ -313,7 +313,7 @@
 			id: "0F04A2D53B19C009"
 			rewards: [
 				{
-					count: 30
+					count: 20
 					id: "0B3843F3F6DBFF54"
 					item: "kubejs:astra_coin"
 					type: "item"

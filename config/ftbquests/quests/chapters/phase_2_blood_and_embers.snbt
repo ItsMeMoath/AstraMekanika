@@ -44,6 +44,12 @@
 					item: "bloodmagic:apprentice_blood_orb"
 					type: "item"
 				}
+				{
+					count: 3
+					id: "C2020000000000A1"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			tasks: [{
@@ -97,6 +103,12 @@
 					item: "bloodmagic:blank_rune"
 					type: "item"
 				}
+				{
+					count: 3
+					id: "C2020000000000A2"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 8L
@@ -146,7 +158,14 @@
 				id: "2104B25FF77079A4"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+				{
+					count: 5
+					id: "C2020000000000A3"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "27D1DFC125EEF3EE"
 				item: "bloodmagic:magicianbloodorb"
@@ -192,6 +211,7 @@
 			y: 12.5d
 		}
 		{
+			dependencies: ["49A6B2116331F6D5"]
 			description: ["The Sentient Sword is a living weapon that grows stronger with Demonic Will. Kill mobs with it and it absorbs their Will. The more Will it holds, the more damage it deals. This sword scales into Phase 5."]
 			id: "4BA7C8265D2A69DC"
 			rewards: [
@@ -203,6 +223,12 @@
 				{
 					id: "422A4AB302857CE7"
 					item: "bloodmagic:sentient_sword"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "C2020000000000A4"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -237,6 +263,12 @@
 					count: 4
 					id: "04565334E48BC779"
 					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "C2020000000000A5"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -312,6 +344,12 @@
 					item: "minecraft:iron_ingot"
 					type: "item"
 				}
+				{
+					count: 5
+					id: "C2020000000000A6"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "7F2D237E5A13E796"
@@ -350,6 +388,7 @@
 			y: 24.5d
 		}
 		{
+			dependencies: ["369BE15C83A8EB70"]
 			description: ["Mixes any two metal dusts into the correct alloy. Required to produce Constantan (copper + nickel), Electrum (gold + silver), and Invar (iron + nickel). Keep this running — you will need all three."]
 			id: "11900F0C7348C048"
 			rewards: [
@@ -493,6 +532,12 @@
 					item: "minecraft:golden_apple"
 					type: "item"
 				}
+				{
+					count: 8
+					id: "C2020000000000A7"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -536,6 +581,12 @@
 					count: 2
 					id: "771E5D2498EDB18C"
 					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "C2020000000000A8"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -592,6 +643,12 @@
 				{
 					id: "0B0C14B929D62CC3"
 					item: "kubejs:moathco_files_vol_2"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "C2020000000000A9"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]

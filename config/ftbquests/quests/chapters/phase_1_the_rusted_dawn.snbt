@@ -64,7 +64,14 @@
 				id: "4385562A6E8C7AE5"
 				item: "minecraft:bread"
 				type: "item"
-			}]
+			}
+				{
+					count: 2
+					id: "C1010000000000A1"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 16L
 				id: "175A7D5E1954091E"
@@ -89,6 +96,12 @@
 					count: 3
 					id: "580CA95BB04DFD63"
 					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "C1010000000000A2"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -170,6 +183,12 @@
 					count: 16
 					id: "5F1BAB44F31BABB5"
 					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "C1010000000000A3"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -287,6 +306,12 @@
 					item: "immersiveengineering:ingot_iron"
 					type: "item"
 				}
+				{
+					count: 3
+					id: "C1010000000000A4"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "6E92A09091E30F85"
@@ -299,7 +324,6 @@
 		}
 		{
 			dependencies: ["6E92A09091E30F85"]
-			dependency_requirement: "one_completed"
 			description: ["Two dust per ore. The Crusher doubles your ore output permanently — build it early and never look at a vanilla furnace again. Multiblock: 3 blocks wide. Right-click center with Hammer."]
 			id: "749A75728C8D0E57"
 			rewards: [
@@ -340,6 +364,12 @@
 					item: "immersiveengineering:ingot_steel"
 					type: "item"
 				}
+				{
+					count: 5
+					id: "C1010000000000A5"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 1.3d
@@ -361,7 +391,14 @@
 				id: "0D49AC918CDB91FC"
 				type: "xp_levels"
 				xp_levels: 2
-			}]
+			}
+				{
+					count: 3
+					id: "C1010000000000A6"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "7615C3D6079DE444"
@@ -484,6 +521,12 @@
 					item: "thermal:rf_coil"
 					type: "item"
 				}
+				{
+					count: 5
+					id: "C1010000000000A7"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 1.3d
@@ -516,7 +559,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["4F1DDE5E3F7F8C4B"]
+			dependencies: [
+				"4F1DDE5E3F7F8C4B"
+				"0B4B3DDB24189C25"
+			]
 			description: ["Pedestals hold items during infusion. Place multiple around the Imbuement Chamber to speed up crafting — each additional Pedestal reduces infusion time."]
 			id: "20F6748ABAD8CF4A"
 			rewards: [{
@@ -575,6 +621,12 @@
 					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
+				{
+					count: 4
+					id: "C1010000000000A8"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "36153DCE0820765D"
@@ -625,6 +677,12 @@
 					count: 2
 					id: "2423AA51EF2C2667"
 					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "C1010000000000A9"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -680,6 +738,12 @@
 				{
 					id: "30AEFFFAEDD8AD08"
 					item: "kubejs:moathco_files_vol_1"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "C1010000000000AA"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]

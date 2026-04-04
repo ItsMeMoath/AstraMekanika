@@ -44,6 +44,12 @@
 					item: "refinedstorage:disk_drive"
 					type: "item"
 				}
+				{
+					count: 5
+					id: "C3030000000000A1"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			tasks: [{
@@ -157,6 +163,12 @@
 					item: "refinedstorage:pattern"
 					type: "item"
 				}
+				{
+					count: 5
+					id: "C3030000000000A2"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -217,6 +229,12 @@
 					item: "minecraft:fire_resistance"
 					type: "item"
 				}
+				{
+					count: 3
+					id: "C3030000000000A3"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			tasks: [{
@@ -250,6 +268,12 @@
 					}
 					type: "item"
 				}
+				{
+					count: 5
+					id: "C3030000000000A4"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 4L
@@ -274,6 +298,12 @@
 				{
 					id: "4FF7D428CE9723B0"
 					item: "twilightforest:scepter_of_life_draining"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "C3030000000000A5"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -307,6 +337,12 @@
 					}
 					type: "item"
 				}
+				{
+					count: 10
+					id: "C3030000000000A6"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 2L
@@ -337,6 +373,12 @@
 							Damage: 0
 						}
 					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "C3030000000000A7"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -426,6 +468,12 @@
 					}
 					type: "item"
 				}
+				{
+					count: 10
+					id: "C3030000000000A8"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "001433519F890058"
@@ -477,6 +525,12 @@
 					count: 4
 					id: "15224D1CA3CD9A6E"
 					item: "betterend:aeternium_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "C3030000000000A9"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -534,6 +588,12 @@
 				{
 					id: "6DDDD6C40FFFF40B"
 					item: "kubejs:moathco_files_vol_3"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "C3030000000000AA"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]

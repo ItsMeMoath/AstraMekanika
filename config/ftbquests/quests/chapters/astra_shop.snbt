@@ -30,7 +30,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["§7§o10 Astra Coins§7 → §f10 Golden Apples"]
+			description: ["§7§o15 Astra Coins§7 → §f10 Golden Apples"]
 			id: "7B84C681915DA826"
 			rewards: [{
 				count: 10
@@ -40,7 +40,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 10L
+				count: 15L
 				id: "528E1D3CEEFFBA41"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -50,7 +50,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["§7§o15 Astra Coins§7 → §b10 Lapis Lazuli Blocks"]
+			description: ["§7§o20 Astra Coins§7 → §b10 Lapis Lazuli Blocks"]
 			id: "27948178D4CE4B45"
 			rewards: [{
 				count: 10
@@ -60,7 +60,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 15L
+				count: 20L
 				id: "3B8A0C93E97D6E00"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -70,7 +70,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["§7§o20 Astra Coins§7 → §e16 Gold Blocks"]
+			description: ["§7§o30 Astra Coins§7 → §e16 Gold Blocks"]
 			id: "6452F5460A875D4F"
 			rewards: [{
 				count: 16
@@ -80,7 +80,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 20L
+				count: 30L
 				id: "4DEC047EB68D8BC2"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -90,7 +90,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["§7§o25 Astra Coins§7 → §b16 Diamond Blocks"]
+			description: ["§7§o70 Astra Coins§7 → §b16 Diamond Blocks"]
 			id: "1237C5AC5AA9C0DD"
 			rewards: [{
 				count: 16
@@ -100,7 +100,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 25L
+				count: 70L
 				id: "4711A6F8A66B1E32"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -110,7 +110,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["§7§o30 Astra Coins§7 → §520 XP Levels"]
+			description: ["§7§o40 Astra Coins§7 → §520 XP Levels"]
 			id: "11AC2E863ACAF04B"
 			rewards: [{
 				id: "216210636BA4BEB0"
@@ -119,7 +119,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 30L
+				count: 40L
 				id: "6DE38C2FA565A082"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -129,7 +129,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["§7§o40 Astra Coins§7 → §61 Nether Star"]
+			description: ["§7§o60 Astra Coins§7 → §61 Nether Star"]
 			id: "05FDAA5D726168B1"
 			rewards: [{
 				id: "0E30F899954AE2E9"
@@ -138,7 +138,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 40L
+				count: 60L
 				id: "2992922F9C8D371F"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -148,7 +148,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["§7§o20 Astra Coins§7 → §71 Elytra"]
+			description: ["§7§o100 Astra Coins§7 → §71 Elytra"]
 			id: "18BB9018387FC56E"
 			rewards: [{
 				id: "33B4A60A303AD4C6"
@@ -163,7 +163,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 20L
+				count: 100L
 				id: "54A83CB82DE62C4D"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -173,7 +173,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["§7§o35 Astra Coins§7 → §aAstra Field Blade (custom sword)"]
+			description: ["§7§o50 Astra Coins§7 → §aAstra Field Blade (custom sword)"]
 			id: "2213571D703A6295"
 			rewards: [{
 				id: "66B8D9F3B90EAE00"
@@ -188,7 +188,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 35L
+				count: 50L
 				id: "47E42E698B94E61A"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -198,7 +198,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["§7§o60 Astra Coins§7 → §6Full Astra Armor Set (helmet + chest + legs + boots)"]
+			description: ["§7§o80 Astra Coins§7 → §6Full Astra Armor Set (helmet + chest + legs + boots)"]
 			id: "0902E277E52B9410"
 			rewards: [
 				{
@@ -248,7 +248,7 @@
 			]
 			tasks: [{
 				consume_items: true
-				count: 60L
+				count: 80L
 				id: "4B7729715EF7AEB2"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -258,7 +258,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["§7§o15 Astra Coins§7 → §e64 IE Steel Ingots"]
+			description: ["§7§o30 Astra Coins§7 → §e64 IE Steel Ingots"]
 			id: "23260DD134D7D636"
 			rewards: [{
 				count: 64
@@ -268,7 +268,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 15L
+				count: 30L
 				id: "02533C5B7EF90DD0"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -278,7 +278,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["§7§o50 Astra Coins§7 → §d1 Totem of Undying"]
+			description: ["§7§o75 Astra Coins§7 → §d1 Totem of Undying"]
 			id: "299483377A211945"
 			rewards: [{
 				id: "09DD8A3747141433"
@@ -287,7 +287,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 50L
+				count: 75L
 				id: "7D5B37B48A3D9FC2"
 				item: "kubejs:astra_coin"
 				type: "item"
@@ -297,7 +297,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["§7§o10 Astra Coins§7 → §e64 Blaze Rods"]
+			description: ["§7§o25 Astra Coins§7 → §e64 Blaze Rods"]
 			id: "4001D68E7567A1A6"
 			rewards: [{
 				count: 64
@@ -307,7 +307,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 10L
+				count: 25L
 				id: "00E93B33276D162A"
 				item: "kubejs:astra_coin"
 				type: "item"
