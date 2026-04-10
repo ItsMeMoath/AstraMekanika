@@ -463,5 +463,389 @@
 			x: 12.0d
 			y: 3.5d
 		}
+		{
+			dependencies: ["BB000000000000A0"]
+			description: [
+				"§7Craft a §eThermal Induction Smelter§7 and use it to produce alloys."
+				""
+				"§7The Induction Smelter combines metal dusts to create alloys unavailable from vanilla crafting:"
+				"§e  Invar §8— Iron + Nickel (used in most Thermal machines)"
+				"§e  Bronze §8— Copper + Tin"
+				"§e  Constantan §8— Copper + Nickel (RF coils)"
+				""
+				"§8Invar and Constantan are required for mid-tier Thermal components. Build this before any advanced machines."
+			]
+			id: "BB01000000000010"
+			rewards: [
+				{
+					id: "BB01000000000011"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "BB01000000000012"
+					item: "thermal:ingot_invar"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "BB01000000000013"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			title: "§eInduction Smelter"
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["BB01000000000010"]
+			description: [
+				"§7Build a §eThermal Phytogenic Insolator§7 — a machine that grows crops using RF and water."
+				""
+				"§7Place seeds and §ePhyto-Gro§7 (fertilizer, craftable from Brimstone or Niter + dirt) inside."
+				"§7It produces crops automatically without sunlight or farmland."
+				""
+				"§8Pair with a §aRefined Storage Exporter§8 to automatically feed seeds in and extract crops out."
+				"§8This eliminates the need for a traditional farm for most base materials."
+			]
+			id: "BB01000000000020"
+			rewards: [
+				{
+					id: "BB01000000000021"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "BB01000000000022"
+					item: "thermal:phyto_gro"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "BB01000000000023"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			title: "§ePhytogenic Insolator"
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["BB00000000000090"]
+			description: [
+				"§7Set up §aRS Autocrafting§7 — the most powerful feature of Refined Storage."
+				""
+				"§7You need:"
+				"§a  Crafting Writer §8— encodes patterns from JEI (press + in JEI to auto-fill)"
+				"§a  Pattern Grid §8— stores encoded patterns"
+				"§a  Crafting Monitor §8— shows craft progress"
+				""
+				"§7With autocrafting, pressing §e'Craft'§7 on any item in your RS terminal automatically gathers materials and crafts it."
+				""
+				"§8Encode §a8 patterns§8 for your most-used materials first: iron plates, circuits, machine frames."
+			]
+			id: "BB01000000000030"
+			rewards: [
+				{
+					id: "BB01000000000031"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					id: "BB01000000000032"
+					item: "refinedstorage:crafting_monitor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "BB01000000000033"
+					item: "refinedstorage:pattern_grid"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "BB01000000000034"
+					item: "refinedstorage:pattern"
+					type: "item"
+				}
+			]
+			title: "§aRS Autocrafting"
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["BB01000000000030"]
+			description: [
+				"§7Place §aRS Importers§7 on all your existing chests and furnaces."
+				""
+				"§7The Importer automatically pulls items into your RS network from any adjacent inventory."
+				"§7Pair with §aExporters§7 to push items out of your network into machines."
+				""
+				"§8Setup: Chest → [Importer] → Network → [Exporter] → Machine → [Importer] → Network"
+				"§8This is the foundation of automated crafting pipelines."
+			]
+			id: "BB01000000000040"
+			rewards: [
+				{
+					id: "BB01000000000041"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "BB01000000000042"
+					item: "refinedstorage:exporter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "BB01000000000043"
+				item: "refinedstorage:importer"
+				type: "item"
+			}]
+			title: "§aImport Everything"
+			x: 18.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["BB00000000000060"]
+			description: [
+				"§7Craft a §4Divination Sigil§7 — Blood Magic's LP tracking tool."
+				""
+				"§7Right-click with the Divination Sigil to see your Blood Altar's current LP and maximum capacity."
+				"§7It also shows the progress of any ongoing Blood Magic crafting operation."
+				""
+				"§8You'll use this constantly when upgrading the altar or crafting costly items."
+				"§8Keep it in a hotbar slot — it's the most-used Blood Magic utility item."
+			]
+			id: "BB01000000000050"
+			rewards: [{
+				id: "BB01000000000051"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "BB01000000000052"
+				item: "bloodmagic:divination_sigil"
+				type: "item"
+			}]
+			title: "§4Divination Sigil"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["BB00000000000064"]
+			description: [
+				"§7Perform the §4Ritual of the Green Grove§7 — a Blood Magic ritual that boosts crop growth in an area."
+				""
+				"§7Build the ritual circle using §4Ritual Stones§7 in the correct pattern around a §4Master Ritual Stone§7."
+				"§7Activate it with your Blood Orb. It consumes LP continuously while active."
+				""
+				"§8Green Grove is one of the most useful early rituals — it pairs perfectly with a Farmer's Delight farm."
+				"§8Other useful early rituals: §4Ritual of Magnetism §8(pulls ores), §4Ritual of the Crusher §8(breaks blocks)"
+			]
+			id: "BB01000000000060"
+			rewards: [
+				{
+					id: "BB01000000000061"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "BB01000000000062"
+					item: "bloodmagic:reagent_binding"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "BB01000000000063"
+				title: "Perform the Ritual of the Green Grove."
+				type: "checkmark"
+			}]
+			title: "§4Green Grove Ritual"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["BB00000000000074"]
+			description: [
+				"§7Produce §b4 Terrasteel Ingots§7 using the §bTerrestrial Agglomeration Plate§7."
+				""
+				"§7Recipe per ingot: §bManasteel Ingot + Mana Diamond + Mana Pearl§7 placed on the plate, with §b2 full Mana Pools§7 nearby to fuel it."
+				""
+				"§7§bManasteel§7 = Iron Ingot tossed into a Mana Pool with 4,000 mana."
+				"§7§bMana Diamond§7 = Diamond tossed into pool with 8,000 mana."
+				"§7§bMana Pearl§7 = Ender Pearl tossed into pool with 6,000 mana."
+				""
+				"§8Terrasteel is required for the §bTerra Blade§8 — Botania's signature sword."
+			]
+			id: "BB01000000000070"
+			rewards: [
+				{
+					id: "BB01000000000071"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "BB01000000000072"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 4L
+				id: "BB01000000000073"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			title: "§b§lTerrasteel"
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["BB01000000000070"]
+			description: [
+				"§7Craft the §bTerra Blade§7 — Botania's signature endgame sword for this phase."
+				""
+				"§7Recipe: §bTerra Shatterer + Terra Truncator§7 combined in a crafting grid. Both require Terrasteel."
+				"§7The Terra Blade fires §bTerra Bolts§7 — homing projectiles that deal heavy damage and cost mana."
+				""
+				"§8Keep your Mana Tablet charged when fighting — the Terra Bolts drain mana quickly."
+				"§8This is one of the best weapons available before Twilight Forest gear."
+			]
+			id: "BB01000000000080"
+			rewards: [
+				{
+					id: "BB01000000000081"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "BB01000000000082"
+					item: "botania:mana_tablet"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "BB01000000000083"
+				item: "botania:terra_blade"
+				type: "item"
+			}]
+			title: "§b§lTerra Blade"
+			x: 12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["BB00000000000040"]
+			description: [
+				"§7Craft a §eTom's Simple Storage Network§7 — a lightweight alternative storage that connects to barrels and drawers."
+				""
+				"§7§eTom's Storage§7 is ideal for bulk items that don't need RS network logic — cobblestone, wood, ores in bulk."
+				"§7Connect §eStorage Drawers§7 (from Drawers mod) to your Tom's network for essentially infinite bulk storage."
+				""
+				"§8Use §aRS§8 for crafting and logistics, §eTom's + Drawers§8 for bulk materials."
+				"§8This frees up your RS storage disks for diverse items."
+			]
+			id: "BB01000000000090"
+			rewards: [
+				{
+					id: "BB01000000000091"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "BB01000000000092"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "BB01000000000093"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			title: "§aTom's Storage"
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["BB00000000000020"]
+			description: [
+				"§7Build a §bBotania Mana Spreader§7 to distribute mana between pools and flowers."
+				""
+				"§7Mana Spreaders fire beams of mana from generating flowers to pools, or from pools to functional flowers and tools."
+				"§7Multiple spreaders allow you to run several generating flowers into one pool, or spread mana from one pool to multiple destinations."
+				""
+				"§8Upgrade spreaders with §bPotency§8 and §bVelocity§8 Lenses for faster, longer-range mana transmission."
+				"§8You'll need many spreaders as your Botania network grows."
+			]
+			id: "BB010000000000A0"
+			rewards: [
+				{
+					id: "BB010000000000A1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "BB010000000000A2"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "BB010000000000A3"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			title: "§bMana Spreader"
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["BB010000000000A0"]
+			description: [
+				"§7Craft a §bMana Tablet§7 — a portable mana storage device."
+				""
+				"§7The Mana Tablet holds 500,000 mana and can be charged in a §bMana Pool§7."
+				"§7Carry it in your inventory to fuel §bBotania tools§7 (Terra Shatterer, Rod of the Forests) without running back to your pool."
+				""
+				"§8Upgrade to the §bMana Ring§8 (Curio slot) to carry mana passively without occupying an inventory slot."
+			]
+			id: "BB010000000000B0"
+			rewards: [
+				{
+					id: "BB010000000000B1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "BB010000000000B2"
+					item: "botania:mana_tablet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "BB010000000000B3"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			title: "§bMana Tablet"
+			x: 3.0d
+			y: 5.5d
+		}
 	]
 }

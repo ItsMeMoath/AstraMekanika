@@ -417,5 +417,351 @@
 			x: 12.0d
 			y: -3.5d
 		}
+		{
+			dependencies: ["EE00000000000070"]
+			description: [
+				"§7Land on §eMars§7 — the second destination in the §6Ad Astra§7 progression."
+				""
+				"§7Mars requires an upgraded rocket with §eDesh§7 components (found on Mars itself — bring iron tools for your first landing)."
+				"§7The Martian atmosphere is toxic — full Space Suit required."
+				""
+				"§7Mars has §eIron, Coal, and Desh ore§7 deposits on the surface and underground."
+				"§7§eDesh§7 is required for Phase 3 rocket components and Mars-tier equipment."
+				""
+				"§8Establish a base on Mars before leaving — it's a long trip back for materials."
+			]
+			id: "EE01000000000010"
+			rewards: [
+				{
+					id: "EE01000000000011"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "EE01000000000012"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "EE01000000000013"
+				title: "Land on Mars and collect Desh ore."
+				type: "checkmark"
+			}]
+			title: "§eMars Landing"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["EE01000000000010"]
+			description: [
+				"§7Build an §6Ad Astra Space Station§7 in orbit."
+				""
+				"§7The Space Station is a player-built structure in the space dimension — a platform between planets."
+				"§7It can house storage, crafting stations, portals to other planets, and atmospheric generators."
+				""
+				"§7Build it by placing §6Station Blocks§7 in space after launching into orbit."
+				""
+				"§8A Space Station with a §6Gravitational Anomalizer§8 produces artificial gravity — no more floating builds."
+				"§8Use it as a logistics hub for inter-planetary resource routing."
+			]
+			id: "EE01000000000020"
+			rewards: [
+				{
+					id: "EE01000000000021"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "EE01000000000022"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "EE01000000000023"
+				title: "Build a Space Station in orbit."
+				type: "checkmark"
+			}]
+			title: "§6Space Station"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["EE00000000000020"]
+			description: [
+				"§7Craft a full set of §5Draconic Evolution Wyvern tools§7."
+				""
+				"§7Wyvern tools store RF and use it for infinite durability. They never break — they just run out of charge."
+				"§7§5Wyvern Pickaxe§7 mines in a 3×3 area. §5Wyvern Sword§7 has built-in AOE."
+				""
+				"§7Craft from §5Wyvern Cores§7 + §5Draconium Ingots§7 in standard crafting."
+				""
+				"§8Keep them charged in a §5Draconic Energy Core§8 (a massive RF storage structure)."
+				"§8They make all previous tools obsolete."
+			]
+			id: "EE01000000000030"
+			rewards: [
+				{
+					id: "EE01000000000031"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "EE01000000000032"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "EE01000000000033"
+					item: "draconicevolution:wyvern_pickaxe"
+					type: "item"
+				}
+				{
+					id: "EE01000000000034"
+					item: "draconicevolution:wyvern_sword"
+					type: "item"
+				}
+			]
+			title: "§5Wyvern Tools"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["EE01000000000030"]
+			description: [
+				"§7Craft a full set of §5Draconic Evolution Draconic Armor§7."
+				""
+				"§7§5Draconic Armor§7 absorbs all damage using RF — as long as it has charge, you take §ano damage§7."
+				"§7Upgrade from Wyvern: §5Draconic Core§7 replaces §5Wyvern Core§7 in the recipe."
+				""
+				"§7It includes a built-in §5Jetpack§7 (hold jump) and §5Glide§7 (hold shift in air)."
+				""
+				"§8The suit needs a constant RF supply. Connect to a §5Draconic Energy Core§8 for nearly infinite charge."
+				"§8With full Draconic Armor charged, you are effectively invincible."
+			]
+			id: "EE01000000000040"
+			rewards: [
+				{
+					id: "EE01000000000041"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "EE01000000000042"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					id: "EE01000000000043"
+					item: "draconicevolution:draconic_chestplate"
+					type: "item"
+				}
+				{
+					id: "EE01000000000044"
+					item: "draconicevolution:draconic_helmet"
+					type: "item"
+				}
+			]
+			title: "§5§lDraconic Armor"
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["EE00000000000030"]
+			description: [
+				"§7Defeat the §cIgnited Revenant§7 — a Cataclysm boss."
+				""
+				"§7The Ignited Revenant is found in its own §ctemple structure§7 in the overworld."
+				""
+				"§aStrategy: §7It cycles between §cFire Phase§7 and §cCool Phase§7."
+				"§7Only take damage during the §aCool Phase§7 (when it's grey/steaming)."
+				"§7During Fire Phase — dodge its flame sweeps and projectiles."
+				""
+				"§eDrop: §cIgnited Scale§7 — used for §cCataclysm armor§7 and endgame crafting."
+			]
+			id: "EE01000000000050"
+			rewards: [
+				{
+					id: "EE01000000000051"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "EE01000000000052"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "EE01000000000053"
+				title: "Defeat the Ignited Revenant (Cataclysm)."
+				type: "checkmark"
+			}]
+			title: "§cIgnited Revenant"
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["EE01000000000050"]
+			description: [
+				"§7Defeat the §c§lEnder Guardian§7 — Cataclysm's most dangerous overworld boss."
+				""
+				"§7Found in a massive §cVoid Temple§7 structure."
+				""
+				"§aStrategy: §7The Ender Guardian creates §cvoid zones§7 that deal heavy damage on contact."
+				"§7It teleports aggressively — use §5Ars Nouveau: Slow§7 or §5Gravity§7 glyphs to pin it."
+				"§7Shatter its void crystals when exposed during phase transitions."
+				""
+				"§eDrop: §cGuardian's Eye§7 — required for the §5Heart of the Vault§7 recipe."
+			]
+			id: "EE01000000000060"
+			rewards: [
+				{
+					id: "EE01000000000061"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 5
+					id: "EE01000000000062"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "EE01000000000063"
+				title: "Defeat the Ender Guardian (Cataclysm)."
+				type: "checkmark"
+			}]
+			title: "§c§lEnder Guardian"
+			x: 18.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["EE01000000000040"]
+			description: [
+				"§7Build a §5Draconic Evolution Energy Core§7 — the ultimate RF storage structure."
+				""
+				"§7The Energy Core is a multiblock of §5Draconic Blocks§7 and §5Energy Core Stabilizers§7."
+				"§7It stores §5trillions of RF§7 — essentially infinite storage for your entire base."
+				""
+				"§7Higher tier cores (Tier 1-8) store exponentially more: Tier 7 = §52,147 Trillion RF§7."
+				""
+				"§8Connect your Fusion Reactor, NuclearCraft Reactor, and Draconic Reactor all to this."
+				"§8Every machine in your base draws from one unified energy core."
+			]
+			id: "EE01000000000070"
+			rewards: [
+				{
+					id: "EE01000000000071"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "EE01000000000072"
+					item: "draconicevolution:draconium_block"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "EE01000000000073"
+				title: "Build a Draconic Evolution Energy Core (any tier)."
+				type: "checkmark"
+			}]
+			title: "§5Energy Core"
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["EE00000000000050"]
+			description: [
+				"§7Produce §6Mekanism Polonium§7 using the §6Isotopic Centrifuge§7."
+				""
+				"§7§6Polonium§7 is produced by processing §6Nuclear Waste§7 (from your fission reactor) in the Isotopic Centrifuge."
+				"§7§6Polonium§7 is then refined into §6Polonium Pellets§7 in the §6Solar Neutron Activator§7 (uses direct sunlight)."
+				""
+				"§7§6Polonium Pellets§7 are required for §6Mekanism Antimatter§7 and §6Mekanism Fusion§7 fuel."
+				""
+				"§8This starts a production chain that powers your Fusion Reactor with Mekanism-native fuel."
+			]
+			id: "EE01000000000080"
+			rewards: [
+				{
+					id: "EE01000000000081"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "EE01000000000082"
+					item: "mekanism:polonium_pellet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "EE01000000000083"
+				item: "mekanism:polonium_pellet"
+				type: "item"
+			}]
+			title: "§6Polonium Production"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EE01000000000080"]
+			description: [
+				"§7Produce §6Mekanism Antimatter§7 using the §6Antiprotonic Nucleosynthesizer§7."
+				""
+				"§7§6Antimatter§7 is one of the rarest and most powerful substances in §6Mekanism§7."
+				"§7It requires §6Polonium Pellets§7 + §6Matter§7 in the Nucleosynthesizer to produce."
+				""
+				"§7§6Antimatter§7 enables the §6Mekanism Fusion Reactor§7 to run on Mekanism-native fuel at maximum efficiency."
+				"§7It's also required for the §6Meka-Suite§7 armor modules at highest tier."
+				""
+				"§8This is endgame Mekanism. Getting here means your power infrastructure is complete."
+			]
+			id: "EE01000000000090"
+			rewards: [
+				{
+					id: "EE01000000000091"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "EE01000000000092"
+					item: "mekanism:antimatter_pellet"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "EE01000000000093"
+				item: "mekanism:antimatter_pellet"
+				type: "item"
+			}]
+			title: "§6§lAntimatter"
+			x: 21.0d
+			y: 0.0d
+		}
 	]
 }

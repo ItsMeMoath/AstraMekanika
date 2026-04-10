@@ -480,5 +480,370 @@
 			x: 12.0d
 			y: 3.5d
 		}
+		{
+			dependencies: ["DD000000000000C0"]
+			description: [
+				"§7Defeat the §bAether Silver Dungeon§7 boss — the §bValkyrie Queen§7."
+				""
+				"§7The Silver Dungeon is a large white structure in the Aether — harder to find than the Bronze Dungeon."
+				""
+				"§aStrategy: §7The Valkyrie Queen summons §bValkyries§7 that must be killed before she takes damage."
+				"§7Use high-DPS gear — Zanite sword or Terra Blade is recommended."
+				"§7She uses her shield defensively — wait for an opening."
+				""
+				"§eDrop: §bVanquisher§7 (powerful sword) and §bValkyrie armor§7."
+			]
+			id: "DD01000000000010"
+			rewards: [
+				{
+					id: "DD01000000000011"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 3
+					id: "DD01000000000012"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "DD01000000000013"
+				title: "Defeat the Aether Silver Dungeon (Valkyrie Queen)."
+				type: "checkmark"
+			}]
+			title: "§bSilver Dungeon"
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["DD01000000000010"]
+			description: [
+				"§7Defeat the §bAether Gold Dungeon§7 boss — the §bSun Spirit§7."
+				""
+				"§7The Gold Dungeon is the hardest Aether dungeon — a massive golden labyrinth."
+				""
+				"§aStrategy: §7The Sun Spirit is immune to all weapons except §bIce Stones§7 thrown at it."
+				"§7Find §bIce Stones§7 in the dungeon's freeze rooms. Hit the Sun Spirit's core repeatedly with them."
+				"§7It shoots §bSolar Beams§7 — dodge horizontally."
+				""
+				"§eDrop: §bSun Altar key§7 + §bGravitite gear§7 — Gravitite is Aether's rarest metal."
+			]
+			id: "DD01000000000020"
+			rewards: [
+				{
+					id: "DD01000000000021"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "DD01000000000022"
+					item: "aether:gravitite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "DD01000000000023"
+				title: "Defeat the Aether Gold Dungeon (Sun Spirit)."
+				type: "checkmark"
+			}]
+			title: "§bGold Dungeon"
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["DD00000000000060"]
+			description: [
+				"§7Craft a §9ME Interface§7 — the bridge between your AE2 network and other machines."
+				""
+				"§7The ME Interface allows machines (like RS Exporters or Mekanism machines) to request items from your network and deposit results back."
+				"§7Place it adjacent to a machine and configure §9Crafting Patterns§7 inside it to enable §9on-demand autocrafting§7."
+				""
+				"§8ME Interface + Crafting CPU = your network can craft any encoded recipe automatically on demand."
+				"§8This is what separates a storage network from a true autocrafting factory."
+			]
+			id: "DD01000000000030"
+			rewards: [
+				{
+					id: "DD01000000000031"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "DD01000000000032"
+					item: "ae2:interface"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "DD01000000000033"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			title: "§9ME Interface"
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["DD01000000000030"]
+			description: [
+				"§7Set up §9AE2 Channels§7 correctly across your network."
+				""
+				"§7Channels are AE2's bandwidth system — each cable type carries a limited number of channels (8 for normal, 32 for dense)."
+				"§7Every device (terminal, interface, drive) uses 1 channel."
+				""
+				"§7Use §9Dense Cables§7 for main trunks (carries 32 channels) and normal cables for branches."
+				"§7Switch to §9P2P Tunnels§7 to transmit 32 channels over a single cable run across long distances."
+				""
+				"§8If devices turn offline, you've run out of channels — add Dense Cables or P2P Tunnels."
+			]
+			id: "DD01000000000040"
+			rewards: [
+				{
+					id: "DD01000000000041"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "DD01000000000042"
+					item: "ae2:dense_cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "DD01000000000043"
+					item: "ae2:dense_cable"
+					type: "item"
+				}
+				{
+					id: "DD01000000000044"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+			]
+			title: "§9Channel Management"
+			x: 18.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["DD00000000000030"]
+			description: [
+				"§7Craft a §cNuclearCraft Radiation Shielding§7 for your armor."
+				""
+				"§7Radiation in NuclearCraft is real — proximity to active reactors, fuel rods, or irradiated materials causes §cradiation exposure§7 which reduces max HP permanently until cured."
+				""
+				"§7Cure radiation with §cRadaway§7 (craftable) or §cRadX§7 (prevention)."
+				"§7The §6Mekanism Hazmat Suit§7 provides built-in radiation immunity."
+				""
+				"§8Wear the Hazmat Suit whenever working inside or near the reactor structure."
+			]
+			id: "DD01000000000050"
+			rewards: [
+				{
+					id: "DD01000000000051"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "DD01000000000052"
+					item: "nuclearcraft:radaway"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "DD01000000000053"
+				title: "Craft NuclearCraft Radaway and wear radiation protection armor."
+				type: "checkmark"
+			}]
+			title: "§cRadiation Safety"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["DD01000000000050"]
+			description: [
+				"§7Set up §cNuclearCraft fuel reprocessing§7 using the §cReprocessor§7."
+				""
+				"§7Used fuel rods produce §cDepleted Fuel§7 which can be reprocessed into:"
+				"§c  Plutonium-239 §8— viable reactor fuel"
+				"§c  Fissile materials §8— for more exotic fuel types"
+				"§c  Waste products §8— must be stored safely"
+				""
+				"§8Without reprocessing, you burn through fuel rods and can't sustain the reactor long-term."
+				"§8Build the Reprocessor early and set up a fuel reprocessing loop."
+			]
+			id: "DD01000000000060"
+			rewards: [
+				{
+					id: "DD01000000000061"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "DD01000000000062"
+					item: "nuclearcraft:fuel_plutonium_lea"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "DD01000000000063"
+				item: "nuclearcraft:reprocessor"
+				type: "item"
+			}]
+			title: "§cFuel Reprocessing"
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["DD000000000000A0"]
+			description: [
+				"§7Craft a §6Mekanism Quantum Entangloporter§7."
+				""
+				"§7The Quantum Entangloporter teleports items, fluids, and energy between two linked portals — regardless of dimension."
+				"§7Set up one portal at your Mekanism power plant and one at your processing array in a different area."
+				""
+				"§8This eliminates the need for long cable or pipe runs across your base."
+				"§8Essential for cross-dimensional logistics — power from the Overworld to a Nether base, etc."
+			]
+			id: "DD01000000000070"
+			rewards: [
+				{
+					id: "DD01000000000071"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "DD01000000000072"
+					item: "mekanism:quantum_entangloporter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "DD01000000000073"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			title: "§6Quantum Entangloporter"
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["DD01000000000070"]
+			description: [
+				"§7Produce §6Refined Obsidian§7 using the §6Mekanism Osmium Compressor§7 and §6Chemical Injection Chamber§7."
+				""
+				"§7§6Refined Obsidian§7 is the toughest non-Draconic armor material available in Phase IV."
+				"§7Process: Obsidian → Obsidian Dust → Refined Obsidian (requires Osmium Compressor + Liquid Osmium)"
+				""
+				"§7§6Refined Obsidian Armor§7 has more base protection than Diamond and can be upgraded with Mekanism Modules."
+				""
+				"§8Craft at least a chestplate and helmet before moving to Phase V."
+			]
+			id: "DD01000000000080"
+			rewards: [
+				{
+					id: "DD01000000000081"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "DD01000000000082"
+					item: "mekanism:ingot_refined_obsidian"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 4L
+				id: "DD01000000000083"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			title: "§6Refined Obsidian"
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["DD000000000000B0"]
+			description: [
+				"§7Craft and program a §ePneumaticCraft Drone§7."
+				""
+				"§7Drones are fully programmable flying units that carry out tasks autonomously:"
+				"§e  Harvest crops, mine blocks, collect items, attack mobs"
+				"§e  Move items between inventories"
+				"§e  Execute conditional logic based on redstone, inventory state, or area scans"
+				""
+				"§7Program them using the §eProgrammer§7 with drag-and-drop logic blocks."
+				""
+				"§8Drones are the closest thing to Integrated Circuits in automation — extremely powerful if learned."
+			]
+			id: "DD01000000000090"
+			rewards: [
+				{
+					id: "DD01000000000091"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "DD01000000000092"
+					item: "pneumaticcraft:drone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "DD01000000000093"
+				item: "pneumaticcraft:drone"
+				type: "item"
+			}]
+			title: "§ePneumatic Drone"
+			x: 12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["DD01000000000080"]
+			description: [
+				"§7Build an §aIndustrial Foregoing Laser Drill§7 — automated deep-ore mining."
+				""
+				"§7The Laser Drill fires a laser beam downward through the world, producing ores based on §aOre Laser Focuses§7."
+				"§7Ore Focuses are craftable and determine which ores the drill produces."
+				""
+				"§8Power cost is massive — run it off your Fusion Reactor or NuclearCraft reactor."
+				"§8The Laser Drill produces ores passively in the background. Set it and forget it."
+			]
+			id: "DD010000000000A0"
+			rewards: [
+				{
+					id: "DD010000000000A1"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "DD010000000000A2"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "DD010000000000A3"
+				item: "industrialforegoing:laser_drill"
+				type: "item"
+			}]
+			title: "§aLaser Drill"
+			x: 15.0d
+			y: 5.5d
+		}
 	]
 }

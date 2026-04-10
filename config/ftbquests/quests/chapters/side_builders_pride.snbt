@@ -248,5 +248,362 @@
 			x: 9.0d
 			y: -3.5d
 		}
+		{
+			dependencies: ["F500000000000030"]
+			description: [
+				"§7Craft §7Framed Blocks§7 and use them to apply custom textures to structural shapes."
+				""
+				"§7Framed Blocks lets you take any block shape (slab, stair, panel, trapdoor) and fill it with any block texture."
+				"§7Example: stone brick stairs, glass slabs, or wool-textured pillars."
+				""
+				"§8This mod removes the texture-shape lock from building — any material, any shape."
+				"§8Combine with §eArchitect's Palette§8 for a near-unlimited visual palette."
+			]
+			id: "F501000000000010"
+			rewards: [
+				{
+					id: "F501000000000011"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "F501000000000012"
+					item: "framedblocks:framed_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F501000000000013"
+				item: "framedblocks:framed_cube"
+				type: "item"
+			}]
+			title: "§7Framed Blocks"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F501000000000010"]
+			description: [
+				"§7Build a decorative facade on your base using at least §73 different block families§7."
+				""
+				"§7A block family: stone brick + stone brick stairs + stone brick slab = one family."
+				"§7Mix rough and refined: §7Quartz§7 + §eDeepslate Tile§7 + §7Copper§7."
+				""
+				"§8Copper oxidation adds natural aging. Use §eWaxed Copper§8 to freeze it at your preferred stage."
+				"§8Great builders mix eras and textures. Monotone walls are boring."
+			]
+			id: "F501000000000020"
+			rewards: [
+				{
+					id: "F501000000000021"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "F501000000000022"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F501000000000023"
+				title: "Build a facade using 3 different block families."
+				type: "checkmark"
+			}]
+			title: "§7Facade Design"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F500000000000060"]
+			description: [
+				"§7Build a §7hidden room§7 with a concealed entrance."
+				""
+				"§7Ideas:"
+				"§7  Painting over a 2-high gap (paintings cover openings)"
+				"§7  Piston door triggered by a hidden lever"
+				"§7  Bookshelf that rotates (Create rotational mechanism)"
+				""
+				"§8Hidden rooms are great for valuables storage, AFK spots, or surprise guests."
+				"§8Share the secret only with trusted teammates."
+			]
+			id: "F501000000000030"
+			rewards: [
+				{
+					id: "F501000000000031"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "F501000000000032"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F501000000000033"
+				title: "Build a hidden room with a concealed entrance."
+				type: "checkmark"
+			}]
+			title: "§7Secret Room"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F501000000000030"]
+			description: [
+				"§7Build a base with at least §75 distinct functional rooms§7."
+				""
+				"§7Suggested rooms:"
+				"§7  §eSmelting Room §8— furnaces, blast furnaces, fuel storage"
+				"§7  §eCraft Room §8— crafting tables, anvil, enchanting"
+				"§7  §eFarm Wing §8— crops, cooking station"
+				"§7  §eStorage Room §8— RS/AE2 or chest system"
+				"§7  §eArmoury §8— armor stands, weapon racks, repair bench"
+				""
+				"§8A well-organized base is its own reward — and makes collaboration far easier."
+			]
+			id: "F501000000000040"
+			rewards: [
+				{
+					id: "F501000000000041"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "F501000000000042"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "F501000000000043"
+				title: "Build a base with 5 distinct functional rooms."
+				type: "checkmark"
+			}]
+			title: "§7§lProper Base"
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F500000000000002"]
+			description: [
+				"§7Build a §aGarden§7 outside your base — at least §720 blocks of outdoor decoration§7."
+				""
+				"§7Elements to include:"
+				"§a  Flower beds §8— bonemeal a grass patch for wild variety"
+				"§a  Lantern posts §8— iron bars + lanterns"
+				"§a  Water feature §8— small pond or fountain"
+				"§a  Pathways §8— stone slabs or gravel paths leading to the entrance"
+				""
+				"§8A base with a garden feels lived-in. Gardens also give easy access to flowers for dyes."
+			]
+			id: "F501000000000050"
+			rewards: [
+				{
+					id: "F501000000000051"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "F501000000000052"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F501000000000053"
+				title: "Build a garden area outside your base."
+				type: "checkmark"
+			}]
+			title: "§aGarden"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F500000000000010"]
+			description: [
+				"§7Replace all torches in your base with §7decorative light sources§7."
+				""
+				"§7Upgrade options:"
+				"§e  Lanterns §8— hang from ceilings, warm light"
+				"§e  Shroomlights §8— bright, vibrant, fits industrial builds"
+				"§e  Sea Lanterns §8— clean white light, aquatic aesthetic"
+				"§e  Glowstone lamps §8— toggleable with Redstone"
+				"§7  MCW Furniture lamps §8— decorative floor and desk lamps"
+				""
+				"§8Lighting defines the mood of a build more than any other single element."
+			]
+			id: "F501000000000060"
+			rewards: [
+				{
+					id: "F501000000000061"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "F501000000000062"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F501000000000063"
+				title: "Replace all torches with decorative light sources."
+				type: "checkmark"
+			}]
+			title: "§eLighting Overhaul"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F500000000000020"]
+			description: [
+				"§7Create a §e§lstained glass window§7 — at least §75 colored glass blocks§7 in a deliberate pattern."
+				""
+				"§7Use multiple colors to form a design: a sun, a star, your team symbol, or abstract art."
+				"§7Combine with glass pane variants from §eArchitect's Palette§8 for finer detail."
+				""
+				"§8Illuminated from behind by a bright room, stained glass windows glow beautifully."
+				"§8This is purely cosmetic — make it yours."
+			]
+			id: "F501000000000070"
+			rewards: [
+				{
+					id: "F501000000000071"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "F501000000000072"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F501000000000073"
+				title: "Create a stained glass window (5+ blocks in a pattern)."
+				type: "checkmark"
+			}]
+			title: "§eStained Glass"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F501000000000070"]
+			description: [
+				"§7Connect two structures with a §7sky bridge§7 — at least §715 blocks long§7."
+				""
+				"§7Examples: Base to watchtower, storage room to mob farm platform, two wings of your base."
+				"§7The bridge should have railings (fences or walls), lighting, and mixed materials."
+				""
+				"§8Sky bridges add verticality and look impressive from a distance."
+				"§8Build the towers first, then bridge them — planning is easier that way."
+			]
+			id: "F501000000000080"
+			rewards: [
+				{
+					id: "F501000000000081"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 3
+					id: "F501000000000082"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F501000000000083"
+				title: "Build a sky bridge connecting two structures."
+				type: "checkmark"
+			}]
+			title: "§7Sky Bridge"
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F500000000000040"]
+			description: [
+				"§7Build a §7Watchtower§7 — at least §720 blocks tall§7 with a visible platform at the top."
+				""
+				"§7Requirements:"
+				"§7  A spiral staircase or ladder core"
+				"§7  Windows every 5-6 blocks"
+				"§7  A platform at the top with railings"
+				"§7  Lighting visible from your base"
+				""
+				"§8Watchtowers give you high ground during Blood Moon events."
+				"§8Add arrow dispensers at the top to turn it into a defensive structure."
+			]
+			id: "F501000000000090"
+			rewards: [
+				{
+					id: "F501000000000091"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "F501000000000092"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F501000000000093"
+				title: "Build a watchtower (20 blocks tall minimum)."
+				type: "checkmark"
+			}]
+			title: "§7Watchtower"
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["F500000000000050"]
+			description: [
+				"§7Fully decorate a §7themed room§7 using MCW Furniture — kitchen, bedroom, office, or workshop."
+				""
+				"§7Theme requirements:"
+				"§e  Kitchen §8— counter, sink, cabinets"
+				"§e  Bedroom §8— bed, desk, lamp, bookshelf"
+				"§e  Workshop §8— tool rack, workbench, storage cabinet"
+				"§e  Office §8— desk, chair, shelves, filing system"
+				""
+				"§8A themed room feels intentional rather than random. Pick one and commit to it fully."
+			]
+			id: "F501000000000100"
+			rewards: [
+				{
+					id: "F501000000000101"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "F501000000000102"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F501000000000103"
+				title: "Decorate a themed room using MCW Furniture pieces."
+				type: "checkmark"
+			}]
+			title: "§7Themed Room"
+			x: 9.0d
+			y: -7.0d
+		}
 	]
 }

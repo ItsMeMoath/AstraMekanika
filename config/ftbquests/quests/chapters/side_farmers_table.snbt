@@ -210,5 +210,353 @@
 			x: 6.0d
 			y: 3.5d
 		}
+		{
+			dependencies: ["F400000000000020"]
+			description: [
+				"§7Craft a §2Farmer's Delight Stove§7 and cook on it."
+				""
+				"§7The Stove cooks items placed directly on top, like a campfire with multiple slots."
+				"§7Some Farmer's Delight recipes can only be made on the Stove — not the Cooking Pot."
+				""
+				"§7Stove-exclusive recipes: §2Grilled Salmon§7, §2Smoked Ham§7, §2Roasted Mutton Chops§7."
+				""
+				"§8Stove + Cooking Pot = full access to every Farmer's Delight recipe."
+			]
+			id: "F401000000000010"
+			rewards: [
+				{
+					id: "F401000000000011"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "F401000000000012"
+					item: "farmersdelight:smoked_ham"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F401000000000013"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			title: "§2Stove Cooking"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F401000000000010"]
+			description: [
+				"§7Set up an §aIndustrial Foregoing Plant Gatherer§7 to automate crop harvesting."
+				""
+				"§7The Plant Gatherer automatically harvests crops within its working area (default 3x3, upgradeable)."
+				"§7Pair with a §aPlant Sower§7 to automatically replant — a fully hands-off farm."
+				""
+				"§8Needs RF power — connect to your power grid."
+				"§8Install §aRange Addons§8 to expand the working area to 9x9 or larger."
+			]
+			id: "F401000000000020"
+			rewards: [
+				{
+					id: "F401000000000021"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "F401000000000022"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F401000000000023"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			title: "§aAuto Harvester"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F400000000000040"]
+			description: [
+				"§7Plant §2Tier 5 Mystical Agriculture seeds§7 — the highest-tier resource crops."
+				""
+				"§7Tier 5 crops include: §2Diamond Seeds§7, §2Emerald Seeds§7, §2Netherite Seeds§7, §2Nether Star Seeds§7."
+				"§7Each produces Essence that converts to the full material at a Crafting Table."
+				""
+				"§8At this tier you can grow Netherite without ever mining Ancient Debris."
+				"§8Automate with the §aPlant Gatherer§8 for passive, infinite Netherite generation."
+			]
+			id: "F401000000000030"
+			rewards: [
+				{
+					id: "F401000000000031"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "F401000000000032"
+					item: "mysticalagriculture:diamond_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F401000000000033"
+				item: "mysticalagriculture:diamond_seeds"
+				type: "item"
+			}]
+			title: "§2Tier 5 Seeds"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F401000000000030"]
+			description: [
+				"§7Craft and equip a §2Mystical Agriculture Growth Charm§7."
+				""
+				"§7Charms are worn in the Curio slot and provide passive bonuses:"
+				"§2  Growth Charm §8— faster crop growth rate"
+				"§2  Skill Charm §8— extra essence per harvest"
+				"§2  Lucky Charm §8— bonus drops from crops"
+				""
+				"§8The §2Growth Charm§8 is essential for Tier 5 seeds, which grow slowly even on Essence Farmland."
+			]
+			id: "F401000000000040"
+			rewards: [
+				{
+					id: "F401000000000041"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 1
+					id: "F401000000000042"
+					item: "mysticalagriculture:growth_charm"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F401000000000043"
+				item: "mysticalagriculture:growth_charm"
+				type: "item"
+			}]
+			title: "§2Growth Charm"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F401000000000040"]
+			description: [
+				"§7Grow §2Nether Star Seeds§7 and craft a §4Beacon§7 — without fighting the Wither."
+				""
+				"§7Nether Star Seeds (Tier 5) produce Nether Star Essence → Nether Star via crafting."
+				"§7This completely bypasses the Wither boss fight."
+				""
+				"§7Place the Beacon in your base for permanent radius buffs: §eSpeed§7, §eHaste§7, §eStrength§7."
+				""
+				"§8§6Haste II§8 from a Beacon makes mining dramatically faster — a quality-of-life staple."
+			]
+			id: "F401000000000050"
+			rewards: [
+				{
+					id: "F401000000000051"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 1
+					id: "F401000000000052"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "F401000000000053"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			title: "§2§lPeaceful Beacon"
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F400000000000050"]
+			description: [
+				"§7Build an §aanimal farm§7 with at least §e3 different animal species§7."
+				""
+				"§7Recommended: §eCow§7 (leather, steak), §ePig§7 (pork), §eSheep§7 (wool, mutton)."
+				"§7Use §2Farmer's Delight§7 recipes that need animal products: Roast Chicken, Smoked Ham, Mutton Chops."
+				""
+				"§8Breed animals using their preferred foods. Separate pens prevent chaos."
+				"§8Use an §aIndustrial Foregoing Animal Rancher§8 for hands-off automation."
+			]
+			id: "F401000000000060"
+			rewards: [
+				{
+					id: "F401000000000061"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "F401000000000062"
+					item: "farmersdelight:roast_chicken"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F401000000000063"
+				title: "Build an animal farm with 3 species."
+				type: "checkmark"
+			}]
+			title: "§2Animal Farm"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F401000000000060"]
+			description: [
+				"§7Set up a §aThermal Phytogenic Insolator§7 to grow crops at machine speed."
+				""
+				"§7The Phytogenic Insolator grows crops ~10x faster than farmland."
+				"§7Fill it with §aPhyto-Gro Rich§7 for maximum speed."
+				"§7Accepts any vanilla or Farmer's Delight crop."
+				""
+				"§8Stack multiple Insolators for bulk production of rare ingredients."
+				"§8This bridges manual farming and the Plant Gatherer automation line."
+			]
+			id: "F401000000000070"
+			rewards: [
+				{
+					id: "F401000000000071"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "F401000000000072"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F401000000000073"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			title: "§aMachine Farming"
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F401000000000070"]
+			description: [
+				"§7Build a fully automated §2food production line§7 — crop to cooked meal with no player interaction."
+				""
+				"§7Pipeline: §aPlant Sower§7 → §aPlant Gatherer§7 → §aPhytogenic Insolator§7 → §2Cooking Pot§7 → Storage."
+				"§7Use Pipez or AE2 to connect each stage."
+				""
+				"§8This is one of the most satisfying automation chains in the pack."
+				"§8Set it up once and it just keeps producing forever."
+			]
+			id: "F401000000000080"
+			rewards: [
+				{
+					id: "F401000000000081"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 5
+					id: "F401000000000082"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "F401000000000083"
+				title: "Set up a fully automated crop-to-meal production pipeline."
+				type: "checkmark"
+			}]
+			title: "§2§lFood Factory"
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F400000000000002"]
+			description: [
+				"§7Craft a §2Farmer's Delight Compost Heap§7 and produce §2Rich Soil§7."
+				""
+				"§7The Compost Heap converts organic waste into Rich Soil — a fertilizer."
+				"§7Inputs: rotten food, plant debris, crop waste."
+				"§7Rich Soil substitutes for §2Bone Meal§7 and is used in certain Farmer's Delight recipes."
+				""
+				"§8Nothing goes to waste — feed your crop overflow into the Compost Heap."
+			]
+			id: "F401000000000090"
+			rewards: [
+				{
+					id: "F401000000000091"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "F401000000000092"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F401000000000093"
+				item: "farmersdelight:composter"
+				type: "item"
+			}]
+			title: "§2Compost"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F400000000000002"]
+			description: [
+				"§7Craft a §aSophisticated Backpack§7 with a §aPickup Upgrade§7 installed."
+				""
+				"§7The Pickup Upgrade auto-collects items into the backpack matching its filter."
+				"§7Set it to collect all crop essences — Inferium, Prudentium, Tertium — automatically."
+				""
+				"§8Never miss an essence drop again during long farming sessions."
+				"§8Pair with a §aCompacting Drawer§8 linked by §aPipez§8 for zero-overflow essence storage."
+			]
+			id: "F401000000000100"
+			rewards: [
+				{
+					id: "F401000000000101"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 1
+					id: "F401000000000102"
+					item: "sophisticatedbackpacks:pickup_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F401000000000103"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			title: "§aAuto Pickup"
+			x: 3.0d
+			y: -7.0d
+		}
 	]
 }

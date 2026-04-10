@@ -276,5 +276,373 @@
 			x: 9.0d
 			y: -3.5d
 		}
+		{
+			dependencies: ["F300000000000040"]
+			description: [
+				"§7Defeat the §4§lWither§7 — the Overworld's first mega-boss."
+				""
+				"§7Summon it using §43 Wither Skeleton Skulls§7 on §4Soul Sand§7 in a T-shape."
+				"§7Build a containment room underground — the Wither explodes everything near it."
+				""
+				"§7Drops: §4Nether Star§7 — required for the §4Beacon§7 (permanent radius buff)."
+				""
+				"§8Warning: In this pack, the Wither is significantly buffed. Bring your best armor and potions."
+				"§8A small enclosed underground room limits its movement and prevents runaway explosions."
+			]
+			id: "F301000000000010"
+			rewards: [
+				{
+					id: "F301000000000011"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 1
+					id: "F301000000000012"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 1L
+				id: "F301000000000013"
+				entity: "minecraft:wither"
+				type: "kill"
+			}]
+			title: "§4§lWither Slain"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F301000000000010"]
+			description: [
+				"§7Defeat the §5§lEnder Dragon§7 — the guardian of The End."
+				""
+				"§7Strategy:"
+				"§5  1. Destroy all End Crystals on the obsidian pillars (bow or snowballs)"
+				"§5  2. Wait for the Dragon to perch on the portal — deal melee damage"
+				"§5  3. When it flies, use the bow to chip its health down"
+				""
+				"§7Drops: §5Dragon Egg§7 (trophy), §5Dragon's Breath§7, and opens §5End Gateways§7 to End Cities."
+				""
+				"§8Defeating the Dragon respawns it infinitely — each kill yields more XP."
+			]
+			id: "F301000000000020"
+			rewards: [
+				{
+					id: "F301000000000021"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 3
+					id: "F301000000000022"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 1L
+				id: "F301000000000023"
+				entity: "minecraft:ender_dragon"
+				type: "kill"
+			}]
+			title: "§5§lEnder Dragon"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F300000000000070"]
+			description: [
+				"§7Defeat an §9Elder Guardian§7 inside an Ocean Monument."
+				""
+				"§7Three Elder Guardians guard each monument — one per wing."
+				"§7They deal significant contact damage and inflict §9Mining Fatigue III§7."
+				"§7Counter Mining Fatigue: drink §9Milk§7 to remove it temporarily."
+				""
+				"§8Drops: §9Sponges§7 and §9Prismarine Shards§7."
+				"§8Keep distance and use a Power V bow — Elder Guardians are slow."
+			]
+			id: "F301000000000030"
+			rewards: [
+				{
+					id: "F301000000000031"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "F301000000000032"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 1L
+				id: "F301000000000033"
+				entity: "minecraft:elder_guardian"
+				type: "kill"
+			}]
+			title: "§9Elder Guardian"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F301000000000030"]
+			description: [
+				"§7Defeat the §8§lWarden§7 — the deep dark's apex predator."
+				""
+				"§7The Warden spawns from Sculk Shriekers when triggered 3 times in an Ancient City."
+				"§7It tracks you via vibrations — movement, attacks, projectiles."
+				"§7It cannot see. It cannot be reasoned with. It hits for §8§lextraordinary§7 damage."
+				""
+				"§8Use long-range potions, keep distance, and disengage when health is low."
+				"§8Drops: §8Sculk Catalyst§7. The real reward is bragging rights."
+			]
+			id: "F301000000000040"
+			rewards: [
+				{
+					id: "F301000000000041"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 5
+					id: "F301000000000042"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 1L
+				id: "F301000000000043"
+				entity: "minecraft:warden"
+				type: "kill"
+			}]
+			title: "§8§lWarden Slain"
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F301000000000040"]
+			description: [
+				"§7Defeat a §cCataclysm Dungeon Boss§7."
+				""
+				"§cEnder's Cataclysm§7 bosses live inside dungeon structures:"
+				"§c  Ignited Revenant §7— fire-element behemoth in desert dungeons"
+				"§c  Ender Guardian §7— multi-phase End dimension boss"
+				"§c  Ancient Remnant §7— ruins-dwelling sentinel"
+				""
+				"§8Phase IV armor minimum recommended."
+				"§8You scouted the dungeon in Wanderer's Atlas — now go back armed."
+			]
+			id: "F301000000000050"
+			rewards: [
+				{
+					id: "F301000000000051"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 8
+					id: "F301000000000052"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "F301000000000053"
+				title: "Defeat any Cataclysm dungeon boss."
+				type: "checkmark"
+			}]
+			title: "§c§lCataclysm Boss"
+			x: 18.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F300000000000002"]
+			description: [
+				"§7Hunt §cWither Skeletons§7 in a Nether Fortress and collect §c3 Wither Skulls§7."
+				""
+				"§7Wither Skeletons have a ~2.5% skull drop rate — use a §eSword with Looting III§7 to increase it."
+				"§7You need 3 skulls to summon the §4Wither§7."
+				""
+				"§8Build a Wither Skeleton farm once you have the resources — skulls are always worth collecting."
+				"§8Pro tip: Apotheosis Spawner upgrades make Wither Skeleton farms extremely efficient."
+			]
+			id: "F301000000000060"
+			rewards: [
+				{
+					id: "F301000000000061"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 3
+					id: "F301000000000062"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "F301000000000063"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "§cWither Skulls"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F301000000000060"]
+			description: [
+				"§7Clear an §eApotheosis-upgraded dungeon§7 — a Spawner Room with a glowing gold cage border."
+				""
+				"§eApotheosis§7 upgrades vanilla dungeons with boss-tier spawners and enhanced loot."
+				"§7These dungeons drop §eGems§7 (for Gem Sockets) and gear with Apotheosis-exclusive enchant modifiers."
+				""
+				"§8The best gems are only available from Apotheosis dungeon drops."
+				"§8Socket them into your best weapons and armor using a §eGem Socket§8."
+			]
+			id: "F301000000000070"
+			rewards: [
+				{
+					id: "F301000000000071"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "F301000000000072"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F301000000000073"
+				title: "Clear an Apotheosis-upgraded dungeon room."
+				type: "checkmark"
+			}]
+			title: "§eApotheosis Dungeon"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F301000000000070"]
+			description: [
+				"§7Kill §c500 total hostile mobs§7."
+				""
+				"§7You've been fighting since the beginning. 500 proves commitment."
+				"§7At this point you should have a working mob farm. If not — build one."
+				""
+				"§7Best farm targets: Zombies (iron), Skeletons (arrows), Endermen (pearls)."
+				""
+				"§8500 kills also levels a §eBlood Magic Living Armor§8 significantly — keep it equipped while farming."
+			]
+			id: "F301000000000080"
+			rewards: [
+				{
+					id: "F301000000000081"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "F301000000000082"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 500L
+				id: "F301000000000083"
+				entity: "minecraft:zombie"
+				type: "kill"
+			}]
+			title: "§c500 Kills"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F301000000000080"]
+			description: [
+				"§7Craft a §6§lNetherite Sword§7 and fully enchant it."
+				""
+				"§7Vanilla baseline: Sharpness V, Looting III, Sweeping Edge III, Unbreaking III, Mending."
+				"§7Use §6Apotheosis§7 to push further: Sharpness can reach VII–IX."
+				"§7Reforge it for: §6Life Steal§7, §6Crit Chance§7, §6Attack Speed§7."
+				""
+				"§8A properly built Apotheosis Netherite sword is viable well into Phase IV."
+				"§8Socket a §6Vicious§8 gem for additional crit damage."
+			]
+			id: "F301000000000090"
+			rewards: [
+				{
+					id: "F301000000000091"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 1
+					id: "F301000000000092"
+					item: "minecraft:netherite_sword"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F301000000000093"
+				item: "minecraft:netherite_sword"
+				type: "item"
+			}]
+			title: "§6Netherite Blade"
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F300000000000050"]
+			description: [
+				"§7Survive §c3 consecutive Blood Moons§7 without dying."
+				""
+				"§7A Blood Moon triggers every 7 in-game days — this challenge spans 21 game days."
+				"§7Each moon the mobs are stronger due to KubeJS phase scaling."
+				""
+				"§8Build proper base walls and defenses before attempting."
+				"§8Trap-based defenses (lava channels, arrow dispensers) are valid — use everything available."
+				"§8Use the 6 safe days between moons to repair, restock, and improve your defenses."
+			]
+			id: "F301000000000100"
+			rewards: [
+				{
+					id: "F301000000000101"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "F301000000000102"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "F301000000000103"
+				title: "Survive 3 consecutive Blood Moons without dying."
+				type: "checkmark"
+			}]
+			title: "§c§lBlood Moon Veteran"
+			x: 6.0d
+			y: -7.0d
+		}
 	]
 }

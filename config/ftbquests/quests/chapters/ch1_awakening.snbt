@@ -501,5 +501,603 @@
 			x: 12.0d
 			y: 5.5d
 		}
+		{
+			dependencies: ["AA00000000000060"]
+			description: [
+				"§7Before anything else, you need a full suit of §firon armor§7."
+				""
+				"§7Iron armor halves the damage you take from most sources."
+				"§8Craft: Helmet (5 ingots) + Chestplate (8) + Leggings (7) + Boots (4) = §e24 iron total§8."
+				""
+				"§8With iron armor and a sword, night stops being a threat and starts being a resource opportunity."
+			]
+			id: "AA01000000000010"
+			rewards: [
+				{
+					id: "AA01000000000011"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "AA01000000000012"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "AA01000000000013"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: { Damage: 0 }
+					}
+					type: "item"
+				}
+				{
+					id: "AA01000000000014"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: { Damage: 0 }
+					}
+					type: "item"
+				}
+				{
+					id: "AA01000000000015"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: { Damage: 0 }
+					}
+					type: "item"
+				}
+				{
+					id: "AA01000000000016"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: { Damage: 0 }
+					}
+					type: "item"
+				}
+			]
+			title: "§fIron Knight"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["AA01000000000010"]
+			description: [
+				"§7Find your first §bdiamond§7 vein."
+				""
+				"§7Diamonds spawn at Y -58 to -64 in deepslate layers — get deep."
+				"§7Strip mine or follow a cave system down. Use an iron or better pickaxe."
+				""
+				"§8Collect §b8 diamonds§8. You'll need them for: Enchanting Table, Draconic Evolution (much later), and Phase seals."
+				"§8Fortune III on a diamond pickaxe multiplies diamond yield — prioritize this enchant."
+			]
+			id: "AA01000000000020"
+			rewards: [
+				{
+					id: "AA01000000000021"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "AA01000000000022"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "AA01000000000023"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "§bCave Explorer"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["AA01000000000020"]
+			description: [
+				"§7Craft an §6Enchanting Table§7 and surround it with §e15 Bookshelves§7."
+				""
+				"§7With 15 bookshelves you reach the maximum enchantment level (30)."
+				"§7Keep §eLapis Lazuli§7 on hand — enchanting costs lapis."
+				""
+				"§8Priority enchants:"
+				"§e  Pickaxe: §7Efficiency V, Fortune III, Unbreaking III"
+				"§e  Sword: §7Sharpness V, Looting III, Fire Aspect"
+				"§e  Armor: §7Protection IV, Unbreaking III, Mending"
+			]
+			id: "AA01000000000030"
+			rewards: [
+				{
+					id: "AA01000000000031"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "AA01000000000032"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "AA01000000000033"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "AA01000000000034"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+			]
+			title: "§6Enchanting Setup"
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["AA01000000000030"]
+			description: [
+				"§7§eApotheosis§7 upgrades the enchanting system significantly."
+				""
+				"§7Install §eApotheosis Bookshelves§7 around your enchanting table for better results."
+				"§7Each Apotheosis bookshelf type provides different §eLoot Modifiers§7 — read JEI for which shelf affects which enchant pool."
+				""
+				"§8Also: loot chests across the world can contain §eApotheosis Books§7 with higher-tier enchantments than vanilla allows."
+				"§8Keep Looting III on your sword — it dramatically affects drops from this point forward."
+			]
+			id: "AA010000000000D0"
+			rewards: [
+				{
+					id: "AA010000000000D1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "AA010000000000D2"
+					item: "apotheosis:library"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AA010000000000D3"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			title: "§eApotheosis Enchanting"
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["AA00000000000080"]
+			description: [
+				"§7Build the §6IE Arc Furnace§7 — a multiblock that smelts alloys and ingots at high speed."
+				""
+				"§7The Arc Furnace requires §6MV (Medium Voltage) power§7 — upgrade your wire network from LV to MV first."
+				"§7It runs on graphite electrodes (craft from graphite rods)."
+				""
+				"§8Produces Steel, Bismuth Bronze, Black Bronze, and other alloys that are unavailable from the Blast Furnace."
+				"§8Much faster than the Blast Furnace for bulk steel."
+			]
+			id: "AA01000000000040"
+			rewards: [
+				{
+					id: "AA01000000000041"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "AA01000000000042"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AA01000000000043"
+				item: "immersiveengineering:arc_furnace"
+				type: "item"
+			}]
+			title: "§6Arc Furnace"
+			x: 18.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["AA01000000000040"]
+			description: [
+				"§7Craft an §6IE Capacitor Bank§7 and connect it to your power grid."
+				""
+				"§7The Capacitor Bank stores RF energy — it acts as a buffer between your generators and machines."
+				"§7Without storage, machines stall whenever generation dips."
+				""
+				"§8Build multiple Capacitor Banks as your power grid scales. The LV version stores 100,000 RF — tiny by Phase III standards."
+				"§8Upgrade to HV Capacitor Banks as soon as you can."
+			]
+			id: "AA01000000000050"
+			rewards: [{
+				id: "AA01000000000051"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "AA01000000000052"
+				item: "immersiveengineering:capacitor_lv"
+				type: "item"
+			}]
+			title: "§6Capacitor Bank"
+			x: 21.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["AA000000000000A0"]
+			description: [
+				"§7Build a §cNether Portal§7 and step through."
+				""
+				"§7You need: §c10 Obsidian§7 (mine at lava pools with a diamond pickaxe + water bucket) + §cFlint and Steel§7."
+				"§7The portal frame is 4×5 minimum. Light it with Flint and Steel."
+				""
+				"§8The Nether has: §cQuartz§7 (XP + Thermal recipes), §cBlaze Rods§7 (XP bottles, brewing), §cGlowstone§7 (max enchanting, Aether portal), and §cAncient Debris§7 (netherite, deep in lava layer)."
+				"§8Go in iron armor minimum. Wear gold boots to avoid Piglin aggression."
+			]
+			id: "AA01000000000060"
+			rewards: [
+				{
+					id: "AA01000000000061"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "AA01000000000062"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AA01000000000063"
+				title: "Build a Nether Portal and step through."
+				type: "checkmark"
+			}]
+			title: "§cNether Portal"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["AA01000000000060"]
+			description: [
+				"§7Collect §e32 Nether Quartz§7 from the Nether."
+				""
+				"§7Nether Quartz is used in §eThermal§7 machines, §eRedstone Comparators§7, and several Ars Nouveau recipes."
+				"§7Mining quartz also gives large amounts of XP — ideal for leveling enchantments."
+				""
+				"§8While you're there, mine §cGlowstone§7 from ceiling clusters and collect §cBlaze Rods§7 from Nether Fortresses."
+				"§8Blaze Rods are required for brewing and eventually the §5Ars Nouveau progression§8."
+			]
+			id: "AA01000000000070"
+			rewards: [
+				{
+					id: "AA01000000000071"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "AA01000000000072"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "AA01000000000073"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			title: "§cNether Harvest"
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["AA000000000000C0"]
+			description: [
+				"§7Craft a §5Scribe's Table§7 — the workstation for writing §5Ars Nouveau§7 spells."
+				""
+				"§7At the Scribe's Table, you drag glyphs in sequence to compose a spell."
+				"§7Structure of any spell: §5[Augment] + Form + Effect§7"
+				"§7Example: §5Projectile + Ignite§7 = a fireball spell."
+				""
+				"§8Start with simple spells. Learn the glyph tree before going complex."
+				"§8Keep a §5Source Jar§8 near the Scribe's Table — it uses Source to create parchments."
+			]
+			id: "AA01000000000080"
+			rewards: [
+				{
+					id: "AA01000000000081"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "AA01000000000082"
+					item: "ars_nouveau:glyph_projectile"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AA01000000000083"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			title: "§5Scribe's Table"
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["AA01000000000080"]
+			description: [
+				"§7Craft your first §5custom spell§7 at the §5Scribe's Table§7."
+				""
+				"§7Write a spell using at least §52 glyphs§7 — a Form and an Effect."
+				"§7Store it in your §5Spellbook§7 and cast it."
+				""
+				"§8Recommended starter spells:"
+				"§5  Touch + Heal §8— right-click to heal yourself"
+				"§5  Projectile + Ignite §8— ranged fire"
+				"§5  Self + Haste §8— speed boost"
+				"§8Glyphs cost §5Source§8 to learn and cast. Keep your Source Jar filled."
+			]
+			id: "AA01000000000085"
+			rewards: [
+				{
+					id: "AA01000000000086"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "AA01000000000087"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AA01000000000088"
+				title: "Write and cast a custom Ars Nouveau spell with at least 2 glyphs."
+				type: "checkmark"
+			}]
+			title: "§5First Spell Cast"
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["AA000000000000B0"]
+			description: [
+				"§7§eCreate§7 is a rotational power mod — machines run on §ePower (Stress Units)§7 generated by §eWater Wheels§7, §eWindmills§7, and §eSteam Engines§7."
+				""
+				"§7Craft a §eWater Wheel§7 and a §eShaft§7 to generate your first rotation."
+				"§7Connect the rotation via §eShafts§7 and §eGearboxes§7 to power machines."
+				""
+				"§8Create is an optional automation path — it excels at item sorting, liquid handling, and contraption building."
+				"§8Best uses in this pack: automated crafting, ore processing, and farm automation."
+			]
+			id: "AA01000000000090"
+			rewards: [
+				{
+					id: "AA01000000000091"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "AA01000000000092"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "AA01000000000093"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "AA01000000000094"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			title: "§eCreate: Rotation"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["AA01000000000090"]
+			description: [
+				"§7Build a §eMechanical Press§7 — §eCreate§7's core processing machine."
+				""
+				"§7The Mechanical Press compacts items (9 nuggets → 1 ingot) and presses ingots into sheets."
+				"§7It needs a §eShaft§7 from above connected to rotation."
+				""
+				"§8Sheets are required for §eCreate§8 components. The Press also automates crafting grids via §eDeployers§8."
+				"§8Pair with a §eChute§8 for item input/output and a §eBasin§8 for mixing operations."
+			]
+			id: "AA010000000000A0"
+			rewards: [
+				{
+					id: "AA010000000000A1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "AA010000000000A2"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AA010000000000A3"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "§eMechanical Press"
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["AA010000000000A0"]
+			description: [
+				"§7Build a §eCreate Mixer§7 in a §eBasin§7 to mix multiple items or fluids into new products."
+				""
+				"§7The Mixer + Basin combination handles many Create recipes that can't be done in a crafting grid:"
+				"§e  Brass (Copper + Zinc in Mixer)"
+				"§e  Rose Quartz (Quartz + Amethyst)"
+				"§e  Electron Tubes (Iron + Redstone)"
+				""
+				"§8Brass is §eCreate§8's mid-tier metal — required for most automation components."
+			]
+			id: "AA010000000000A5"
+			rewards: [
+				{
+					id: "AA010000000000A6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "AA010000000000A7"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "AA010000000000A8"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "AA010000000000A9"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "§eBrass Alloy"
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["AA000000000000E0"]
+			description: [
+				"§7Craft a §eThermal Pulverizer§7 and connect it to your power grid."
+				""
+				"§7The Pulverizer §adoubles ore output§7 — every ore produces 2 dusts instead of 1 ingot."
+				"§7Smelt the dusts normally to get the doubled ingots."
+				""
+				"§8Combined with the §eInduction Smelter§8, you get triple ore output."
+				"§8This is one of the highest-value machines to build in Phase I. Prioritize it."
+			]
+			id: "AA010000000000B0"
+			rewards: [
+				{
+					id: "AA010000000000B1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "AA010000000000B2"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AA010000000000B3"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			title: "§eThermal Pulverizer"
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["AA010000000000B0"]
+			description: [
+				"§7Craft a §eThermal Induction Smelter§7 — the next step in ore processing."
+				""
+				"§7The Induction Smelter processes pulverized dusts into ingots with bonus output — §atriple ore processing§7 when combined with the Pulverizer."
+				"§7It also smelts alloys: Bronze (Copper Dust + Tin Dust), Invar (Iron + Nickel), Constantan (Copper + Nickel)."
+				""
+				"§8These alloys are required for Thermal machine components."
+			]
+			id: "AA010000000000B5"
+			rewards: [
+				{
+					id: "AA010000000000B6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "AA010000000000B7"
+					item: "thermal:ingot_invar"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AA010000000000B8"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			title: "§eInduction Smelter"
+			x: 18.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["AA00000000000070"]
+			description: [
+				"§7Craft a §aSophisticated Backpack§7 — a portable storage solution that holds 27+ slots and can be upgraded."
+				""
+				"§7The basic backpack is just the start. Upgrades include:"
+				"§a  Auto-Pickup §7— automatically collects dropped items"
+				"§a  Smelting §7— smelts items as they enter"
+				"§a  Sorting §7— auto-sorts contents"
+				"§a  Stack Upgrade §7— increases stack sizes"
+				""
+				"§8Wear it on your back or in the Curios slot. Essential for mining and exploration."
+			]
+			id: "AA010000000000C0"
+			rewards: [
+				{
+					id: "AA010000000000C1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "AA010000000000C2"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AA010000000000C3"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "§aSophisticated Backpack"
+			x: 15.0d
+			y: 3.5d
+		}
 	]
 }

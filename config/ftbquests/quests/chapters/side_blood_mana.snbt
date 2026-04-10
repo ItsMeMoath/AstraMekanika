@@ -285,5 +285,390 @@
 			x: 6.0d
 			y: 3.5d
 		}
+		{
+			dependencies: ["F100000000000030"]
+			description: [
+				"§7Craft a §5Spell Turret§7 and set it to cast an offensive spell automatically."
+				""
+				"§7Spell Turrets fire a linked spell when they receive a Redstone signal or detect mobs."
+				"§7Pair with a Source Jar and a Detection sensor for a fully automatic spell-casting turret."
+				""
+				"§8Place multiple turrets around your base for automated defense."
+				"§8Set them to cast Ignite, Freeze, or Lightning for elemental mob farm damage."
+			]
+			id: "F101000000000010"
+			rewards: [
+				{
+					id: "F101000000000011"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "F101000000000012"
+					item: "ars_nouveau:spell_turret"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F101000000000013"
+				item: "ars_nouveau:spell_turret"
+				type: "item"
+			}]
+			title: "§5Spell Turret"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F101000000000010"]
+			description: [
+				"§7Defeat the §5Wilden Chimera§7 — Ars Nouveau's mid-game boss."
+				""
+				"§7Summon it using a §5Wilden Tribute§7 ritual in a forest or magical biome."
+				"§7The Chimera has three phases: ground slam, aerial, and berserk."
+				""
+				"§7Drops: §5Wilden Tribute§7 (used in Tier 3 Ars crafting) and significant Source."
+				""
+				"§8Recommended: §5Archmage Spellbook§8 with Amplify + Lightning + Burst."
+				"§8Keep moving — it tracks the nearest player aggressively."
+			]
+			id: "F101000000000020"
+			rewards: [
+				{
+					id: "F101000000000021"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "F101000000000022"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "F101000000000023"
+				title: "Defeat the Wilden Chimera."
+				type: "checkmark"
+			}]
+			title: "§5§lWilden Chimera"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F100000000000050"]
+			description: [
+				"§7Craft a §4Ritual Diviner§7 and set up the §4Ritual of Magnetism§7."
+				""
+				"§7The Ritual of Magnetism pulls ore blocks from below the ritual stone into a configurable range."
+				"§7Set it running at your mine entrance to continuously deliver ores to the surface."
+				""
+				"§8Requires: Ritual Stones + LP. The higher your Altar tier, the wider the pull range."
+				"§8Combine with a §4Crushing Ritual§8 for automatic ore doubling."
+			]
+			id: "F101000000000030"
+			rewards: [
+				{
+					id: "F101000000000031"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 1
+					id: "F101000000000032"
+					item: "bloodmagic:item_ritual_diviner"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F101000000000033"
+				item: "bloodmagic:item_ritual_diviner"
+				type: "item"
+			}]
+			title: "§4Ritual of Magnetism"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F101000000000030"]
+			description: [
+				"§7Set up the §4Well of Suffering§7 — Blood Magic's automated LP generation ritual."
+				""
+				"§7The Well of Suffering deals constant damage to mobs placed within its radius, converting their health into §4LP§7."
+				"§7Trap mobs (zombies or piglins) in a cage near the ritual stones."
+				""
+				"§8This is the standard endgame Blood Magic LP source — it scales with mob density."
+				"§8Pair with a mob spawner for continuous LP generation."
+			]
+			id: "F101000000000040"
+			rewards: [
+				{
+					id: "F101000000000041"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 5
+					id: "F101000000000042"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "F101000000000043"
+				title: "Set up the Well of Suffering ritual with a trapped mob."
+				type: "checkmark"
+			}]
+			title: "§4§lWell of Suffering"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F101000000000040"]
+			description: [
+				"§7Upgrade your §4Blood Altar to Tier 4§7 using §4Dusk Runes§7."
+				""
+				"§7Tier 4 unlocks §4Imbued Slate§7 crafting and higher-tier Living Armor upgrades."
+				"§7Each Dusk Rune requires significant LP — make sure your Well of Suffering is running."
+				""
+				"§8Tier 5 requires Dense Runes and is the final tier — hold off until your LP generation is stable."
+			]
+			id: "F101000000000050"
+			rewards: [
+				{
+					id: "F101000000000051"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "F101000000000052"
+					item: "bloodmagic:rune_dusk"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F101000000000053"
+				item: "bloodmagic:rune_dusk"
+				type: "item"
+			}]
+			title: "§4Tier 4 Altar"
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F100000000000070"]
+			description: [
+				"§7Craft §bElementium Ingots§7 using Botania's elvish crafting."
+				""
+				"§7Elementium requires passing §bGaia Spirits§7 and §bManasteel§7 through the §bElven Gateway§7."
+				"§7You must first build and activate an §bAlfheim Portal§7 using Mana and Elven items."
+				""
+				"§8Elementium is used for: §bPixie Dust§7, §bDragonstone§7, and §bElementium Armor§7."
+				"§8The armor set grants bonus damage from pixies that fight alongside you."
+			]
+			id: "F101000000000060"
+			rewards: [
+				{
+					id: "F101000000000061"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "F101000000000062"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "F101000000000063"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			title: "§bElementium"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F101000000000060"]
+			description: [
+				"§7Craft the §b§lElementium Chestplate§7 — the pinnacle of Botania combat gear."
+				""
+				"§7Elementium Armor summons §bFairy Pixies§7 when you take damage. Pixies deal damage to your attacker automatically."
+				"§7The armor set also has good base stats and can be enchanted."
+				""
+				"§8Pair with the §bTerra Blade§8 for a complete Botania melee build."
+				"§8Pixies are especially deadly against bosses with fast attack speeds."
+			]
+			id: "F101000000000070"
+			rewards: [
+				{
+					id: "F101000000000071"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "F101000000000072"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F101000000000073"
+				item: "botania:elementium_chestplate"
+				type: "item"
+			}]
+			title: "§bPixie Armor"
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F101000000000070"]
+			description: [
+				"§7Craft the §b§lMana Gun§7 — Botania's ranged weapon."
+				""
+				"§7The Mana Gun fires projectiles that deal damage based on the Mana Lens loaded."
+				"§7Available lenses: §bExplosive§7, §bGravity§7, §bFire§7, §bFrost§7."
+				""
+				"§8The §bExplosive Lens§8 is devastating — pairs well with mining."
+				"§8Load it with a §bContainment Lens§8 to capture weak mobs without killing them."
+			]
+			id: "F101000000000080"
+			rewards: [
+				{
+					id: "F101000000000081"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 1
+					id: "F101000000000082"
+					item: "botania:mana_gun"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F101000000000083"
+				item: "botania:mana_gun"
+				type: "item"
+			}]
+			title: "§bMana Gun"
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F100000000000060"]
+			description: [
+				"§7Build the §b§lAlfheim Portal§7 — Botania's Elven Gateway to Alfheim."
+				""
+				"§7The Alfheim Portal connects your world to the Elf dimension, enabling §bElvish crafting§7."
+				"§7To activate: feed it significant Mana from Mana Pools and throw Elven materials into it."
+				""
+				"§8Required for: Elementium, Dreamwood, Elfsteel, and Elven-exclusive crafting recipes."
+				"§8The Portal must stay active by continuously receiving Mana — connect a Mana Spreader to it."
+			]
+			id: "F101000000000090"
+			rewards: [
+				{
+					id: "F101000000000091"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "F101000000000092"
+					item: "botania:elf_quartz"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "F101000000000093"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			title: "§b§lAlf Portal"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["F101000000000090"]
+			description: [
+				"§7Defeat §b§lGaia Guardian II§7 — the true Botania endgame boss."
+				""
+				"§7Gaia Guardian II is far more dangerous than Guardian I — it spawns clones, clouds, and deals heavy damage."
+				"§7Build a proper enclosed arena with walls to contain the chaos."
+				""
+				"§7Drops: §bGaia Spirit§7 + §bRing of Odin§7 — gives +20 max HP."
+				""
+				"§8The §bRing of Odin§8 is one of the best survival items in the entire pack. Always pursue Guardian II."
+			]
+			id: "F101000000000100"
+			rewards: [
+				{
+					id: "F101000000000101"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 6
+					id: "F101000000000102"
+					item: "botania:gaia_spirit"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "F101000000000103"
+				title: "Defeat Gaia Guardian II."
+				type: "checkmark"
+			}]
+			title: "§b§lGaia II"
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["F101000000000100"]
+			description: [
+				"§7Craft the §b§lRod of the Hells§7 — Botania's fire-elemental rod."
+				""
+				"§7The Rod of the Hells launches a fiery projectile that ignites the ground and deals AoE fire damage."
+				"§7Requires §bGaia Spirit§7 and §bBlaze Powder§7 components."
+				""
+				"§8Pair with a §bRod of the Seas§8 (water rod) for full elemental control."
+				"§8Both rods drain Mana from your Mana Tablet — keep one topped up."
+			]
+			id: "F101000000000110"
+			rewards: [
+				{
+					id: "F101000000000111"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 1
+					id: "F101000000000112"
+					item: "botania:rod_of_the_hells"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F101000000000113"
+				item: "botania:rod_of_the_hells"
+				type: "item"
+			}]
+			title: "§b§lRod of the Hells"
+			x: 12.0d
+			y: 7.0d
+		}
 	]
 }

@@ -270,5 +270,360 @@
 			x: 9.0d
 			y: 3.5d
 		}
+		{
+			dependencies: ["F200000000000002"]
+			description: [
+				"§7Find a §7Stronghold§7 and enter the §7End Portal Room§7."
+				""
+				"§7Throw an §7Eye of Ender§7 and follow where it flies — it tracks the nearest Stronghold."
+				"§7Once inside, navigate to the §7End Portal Room§7 and repair the frame with §e12 Eyes of Ender§7."
+				""
+				"§8Don't activate the portal yet if you're not ready — just find it and place a waystone nearby."
+				"§8The portal persists forever. It'll be there when you're ready for The End."
+			]
+			id: "F201000000000010"
+			rewards: [
+				{
+					id: "F201000000000011"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "F201000000000012"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F201000000000013"
+				title: "Find the Stronghold End Portal Room."
+				type: "checkmark"
+			}]
+			title: "§7Stronghold Found"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F201000000000010"]
+			description: [
+				"§7Find an §8Ancient City§7 deep in the deep dark biome."
+				""
+				"§7Ancient Cities generate at y=-52 beneath large landmasses in the deep dark."
+				"§7They're guarded by the §8Warden§7 — it will find you if you make any sound."
+				""
+				"§7Loot: §8Echo Shards§7, §8Swift Sneak§7 books, §8Disc Fragments§7, and rare materials."
+				""
+				"§8Crouch constantly. Use wool blocks to muffle footsteps. Do not sprint. Do not fight the Warden."
+			]
+			id: "F201000000000020"
+			rewards: [
+				{
+					id: "F201000000000021"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "F201000000000022"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F201000000000023"
+				title: "Loot an Ancient City chest."
+				type: "checkmark"
+			}]
+			title: "§8Ancient City"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F201000000000020"]
+			description: [
+				"§7Find and raid an §9Ocean Monument§7."
+				""
+				"§7Ocean Monuments contain §9Elder Guardians§7 that inflict §9Mining Fatigue III§7 — drink milk to remove it."
+				""
+				"§7Loot: §9Sponge blocks§7 (invaluable for draining water), §9Gold blocks§7 in the treasure room."
+				""
+				"§8Helmet enchant §9Aqua Affinity§8 + §9Respiration§8 is highly recommended."
+				"§8The center room holds 8 gold blocks — worth the fight."
+			]
+			id: "F201000000000030"
+			rewards: [
+				{
+					id: "F201000000000031"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "F201000000000032"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F201000000000033"
+				title: "Raid an Ocean Monument and defeat the Elder Guardians."
+				type: "checkmark"
+			}]
+			title: "§9Ocean Monument"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F200000000000030"]
+			description: [
+				"§7Enter §fThe End§7."
+				""
+				"§7Activate your Stronghold's End Portal and step through."
+				"§7The End is a dark void filled with §fEndermen§7 and the §5Ender Dragon§7."
+				""
+				"§8Bring: Ender Pearls, Bow + 64 arrows, your best armor, a Totem of Undying."
+				"§8Destroy the End Crystals on the obsidian pillars — they regenerate the Dragon's health."
+				"§8Don't look at Endermen unless you're ready to fight them."
+			]
+			id: "F201000000000040"
+			rewards: [
+				{
+					id: "F201000000000041"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "F201000000000042"
+					item: "minecraft:end_stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F201000000000043"
+				title: "Enter The End dimension."
+				type: "checkmark"
+			}]
+			title: "§fInto The End"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F201000000000040"]
+			description: [
+				"§7Reach an §fEnd City§7 and collect a §5Shulker Shell§7."
+				""
+				"§7After defeating the Dragon, throw an Ender Pearl into the End Gateway that spawns."
+				"§7End Cities are island structures in the outer End — navigate between islands to find them."
+				""
+				"§7Priority loot: §5Shulker Shells§7 (for Shulker Boxes — 27-slot portable storage that keep items on death)."
+				"§7Also find: §5Elytra§7 in End Ship chests — Elytra + Firework Rockets = unlimited flight."
+				""
+				"§8§5Elytra§8 is the single best traversal tool in the pack. Priority pickup."
+			]
+			id: "F201000000000050"
+			rewards: [
+				{
+					id: "F201000000000051"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "F201000000000052"
+					item: "minecraft:elytra"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "F201000000000053"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			title: "§5§lEnd City"
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F200000000000070"]
+			description: [
+				"§7Explore §aBetter End§7 — a complete visual overhaul of The End dimension."
+				""
+				"§7Better End adds new End biomes with unique flora, mobs, and structures."
+				"§7New biomes: §aCrystal Forests§7, §aPearl Islands§7, §aUmbra Valley§7, §aFoggy Mushroomland§7."
+				""
+				"§7Exclusive materials: §aTermalite§7, §aShadow Berry§7, §aEndernite Stone§7."
+				""
+				"§8Explore The End thoroughly after defeating the Dragon — each biome has unique loot."
+			]
+			id: "F201000000000060"
+			rewards: [
+				{
+					id: "F201000000000061"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 3
+					id: "F201000000000062"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F201000000000063"
+				title: "Visit a Better End unique biome."
+				type: "checkmark"
+			}]
+			title: "§aBetter End"
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F201000000000060"]
+			description: [
+				"§7Visit all §c4 Nether biome types§7: Crimson Forest, Warped Forest, Soul Sand Valley, and Basalt Deltas."
+				""
+				"§7Each biome has unique resources:"
+				"§c  Crimson Forest §7— Crimson Wood, Hoglins, Piglins"
+				"§b  Warped Forest §7— Warped Wood, Endermen, Striders"
+				"§7  Soul Sand Valley §7— Soul Sand, Soul Fire, Ghasts"
+				"§8  Basalt Deltas §7— Basalt, Magma Cubes, Blackstone"
+				""
+				"§8Use §aXaero's World Map§8 to track which Nether biomes you've visited."
+			]
+			id: "F201000000000070"
+			rewards: [
+				{
+					id: "F201000000000071"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 3
+					id: "F201000000000072"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F201000000000073"
+				title: "Visit all 4 Nether biome types."
+				type: "checkmark"
+			}]
+			title: "§cNether Cartographer"
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F200000000000040"]
+			description: [
+				"§7Find and enter §bThe Aether§7 — the sky dimension of clouds and floating islands."
+				""
+				"§7Build a §bGlowstone§7 portal frame (like a Nether portal) and click it with a §bWater Bucket§7 to activate."
+				"§7Inside, find Bronze, Silver, and Gold dungeons with unique bosses and loot."
+				""
+				"§7Key resources: §bAmbrosium§7, §bZanite§7, §bGravitite§7."
+				""
+				"§8The Aether is the Phase IV sky dimension — best done with Phase III gear."
+				"§8Dungeon bosses drop Aether-exclusive tools and armor."
+			]
+			id: "F201000000000080"
+			rewards: [
+				{
+					id: "F201000000000081"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "F201000000000082"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F201000000000083"
+				title: "Enter the Aether dimension."
+				type: "checkmark"
+			}]
+			title: "§bAether Reached"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F200000000000060"]
+			description: [
+				"§7Find a §cNether Fortress§7 and collect §c8 Blaze Rods§7."
+				""
+				"§7Nether Fortresses are castle structures with Blaze spawners. Blazes drop §cBlaze Rods§7 — essential for Brewing Stands."
+				""
+				"§7Also find: §cWither Skeleton§7 skulls for the Wither boss, §cNether Wart§7 for potions."
+				""
+				"§8Mark the Fortress on your world map. A Wither Skeleton farm here is one of the best long-term investments."
+			]
+			id: "F201000000000090"
+			rewards: [
+				{
+					id: "F201000000000091"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "F201000000000092"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "F201000000000093"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "§cNether Fortress"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["F200000000000060"]
+			description: [
+				"§7Find a §6Nether Bastion Remnant§7 and loot it."
+				""
+				"§7Bastions are massive Piglin fortress structures found in all Nether biomes except Basalt Deltas."
+				"§7§6Piglin Brutes§7 guard the loot and attack regardless of gold armor."
+				""
+				"§7Loot: §6Netherite Scraps§7 (rare chests), §6Lodestones§7, §6Gold§7, §6Crossbows§7."
+				""
+				"§8Wear gold armor to keep regular Piglins neutral — only Brutes will attack."
+				"§8The bridge chests in Treasure Bastions have the best loot in the Nether."
+			]
+			id: "F201000000000100"
+			rewards: [
+				{
+					id: "F201000000000101"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "F201000000000102"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F201000000000103"
+				title: "Loot a Nether Bastion Remnant."
+				type: "checkmark"
+			}]
+			title: "§6Bastion Raided"
+			x: 9.0d
+			y: 7.0d
+		}
 	]
 }

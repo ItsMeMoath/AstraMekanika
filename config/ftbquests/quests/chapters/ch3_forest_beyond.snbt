@@ -473,5 +473,439 @@
 			x: 12.0d
 			y: 3.5d
 		}
+		{
+			dependencies: ["CC00000000000010"]
+			description: [
+				"§3Boss 2: The Twilight Lich§7"
+				""
+				"§7Towers: §3tall, dark spires§7 visible above the tree canopy. Climb to the top."
+				""
+				"§aStrategy: §7The Lich is surrounded by §c3 orbiting shields§7. You cannot damage it while shielded."
+				"§7Reflect its golden projectiles §eback at it§7 using any weapon or shield hit. Each reflection destroys one shield."
+				"§7Once unshielded, go in and melee."
+				""
+				"§eDrop: §7Scepters (Twilight, Life Draining, Zombie), §7Twilight Armor pieces."
+				"§8The Twilight Scepter is extremely strong for this phase — keep it."
+			]
+			id: "CC01000000000010"
+			rewards: [
+				{
+					id: "CC01000000000011"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "CC01000000000012"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "CC01000000000013"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			title: "§3Boss II — Twilight Lich"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["CC01000000000010"]
+			description: [
+				"§3Boss 4: The Knight Phantoms§7"
+				""
+				"§7Found in the §3Hollow Hills§7 — large dark towers in the dense forest."
+				""
+				"§aStrategy: §7Four armored phantoms attack in waves. They are §cimmune to normal weapons§7 while the Maze Map is active."
+				"§7Destroy §3Phantom Armor§7 stands around the room first to weaken them."
+				"§7Focus one at a time — they can overwhelm you if you split attention."
+				""
+				"§eDrop: §7§3Knightmetal Ingots§7 — required for the §6Twilight Sigil Plate§7."
+			]
+			id: "CC01000000000020"
+			rewards: [
+				{
+					id: "CC01000000000021"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "CC01000000000022"
+					item: "twilightforest:knightmetal_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "CC01000000000023"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			title: "§3Boss IV — Knight Phantoms"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["CC01000000000020"]
+			description: [
+				"§3Boss 5: The Ur-Ghast§7"
+				""
+				"§7Found atop the §3Dark Tower§7 — a massive black structure filled with traps, Carminite Constructs, and Ghastlings."
+				""
+				"§aStrategy: §7The Ur-Ghast is immune to normal damage while it throws §cFirebombs§7."
+				"§7Craft §3Ghast Traps§7 (found in the tower) and activate them by standing near them — they stun the Ur-Ghast."
+				"§7While stunned, attack with everything you have."
+				""
+				"§eDrop: §7§3Fiery Blood§7 → smelt into §3Fiery Ingots§7 for Fiery armor and tools."
+			]
+			id: "CC01000000000030"
+			rewards: [
+				{
+					id: "CC01000000000031"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "CC01000000000032"
+					item: "twilightforest:fiery_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "CC01000000000033"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			title: "§3Boss V — Ur-Ghast"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["CC00000000000090"]
+			description: [
+				"§7Craft a §6Mekanism Purification Chamber§7."
+				""
+				"§7The Purification Chamber processes raw ores with §6Oxygen§7 (produced by Electrolytic Separator) to create §6Clumps§7 — the first step of 5x ore processing."
+				""
+				"§75x Chain: Raw Ore → Purification Chamber → Crusher → Enrichment Chamber → Smelter"
+				"§7Each step multiplies yield. The full chain produces §a5 ingots per ore§7."
+				""
+				"§8Build the Electrolytic Separator first to produce Oxygen and Hydrogen."
+			]
+			id: "CC01000000000040"
+			rewards: [
+				{
+					id: "CC01000000000041"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "CC01000000000042"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "CC01000000000043"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			title: "§65x Ore Processing"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["CC01000000000040"]
+			description: [
+				"§7Craft a §6Mekanism Digital Miner§7 — the most powerful automated mining tool in Phase III."
+				""
+				"§7The Digital Miner scans a configurable radius (default: 32 blocks) and mines specific ores or blocks."
+				"§7Configure target blocks using the §6Filter§7 system — whitelist ores by type."
+				"§7It requires §6Atomic Alloy§7 and §6Control Circuits§7 to craft."
+				""
+				"§8Set it up over your base and let it mine your local chunk cluster for you."
+				"§8With a §6Silk Touch§7 upgrade, it mines blocks intact for further processing."
+			]
+			id: "CC01000000000050"
+			rewards: [
+				{
+					id: "CC01000000000051"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "CC01000000000052"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "CC01000000000053"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			title: "§6§lDigital Miner"
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["CC00000000000070"]
+			description: [
+				"§7Craft §2Tier 2 Mystical Agriculture seeds§7 — Prudentium tier."
+				""
+				"§7Tier 2 seeds grow: Coal, Redstone, Glowstone, Obsidian, Prismarine."
+				"§7Craft §2Prudentium Essence§7 by upgrading §2Inferium Essence§7 x4 → 1 Prudentium in the §2Seed Crafter§7."
+				""
+				"§8Tier 2 seeds grow slower than Tier 1 — place them on §2Essence Farmland§8 to compensate."
+				"§8Target: Coal and Redstone seeds first. Both are high-demand resources."
+			]
+			id: "CC01000000000060"
+			rewards: [
+				{
+					id: "CC01000000000061"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "CC01000000000062"
+					item: "mysticalagriculture:prudentium_essence"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "CC01000000000063"
+				item: "mysticalagriculture:coal_seeds"
+				type: "item"
+			}]
+			title: "§2Tier 2 Seeds"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["CC01000000000060"]
+			description: [
+				"§7Craft §2Essence Farmland§7 — §2Mystical Agriculture's§7 boosted soil."
+				""
+				"§7§2Essence Farmland§7 grows seeds at §a3× normal speed§7 vs standard farmland."
+				"§7Recipe: §2Inferium Essence§7 + Dirt (check JEI)."
+				""
+				"§7Replace all your MA seed plots with Essence Farmland."
+				""
+				"§8Upgrade to §2Fertilized Essence§8 Farmland (from §2Inferium Fertilizer§8) for even faster growth."
+			]
+			id: "CC01000000000070"
+			rewards: [
+				{
+					id: "CC01000000000071"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "CC01000000000072"
+					item: "mysticalagriculture:essence_farmland"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "CC01000000000073"
+				item: "mysticalagriculture:essence_farmland"
+				type: "item"
+			}]
+			title: "§2Essence Farmland"
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["CC00000000000090"]
+			description: [
+				"§7Build an §aIndustrial Foregoing Mob Crusher§7."
+				""
+				"§7The Mob Crusher kills mobs in a configurable area and collects their drops automatically."
+				"§7It also produces §aExperience§7 as a fluid — pipe it to an §aExperience Solidifier§7 for XP bottles."
+				""
+				"§8Combine with a §aMob Spawner§7 (vanilla spawner + Apotheosis upgrade) for a fully automated XP and drop farm."
+				"§8The §aSewer§8 collects drops passively from the floor — pair it with the crusher."
+			]
+			id: "CC01000000000080"
+			rewards: [
+				{
+					id: "CC01000000000081"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "CC01000000000082"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "CC01000000000083"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			title: "§aMob Crusher"
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["CC000000000000A0"]
+			description: [
+				"§7Enter §5Better End§7 — a dramatically overhauled End dimension."
+				""
+				"§7§5Better End§7 adds new biomes to The End: Crystal Forests, Foggy Mushroomland, Sulphur Springs, and more."
+				"§7It also adds new mobs, blocks, and unique ores like §5Aeternium§7 and §5Thallasium§7."
+				""
+				"§7Collect §58 unique Better End materials§7 — blocks, plants, or ores exclusive to the dimension."
+				""
+				"§8Better End also adds an §5End City alternative§8 structure with its own loot tables."
+			]
+			id: "CC01000000000090"
+			rewards: [
+				{
+					id: "CC01000000000091"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "CC01000000000092"
+					item: "betterend:aeternium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "CC01000000000093"
+				item: "betterend:thallasium_ingot"
+				type: "item"
+			}]
+			title: "§5Better End"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["CC000000000000B0"]
+			description: [
+				"§7Craft a §6Mekanism Electrolytic Separator§7."
+				""
+				"§7The Electrolytic Separator splits water into §6Hydrogen§7 and §6Oxygen§7 gas — both essential for 5x ore processing."
+				"§7Hydrogen: powers the §6Mekanism Fusion Reactor§7 (later)"
+				"§7Oxygen: feeds the §6Purification Chamber§7 for ore tripling"
+				""
+				"§8You need a §6Basic Fluid Tank§8 to store each gas. Pipe them with §6Mechanical Pipes§8."
+				"§8Power cost is significant — run it off your Heat Generator or build a dedicated Stirling setup."
+			]
+			id: "CC010000000000A0"
+			rewards: [
+				{
+					id: "CC010000000000A1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "CC010000000000A2"
+					item: "mekanism:basic_fluid_tank"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "CC010000000000A3"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			title: "§6Electrolytic Separator"
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["CC010000000000A0"]
+			description: [
+				"§7Craft §6Mekanism Osmium Armor§7 — your first dedicated Mekanism protection set."
+				""
+				"§7Osmium armor provides solid base protection and can be upgraded with §6Modules§7:"
+				"§6  Radiation Shielding §8— required for NuclearCraft work in Phase IV"
+				"§6  Jetpack §8— built-in flight"
+				"§6  Gravitational §8— fall damage immunity"
+				""
+				"§8Osmium armor is craftable now and should replace your iron set for the rest of Phase III."
+			]
+			id: "CC010000000000B0"
+			rewards: [
+				{
+					id: "CC010000000000B1"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "CC010000000000B2"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "CC010000000000B3"
+					item: "mekanism:hazmat_mask"
+					type: "item"
+				}
+				{
+					id: "CC010000000000B4"
+					item: "mekanism:hazmat_gown"
+					type: "item"
+				}
+			]
+			title: "§6Mekanism Suit"
+			x: 12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["CC000000000000C0"]
+			description: [
+				"§7Build a §6Create Mechanical Crafter§7 array — a grid of crafters that can automatically perform complex shapeful recipes."
+				""
+				"§7The Mechanical Crafter simulates a 3×3 crafting grid using individual crafter blocks connected by shafts."
+				"§7It enables §6Create§7 to craft items that require a specific crafting pattern — no manual crafting needed."
+				""
+				"§8Essential for automating §6Create Contraptions§8 and mid-tier Mekanism component production."
+				"§8The crafter needs rotation input — connect your shaft network to it."
+			]
+			id: "CC010000000000C0"
+			rewards: [
+				{
+					id: "CC010000000000C1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "CC010000000000C2"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "CC010000000000C3"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "§eMechanical Crafter"
+			x: 15.0d
+			y: 3.5d
+		}
 	]
 }
