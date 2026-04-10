@@ -1,0 +1,477 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ch3_forest_beyond"
+	group: "3E586F2160161EEA"
+	icon: "twilightforest:twilight_shard"
+	id: "CC00000000000001"
+	order_index: 3
+	quest_links: []
+	title: "§3§lIII. The Forest Beyond"
+	quests: [
+		{
+			description: [
+				"§7The overworld isn't enough."
+				""
+				"§7A shimmering portal tears open reality. Eternal twilight. Ancient bosses. And beyond it — machines that run on kilowatts."
+				""
+				"§3Complete the Twilight Forest boss chain§7. Then forge §6Mekanism§7's foundation and seal Phase III."
+				""
+				"§8Unlock condition: §dCrimson Circuit of Passage §8(Phase II complete)"
+			]
+			id: "CC00000000000002"
+			rewards: [{
+				id: "CC00000000000003"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "CC00000000000004"
+				title: "Enter Phase III."
+				type: "checkmark"
+			}]
+			title: "§3§lThe Forest Beyond"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["CC00000000000002"]
+			description: [
+				"§7Craft a §3Twilight Forest Portal§7."
+				""
+				"§7Dig a 2×2 hole, fill it with water, and surround the edge with §3any flowers or mushrooms§7."
+				"§7Throw a §eDiamond§7 into the water. The portal activates."
+				""
+				"§8Step through. The forest awaits."
+				"§8Warning: §7The Twilight Forest has a strict boss order. Follow the §3Twilight Path§7 tab."
+			]
+			id: "CC00000000000010"
+			rewards: [
+				{
+					id: "CC00000000000011"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "CC00000000000012"
+					item: "twilightforest:magic_map"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "CC00000000000013"
+				title: "Craft and step through the Twilight Forest portal."
+				type: "checkmark"
+			}]
+			title: "§3Into the Twilight"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["CC00000000000010"]
+			description: [
+				"§3Complete the full Twilight Forest boss chain.§7"
+				""
+				"§7Follow the §3Twilight Path§7 chapter tab (visible in the Side Quests group)."
+				"§7The chain must be completed in order — skipping any boss causes the next area to be sealed by protection magic."
+				""
+				"§7The chain ends with the §3Snow Queen§7. Collect her trophy as proof."
+				""
+				"§8Return here when the full chain is complete."
+			]
+			id: "CC00000000000020"
+			rewards: [
+				{
+					id: "CC00000000000021"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "CC00000000000022"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "CC00000000000023"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			title: "§3§lTwilight Champion"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["CC00000000000020"]
+			description: [
+				"§7Craft a §6Mekanism Metallurgic Infuser§7."
+				""
+				"§7The Metallurgic Infuser is the foundation of §6Mekanism§7 alloy production."
+				"§7It infuses metals with Carbon (from coal), Diamonds, Obsidian, and more to create alloys like §6Steel§7, §6Enriched Iron§7, and §6Bronze§7."
+				""
+				"§8§6Mekanism§8 machines run on Joules (J). You'll need a §6Basic Energy Cube§8 or §6Heat Generator§8 for power."
+			]
+			id: "CC00000000000030"
+			rewards: [
+				{
+					id: "CC00000000000031"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "CC00000000000032"
+					item: "mekanism:energy_tablet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "CC00000000000033"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "§6Metallurgic Mind"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["CC00000000000030"]
+			description: [
+				"§7Use the §6Metallurgic Infuser§7 to produce §e8 Enriched Iron§7 by infusing iron with §eDiamond Dust§7."
+				""
+				"§7Enriched Iron is the first step toward §6Steel§7 in Mekanism — combine it with Carbon in the Infuser."
+				"§7Mekanism Steel (§6Refined Obsidian§7 tier) is required for high-end Mekanism machines."
+				""
+				"§8Set up a §6Heat Generator§8 adjacent to lava to power the Infuser passively."
+			]
+			id: "CC00000000000040"
+			rewards: [
+				{
+					id: "CC00000000000041"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "CC00000000000042"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 8L
+				id: "CC00000000000043"
+				item: "mekanism:enriched_iron"
+				type: "item"
+			}]
+			title: "§6First Alloy"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["CC00000000000040"]
+			description: [
+				"§3§l✦ Phase III Complete"
+				""
+				"§7You conquered the Twilight and started the industrial revolution."
+				""
+				"§7Craft the §3Twilight Sigil Plate§7 to seal Phase III and unlock §9Phase IV: Infinite Architecture§7."
+				""
+				"§c§lUnlocks: §fMekanism full suite  ·  Applied Energistics 2  ·  Mystical Agriculture Seed Base  ·  Industrial Foregoing"
+			]
+			id: "CC00000000000050"
+			rewards: [
+				{
+					id: "CC00000000000051"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 12
+					id: "CC00000000000052"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					id: "CC00000000000053"
+					item: "kubejs:moathco_files_vol_3"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "CC00000000000054"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					command: "/function moathco:phase_3_broadcast"
+					id: "CC00000000000055"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "CC00000000000056"
+				item: "kubejs:twilight_sigil_plate"
+				type: "item"
+			}]
+			title: "§3§l⚙ Twilight Sigil Plate"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["CC00000000000002"]
+			description: [
+				"§7Enter §9The Undergarden§7 — a deep underground dimension of crystalline caves, unique mobs, and exotic plants."
+				""
+				"§7Find the Undergarden Portal (a naturally generating structure) or craft one from §9Depthrock§7."
+				""
+				"§7Collect §95 unique Undergarden plants§7 — Gloomgourd, Smolderock Shrubs, and more. They're decorative and some have uses."
+				""
+				"§8The Undergarden has its own ore veins — worth mining early."
+			]
+			id: "CC00000000000060"
+			rewards: [
+				{
+					id: "CC00000000000061"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "CC00000000000062"
+					item: "undergarden:smogstem_log"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "CC00000000000063"
+				item: "undergarden:gloomgourd"
+				type: "item"
+			}]
+			title: "§9Undergarden Delver"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["CC00000000000010"]
+			description: [
+				"§7Craft your first §2Mystical Agriculture§7 crop seed using a §2Seed Base§7."
+				""
+				"§7§2Mystical Agriculture§7 lets you grow virtually any resource — iron, diamonds, emeralds, even mob drops."
+				"§7Higher tier seeds require essences from lower tier crops. Start with §2Tier 1§7 seeds."
+				""
+				"§8The Seed Base recipe requires a §2Prosperity Shard§7 found in structures or dropped by mobs."
+				"§8Plant in Essence Farmland for faster growth."
+			]
+			id: "CC00000000000070"
+			rewards: [
+				{
+					id: "CC00000000000071"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "CC00000000000072"
+					item: "mysticalagriculture:prosperity_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "CC00000000000073"
+				item: "mysticalagriculture:seed_base"
+				type: "item"
+			}]
+			title: "§2Seeds of Fortune"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["CC00000000000030"]
+			description: [
+				"§7Craft an §eIron's Spellbooks Arcane Altar§7."
+				""
+				"§7Iron's Spellbooks provides a more structured approach to magic: fixed spell scrolls with specific effects, upgradeable with an imprint system."
+				"§7You can find spell scrolls in dungeons or craft them at the Altar."
+				""
+				"§8Pairs well with §5Ars Nouveau§7 — different school, different strengths."
+			]
+			id: "CC00000000000080"
+			rewards: [
+				{
+					id: "CC00000000000081"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "CC00000000000082"
+					item: "irons_spellbooks:scroll_of_fire_breath"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "CC00000000000083"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			title: "§eArcane Anvil"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["CC00000000000030"]
+			description: [
+				"§7Build an §aIndustrial Foregoing Plant Gatherer§7 over a crop field."
+				""
+				"§7The Plant Gatherer automatically harvests crops in a configurable range and deposits them into adjacent inventories or RS networks."
+				"§7Pair with a §aSewer§7 to also collect mob drops automatically."
+				""
+				"§8Upgrade the Range Addon to harvest a larger area."
+			]
+			id: "CC00000000000090"
+			rewards: [
+				{
+					id: "CC00000000000091"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "CC00000000000092"
+					item: "industrialforegoing:plant_fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "CC00000000000093"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			title: "§aIndustrial Harvest"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["CC00000000000010"]
+			description: [
+				"§7Explore §cBetter Nether§7 — a dramatically overhauled Nether with new biomes, structures, and unique materials."
+				""
+				"§7Collect §e8 unique Better Nether materials§7:"
+				"§e  Nether Ruby Ore, Cincinnasite, Stalagnate Wood, Nether Mushrooms, Rubeus Wood"
+				""
+				"§8Better Nether also adds Nether villages with unique trades. Worth visiting before endgame."
+			]
+			id: "CC000000000000A0"
+			rewards: [
+				{
+					id: "CC000000000000A1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "CC000000000000A2"
+					item: "betternether:nether_ruby"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "CC000000000000A3"
+				item: "betternether:cincinnasite"
+				type: "item"
+			}]
+			title: "§cBetter Nether Run"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["CC00000000000020"]
+			description: [
+				"§7Build a §6Mekanism Heat Generator§7 adjacent to a lava source."
+				""
+				"§7The Heat Generator converts heat from lava into Joules (J) — §6Mekanism§7's power unit."
+				"§7It generates power passively when touching lava, or burns fuel items at a lower rate."
+				""
+				"§7Then craft a §6Basic Energy Cube§7 to store and distribute power between machines."
+				""
+				"§8Multiple Heat Generators can run in parallel — place them around a lava pool."
+			]
+			id: "CC000000000000B0"
+			rewards: [
+				{
+					id: "CC000000000000B1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "CC000000000000B2"
+					item: "mekanism:basic_energy_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "CC000000000000B3"
+					item: "mekanism:heat_generator"
+					type: "item"
+				}
+				{
+					id: "CC000000000000B4"
+					item: "mekanism:basic_energy_cube"
+					type: "item"
+				}
+			]
+			title: "§6Mekanism Power"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["CC000000000000B0"]
+			description: [
+				"§7Craft a §6Mekanism Enrichment Chamber§7 and a §6Crusher§7."
+				""
+				"§7The Enrichment Chamber produces §6Enriched§7 versions of ores and materials — the foundation of §6Mekanism's 5x ore processing§7 chain."
+				"§7The Crusher produces dusts from raw materials."
+				""
+				"§85x ore processing chain: Ore → Crusher → Enrichment Chamber → Smelter → Combiner → Purification Chamber"
+				"§8Each step requires power and infrastructure but multiplies ore output dramatically."
+			]
+			id: "CC000000000000C0"
+			rewards: [
+				{
+					id: "CC000000000000C1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "CC000000000000C2"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "CC000000000000C3"
+					item: "mekanism:enrichment_chamber"
+					type: "item"
+				}
+				{
+					id: "CC000000000000C4"
+					item: "mekanism:crusher"
+					type: "item"
+				}
+			]
+			title: "§6Ore Processing Chain"
+			x: 12.0d
+			y: 3.5d
+		}
+	]
+}

@@ -1,0 +1,484 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ch4_infinite_arch"
+	group: "3E586F2160161EEA"
+	icon: "ae2:controller"
+	id: "DD00000000000001"
+	order_index: 4
+	quest_links: []
+	title: "§9§lIV. Infinite Architecture"
+	quests: [
+		{
+			description: [
+				"§7The machines are thinking now. Energy flows like water."
+				""
+				"§7Phase IV introduces §9Applied Energistics 2§7, §cNuclearCraft§7, and the §bAether§7."
+				"§7Build a network that thinks. Power a reactor that splits atoms. Step into the sky."
+				""
+				"§8Unlock condition: §3Twilight Sigil Plate §8(Phase III complete)"
+			]
+			id: "DD00000000000002"
+			rewards: [{
+				id: "DD00000000000003"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "DD00000000000004"
+				title: "Enter Phase IV."
+				type: "checkmark"
+			}]
+			title: "§9§lInfinite Architecture"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["DD00000000000002"]
+			description: [
+				"§7Craft an §9AE2 Controller§7 and a §9ME Drive§7."
+				""
+				"§7The Controller is the brain of your §9ME Network§7. Every component must be connected to it via cables."
+				"§7The ME Drive holds §9Storage Cells§7 — each cell stores thousands of items organized by type."
+				""
+				"§8§9AE2§8 is gated behind Phase III. You now have access."
+				"§8Unlike Refined Storage, AE2 requires §9Channels§8 — each cable type carries a limited number of channels to devices."
+			]
+			id: "DD00000000000010"
+			rewards: [
+				{
+					id: "DD00000000000011"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					id: "DD00000000000012"
+					item: "ae2:storage_cell_64k"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "DD00000000000013"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					id: "DD00000000000014"
+					item: "ae2:drive"
+					type: "item"
+				}
+			]
+			title: "§9The Crystal Network"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["DD00000000000010"]
+			description: [
+				"§7Craft a §9Pattern Provider§7 and a §9Crafting CPU§7 cluster."
+				""
+				"§7Encode §916 crafting patterns§7 using a §9Pattern Encoding Terminal§7. These patterns teach your network how to automatically craft items on demand."
+				""
+				"§7The Crafting CPU processes autocrafting requests — larger CPUs handle more complex recipes."
+				""
+				"§8Set up autocrafting for your most-used materials first: iron plates, circuits, and alloys."
+			]
+			id: "DD00000000000020"
+			rewards: [
+				{
+					id: "DD00000000000021"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "DD00000000000022"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "DD00000000000023"
+					item: "ae2:encoded_pattern"
+					type: "item"
+				}
+				{
+					id: "DD00000000000024"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+			]
+			title: "§9Pattern Memory"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["DD00000000000020"]
+			description: [
+				"§7Build and activate a §cNuclearCraft Fission Reactor§7."
+				""
+				"§7The Fission Reactor generates massive amounts of RF from nuclear fuel."
+				"§7Structure: §cReactor Casing§7 walls + §cReactor Glass§7 windows + fuel cells + moderators + coolers."
+				""
+				"§8Use JEI or NuclearCraft's built-in guide to plan your first reactor."
+				"§8Start small — even a 3×3×3 reactor outputs more power than anything you've built so far."
+				"§8Nuclear fuel is finite — set up fuel reprocessing eventually."
+			]
+			id: "DD00000000000030"
+			rewards: [
+				{
+					id: "DD00000000000031"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "DD00000000000032"
+					item: "nuclearcraft:fuel_uranium_lea"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "DD00000000000033"
+				title: "Build and activate a NuclearCraft Fission Reactor."
+				type: "checkmark"
+			}]
+			title: "§cNuclear Kindling"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["DD00000000000030"]
+			description: [
+				"§7Craft an §bAether Portal§7 — a frame of §bGlowstone§7 lit with a §bBucket of Water§7."
+				""
+				"§7Step through into the §bAether§7 — floating sky islands of white grass, Holystone, and unique mobs."
+				"§7Collect §e1 Ambrosium Shard§7 from the Aether surface as proof of your arrival."
+				""
+				"§8The Aether has its own progression: Golden Dungeons, Silver Dungeons, and the Slider's Labyrinth."
+				"§8Aether loot — Skyroot tools, Zanite gear, Gravitite — is worth the exploration."
+			]
+			id: "DD00000000000040"
+			rewards: [
+				{
+					id: "DD00000000000041"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "DD00000000000042"
+					item: "aether:ambrosium_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 1L
+				id: "DD00000000000043"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			title: "§bSky Pilgrim"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["DD00000000000040"]
+			description: [
+				"§9§l✦ Phase IV Complete"
+				""
+				"§7The network thinks. The reactor roars. The sky has been touched."
+				""
+				"§7Craft the §9Reactor Authority Seal§7 to seal Phase IV and unlock §5Phase V: The Architect's Ascent§7."
+				""
+				"§c§lUnlocks: §fDraconic Evolution  ·  Ad Astra Rocketry  ·  Ender's Cataclysm  ·  Draconic Fusion Crafting"
+			]
+			id: "DD00000000000050"
+			rewards: [
+				{
+					id: "DD00000000000051"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 15
+					id: "DD00000000000052"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					id: "DD00000000000053"
+					item: "kubejs:moathco_files_vol_4"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "DD00000000000054"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					command: "/function moathco:phase_4_broadcast"
+					id: "DD00000000000055"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "DD00000000000056"
+				item: "kubejs:reactor_authority_seal"
+				type: "item"
+			}]
+			title: "§9§l⚙ Reactor Authority Seal"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["DD00000000000010"]
+			description: [
+				"§7Craft a §9Wireless Access Terminal§7 and link it to your ME Network."
+				""
+				"§7The Wireless Terminal lets you access your entire storage network from anywhere within range — no terminal block needed."
+				""
+				"§8Charge it in a §9Charger§8. Link it by right-clicking a §9Wireless Access Point§8 connected to your network."
+			]
+			id: "DD00000000000060"
+			rewards: [
+				{
+					id: "DD00000000000061"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "DD00000000000062"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "DD00000000000063"
+				item: "ae2:wireless_terminal"
+				type: "item"
+			}]
+			title: "§9Wireless Network"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["DD00000000000010"]
+			description: [
+				"§7Craft a §bPsi CAD§7 (Computer Aided Device) and load a §bSpell Bullet§7 into it."
+				""
+				"§7§bPsi§7 is a programming-based magic system. You write §bSpells§7 using a visual editor in the CAD."
+				"§7Basic spells: Project → Impact → Block place, or Project → Entity raycast → Explosion."
+				""
+				"§8Complex Psi spells can automate tasks that would otherwise require machines."
+				"§8Learn it early — it pairs well with Ars Nouveau and Irons Spellbooks."
+			]
+			id: "DD00000000000070"
+			rewards: [
+				{
+					id: "DD00000000000071"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "DD00000000000072"
+					item: "psi:spell_bullet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "DD00000000000073"
+				item: "psi:cad_assembly"
+				type: "item"
+			}]
+			title: "§bPsi Programmer"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["DD00000000000030"]
+			description: [
+				"§7Visit §aBoth §eBlue Skies§a dimensions§7:"
+				"§e  Everbright §7— a golden daytime sky realm"
+				"§e  Everdawn §7— a twilight-purple sky realm"
+				""
+				"§7Blue Skies portals are built from crafted portal frames. Each dimension has unique mobs, biomes, and bosses."
+				""
+				"§8Blue Skies materials are excellent for decoration and mid-tier gear."
+				"§8The §eDawnswept Plains§7 of Everdawn contains some of the best early-game loot chests."
+			]
+			id: "DD00000000000080"
+			rewards: [
+				{
+					id: "DD00000000000081"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "DD00000000000082"
+					item: "blue_skies:everbright_log"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "DD00000000000083"
+					title: "Visit the Everbright dimension."
+					type: "checkmark"
+				}
+				{
+					id: "DD00000000000084"
+					title: "Visit the Everdawn dimension."
+					type: "checkmark"
+				}
+			]
+			title: "§eBlue Horizons"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["DD00000000000040"]
+			description: [
+				"§7Obtain a §6Legendary§7 quality item via §eApotheosis§7."
+				""
+				"§7§eApotheosis§7 adds item quality tiers: §7Common → Uncommon → Rare → §6Epic → §6Legendary§7."
+				"§7Legendary items roll multiple high-tier enchantments and bonus stats simultaneously."
+				""
+				"§7Find them in §eloot chests§7, upgrade items with §eGems§7 at the §eSockeing Table§7, or reforge with a §eReforging Table§7."
+				""
+				"§8Legendary gear in Phase IV is endgame-adjacent for combat."
+			]
+			id: "DD00000000000090"
+			rewards: [
+				{
+					id: "DD00000000000091"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "DD00000000000092"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "DD00000000000093"
+				title: "Obtain a Legendary quality item from Apotheosis."
+				type: "checkmark"
+			}]
+			title: "§6Legendary Grade"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["DD00000000000020"]
+			description: [
+				"§7Craft a §7Mekanism Fusion Reactor§7 — the most powerful energy source in Phase IV."
+				""
+				"§7The Fusion Reactor burns §6Deuterium§7 and §6Tritium§7 (or D-T Fuel) at extreme temperatures."
+				"§7It requires a §6Laser Focus Matrix§7 to ignite and a §6Fusion Reactor Frame§7 multiblock structure."
+				""
+				"§8This reactor outputs enough power to run your entire Mekanism array at once."
+				"§8Build it before Phase V — you'll need the power output for Draconic Evolution."
+			]
+			id: "DD000000000000A0"
+			rewards: [
+				{
+					id: "DD000000000000A1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "DD000000000000A2"
+					item: "mekanism:polonium_pellet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "DD000000000000A3"
+				title: "Build and activate a Mekanism Fusion Reactor."
+				type: "checkmark"
+			}]
+			title: "§6Fusion Reactor"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["DD00000000000030"]
+			description: [
+				"§7Craft a §ePneumaticCraft Pressure Chamber§7."
+				""
+				"§7§ePneumaticCraft§7 uses compressed air (Pressure) as its power source."
+				"§7The Pressure Chamber crafts items under pressure — it's required for many PneumaticCraft components including drones, which can be programmed to automate complex tasks."
+				""
+				"§8Even if you don't go deep into PneumaticCraft, the §ePressure Chamber§8 opens useful mid-game automation options."
+			]
+			id: "DD000000000000B0"
+			rewards: [
+				{
+					id: "DD000000000000B1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "DD000000000000B2"
+					item: "pneumaticcraft:advanced_pressure_tube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "DD000000000000B3"
+				item: "pneumaticcraft:pressure_chamber_wall"
+				type: "item"
+			}]
+			title: "§ePressure Vessel"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["DD00000000000040"]
+			description: [
+				"§7Complete the §bAether's §bBronze Dungeon§7 — a maze-like structure floating in the sky."
+				""
+				"§7The Bronze Dungeon houses the §bSlider§7 boss — a cube of Holystone that moves around the room."
+				"§7Strategy: §7You cannot hurt it while it moves. Let it slam into a wall to stun it, then attack."
+				""
+				"§8Drops: §bSlider's Labyrinth keys§7 and §bZanite§7 gear."
+				"§8Clear all three dungeon types for full Aether progression: Bronze → Silver → Gold."
+			]
+			id: "DD000000000000C0"
+			rewards: [
+				{
+					id: "DD000000000000C1"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "DD000000000000C2"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "DD000000000000C3"
+				title: "Complete the Aether Bronze Dungeon and defeat the Slider."
+				type: "checkmark"
+			}]
+			title: "§bAether Delver"
+			x: 12.0d
+			y: 3.5d
+		}
+	]
+}

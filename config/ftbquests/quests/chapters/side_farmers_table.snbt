@@ -1,0 +1,214 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "side_farmers_table"
+	group: "5186F2D762C2C9E0"
+	icon: "farmersdelight:cooking_pot"
+	id: "F400000000000001"
+	order_index: 13
+	quest_links: []
+	title: "§2Farmer's Table"
+	quests: [
+		{
+			description: [
+				"§7Food is power. A full hunger bar means faster healing and better performance."
+				""
+				"§2Farmer's Delight§7 massively expands cooking: soups, stews, salads, feasts, and more."
+				"§2Mystical Agriculture§7 lets you grow any material from seeds."
+				""
+				"§8Build a farm early. Keep it automated late."
+			]
+			id: "F400000000000002"
+			rewards: [{
+				id: "F400000000000003"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "F400000000000004"
+				title: "Open the Farmer's Table."
+				type: "checkmark"
+			}]
+			title: "§2§lFarmer's Table"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F400000000000002"]
+			description: [
+				"§7Craft a §2Farmer's Delight Cooking Pot§7."
+				""
+				"§7The Cooking Pot accepts up to 5 ingredients and a container (bowl) to produce complex meals."
+				"§7Recipes: Tomato Soup, Potato Soup, Pasta, Roast Chicken, Vegetable Noodles..."
+				""
+				"§8§2Farmer's Delight§8 meals give stronger saturation and sometimes bonus effects like Regeneration or Strength."
+				"§8Always carry a stack of your best food."
+			]
+			id: "F400000000000010"
+			rewards: [
+				{
+					id: "F400000000000011"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "F400000000000012"
+					item: "farmersdelight:tomato_soup"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F400000000000013"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "§2Cooking Pot"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F400000000000010"]
+			description: [
+				"§7Cook §e5 different §2Farmer's Delight§7 meals."
+				""
+				"§7Try:"
+				"§2  Roast Chicken §8— Chicken + Sweet Berries + Knife + Bowl"
+				"§2  Vegetable Soup §8— Carrots + Potatoes + Beets + Bowl"
+				"§2  Pasta with Meatballs §8— Egg + Wheat + Tomato + Pork + Bowl"
+				""
+				"§8The knife (craft from iron + stick) is required for many Farmer's Delight recipes."
+			]
+			id: "F400000000000020"
+			rewards: [
+				{
+					id: "F400000000000021"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "F400000000000022"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F400000000000023"
+				count: 5L
+				item: "farmersdelight:cooked_rice"
+				type: "item"
+			}]
+			title: "§2Five Meals"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F400000000000002"]
+			description: [
+				"§7Craft your first §2Mystical Agriculture§7 crop seed using a §2Seed Base§7."
+				""
+				"§7§2Mystical Agriculture§7 lets you grow almost any resource as a crop:"
+				"§2  Iron Seeds → Iron Essence → Iron Ingots"
+				"§2  Diamond Seeds → Diamond Essence → Diamonds"
+				"§2  Wither Skeleton Seeds → Wither Skeleton Essence → Wither Bones"
+				""
+				"§8Higher tier seeds are made from lower tier essences. Start with §2Tier 1§8 (Inferium) seeds."
+			]
+			id: "F400000000000030"
+			rewards: [
+				{
+					id: "F400000000000031"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "F400000000000032"
+					item: "mysticalagriculture:inferium_essence"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F400000000000033"
+				item: "mysticalagriculture:seed_base"
+				type: "item"
+			}]
+			title: "§2Mystical Seeds"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F400000000000030"]
+			description: [
+				"§7Plant §2Tier 3 Mystical Agriculture seeds§7 on §2Essence Farmland§7."
+				""
+				"§7§2Essence Farmland§7 speeds up crop growth by 10x compared to regular farmland."
+				"§7Craft it from §2Inferium Essence§7 + Dirt."
+				""
+				"§7Tier 3 crops include: Iron, Gold, Redstone, Lapis, Quartz."
+				""
+				"§8Automating Tier 3+ seeds with an §aIndustrial Foregoing Plant Gatherer§8 removes the need to mine most ores."
+			]
+			id: "F400000000000040"
+			rewards: [
+				{
+					id: "F400000000000041"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "F400000000000042"
+					item: "mysticalagriculture:iron_seeds"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "F400000000000043"
+				item: "mysticalagriculture:essence_farmland"
+				type: "item"
+			}]
+			title: "§2Essence Farmland"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F400000000000010"]
+			description: [
+				"§7Plant §e8 different crop types§7 in your base farm."
+				""
+				"§7Core crops to grow: Wheat, Carrot, Potato, Beet, Tomato, Rice, Onion, Cabbage."
+				"§7§2Farmer's Delight§7 adds Tomatoes, Rice, Onions, Cabbages, and Leeks — plant them all."
+				""
+				"§8A diverse farm enables the most complex Farmer's Delight recipes and the best food saturation."
+			]
+			id: "F400000000000050"
+			rewards: [
+				{
+					id: "F400000000000051"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "F400000000000052"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F400000000000053"
+				title: "Plant 8 different crop types on your farm."
+				type: "checkmark"
+			}]
+			title: "§2Diverse Farm"
+			x: 6.0d
+			y: 3.5d
+		}
+	]
+}

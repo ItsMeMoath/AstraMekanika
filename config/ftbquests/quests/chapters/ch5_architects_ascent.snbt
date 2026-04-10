@@ -1,0 +1,421 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ch5_architects_ascent"
+	group: "3E586F2160161EEA"
+	icon: "kubejs:heart_of_the_vault"
+	id: "EE00000000000001"
+	order_index: 5
+	quest_links: []
+	title: "§5§lV. The Architect's Ascent"
+	quests: [
+		{
+			description: [
+				"§7Stars within reach. Dragons at your feet. The Vault calls."
+				""
+				"§7Phase V is not a gate — it is a §5convergence§7."
+				"§7Space. Draconic power. Ancient bosses. Every system you built flows into one final craft."
+				""
+				"§5Forge the Vault Convergence. Become the Architect."
+				""
+				"§8Unlock condition: §9Reactor Authority Seal §8(Phase IV complete)"
+			]
+			id: "EE00000000000002"
+			rewards: [{
+				id: "EE00000000000003"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "EE00000000000004"
+				title: "Enter Phase V."
+				type: "checkmark"
+			}]
+			title: "§5§lThe Architect's Ascent"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EE00000000000002"]
+			description: [
+				"§7Craft an §6Ad Astra Rocket§7 and launch it."
+				""
+				"§7You'll need §6Compressed Steel§7, §6Desh§7 (mined on Mars), and §6Fuel§7 to launch."
+				"§7First, build the §6Rocket Launch Pad§7 and a §6Coal Generator§7 for initial power."
+				""
+				"§7Target the §eMoon§7 first — it's the closest and easiest to land on."
+				"§7Wear a §6Space Suit§7 (full set) or you won't survive the atmosphere."
+				""
+				"§8Bring pickaxes and food. The Moon has §eMoon Rock§7 ores worth collecting."
+			]
+			id: "EE00000000000010"
+			rewards: [
+				{
+					id: "EE00000000000011"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "EE00000000000012"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "EE00000000000013"
+				title: "Launch a rocket and land on the Moon."
+				type: "checkmark"
+			}]
+			title: "§6§lLaunch Protocol"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EE00000000000010"]
+			description: [
+				"§7Craft a §5Draconic Evolution Wyvern Core§7."
+				""
+				"§7§5Draconic Evolution§7 is the ultimate power system. It begins with the §5Awakened Draconium§7 progression."
+				"§7Wyvern tier is the entry point — craft Wyvern tools, then upgrade to Draconic, then Awakened."
+				""
+				"§7You need §5Draconium Ingots§7 (mined in the End) and §5Dragon Hearts§7 (from Ender Dragon kills)."
+				""
+				"§8The Draconic reactor and energy storage are endgame power infrastructure."
+			]
+			id: "EE00000000000020"
+			rewards: [
+				{
+					id: "EE00000000000021"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "EE00000000000022"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "EE00000000000023"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			title: "§5Wyvern Rising"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EE00000000000020"]
+			description: [
+				"§7Defeat at least §cone §cEnder's Cataclysm§7 boss."
+				""
+				"§7§cEnder's Cataclysm§7 adds powerful void-themed bosses that drop unique loot required for late-game crafting."
+				""
+				"§8§cWarning: §7These bosses are §ctechnically demanding§7 — bring Phase V gear. Do not fight them in Phase III equipment."
+				"§8Find the Cataclysm dungeon structures in the world or The End."
+			]
+			id: "EE00000000000030"
+			rewards: [
+				{
+					id: "EE00000000000031"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "EE00000000000032"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "EE00000000000033"
+				title: "Defeat at least one Ender's Cataclysm boss."
+				type: "checkmark"
+			}]
+			title: "§cCataclysm Survivor"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EE00000000000030"]
+			description: [
+				"§7Build a §5Draconic Evolution Fusion Crafting§7 setup."
+				""
+				"§7Fusion Crafting requires:"
+				"§5  • 1× Fusion Crafting Core§7 (center)"
+				"§5  • 4-8× Fusion Crafting Injectors§7 (surrounding)"
+				"§5  • Massive RF power§7 connected to each injector"
+				""
+				"§7Use Fusion Crafting to produce §5Awakened Draconium Ingots§7 — the rarest material in the pack."
+				""
+				"§8Fusion Crafting consumes enormous amounts of RF. Have your Mekanism Fusion Reactor or Draconic Reactor running first."
+			]
+			id: "EE00000000000040"
+			rewards: [
+				{
+					id: "EE00000000000041"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "EE00000000000042"
+					item: "draconicevolution:awakened_draconium_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "EE00000000000043"
+				item: "draconicevolution:fusion_crafting_core"
+				type: "item"
+			}]
+			title: "§5§lDraconic Fusion"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EE00000000000040"]
+			description: [
+				"§7Using Fusion Crafting, produce the §5Heart of the Vault§7."
+				""
+				"§7The Heart of the Vault is the penultimate gate before the true endgame."
+				"§7Its crafting requires §5Awakened Draconium§7, §9AE2 components§7, §6Mekanism alloys§7, and a §cNether Star§7."
+				""
+				"§8Gather all materials. This is the last checkpoint before convergence."
+			]
+			id: "EE00000000000050"
+			rewards: [
+				{
+					id: "EE00000000000051"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 15
+					id: "EE00000000000052"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					id: "EE00000000000053"
+					item: "kubejs:moathco_files_vol_5"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "EE00000000000054"
+				item: "kubejs:heart_of_the_vault"
+				type: "item"
+			}]
+			title: "§5Heart of the Vault"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EE00000000000050"]
+			description: [
+				"§5§l✦ THE END."
+				""
+				"§7Every system you built. Every seal you forged. Every dimension you walked."
+				"§7It all comes together here."
+				""
+				"§7Craft the §5§lVault Convergence§7 using Fusion Crafting."
+				"§7Recipe: §5Awakened Draconium§7 + §6Astra Alloy§7 + §cNether Star§7 + §9AE2 Crystal§7 + §5Heart of the Vault§7"
+				""
+				"§e§lYou are the Architect."
+				""
+				"§8The §5Prestige§8 system unlocks after this. Begin again — but differently."
+			]
+			id: "EE00000000000060"
+			rewards: [
+				{
+					id: "EE00000000000061"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 25
+					id: "EE00000000000062"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					command: "/function moathco:phase_5_broadcast"
+					id: "EE00000000000063"
+					type: "command"
+				}
+				{
+					command: "/title @a title {\"text\":\"The Architect\",\"color\":\"gold\",\"bold\":true}"
+					id: "EE00000000000064"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				id: "EE00000000000065"
+				item: "kubejs:vault_convergence"
+				type: "item"
+			}]
+			title: "§5§l★ Vault Convergence"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EE00000000000010"]
+			description: [
+				"§7Visit §e3 different Ad Astra planets§7."
+				""
+				"§e  Moon §7— Low gravity, Moon Rock ores, first stop"
+				"§e  Mars §7— Red desert, Desh ore (required for later rockets)"
+				"§e  Venus §7— Extreme heat, dense atmosphere, unique ores"
+				""
+				"§8Each planet requires a more advanced rocket and specific oxygen gear."
+				"§8You can build permanent §6Space Stations§8 in orbit once you have the resources."
+			]
+			id: "EE00000000000070"
+			rewards: [
+				{
+					id: "EE00000000000071"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 5
+					id: "EE00000000000072"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "EE00000000000073"
+					title: "Land on the Moon."
+					type: "checkmark"
+				}
+				{
+					id: "EE00000000000074"
+					title: "Land on Mars."
+					type: "checkmark"
+				}
+				{
+					id: "EE00000000000075"
+					title: "Land on Venus or another planet."
+					type: "checkmark"
+				}
+			]
+			title: "§6Planetary Explorer"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["EE00000000000020"]
+			description: [
+				"§7Craft §5Draconic Evolution§7 armor and defeat the §cEnder Dragon§7 wearing it."
+				""
+				"§7Draconic armor absorbs damage using RF stored in the armor itself — essentially infinite durability as long as it's charged."
+				"§7Pair with the §5Draconic Chestplate§7's built-in flight to dominate the end fight."
+				""
+				"§8The Dragon must be killed fresh — not a previously killed dragon. Re-summon with 4 End Crystals."
+			]
+			id: "EE00000000000080"
+			rewards: [
+				{
+					id: "EE00000000000081"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "EE00000000000082"
+					item: "draconicevolution:dragon_heart"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "EE00000000000083"
+				title: "Defeat the Ender Dragon while wearing Draconic Evolution armor."
+				type: "checkmark"
+			}]
+			title: "§5Dragon's End"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["EE00000000000030"]
+			description: [
+				"§7Visit the §8Mining Dimension§7 and mine §e256 ores§7."
+				""
+				"§7The Mining Dimension is a void world with infinite, dense ore generation — ideal for bulk resource gathering."
+				"§7Every vanilla ore spawns here at high density. With a Tinkers' or Mekanism mining tool, you can clear entire vein networks in minutes."
+				""
+				"§8Use FTB UltiMine (hold §eU§8 while mining) to vein-mine entire ore clusters at once."
+			]
+			id: "EE00000000000090"
+			rewards: [
+				{
+					id: "EE00000000000091"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "EE00000000000092"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "EE00000000000093"
+				title: "Mine 256 ores in the Mining Dimension."
+				type: "checkmark"
+			}]
+			title: "§8Mining Infinite"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["EE00000000000040"]
+			description: [
+				"§7Build the §5Draconic Evolution Reactor§7 structure."
+				""
+				"§7The Draconic Reactor is the most powerful — and most dangerous — energy source in the game."
+				"§7It outputs millions of RF/t but can §cexplode if mismanaged§7 — the explosion is devastating."
+				""
+				"§8Do §cNOT§8 let the containment field drop while the reactor is at high temperature."
+				"§8Research the safety parameters before starting it. Monitor it constantly."
+				"§8Disable it safely before any pack updates or major changes to your power grid."
+			]
+			id: "EE000000000000A0"
+			rewards: [
+				{
+					id: "EE000000000000A1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "EE000000000000A2"
+					item: "draconicevolution:reactor_stabilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "EE000000000000A3"
+				title: "Build the Draconic Evolution Reactor structure."
+				type: "checkmark"
+			}]
+			title: "§5Draconic Reactor"
+			x: 12.0d
+			y: -3.5d
+		}
+	]
+}

@@ -1,0 +1,467 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ch2_circuits_sorcery"
+	group: "3E586F2160161EEA"
+	icon: "bloodmagic:altar"
+	id: "BB00000000000001"
+	order_index: 2
+	quest_links: []
+	title: "§d§lII. Circuits & Sorcery"
+	quests: [
+		{
+			description: [
+				"§7The forge runs hot. Magic bleeds into the circuits."
+				""
+				"§7Phase II opens three new systems: §4Blood Magic§7, §bBotania§7, and §aRefined Storage§7."
+				"§7Master all three. Forge the §5Crimson Circuit of Passage§7 to seal the phase."
+				""
+				"§8Unlock condition: §6The First Seal §8(Phase I complete)"
+			]
+			id: "BB00000000000002"
+			rewards: [{
+				id: "BB00000000000003"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "BB00000000000004"
+				title: "Enter Phase II."
+				type: "checkmark"
+			}]
+			title: "§d§lCircuits & Sorcery"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BB00000000000002"]
+			description: [
+				"§7Craft and place a §4Blood Magic Altar§7."
+				""
+				"§7Right-click the altar with a §4Sacrificial Dagger§7 while holding it in your offhand to sacrifice health for §4Life Points (LP)§7."
+				"§7LP fuels all Blood Magic crafting and rituals."
+				""
+				"§8The altar is gated behind the §6Phase I Seal§8. Craft it now that you have access."
+				"§8Start slow. Your altar tier determines how fast LP fills."
+			]
+			id: "BB00000000000010"
+			rewards: [
+				{
+					id: "BB00000000000011"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "BB00000000000012"
+					item: "bloodmagic:sacrificial_dagger"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "BB00000000000013"
+					item: "bloodmagic:altar"
+					type: "item"
+				}
+				{
+					id: "BB00000000000014"
+					title: "Right-click the altar with the Sacrificial Dagger to add Life Points."
+					type: "checkmark"
+				}
+			]
+			title: "§4Blood Covenant"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BB00000000000010"]
+			description: [
+				"§7Craft a §bMana Pool§7 and place it outdoors."
+				"§7Then place at least §b2 Daybloom flowers§7 nearby on dirt — they passively generate §bMana§7 from sunlight."
+				""
+				"§7Mana powers all §bBotania§7 tools and automation. The Manaweave Robe, Mana Ring, and Terrasteel all need it."
+				""
+				"§8Dayblooms are slow. Later you'll replace them with faster flowers (Endoflame, Kekimurus)."
+			]
+			id: "BB00000000000020"
+			rewards: [
+				{
+					id: "BB00000000000021"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "BB00000000000022"
+					item: "botania:daybloom"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "BB00000000000023"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "BB00000000000024"
+					title: "Place 2 Daybloom flowers near your Mana Pool and watch mana accumulate."
+					type: "checkmark"
+				}
+			]
+			title: "§bLiving Mana"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BB00000000000020"]
+			description: [
+				"§7Craft a §aRefined Storage Controller§7 and a §aDisk Drive§7."
+				""
+				"§7Place them adjacent to each other. The controller is the brain of your digital storage network."
+				"§7The Disk Drive holds Storage Disks that store thousands of items in a single block."
+				""
+				"§8§aRefined Storage§8 is gated behind Phase I. Craft it now."
+				"§8Place the Controller first, then connect other RS components to it."
+			]
+			id: "BB00000000000030"
+			rewards: [
+				{
+					id: "BB00000000000031"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "BB00000000000032"
+					item: "refinedstorage:storage_disk_64k"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "BB00000000000033"
+					item: "refinedstorage:controller"
+					type: "item"
+				}
+				{
+					id: "BB00000000000034"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+			]
+			title: "§aThe Digital Mind"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BB00000000000030"]
+			description: [
+				"§7Craft a §aCrafting Grid§7 and connect it to your §aRefined Storage§7 network."
+				""
+				"§7The Crafting Grid lets you craft directly from your entire storage network — no more hunting through chests for materials."
+				""
+				"§8Your network is only as useful as what's connected to it. Add Importers on all your chests next."
+			]
+			id: "BB00000000000040"
+			rewards: [
+				{
+					id: "BB00000000000041"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "BB00000000000042"
+					item: "refinedstorage:importer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "BB00000000000043"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			title: "§aFirst Network"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BB00000000000040"]
+			description: [
+				"§d§l✦ Phase II Complete"
+				""
+				"§7You mastered blood, mana, and digital storage."
+				""
+				"§7Craft the §5Crimson Circuit of Passage§7 to seal Phase II and unlock §dPhase III: The Forest Beyond§7."
+				""
+				"§c§lUnlocks: §fMystical Agriculture Seed Base  ·  Farmer's Delight Cooking Pot  ·  Apotheosis Salvaging Table"
+			]
+			id: "BB00000000000050"
+			rewards: [
+				{
+					id: "BB00000000000051"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 8
+					id: "BB00000000000052"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					id: "BB00000000000053"
+					item: "kubejs:moathco_files_vol_2"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "BB00000000000054"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					command: "/function moathco:phase_2_broadcast"
+					id: "BB00000000000055"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "BB00000000000056"
+				item: "kubejs:crimson_circuit_of_passage"
+				type: "item"
+			}]
+			title: "§d§l⚙ Crimson Circuit"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BB00000000000010"]
+			description: [
+				"§7Craft a §4Weak Blood Orb§7 at your Blood Magic Altar."
+				""
+				"§7The Blood Orb is your personal vessel for §4Life Points§7 — it lets you charge the altar from your inventory and perform rituals."
+				"§7Upgrade it over time: Apprentice Orb → Magician's Orb → Master Orb."
+				""
+				"§8Higher tier orbs hold more LP and unlock more powerful rituals."
+			]
+			id: "BB00000000000060"
+			rewards: [
+				{
+					id: "BB00000000000061"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "BB00000000000062"
+					item: "bloodmagic:reagent_binding"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "BB00000000000063"
+				item: "bloodmagic:blood_orb"
+				type: "item"
+			}]
+			title: "§4Blood Orb"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["BB00000000000060"]
+			description: [
+				"§7Use the §4Ritual of Binding§7 to bind a mob to a §4Living Armor§7 enhancement."
+				""
+				"§7Rituals are multiblock structures built with §4Ritual Stones§7 around a §4Master Ritual Stone§7."
+				"§7Each ritual has a unique pattern — check the Sanguine Scientum book (JEI or the altar GUI) for layouts."
+				""
+				"§8Rituals automate many tasks — ore processing, mob farming, and more. Learn the system early."
+			]
+			id: "BB00000000000064"
+			rewards: [{
+				id: "BB00000000000065"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "BB00000000000066"
+				item: "bloodmagic:ritual_stone_master"
+				type: "item"
+			}]
+			title: "§4Ritual Mastery"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["BB00000000000020"]
+			description: [
+				"§7Grow §b4 different functional flora§7 from Botania."
+				""
+				"§7Functional flora do useful things passively: §bEndoflame§7 burns fuel items for fast mana, §bKekimurus§7 eats cake, §bEntropinnyum§7 explodes TNT."
+				""
+				"§8Functional flora are different from Generating flora. Read the Lexica Botania carefully — it explains every flower's function."
+			]
+			id: "BB00000000000070"
+			rewards: [
+				{
+					id: "BB00000000000071"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "BB00000000000072"
+					item: "botania:lexicon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "BB00000000000073"
+				item: {
+					Count: 1
+					id: "botania:endoflame"
+				}
+				type: "item"
+			}]
+			title: "§bFlora Study"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["BB00000000000070"]
+			description: [
+				"§7Craft §bBotania Runes§7 at the §bRunic Altar§7."
+				""
+				"§7Runes are required for mid-tier Botania crafting — Terrasteel, Elementium, the Terra Blade."
+				"§7Each rune requires different mana and material combinations. Start with the basic elemental runes."
+				""
+				"§8You'll need at least 8 runes for Terrasteel. Build the Runic Altar near your Mana Pool."
+			]
+			id: "BB00000000000074"
+			rewards: [
+				{
+					id: "BB00000000000075"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "BB00000000000076"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "BB00000000000077"
+				item: "botania:rune_altar"
+				type: "item"
+			}]
+			title: "§bRunic Altar"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["BB00000000000030"]
+			description: [
+				"§7Craft an §eApotheosis Salvaging Table§7."
+				""
+				"§7The Salvaging Table breaks down enchanted items and extracts the enchantments as §eEnchanted Books§7."
+				"§7This is far more efficient than using a Grindstone."
+				""
+				"§8Apotheosis also adds rare §eLoot Modifiers§7, §eGems§7, and an §eSoul Cage§7 system for mob farming. Explore its JEI tabs."
+			]
+			id: "BB00000000000080"
+			rewards: [
+				{
+					id: "BB00000000000081"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "BB00000000000082"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "BB00000000000083"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			title: "§eApotheosis Salvage"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["BB00000000000040"]
+			description: [
+				"§7Craft a §aThermal Pulverizer§7 and connect it to your power grid."
+				""
+				"§7The Pulverizer §adoubles ore output§7 by crushing ores into two dust before smelting."
+				"§7It also produces §eBonus Drops§7 — silicon from sand, gold from gravel, etc."
+				""
+				"§8Pair with the §eThermal Induction Smelter§7 for triple-processing ore chains."
+			]
+			id: "BB00000000000090"
+			rewards: [
+				{
+					id: "BB00000000000091"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "BB00000000000092"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "BB00000000000093"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			title: "§eThermal Pulverizer"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["BB00000000000030"]
+			description: [
+				"§7Build a §eTinkers' Smeltery§7: a 3×3×3 hollow structure of §eSmeltery Bricks§7 with a §eSmeltery Controller§7 on the side."
+				""
+				"§7The Smeltery melts metals at high temperatures and allows you to mix them into alloys:"
+				"§e  Pig Iron §8— Iron + Blood + Clay"
+				"§e  Bronze §8— Copper + Tin"
+				"§e  Knightslime §8— Slime + Iron + Seared Stone"
+				""
+				"§8Smeltery alloys are some of the best Tinkers' tool materials in the early game."
+			]
+			id: "BB000000000000A0"
+			rewards: [
+				{
+					id: "BB000000000000A1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "BB000000000000A2"
+					item: "tconstruct:bronze_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "BB000000000000A3"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			title: "§eTinkers' Smeltery"
+			x: 12.0d
+			y: 3.5d
+		}
+	]
+}

@@ -1,0 +1,505 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ch1_awakening"
+	group: "3E586F2160161EEA"
+	icon: "immersiveengineering:ingot_steel"
+	id: "AA00000000000001"
+	order_index: 1
+	quest_links: []
+	title: "§6§lI. The Awakening"
+	quests: [
+		{
+			description: [
+				"§7You arrive with nothing."
+				""
+				"§7Iron must be smelted. Steel must be forged. §6Immersive Engineering§7 is your first industrial pillar — build it before anything else."
+				""
+				"§8Complete this chapter to unlock §6Phase II: Circuits & Sorcery§8."
+			]
+			id: "AA00000000000002"
+			rewards: [{
+				id: "AA00000000000003"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "AA00000000000004"
+				title: "Begin the journey."
+				type: "checkmark"
+			}]
+			title: "§6§lThe Awakening"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AA00000000000002"]
+			description: [
+				"§7Craft a §fCrafting Table§7 and a §fFurnace§7."
+				""
+				"§8The two blocks every journey starts with. Keep both accessible — you will use them for a long time."
+			]
+			id: "AA00000000000010"
+			rewards: [
+				{
+					id: "AA00000000000011"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "AA00000000000012"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "AA00000000000013"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "AA00000000000014"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "§fFirst Breath"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AA00000000000010"]
+			description: [
+				"§7Mine and smelt §e24 iron ingots§7."
+				""
+				"§7Iron is the foundation of everything in Phase I. You need it for tools, armor, the §6Engineer's Workbench§7, and the §6Blast Furnace§7."
+				""
+				"§8Start a real mine. The surface won't be enough."
+			]
+			id: "AA00000000000020"
+			rewards: [
+				{
+					id: "AA00000000000021"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 8
+					id: "AA00000000000022"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 24L
+				id: "AA00000000000023"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "§fInto the Iron Age"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AA00000000000020"]
+			description: [
+				"§7Craft the §6Engineer's Workbench§7 — the core crafting station for all §6Immersive Engineering§7 recipes."
+				""
+				"§7Then start your §6Coke Oven§7: arrange §6Coke Bricks§7 in a 3×3×3 structure and right-click the center with the §6Engineer's Hammer§7."
+				""
+				"§7The Coke Oven turns coal into §eCoal Coke§7 (burns longer) and produces §eCreosote Oil§7 — required for Treated Wood and the Blast Furnace."
+				""
+				"§8No Coke Oven = no Steel. Build it first."
+			]
+			id: "AA00000000000030"
+			rewards: [
+				{
+					id: "AA00000000000031"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "AA00000000000032"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "AA00000000000033"
+					item: "immersiveengineering:workbench"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "AA00000000000034"
+					item: "immersiveengineering:cokebrick"
+					type: "item"
+				}
+			]
+			title: "§6Engineer's Start"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AA00000000000030"]
+			description: [
+				"§7Build the §6Blast Furnace§7: a 3×3×3 structure of §6Blast Furnace Bricks§7. Right-click the center with your §6Engineer's Hammer§7."
+				""
+				"§7Feed it §eIron Ingots§7 and §eCoal Coke§7 to produce §6Steel Ingots§7."
+				""
+				"§7Steel is the industrial backbone of §6Astra Mekanika§7. Everything past Phase I requires it."
+				""
+				"§cProduce §e16 Steel Ingots§c to continue."
+			]
+			id: "AA00000000000040"
+			rewards: [
+				{
+					id: "AA00000000000041"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "AA00000000000042"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 16L
+				id: "AA00000000000043"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			title: "§6§lSteel Spine"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AA00000000000040"]
+			description: [
+				"§e§l✦ Phase I Complete"
+				""
+				"§7Steel forged. Foundation built. Now seal the phase."
+				""
+				"§7Craft the §6Rusted Conduit Core§7 using IE Steel, an Ars Nouveau Source Gem, and a Thermal RF Coil."
+				""
+				"§c§lUnlocks: §fBlood Magic Altar  ·  Botania Mana Pool  ·  Refined Storage Controller"
+			]
+			id: "AA00000000000050"
+			rewards: [
+				{
+					id: "AA00000000000051"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 5
+					id: "AA00000000000052"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					id: "AA00000000000053"
+					item: "kubejs:moathco_files_vol_1"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "AA00000000000054"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					command: "/function moathco:phase_1_broadcast"
+					id: "AA00000000000055"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "AA00000000000056"
+				item: "kubejs:rusted_conduit_core"
+				type: "item"
+			}]
+			title: "§6§l⚙ The First Seal"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AA00000000000020"]
+			description: [
+				"§7§eTinkers' Construct§7 gives you fully customizable tools built from modular parts."
+				""
+				"§7Craft a §ePart Builder§7 to start shaping tool heads, bindings, and handles from different materials."
+				""
+				"§8Each material has different stats — cobalt is fast, slimewood is bouncy, iron is reliable."
+			]
+			id: "AA00000000000060"
+			rewards: [{
+				id: "AA00000000000061"
+				item: "tconstruct:materials_and_you"
+				type: "item"
+			}]
+			tasks: [{
+				id: "AA00000000000062"
+				item: "tconstruct:part_builder"
+				type: "item"
+			}]
+			title: "§eTinker's Touch"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["AA00000000000060"]
+			description: [
+				"§7The §eTool Station§7 lets you assemble your custom tool parts into a complete tool."
+				""
+				"§7Tinkers' tools can be §arepaired§7 with their base material and upgraded with §emodifiers§7 (haste, autosmelt, luck, and more)."
+				""
+				"§8Highly recommended for your primary pickaxe."
+			]
+			id: "AA00000000000063"
+			rewards: [{
+				id: "AA00000000000064"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "AA00000000000065"
+				item: "tconstruct:tinker_station"
+				type: "item"
+			}]
+			title: "§eTool Station"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["AA00000000000030"]
+			description: [
+				"§7Place your first §aWaystone§7 at your base."
+				""
+				"§7Waystones let you teleport between any two placed waystones for free."
+				"§7Place them at your base, mine entrance, and any key landmarks as you explore."
+				""
+				"§8Shift-right-click a waystone to name it."
+			]
+			id: "AA00000000000070"
+			rewards: [
+				{
+					id: "AA00000000000071"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "AA00000000000072"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AA00000000000073"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "§aWaybound"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["AA00000000000030"]
+			description: [
+				"§7Connect a §6Kinetic Dynamo§7 to flowing water with a §6Waterwheel§7 segment to generate RF."
+				"§7Then string §6LV Wire Coils§7 between §6LV Connectors§7 to move power to your machines."
+				""
+				"§8This is your first power grid. Waterwheels are weak — they're a stepping stone to the Stirling Dynamo and eventually the Arc Furnace."
+			]
+			id: "AA00000000000080"
+			rewards: [{
+				id: "AA00000000000081"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "AA00000000000082"
+					item: "immersiveengineering:waterwheel_segment"
+					type: "item"
+				}
+				{
+					id: "AA00000000000083"
+					item: "immersiveengineering:dynamo"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "AA00000000000084"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+			]
+			title: "§6LV Power Grid"
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["AA00000000000010"]
+			description: [
+				"§7Place a bed and sleep through your first night."
+				""
+				"§8§lBlood Moon Warning: §7Every 7 in-game days, the sky turns red at nightfall."
+				"§7Mobs spawn in larger swarms and move faster. §cDo not be caught outside without gear§7."
+				"§7The moon resets at dawn. Surviving it earns respect."
+			]
+			id: "AA000000000000A0"
+			rewards: [{
+				id: "AA000000000000A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "AA000000000000A2"
+				title: "Sleep through your first night."
+				type: "checkmark"
+			}]
+			title: "§fFirst Night Survived"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["AA00000000000020"]
+			description: [
+				"§5Source Gems§7 are the primary crafting material for §5Ars Nouveau§7 magic."
+				""
+				"§7Find them in §5Source Gem§7 ore veins underground — they emit a faint purple glow."
+				"§7You'll need them for spells, automation setups, and eventually the §6Phase I Seal§7."
+				""
+				"§8Mine at least 4. They're rarer than iron but worth the effort."
+			]
+			id: "AA000000000000B0"
+			rewards: [
+				{
+					id: "AA000000000000B1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "AA000000000000B2"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "AA000000000000B3"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "§5Source Gem"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["AA000000000000B0"]
+			description: [
+				"§7Craft an §5Apprentice Spellbook§7 at the §5Scribe's Table§7."
+				""
+				"§7This unlocks glyphs like §5Blink§7, §5Leap§7, §5Light§7, and basic combat spells."
+				"§7Open the book, browse glyphs on the left, and drag them in sequence to build a custom spell."
+				""
+				"§8The spellbook is your best early mobility tool. Leap + Slowfall = free flight."
+			]
+			id: "AA000000000000C0"
+			rewards: [
+				{
+					id: "AA000000000000C1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "AA000000000000C2"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "AA000000000000C3"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			title: "§5§lApprentice Spellbook"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["AA00000000000030"]
+			description: [
+				"§7Soak planks in §6Creosote Oil§7 (a barrel + planks) to make §6Treated Wood§7."
+				"§7Then craft a §eThermal Machine Frame§7 from Iron, Copper, and Tin ingots."
+				""
+				"§7Machine Frames are required for every Thermal machine. Keep a stack on hand."
+				""
+				"§8Thermal machines run on RF and process materials faster than vanilla furnaces."
+			]
+			id: "AA000000000000D0"
+			rewards: [{
+				id: "AA000000000000D1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "AA000000000000D2"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			title: "§eThermal Foundation"
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["AA000000000000D0"]
+			description: [
+				"§7Craft a §eStirling Dynamo§7 and burn §6Coal Coke§7 in it to produce §eRF power§7."
+				""
+				"§7The Stirling Dynamo produces far more power than your waterwheel."
+				"§7Use it to drive early Thermal machines like the Pulverizer and Induction Smelter."
+				""
+				"§8Requires a §6Redstone Flux Coil§7 in the recipe — check JEI."
+			]
+			id: "AA000000000000E0"
+			rewards: [
+				{
+					id: "AA000000000000E1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 32
+					id: "AA000000000000E2"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AA000000000000E3"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			title: "§eStirling Dynamo"
+			x: 12.0d
+			y: 5.5d
+		}
+	]
+}

@@ -1,0 +1,274 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "side_wanderers_atlas"
+	group: "5186F2D762C2C9E0"
+	icon: "xaeroworldmap:worldmap_item"
+	id: "F200000000000001"
+	order_index: 11
+	quest_links: []
+	title: "§aWanderer's Atlas"
+	quests: [
+		{
+			description: [
+				"§7The world is the content."
+				""
+				"§7This chapter rewards §aexploration§7 — structures, biomes, dimensions, and the spaces between."
+				"§7None of these quests gate the main path. All of them are worth doing."
+				""
+				"§8Open your §aXaero's World Map§7 (default: §eM§8) and start mapping. The world is enormous."
+			]
+			id: "F200000000000002"
+			rewards: [{
+				id: "F200000000000003"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "F200000000000004"
+				title: "Open the world map and begin your atlas."
+				type: "checkmark"
+			}]
+			title: "§a§lWanderer's Atlas"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F200000000000002"]
+			description: [
+				"§7Place §a5 Waystones§7 across the world — at key locations, biomes, or structures."
+				""
+				"§7Good waystone placement: Base, mine entrance, nearest village, TF portal, Nether hub."
+				""
+				"§8Waystones are free to teleport between. Name them clearly — you'll thank yourself later."
+			]
+			id: "F200000000000010"
+			rewards: [
+				{
+					id: "F200000000000011"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "F200000000000012"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "F200000000000013"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "§aWaystone Network"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F200000000000010"]
+			description: [
+				"§7Find and loot a §eDungeons Arise§7 structure."
+				""
+				"§7§eDungeons Arise§7 adds massive, elaborate structures to the world — Fortresses, Manors, Sky Villages, Illager Cabins, and more."
+				"§7They have stronger mobs but significantly better loot than vanilla structures."
+				""
+				"§8Look for structures on the §eXaero's World Map§7 (they're tagged automatically)."
+				"§8They're dangerous — go prepared."
+			]
+			id: "F200000000000020"
+			rewards: [
+				{
+					id: "F200000000000021"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "F200000000000022"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F200000000000023"
+				title: "Find and loot a Dungeons Arise structure."
+				type: "checkmark"
+			}]
+			title: "§eDungeon Dive"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F200000000000020"]
+			description: [
+				"§7Visit §e5 distinct biomes§7 in a single journey."
+				""
+				"§7This pack uses §eOh The Biomes You'll Go§7 and vanilla biome blending — the world is dense with variety."
+				"§7Use §eXaero's World Map§7 to track which biomes you've visited. Biome names appear in the map legend."
+				""
+				"§8Target: Desert, Jungle, Snowy Taiga, Mushroom Island, Deep Ocean."
+			]
+			id: "F200000000000030"
+			rewards: [
+				{
+					id: "F200000000000031"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "F200000000000032"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F200000000000033"
+				title: "Visit 5 distinct biomes in one journey."
+				type: "checkmark"
+			}]
+			title: "§aFive Biomes"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F200000000000030"]
+			description: [
+				"§7Find a §cCataclysm Dungeon§7 structure in the overworld or The End."
+				""
+				"§7§cEnder's Cataclysm§7 generates large dungeon structures that house its bosses."
+				"§7Do not enter until Phase IV — these are endgame encounters."
+				"§7Finding the structure early, placing a waystone, and scouting its layout is a safe approach."
+				""
+				"§8Reward for finding it now: advantage later."
+			]
+			id: "F200000000000040"
+			rewards: [
+				{
+					id: "F200000000000041"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 3
+					id: "F200000000000042"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F200000000000043"
+				title: "Find a Cataclysm dungeon structure."
+				type: "checkmark"
+			}]
+			title: "§cCataclysm Scouted"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F200000000000002"]
+			description: [
+				"§7Loot a §7Dungeons Plus§7 structure — Leviathan, Ender Dungeon, Pillager's Factory, or similar."
+				""
+				"§7§7Dungeons Plus§7 adds unique dungeon types with exclusive loot and mob spawners."
+				"§7Each structure has unique architecture and boss-tier chest loot."
+				""
+				"§8Bring an Ender Chest — the loot is worth keeping."
+			]
+			id: "F200000000000050"
+			rewards: [
+				{
+					id: "F200000000000051"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "F200000000000052"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F200000000000053"
+				title: "Loot a Dungeons Plus structure."
+				type: "checkmark"
+			}]
+			title: "§7Plus Dungeon"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F200000000000010"]
+			description: [
+				"§7Find a §avillage§7 and trade with at least §e3 different villager professions§7."
+				""
+				"§7Villagers are a reliable source of: books, enchanted tools, food, and rare materials."
+				"§7Each profession trades specific items — Librarians are the best for enchanted books."
+				""
+				"§8Plant crops near the village to keep it populated and breeding."
+				"§8Build a trading hall if you find exceptional villagers."
+			]
+			id: "F200000000000060"
+			rewards: [
+				{
+					id: "F200000000000061"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "F200000000000062"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F200000000000063"
+				title: "Trade with 3 different villager professions."
+				type: "checkmark"
+			}]
+			title: "§eTrade Routes"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F200000000000020"]
+			description: [
+				"§7Find and enter §2The Undergarden§7."
+				""
+				"§7The Undergarden portal spawns naturally underground — look for a frame of §9Depthrock§7 with a greenish glow."
+				"§7Alternatively, craft the portal manually if you have the materials."
+				""
+				"§7The Undergarden has unique biomes, mobs, and ores — including §9Cloggrum§7 and §9Utherium§7 gems."
+				""
+				"§8Cloggrum Armor is competitive with iron and worth crafting early."
+			]
+			id: "F200000000000070"
+			rewards: [
+				{
+					id: "F200000000000071"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "F200000000000072"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F200000000000073"
+				title: "Enter the Undergarden dimension."
+				type: "checkmark"
+			}]
+			title: "§9Undergarden"
+			x: 9.0d
+			y: 3.5d
+		}
+	]
+}

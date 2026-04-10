@@ -1,0 +1,280 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "side_hunters_codex"
+	group: "5186F2D762C2C9E0"
+	icon: "minecraft:netherite_sword"
+	id: "F300000000000001"
+	order_index: 12
+	quest_links: []
+	title: "§cHunter's Codex"
+	quests: [
+		{
+			description: [
+				"§7The world is populated with things that want you dead."
+				""
+				"§7This chapter rewards §ccombat progression§7 — killing, surviving, and mastering the fight."
+				"§7No gating. Go kill things."
+				""
+				"§8§cWarning: §7Mob difficulty scales with each phase you complete. Phase V mobs are significantly tougher than Phase I mobs."
+			]
+			id: "F300000000000002"
+			rewards: [{
+				id: "F300000000000003"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "F300000000000004"
+				title: "Open the Hunter's Codex."
+				type: "checkmark"
+			}]
+			title: "§c§lHunter's Codex"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F300000000000002"]
+			description: [
+				"§7Kill §e50 hostile mobs§7."
+				""
+				"§7Night is the default hunting ground. Zombies drop iron, Skeletons drop bones and arrows."
+				"§7§cEnhanced mobs§7 in this pack are more dangerous than vanilla — Skeletons fire faster, Creepers explode harder."
+				""
+				"§8Build a small fighting arena near your base: light the surrounding area and leave one dark kill chamber."
+			]
+			id: "F300000000000010"
+			rewards: [
+				{
+					id: "F300000000000011"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "F300000000000012"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 50L
+				id: "F300000000000013"
+				entity: "minecraft:zombie"
+				type: "kill"
+			}]
+			title: "§cFirst Kills"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F300000000000010"]
+			description: [
+				"§7Craft an §eApotheosis Reforging Table§7 and reforge a weapon."
+				""
+				"§7The Reforging Table rolls new Apotheosis attributes on a weapon at the cost of §7XP and §7Quartz/gems."
+				"§7Aim for a roll with §6Crit Chance§7, §6Attack Speed§7, or §6Life Steal§7."
+				""
+				"§8Every reforge is random — keep rerolling until you get something useful."
+				"§8This is how you get genuinely powerful combat gear without spending hours in dungeons."
+			]
+			id: "F300000000000020"
+			rewards: [
+				{
+					id: "F300000000000021"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "F300000000000022"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F300000000000023"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			title: "§eReforging"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F300000000000020"]
+			description: [
+				"§7Defeat a §6Mowzies Mobs§7 boss."
+				""
+				"§7§6Mowzies Mobs§7 adds unique, well-animated boss mobs scattered throughout the world:"
+				"§6  Ferrous Wroughtnaut §7— underground, tank-type"
+				"§6  Foliaath §7— jungle, ambush-type"
+				"§6  Grottol §7— cave dweller, aggressive"
+				"§6  Barako §7— savanna, thunder-type"
+				""
+				"§8Their drops are unique and cannot be obtained elsewhere."
+			]
+			id: "F300000000000030"
+			rewards: [
+				{
+					id: "F300000000000031"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 3
+					id: "F300000000000032"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F300000000000033"
+				title: "Defeat a Mowzies Mobs boss."
+				type: "checkmark"
+			}]
+			title: "§6Mowzies Slain"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F300000000000030"]
+			description: [
+				"§7Craft a §eSoul Cage§7 using §eApotheosis§7 and trap a mob spawner."
+				""
+				"§7The Soul Cage lets you capture a monster spawner and place it anywhere — create a custom mob farm."
+				"§7Combine with §eSpawn Boosts§7 to make elite mob farms."
+				""
+				"§8Target high-value mobs: Zombies for iron, Skeletons for arrows, Blaze for Blaze Rods."
+			]
+			id: "F300000000000040"
+			rewards: [
+				{
+					id: "F300000000000041"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "F300000000000042"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F300000000000043"
+				item: "apotheosis:soul_cage"
+				type: "item"
+			}]
+			title: "§eSoul Cage"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F300000000000002"]
+			description: [
+				"§7Survive a §cBlood Moon§7 without dying."
+				""
+				"§7Every 7 in-game days, a Blood Moon rises at nightfall."
+				"§7Mob spawning dramatically increases. Creepers explode wider. Skeletons fire faster."
+				""
+				"§7Defend your base until dawn. The moon resets at sunrise."
+				""
+				"§8Build walls, use your spellbook, and keep your armor repaired before night."
+			]
+			id: "F300000000000050"
+			rewards: [
+				{
+					id: "F300000000000051"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "F300000000000052"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F300000000000053"
+				title: "Survive a Blood Moon without dying."
+				type: "checkmark"
+			}]
+			title: "§cBlood Moon Survivor"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F300000000000010"]
+			description: [
+				"§7Craft an §cIron Jetpack§7 and achieve basic flight."
+				""
+				"§7§cIron Jetpacks§7 provides RF-powered flight that upgrades through 5 tiers:"
+				"§c  Basic → Hardened → Reinforced → Diamond → Ultimate"
+				"§7Higher tiers fly faster, higher, and charge faster."
+				""
+				"§8Equip it in the chestplate slot (or curio slot if available)."
+				"§8Pair with a good RF source — it drains power quickly at high tiers."
+			]
+			id: "F300000000000060"
+			rewards: [
+				{
+					id: "F300000000000061"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "F300000000000062"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F300000000000063"
+				item: "ironjetpacks:basic_jetpack"
+				type: "item"
+			}]
+			title: "§cFirst Flight"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F300000000000020"]
+			description: [
+				"§7Find and kill an §6Alex's Mobs§7 creature — specifically a creature you've never seen before."
+				""
+				"§7§6Alex's Mobs§7 adds 80+ unique creatures across all biomes and dimensions."
+				"§7Cryptids, deep sea fish, jungle predators, void entities — they're everywhere once you look."
+				""
+				"§7Some drop rare materials used in custom recipes. Check JEI for Alex's Mobs drops."
+				""
+				"§8Target: §6Hammerhead Shark§7 (ocean), §6Komodo Dragon§7 (jungle), or §6Void Worm§7 (The End)."
+			]
+			id: "F300000000000070"
+			rewards: [
+				{
+					id: "F300000000000071"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "F300000000000072"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F300000000000073"
+				title: "Kill an Alex's Mobs unique creature."
+				type: "checkmark"
+			}]
+			title: "§6Alex's Hunt"
+			x: 9.0d
+			y: -3.5d
+		}
+	]
+}

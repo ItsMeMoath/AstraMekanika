@@ -1,0 +1,252 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "side_builders_pride"
+	group: "5186F2D762C2C9E0"
+	icon: "adorn:oak_chair"
+	id: "F500000000000001"
+	order_index: 14
+	quest_links: []
+	title: "§7Builder's Pride"
+	quests: [
+		{
+			description: [
+				"§7A base is just a box until you make it a home."
+				""
+				"§7This chapter rewards §7building§7 — decoration, furniture, architecture, and structure."
+				"§7No gating. Build at your own pace."
+				""
+				"§8Mods used: §eAdorn§8, §eArchitect's Palette§8, §eMCW Furniture§8, §ePrefab§8, §eEtched§8."
+			]
+			id: "F500000000000002"
+			rewards: [{
+				id: "F500000000000003"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "F500000000000004"
+				title: "Pick up a tool and start building."
+				type: "checkmark"
+			}]
+			title: "§7§lBuilder's Pride"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F500000000000002"]
+			description: [
+				"§7Craft and place an §eAdorn§7 furniture piece."
+				""
+				"§7§eAdorn§7 adds craftable chairs, tables, shelves, drawers, benches, and more — all placeable and sittable."
+				"§7Materials: any wood + slabs + sticks for most furniture."
+				""
+				"§8Chairs: wood slab + 2 sticks."
+				"§8Tables: 2 wood slabs + 2 sticks."
+				"§8Shelves: 2 planks + 2 slabs."
+			]
+			id: "F500000000000010"
+			rewards: [
+				{
+					id: "F500000000000011"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "F500000000000012"
+					item: "adorn:oak_chair"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F500000000000013"
+				item: "adorn:oak_chair"
+				type: "item"
+			}]
+			title: "§7First Furnishing"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F500000000000010"]
+			description: [
+				"§7Build a room using §eArchitect's Palette§7 decorative blocks."
+				""
+				"§7§eArchitect's Palette§7 adds:"
+				"§e  Concrete slabs and stairs in all 16 colors"
+				"§e  Tinted glass variants"
+				"§e  Treated wood panels"
+				"§e  Industrial metal blocks"
+				""
+				"§8Use §eArchitect's Palette§8 blocks to add texture variation to walls and floors."
+			]
+			id: "F500000000000020"
+			rewards: [
+				{
+					id: "F500000000000021"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "F500000000000022"
+					item: "architectspalette:rocky_dirt_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "F500000000000023"
+				item: "architectspalette:stone_pillar"
+				type: "item"
+			}]
+			title: "§7Palette Work"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F500000000000020"]
+			description: [
+				"§7Craft and use an §eEtched§7 block — a custom-patterned decorative block."
+				""
+				"§7§eEtched§7 lets you apply custom patterns to metal or stone blocks. You can:"
+				"§e  Use preset patterns from JEI"
+				"§e  Create your own patterns using the Canvas"
+				""
+				"§8Great for logos, clan symbols, and custom signage in your base."
+			]
+			id: "F500000000000030"
+			rewards: [
+				{
+					id: "F500000000000031"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "F500000000000032"
+					item: "etched:etched_copper_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F500000000000033"
+				item: "etched:etched_copper_block"
+				type: "item"
+			}]
+			title: "§7Etched Detail"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F500000000000002"]
+			description: [
+				"§7Use §ePrefab§7 to instantly place a pre-built structure."
+				""
+				"§7§ePrefab§7 gives you instant schematics for:"
+				"§e  Starter House, Basic Chicken Farm, Tree Farm"
+				"§e  Nether Portal Room, Trading Post, Watch Tower"
+				""
+				"§7Each structure can be placed instantly for free (some require materials to confirm)."
+				""
+				"§8Great for quickly building utility structures you'd otherwise skip building."
+			]
+			id: "F500000000000040"
+			rewards: [
+				{
+					id: "F500000000000041"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "F500000000000042"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F500000000000043"
+				title: "Place a Prefab structure."
+				type: "checkmark"
+			}]
+			title: "§7Prefab Architect"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F500000000000010"]
+			description: [
+				"§7Craft and place §eMCW Furniture§7 pieces in a kitchen or living area."
+				""
+				"§7§eMCW Furniture§7 adds detailed furniture models:"
+				"§e  Cabinets, counters, kitchen sinks, faucets"
+				"§e  Couches, TVs (decorative), bookshelves, lamps"
+				"§e  Bathroom fixtures"
+				""
+				"§8Pair with §eAdorn§8 for a complete interior design setup."
+			]
+			id: "F500000000000050"
+			rewards: [
+				{
+					id: "F500000000000051"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "F500000000000052"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F500000000000053"
+				title: "Place 5 MCW Furniture pieces in a room."
+				type: "checkmark"
+			}]
+			title: "§7Interior Design"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F500000000000020"]
+			description: [
+				"§7Build a proper base exterior — at least §720×20 blocks§7 with:"
+				"§7  A main entrance with gates or doors"
+				"§7  At least 2 different wall materials"
+				"§7  Windows using tinted glass or Architect's Palette glass"
+				"§7  Lighting that isn't just torches on the wall"
+				""
+				"§8Take a screenshot when done — share it in the server chat."
+			]
+			id: "F500000000000060"
+			rewards: [
+				{
+					id: "F500000000000061"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "F500000000000062"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "F500000000000063"
+				title: "Build a proper base exterior (20×20 minimum, mixed materials)."
+				type: "checkmark"
+			}]
+			title: "§7§lProud Builder"
+			x: 9.0d
+			y: -3.5d
+		}
+	]
+}

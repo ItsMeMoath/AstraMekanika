@@ -1,0 +1,289 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "side_blood_mana"
+	group: "5186F2D762C2C9E0"
+	icon: "ars_nouveau:worn_notebook"
+	id: "F100000000000001"
+	order_index: 10
+	quest_links: []
+	title: "§5Blood & Mana"
+	quests: [
+		{
+			description: [
+				"§7Three pillars of magic. One path."
+				""
+				"§5Ars Nouveau§7 — spells and Source automation"
+				"§4Blood Magic§7 — rituals powered by life"
+				"§bBotania§7 — flowers that think"
+				""
+				"§8These quests deepen the magic systems already introduced in the main chapters."
+				"§8No gating. Explore at your own pace."
+			]
+			id: "F100000000000002"
+			rewards: [{
+				id: "F100000000000003"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "F100000000000004"
+				title: "Begin the arcane path."
+				type: "checkmark"
+			}]
+			title: "§5§lBlood & Mana"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F100000000000002"]
+			description: [
+				"§7Craft an §5Ars Nouveau Source Jar§7 and place it near your crops or mana generation."
+				""
+				"§7Source Jars collect §5Source§7 passively from nearby §5Source Links§7."
+				"§7The §5Agronomic Sourcelink§7 generates Source from growing crops — place it near a farm."
+				""
+				"§8Source is consumed by spellcasting, the Imbuement Chamber, and Ars automation blocks."
+				"§8Run out of Source and your spells stop working. Always keep jars topped up."
+			]
+			id: "F100000000000010"
+			rewards: [
+				{
+					id: "F100000000000011"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "F100000000000012"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "F100000000000013"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+				{
+					id: "F100000000000014"
+					item: "ars_nouveau:agronomic_sourcelink"
+					type: "item"
+				}
+			]
+			title: "§5Source Farm"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F100000000000010"]
+			description: [
+				"§7Craft the §5Imbuement Chamber§7 — the core crafting station for Ars Nouveau."
+				""
+				"§7The Imbuement Chamber crafts advanced Ars items by surrounding the chamber with §5Pedestals§7 holding ingredients and feeding it §5Source§7."
+				""
+				"§8You need the Imbuement Chamber for:"
+				"§5  Mana Fiber, Archwood Charm, Amulet of Mana Boost, Summoning Focuses"
+			]
+			id: "F100000000000020"
+			rewards: [
+				{
+					id: "F100000000000021"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "F100000000000022"
+					item: "ars_nouveau:mana_fiber"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F100000000000023"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			title: "§5Imbuement Chamber"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F100000000000020"]
+			description: [
+				"§7Craft the §5Archmage Spellbook§7 — the highest tier Ars Nouveau spellbook."
+				""
+				"§7Unlocks the most powerful glyphs: §5Gravity§7, §5Fortune§7, §5Haste§7, §5Chain§7, §5Amplify§7."
+				"§7Custom spells combining Amplify + Explode + Chain can level entire mob farms in one cast."
+				""
+				"§8Requires Apprentice → Mage → Archmage progression."
+				"§8Each upgrade requires §5Mana Fiber§8 and significant Source."
+			]
+			id: "F100000000000030"
+			rewards: [
+				{
+					id: "F100000000000031"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "F100000000000032"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "F100000000000033"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			title: "§5§lArchmage"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F100000000000002"]
+			description: [
+				"§7Craft a §4Tier 2 Blood Altar§7 by placing §4Blank Runes§7 around your existing altar."
+				""
+				"§7A Tier 2 Altar holds more LP and unlocks ritual crafting for stronger items."
+				"§7The upgrade is non-destructive — add 8 Blank Runes in a ring around the altar base."
+				""
+				"§8Higher tiers: T3 = Air Runes, T4 = Dusk Runes, T5 = Dense Runes."
+				"§8Each tier unlocks new item imbuing recipes in Blood Magic."
+			]
+			id: "F100000000000040"
+			rewards: [
+				{
+					id: "F100000000000041"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "F100000000000042"
+					item: "bloodmagic:rune_blank"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F100000000000043"
+				item: "bloodmagic:rune_blank"
+				type: "item"
+			}]
+			title: "§4Altar Upgrade"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F100000000000040"]
+			description: [
+				"§7Craft §4Living Armor§7 — Blood Magic's signature armor set."
+				""
+				"§7Living Armor trains as you play: taking damage levels Defense, sprinting levels Evasion, etc."
+				"§7Each upgrade slot provides passive bonuses that scale with use — it literally grows stronger the more you wear it."
+				""
+				"§8Keep it equipped for long sessions. The investment pays off significantly in Phase III+."
+			]
+			id: "F100000000000050"
+			rewards: [
+				{
+					id: "F100000000000051"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					id: "F100000000000052"
+					item: "bloodmagic:living_armor_upgrade_protection"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F100000000000053"
+				item: "bloodmagic:living_chestplate"
+				type: "item"
+			}]
+			title: "§4Living Armor"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["F100000000000002"]
+			description: [
+				"§7Craft §bTerrasteel§7 using Botania's §bTerrestrial Agglomeration Plate§7."
+				""
+				"§7Terrasteel is Botania's primary mid-tier metal."
+				"§7Recipe: Manasteel Ingot + Mana Diamond + Mana Pearl on the Plate, flooded with Mana from nearby pools."
+				""
+				"§8Terrasteel is used for the §bTerra Blade§7 — one of the strongest swords in the early game."
+				"§8Also required for Elementium (next tier)."
+			]
+			id: "F100000000000060"
+			rewards: [
+				{
+					id: "F100000000000061"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "F100000000000062"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "F100000000000063"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			title: "§bTerrasteel"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["F100000000000060"]
+			description: [
+				"§7Defeat §b§lGaia Guardian I§7 — Botania's first endgame boss."
+				""
+				"§7Summon it using a §bTerrestrial Agglomeration Plate§7 on a §bBeacon§7 surrounded by Flower petals."
+				"§7The fight spawns countless mobs — build a proper arena with walls to contain them."
+				""
+				"§7Drops: §bGaia Spirit§7 (required for Elementium and Pixies)."
+				""
+				"§8You'll need at least §bGaia Guardian II§8 drops to fully complete Botania endgame."
+			]
+			id: "F100000000000070"
+			rewards: [
+				{
+					id: "F100000000000071"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "F100000000000072"
+					item: "botania:gaia_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "F100000000000073"
+				item: "botania:gaia_spirit"
+				type: "item"
+			}]
+			title: "§b§lGaia Guardian"
+			x: 6.0d
+			y: 3.5d
+		}
+	]
+}
