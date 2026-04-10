@@ -4,10 +4,9 @@
 	filename: "ch4_infinite_arch"
 	group: "3E586F2160161EEA"
 	icon: "ae2:controller"
-	id: "DD00000000000001"
-	order_index: 4
-	quest_links: []
-	title: "§9§lIV. Infinite Architecture"
+	id: "2C329AAA981C25BB"
+	order_index: 3
+	quest_links: [ ]
 	quests: [
 		{
 			description: [
@@ -18,16 +17,16 @@
 				""
 				"§8Unlock condition: §3Twilight Sigil Plate §8(Phase III complete)"
 			]
-			id: "DD00000000000002"
+			id: "29C34A1844996E97"
 			rewards: [{
-				id: "DD00000000000003"
+				id: "052CD1B2EF5D8AB9"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "DD00000000000004"
+				id: "60D24BC3135923DD"
 				title: "Enter Phase IV."
 				type: "checkmark"
 			}]
@@ -36,7 +35,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["DD00000000000002"]
 			description: [
 				"§7Craft an §9AE2 Controller§7 and a §9ME Drive§7."
 				""
@@ -46,27 +44,27 @@
 				"§8§9AE2§8 is gated behind Phase III. You now have access."
 				"§8Unlike Refined Storage, AE2 requires §9Channels§8 — each cable type carries a limited number of channels to devices."
 			]
-			id: "DD00000000000010"
+			id: "6BB83525DD455FAD"
 			rewards: [
 				{
-					id: "DD00000000000011"
+					id: "41181D70A104E9CD"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
-					id: "DD00000000000012"
+					id: "4A035E073225C1C5"
 					item: "ae2:storage_cell_64k"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "DD00000000000013"
+					id: "68C42BF15F550469"
 					item: "ae2:controller"
 					type: "item"
 				}
 				{
-					id: "DD00000000000014"
+					id: "191253EAB3116D19"
 					item: "ae2:drive"
 					type: "item"
 				}
@@ -76,7 +74,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["DD00000000000010"]
 			description: [
 				"§7Craft a §9Pattern Provider§7 and a §9Crafting CPU§7 cluster."
 				""
@@ -86,16 +83,16 @@
 				""
 				"§8Set up autocrafting for your most-used materials first: iron plates, circuits, and alloys."
 			]
-			id: "DD00000000000020"
+			id: "3B7AC979410F49C6"
 			rewards: [
 				{
-					id: "DD00000000000021"
+					id: "498DB81BDA41CD7A"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 4
-					id: "DD00000000000022"
+					id: "72527D1E6CF2332F"
 					item: "ae2:calculation_processor"
 					type: "item"
 				}
@@ -103,12 +100,12 @@
 			tasks: [
 				{
 					count: 16L
-					id: "DD00000000000023"
+					id: "5BCDCCAB60B78EC6"
 					item: "ae2:encoded_pattern"
 					type: "item"
 				}
 				{
-					id: "DD00000000000024"
+					id: "51768491CB4E7E5E"
 					item: "ae2:crafting_unit"
 					type: "item"
 				}
@@ -118,7 +115,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["DD00000000000020"]
 			description: [
 				"§7Build and activate a §cNuclearCraft Fission Reactor§7."
 				""
@@ -129,22 +125,22 @@
 				"§8Start small — even a 3×3×3 reactor outputs more power than anything you've built so far."
 				"§8Nuclear fuel is finite — set up fuel reprocessing eventually."
 			]
-			id: "DD00000000000030"
+			id: "78A4C4E5E6BB9209"
 			rewards: [
 				{
-					id: "DD00000000000031"
+					id: "3DF1BD3D63E98864"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 4
-					id: "DD00000000000032"
+					id: "7E1EFC682E763B24"
 					item: "nuclearcraft:fuel_uranium_lea"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "DD00000000000033"
+				id: "7845FEB9BD52A797"
 				title: "Build and activate a NuclearCraft Fission Reactor."
 				type: "checkmark"
 			}]
@@ -153,7 +149,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["DD00000000000030"]
 			description: [
 				"§7Craft an §bAether Portal§7 — a frame of §bGlowstone§7 lit with a §bBucket of Water§7."
 				""
@@ -163,23 +158,22 @@
 				"§8The Aether has its own progression: Golden Dungeons, Silver Dungeons, and the Slider's Labyrinth."
 				"§8Aether loot — Skyroot tools, Zanite gear, Gravitite — is worth the exploration."
 			]
-			id: "DD00000000000040"
+			id: "3590B30A6858EABC"
 			rewards: [
 				{
-					id: "DD00000000000041"
+					id: "2841E2B64C8FA17D"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "DD00000000000042"
+					id: "0269B5EDE46AB0BE"
 					item: "aether:ambrosium_shard"
 					type: "item"
 				}
 			]
 			tasks: [{
-				count: 1L
-				id: "DD00000000000043"
+				id: "489661E61D5C19D1"
 				item: "aether:ambrosium_shard"
 				type: "item"
 			}]
@@ -188,7 +182,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["DD00000000000040"]
 			description: [
 				"§9§l✦ Phase IV Complete"
 				""
@@ -198,40 +191,40 @@
 				""
 				"§c§lUnlocks: §fDraconic Evolution  ·  Ad Astra Rocketry  ·  Ender's Cataclysm  ·  Draconic Fusion Crafting"
 			]
-			id: "DD00000000000050"
+			id: "348EA34E6001F542"
 			rewards: [
 				{
-					id: "DD00000000000051"
+					id: "70CB709DBFCC479D"
 					type: "xp_levels"
 					xp_levels: 30
 				}
 				{
 					count: 15
-					id: "DD00000000000052"
+					id: "2FA430448B41B640"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "DD00000000000053"
+					id: "55DF61D31516C82D"
 					item: "kubejs:moathco_files_vol_4"
 					type: "item"
 				}
 				{
 					count: 10
-					id: "DD00000000000054"
+					id: "7BC2A00CF008DD85"
 					item: "minecraft:golden_apple"
 					type: "item"
 				}
 				{
 					command: "/function moathco:phase_4_broadcast"
-					id: "DD00000000000055"
+					id: "1BD4FD5C1DF1809A"
 					type: "command"
 				}
 			]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
-				id: "DD00000000000056"
+				id: "292C51EFB574D810"
 				item: "kubejs:reactor_authority_seal"
 				type: "item"
 			}]
@@ -240,7 +233,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["DD00000000000010"]
 			description: [
 				"§7Craft a §9Wireless Access Terminal§7 and link it to your ME Network."
 				""
@@ -248,30 +240,29 @@
 				""
 				"§8Charge it in a §9Charger§8. Link it by right-clicking a §9Wireless Access Point§8 connected to your network."
 			]
-			id: "DD00000000000060"
+			id: "5D24B3B06ED7B1B9"
 			rewards: [
 				{
-					id: "DD00000000000061"
+					id: "6BB7E5B0105B88F4"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
-					id: "DD00000000000062"
+					id: "16D29F4CB959D94C"
 					item: "ae2:wireless_access_point"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "DD00000000000063"
+				id: "73D1C018D1AC1DA3"
 				item: "ae2:wireless_terminal"
 				type: "item"
 			}]
 			title: "§9Wireless Network"
-			x: 3.0d
-			y: -3.5d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["DD00000000000010"]
 			description: [
 				"§7Craft a §bPsi CAD§7 (Computer Aided Device) and load a §bSpell Bullet§7 into it."
 				""
@@ -281,31 +272,30 @@
 				"§8Complex Psi spells can automate tasks that would otherwise require machines."
 				"§8Learn it early — it pairs well with Ars Nouveau and Irons Spellbooks."
 			]
-			id: "DD00000000000070"
+			id: "344B331DF50E4AEB"
 			rewards: [
 				{
-					id: "DD00000000000071"
+					id: "7937CB2747944CAE"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 2
-					id: "DD00000000000072"
+					id: "21C10707621201A9"
 					item: "psi:spell_bullet"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "DD00000000000073"
+				id: "4870FE69E7A37453"
 				item: "psi:cad_assembly"
 				type: "item"
 			}]
 			title: "§bPsi Programmer"
-			x: 6.0d
-			y: -3.5d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["DD00000000000030"]
 			description: [
 				"§7Visit §aBoth §eBlue Skies§a dimensions§7:"
 				"§e  Everbright §7— a golden daytime sky realm"
@@ -316,38 +306,37 @@
 				"§8Blue Skies materials are excellent for decoration and mid-tier gear."
 				"§8The §eDawnswept Plains§7 of Everdawn contains some of the best early-game loot chests."
 			]
-			id: "DD00000000000080"
+			id: "1523BA8DD81B267C"
 			rewards: [
 				{
-					id: "DD00000000000081"
+					id: "7978E46A72E19494"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 4
-					id: "DD00000000000082"
+					id: "7818D04E679CAAE2"
 					item: "blue_skies:everbright_log"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "DD00000000000083"
+					id: "44B7EB5DA2D5374A"
 					title: "Visit the Everbright dimension."
 					type: "checkmark"
 				}
 				{
-					id: "DD00000000000084"
+					id: "2BE9A8DB0DED1B1E"
 					title: "Visit the Everdawn dimension."
 					type: "checkmark"
 				}
 			]
 			title: "§eBlue Horizons"
 			x: 9.0d
-			y: -3.5d
+			y: -7.0d
 		}
 		{
-			dependencies: ["DD00000000000040"]
 			description: [
 				"§7Obtain a §6Legendary§7 quality item via §eApotheosis§7."
 				""
@@ -358,31 +347,30 @@
 				""
 				"§8Legendary gear in Phase IV is endgame-adjacent for combat."
 			]
-			id: "DD00000000000090"
+			id: "69669837D16B6ACE"
 			rewards: [
 				{
-					id: "DD00000000000091"
+					id: "6699FB3D1C95FFA5"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 4
-					id: "DD00000000000092"
+					id: "4E871C0296496A40"
 					item: "apotheosis:gem_dust"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "DD00000000000093"
+				id: "0A864AEDB5BEE2C2"
 				title: "Obtain a Legendary quality item from Apotheosis."
 				type: "checkmark"
 			}]
 			title: "§6Legendary Grade"
-			x: 12.0d
-			y: -3.5d
+			x: 9.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["DD00000000000020"]
 			description: [
 				"§7Craft a §7Mekanism Fusion Reactor§7 — the most powerful energy source in Phase IV."
 				""
@@ -392,30 +380,29 @@
 				"§8This reactor outputs enough power to run your entire Mekanism array at once."
 				"§8Build it before Phase V — you'll need the power output for Draconic Evolution."
 			]
-			id: "DD000000000000A0"
+			id: "5EA83BCFD55D74D4"
 			rewards: [
 				{
-					id: "DD000000000000A1"
+					id: "31A20692B0E097CC"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
-					id: "DD000000000000A2"
+					id: "23B82123DA7FABDC"
 					item: "mekanism:polonium_pellet"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "DD000000000000A3"
+				id: "155C73B158F6DA67"
 				title: "Build and activate a Mekanism Fusion Reactor."
 				type: "checkmark"
 			}]
 			title: "§6Fusion Reactor"
-			x: 3.0d
-			y: 3.5d
+			x: 12.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["DD00000000000030"]
 			description: [
 				"§7Craft a §ePneumaticCraft Pressure Chamber§7."
 				""
@@ -424,30 +411,29 @@
 				""
 				"§8Even if you don't go deep into PneumaticCraft, the §ePressure Chamber§8 opens useful mid-game automation options."
 			]
-			id: "DD000000000000B0"
+			id: "2F362D2523795C0F"
 			rewards: [
 				{
-					id: "DD000000000000B1"
+					id: "511B4CC721529C1C"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
-					id: "DD000000000000B2"
+					id: "6C0A460D8B128B2E"
 					item: "pneumaticcraft:advanced_pressure_tube"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "DD000000000000B3"
+				id: "794F9A9139789818"
 				item: "pneumaticcraft:pressure_chamber_wall"
 				type: "item"
 			}]
 			title: "§ePressure Vessel"
-			x: 6.0d
-			y: 3.5d
+			x: 12.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["DD00000000000040"]
 			description: [
 				"§7Complete the §bAether's §bBronze Dungeon§7 — a maze-like structure floating in the sky."
 				""
@@ -457,31 +443,30 @@
 				"§8Drops: §bSlider's Labyrinth keys§7 and §bZanite§7 gear."
 				"§8Clear all three dungeon types for full Aether progression: Bronze → Silver → Gold."
 			]
-			id: "DD000000000000C0"
+			id: "22CEA7B71AC412E6"
 			rewards: [
 				{
-					id: "DD000000000000C1"
+					id: "711B59A416E81FC8"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 2
-					id: "DD000000000000C2"
+					id: "419F531A9C668696"
 					item: "aether:zanite_gemstone"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "DD000000000000C3"
+				id: "1CAA7ED551560D70"
 				title: "Complete the Aether Bronze Dungeon and defeat the Slider."
 				type: "checkmark"
 			}]
 			title: "§bAether Delver"
 			x: 12.0d
-			y: 3.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["DD000000000000C0"]
 			description: [
 				"§7Defeat the §bAether Silver Dungeon§7 boss — the §bValkyrie Queen§7."
 				""
@@ -493,31 +478,30 @@
 				""
 				"§eDrop: §bVanquisher§7 (powerful sword) and §bValkyrie armor§7."
 			]
-			id: "DD01000000000010"
+			id: "4684E2054AAC2A90"
 			rewards: [
 				{
-					id: "DD01000000000011"
+					id: "0CA6310A8027A516"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 3
-					id: "DD01000000000012"
+					id: "24EA638ECFBB08DB"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "DD01000000000013"
+				id: "4EDEF66595CD27E0"
 				title: "Defeat the Aether Silver Dungeon (Valkyrie Queen)."
 				type: "checkmark"
 			}]
 			title: "§bSilver Dungeon"
-			x: 15.0d
-			y: 3.5d
+			x: 12.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["DD01000000000010"]
 			description: [
 				"§7Defeat the §bAether Gold Dungeon§7 boss — the §bSun Spirit§7."
 				""
@@ -529,31 +513,30 @@
 				""
 				"§eDrop: §bSun Altar key§7 + §bGravitite gear§7 — Gravitite is Aether's rarest metal."
 			]
-			id: "DD01000000000020"
+			id: "57DC84750D82F961"
 			rewards: [
 				{
-					id: "DD01000000000021"
+					id: "55A60B3808E430C6"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 4
-					id: "DD01000000000022"
+					id: "6D3C4DDE63DE0137"
 					item: "aether:gravitite_ingot"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "DD01000000000023"
+				id: "562C9E51BFD3F72A"
 				title: "Defeat the Aether Gold Dungeon (Sun Spirit)."
 				type: "checkmark"
 			}]
 			title: "§bGold Dungeon"
-			x: 18.0d
-			y: 3.5d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["DD00000000000060"]
 			description: [
 				"§7Craft a §9ME Interface§7 — the bridge between your AE2 network and other machines."
 				""
@@ -563,32 +546,31 @@
 				"§8ME Interface + Crafting CPU = your network can craft any encoded recipe automatically on demand."
 				"§8This is what separates a storage network from a true autocrafting factory."
 			]
-			id: "DD01000000000030"
+			id: "7402DA0324063919"
 			rewards: [
 				{
-					id: "DD01000000000031"
+					id: "304F90BC59AAB3CC"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "DD01000000000032"
+					id: "0BF2F11748E49B40"
 					item: "ae2:interface"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 4L
-				id: "DD01000000000033"
+				id: "3C3D1B4C429323E7"
 				item: "ae2:interface"
 				type: "item"
 			}]
 			title: "§9ME Interface"
-			x: 15.0d
-			y: -3.5d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["DD01000000000030"]
 			description: [
 				"§7Set up §9AE2 Channels§7 correctly across your network."
 				""
@@ -600,16 +582,16 @@
 				""
 				"§8If devices turn offline, you've run out of channels — add Dense Cables or P2P Tunnels."
 			]
-			id: "DD01000000000040"
+			id: "4935BD84D912F1BA"
 			rewards: [
 				{
-					id: "DD01000000000041"
+					id: "1B8639CA80B8C3BD"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "DD01000000000042"
+					id: "3923613591B43A10"
 					item: "ae2:dense_cable"
 					type: "item"
 				}
@@ -617,22 +599,21 @@
 			tasks: [
 				{
 					count: 4L
-					id: "DD01000000000043"
+					id: "0CD7EA28C148B602"
 					item: "ae2:dense_cable"
 					type: "item"
 				}
 				{
-					id: "DD01000000000044"
+					id: "7E2B0F6B8837A81F"
 					item: "ae2:me_p2p_tunnel"
 					type: "item"
 				}
 			]
 			title: "§9Channel Management"
-			x: 18.0d
-			y: -3.5d
+			x: 6.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["DD00000000000030"]
 			description: [
 				"§7Craft a §cNuclearCraft Radiation Shielding§7 for your armor."
 				""
@@ -643,31 +624,30 @@
 				""
 				"§8Wear the Hazmat Suit whenever working inside or near the reactor structure."
 			]
-			id: "DD01000000000050"
+			id: "3C0FC0644B4D2B3B"
 			rewards: [
 				{
-					id: "DD01000000000051"
+					id: "0CBB53CC8D2025A4"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 8
-					id: "DD01000000000052"
+					id: "3B1413BF5C0902DE"
 					item: "nuclearcraft:radaway"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "DD01000000000053"
+				id: "72BAA0E9F831D322"
 				title: "Craft NuclearCraft Radaway and wear radiation protection armor."
 				type: "checkmark"
 			}]
 			title: "§cRadiation Safety"
-			x: 9.0d
-			y: -5.0d
+			x: 12.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["DD01000000000050"]
 			description: [
 				"§7Set up §cNuclearCraft fuel reprocessing§7 using the §cReprocessor§7."
 				""
@@ -679,31 +659,30 @@
 				"§8Without reprocessing, you burn through fuel rods and can't sustain the reactor long-term."
 				"§8Build the Reprocessor early and set up a fuel reprocessing loop."
 			]
-			id: "DD01000000000060"
+			id: "738B7C9B0234DDA6"
 			rewards: [
 				{
-					id: "DD01000000000061"
+					id: "72ED668F194AC6C8"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 4
-					id: "DD01000000000062"
+					id: "7E795C3410E7A967"
 					item: "nuclearcraft:fuel_plutonium_lea"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "DD01000000000063"
+				id: "1690585E2EF5E910"
 				item: "nuclearcraft:reprocessor"
 				type: "item"
 			}]
 			title: "§cFuel Reprocessing"
 			x: 12.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["DD000000000000A0"]
 			description: [
 				"§7Craft a §6Mekanism Quantum Entangloporter§7."
 				""
@@ -713,31 +692,30 @@
 				"§8This eliminates the need for long cable or pipe runs across your base."
 				"§8Essential for cross-dimensional logistics — power from the Overworld to a Nether base, etc."
 			]
-			id: "DD01000000000070"
+			id: "673358F16CB845D7"
 			rewards: [
 				{
-					id: "DD01000000000071"
+					id: "76B45BCBAF587768"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 2
-					id: "DD01000000000072"
+					id: "48E9236F8D30A412"
 					item: "mekanism:quantum_entangloporter"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "DD01000000000073"
+				id: "198AAB347DA33C4A"
 				item: "mekanism:quantum_entangloporter"
 				type: "item"
 			}]
 			title: "§6Quantum Entangloporter"
-			x: 6.0d
+			x: 9.0d
 			y: 5.5d
 		}
 		{
-			dependencies: ["DD01000000000070"]
 			description: [
 				"§7Produce §6Refined Obsidian§7 using the §6Mekanism Osmium Compressor§7 and §6Chemical Injection Chamber§7."
 				""
@@ -748,34 +726,31 @@
 				""
 				"§8Craft at least a chestplate and helmet before moving to Phase V."
 			]
-			id: "DD01000000000080"
+			id: "789582281AC94701"
 			rewards: [
 				{
-					id: "DD01000000000081"
+					id: "261864DCB65DAD2E"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 4
-					id: "DD01000000000082"
+					id: "7E07123FE7CD283A"
 					item: "mekanism:ingot_refined_obsidian"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
 				count: 4L
-				id: "DD01000000000083"
+				id: "44058D827FCF1F87"
 				item: "mekanism:ingot_refined_obsidian"
 				type: "item"
 			}]
 			title: "§6Refined Obsidian"
-			x: 9.0d
-			y: 5.5d
+			x: 15.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["DD000000000000B0"]
 			description: [
 				"§7Craft and program a §ePneumaticCraft Drone§7."
 				""
@@ -788,31 +763,30 @@
 				""
 				"§8Drones are the closest thing to Integrated Circuits in automation — extremely powerful if learned."
 			]
-			id: "DD01000000000090"
+			id: "25D0AAEE9CCAFA3D"
 			rewards: [
 				{
-					id: "DD01000000000091"
+					id: "1CA0D234005244B0"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 2
-					id: "DD01000000000092"
+					id: "1DBEBE930CE66210"
 					item: "pneumaticcraft:drone"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "DD01000000000093"
+				id: "1DE9D0E6C36F0529"
 				item: "pneumaticcraft:drone"
 				type: "item"
 			}]
 			title: "§ePneumatic Drone"
-			x: 12.0d
+			x: 15.0d
 			y: 5.5d
 		}
 		{
-			dependencies: ["DD01000000000080"]
 			description: [
 				"§7Build an §aIndustrial Foregoing Laser Drill§7 — automated deep-ore mining."
 				""
@@ -822,28 +796,29 @@
 				"§8Power cost is massive — run it off your Fusion Reactor or NuclearCraft reactor."
 				"§8The Laser Drill produces ores passively in the background. Set it and forget it."
 			]
-			id: "DD010000000000A0"
+			id: "3B63B66CC37D1FBE"
 			rewards: [
 				{
-					id: "DD010000000000A1"
+					id: "0A965AE2D786F2F2"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 2
-					id: "DD010000000000A2"
+					id: "5E2FD2B74C754C49"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "DD010000000000A3"
+				id: "0E2198DA73409245"
 				item: "industrialforegoing:laser_drill"
 				type: "item"
 			}]
 			title: "§aLaser Drill"
 			x: 15.0d
-			y: 5.5d
+			y: 7.5d
 		}
 	]
+	title: "§9§lIV. Infinite Architecture"
 }

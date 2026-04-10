@@ -3,11 +3,10 @@
 	default_quest_shape: "circle"
 	filename: "side_wanderers_atlas"
 	group: "5186F2D762C2C9E0"
-	icon: "xaeroworldmap:worldmap_item"
-	id: "F200000000000001"
-	order_index: 11
-	quest_links: []
-	title: "§aWanderer's Atlas"
+	icon: "minecraft:filled_map"
+	id: "7B7C862443F4C174"
+	order_index: 3
+	quest_links: [ ]
 	quests: [
 		{
 			description: [
@@ -18,16 +17,16 @@
 				""
 				"§8Open your §aXaero's World Map§7 (default: §eM§8) and start mapping. The world is enormous."
 			]
-			id: "F200000000000002"
+			id: "56F0EDA70F0E8F41"
 			rewards: [{
-				id: "F200000000000003"
+				id: "5FFD186CFF8A5350"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
-				id: "F200000000000004"
+				id: "08BE01DE817D0CB6"
 				title: "Open the world map and begin your atlas."
 				type: "checkmark"
 			}]
@@ -36,7 +35,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F200000000000002"]
 			description: [
 				"§7Place §a5 Waystones§7 across the world — at key locations, biomes, or structures."
 				""
@@ -44,23 +42,23 @@
 				""
 				"§8Waystones are free to teleport between. Name them clearly — you'll thank yourself later."
 			]
-			id: "F200000000000010"
+			id: "697B339B0F2DC9F0"
 			rewards: [
 				{
-					id: "F200000000000011"
+					id: "1030BBD399543479"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 2
-					id: "F200000000000012"
+					id: "7225810FBDC5DFE9"
 					item: "waystones:waystone"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 5L
-				id: "F200000000000013"
+				id: "6467833551E79DB0"
 				item: "waystones:waystone"
 				type: "item"
 			}]
@@ -69,7 +67,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F200000000000010"]
 			description: [
 				"§7Find and loot a §eDungeons Arise§7 structure."
 				""
@@ -79,22 +76,22 @@
 				"§8Look for structures on the §eXaero's World Map§7 (they're tagged automatically)."
 				"§8They're dangerous — go prepared."
 			]
-			id: "F200000000000020"
+			id: "3EEE672710FEC994"
 			rewards: [
 				{
-					id: "F200000000000021"
+					id: "6B215731B1125223"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 3
-					id: "F200000000000022"
+					id: "2F4C997AC77EFD38"
 					item: "minecraft:golden_apple"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F200000000000023"
+				id: "363EADF5DD7AEBD3"
 				title: "Find and loot a Dungeons Arise structure."
 				type: "checkmark"
 			}]
@@ -103,7 +100,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F200000000000020"]
 			description: [
 				"§7Visit §e5 distinct biomes§7 in a single journey."
 				""
@@ -112,21 +108,21 @@
 				""
 				"§8Target: Desert, Jungle, Snowy Taiga, Mushroom Island, Deep Ocean."
 			]
-			id: "F200000000000030"
+			id: "4E89482E3BF26304"
 			rewards: [
 				{
-					id: "F200000000000031"
+					id: "1C99D0C4231EACA3"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
-					id: "F200000000000032"
+					id: "592B2E05AA2941B4"
 					item: "sophisticatedbackpacks:backpack"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F200000000000033"
+				id: "38ACC8EF81493E8A"
 				title: "Visit 5 distinct biomes in one journey."
 				type: "checkmark"
 			}]
@@ -135,7 +131,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F200000000000030"]
 			description: [
 				"§7Find a §cCataclysm Dungeon§7 structure in the overworld or The End."
 				""
@@ -145,22 +140,22 @@
 				""
 				"§8Reward for finding it now: advantage later."
 			]
-			id: "F200000000000040"
+			id: "19345848E4DFAF00"
 			rewards: [
 				{
-					id: "F200000000000041"
+					id: "5019388C44018A73"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 3
-					id: "F200000000000042"
+					id: "6D347B57540858A7"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F200000000000043"
+				id: "63F3EC3384E47E46"
 				title: "Find a Cataclysm dungeon structure."
 				type: "checkmark"
 			}]
@@ -169,7 +164,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F200000000000002"]
 			description: [
 				"§7Loot a §7Dungeons Plus§7 structure — Leviathan, Ender Dungeon, Pillager's Factory, or similar."
 				""
@@ -178,31 +172,30 @@
 				""
 				"§8Bring an Ender Chest — the loot is worth keeping."
 			]
-			id: "F200000000000050"
+			id: "53FF13B28AB73655"
 			rewards: [
 				{
-					id: "F200000000000051"
+					id: "6233D42C59750991"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 2
-					id: "F200000000000052"
+					id: "5FE9FD3B40F94C51"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F200000000000053"
+				id: "44E3F2F079CE51FE"
 				title: "Loot a Dungeons Plus structure."
 				type: "checkmark"
 			}]
 			title: "§7Plus Dungeon"
 			x: 3.0d
-			y: 3.5d
+			y: -7.0d
 		}
 		{
-			dependencies: ["F200000000000010"]
 			description: [
 				"§7Find a §avillage§7 and trade with at least §e3 different villager professions§7."
 				""
@@ -212,31 +205,30 @@
 				"§8Plant crops near the village to keep it populated and breeding."
 				"§8Build a trading hall if you find exceptional villagers."
 			]
-			id: "F200000000000060"
+			id: "4647E7AE5E86C4DC"
 			rewards: [
 				{
-					id: "F200000000000061"
+					id: "475A0B025E8627A3"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 16
-					id: "F200000000000062"
+					id: "2BA649FC01BD4C92"
 					item: "minecraft:emerald"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F200000000000063"
+				id: "393D1674547ACF3B"
 				title: "Trade with 3 different villager professions."
 				type: "checkmark"
 			}]
 			title: "§eTrade Routes"
 			x: 6.0d
-			y: 3.5d
+			y: -7.0d
 		}
 		{
-			dependencies: ["F200000000000020"]
 			description: [
 				"§7Find and enter §2The Undergarden§7."
 				""
@@ -247,31 +239,30 @@
 				""
 				"§8Cloggrum Armor is competitive with iron and worth crafting early."
 			]
-			id: "F200000000000070"
+			id: "4B6CE6E8F08E3F38"
 			rewards: [
 				{
-					id: "F200000000000071"
+					id: "6A396CF65555D990"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 2
-					id: "F200000000000072"
+					id: "7CDFCBE6E91A6704"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F200000000000073"
+				id: "16ADE3EC33F23F23"
 				title: "Enter the Undergarden dimension."
 				type: "checkmark"
 			}]
 			title: "§9Undergarden"
 			x: 9.0d
-			y: 3.5d
+			y: -6.0d
 		}
 		{
-			dependencies: ["F200000000000002"]
 			description: [
 				"§7Find a §7Stronghold§7 and enter the §7End Portal Room§7."
 				""
@@ -281,31 +272,30 @@
 				"§8Don't activate the portal yet if you're not ready — just find it and place a waystone nearby."
 				"§8The portal persists forever. It'll be there when you're ready for The End."
 			]
-			id: "F201000000000010"
+			id: "6B071D6B38C93276"
 			rewards: [
 				{
-					id: "F201000000000011"
+					id: "74CA31157047C6C5"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "F201000000000012"
+					id: "5EE5BDCD292E096E"
 					item: "minecraft:ender_pearl"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F201000000000013"
+				id: "399431CD18FC7346"
 				title: "Find the Stronghold End Portal Room."
 				type: "checkmark"
 			}]
 			title: "§7Stronghold Found"
 			x: 3.0d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
-			dependencies: ["F201000000000010"]
 			description: [
 				"§7Find an §8Ancient City§7 deep in the deep dark biome."
 				""
@@ -316,31 +306,30 @@
 				""
 				"§8Crouch constantly. Use wool blocks to muffle footsteps. Do not sprint. Do not fight the Warden."
 			]
-			id: "F201000000000020"
+			id: "3E5B3FB133650C41"
 			rewards: [
 				{
-					id: "F201000000000021"
+					id: "12C00DD6C9EC20E7"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 4
-					id: "F201000000000022"
+					id: "206FC87BC962ABAE"
 					item: "minecraft:echo_shard"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F201000000000023"
+				id: "02EB5A646A2CE249"
 				title: "Loot an Ancient City chest."
 				type: "checkmark"
 			}]
 			title: "§8Ancient City"
 			x: 6.0d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
-			dependencies: ["F201000000000020"]
 			description: [
 				"§7Find and raid an §9Ocean Monument§7."
 				""
@@ -351,31 +340,30 @@
 				"§8Helmet enchant §9Aqua Affinity§8 + §9Respiration§8 is highly recommended."
 				"§8The center room holds 8 gold blocks — worth the fight."
 			]
-			id: "F201000000000030"
+			id: "178B99918240945A"
 			rewards: [
 				{
-					id: "F201000000000031"
+					id: "74B92CDE4DB3A0B4"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 8
-					id: "F201000000000032"
+					id: "30CAB59BFE72C2A0"
 					item: "minecraft:sponge"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F201000000000033"
+				id: "13F53E20E8374C51"
 				title: "Raid an Ocean Monument and defeat the Elder Guardians."
 				type: "checkmark"
 			}]
 			title: "§9Ocean Monument"
 			x: 9.0d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["F200000000000030"]
 			description: [
 				"§7Enter §fThe End§7."
 				""
@@ -386,31 +374,30 @@
 				"§8Destroy the End Crystals on the obsidian pillars — they regenerate the Dragon's health."
 				"§8Don't look at Endermen unless you're ready to fight them."
 			]
-			id: "F201000000000040"
+			id: "0D813C242E6674BC"
 			rewards: [
 				{
-					id: "F201000000000041"
+					id: "1D0C5D67A8DE60D7"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 8
-					id: "F201000000000042"
+					id: "5A752DCAE78C8201"
 					item: "minecraft:end_stone"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F201000000000043"
+				id: "7BB4DDF7117AFE4B"
 				title: "Enter The End dimension."
 				type: "checkmark"
 			}]
 			title: "§fInto The End"
 			x: 12.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["F201000000000040"]
 			description: [
 				"§7Reach an §fEnd City§7 and collect a §5Shulker Shell§7."
 				""
@@ -422,33 +409,36 @@
 				""
 				"§8§5Elytra§8 is the single best traversal tool in the pack. Priority pickup."
 			]
-			id: "F201000000000050"
+			id: "637EE8FEBCA25DAA"
 			rewards: [
 				{
-					id: "F201000000000051"
+					id: "30AEF334219A5A57"
 					type: "xp_levels"
 					xp_levels: 15
 				}
 				{
 					count: 2
-					id: "F201000000000052"
-					item: "minecraft:elytra"
+					id: "6450846743269633"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "F201000000000053"
+				id: "64BD36F23F28F58C"
 				item: "minecraft:shulker_shell"
 				type: "item"
 			}]
 			title: "§5§lEnd City"
 			x: 15.0d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["F200000000000070"]
 			description: [
 				"§7Explore §aBetter End§7 — a complete visual overhaul of The End dimension."
 				""
@@ -459,31 +449,30 @@
 				""
 				"§8Explore The End thoroughly after defeating the Dragon — each biome has unique loot."
 			]
-			id: "F201000000000060"
+			id: "5E488468199FBDC3"
 			rewards: [
 				{
-					id: "F201000000000061"
+					id: "5D421352F840D7FB"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 3
-					id: "F201000000000062"
+					id: "6A337CB4EEAD5915"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F201000000000063"
+				id: "4066436D4D5D31D8"
 				title: "Visit a Better End unique biome."
 				type: "checkmark"
 			}]
 			title: "§aBetter End"
 			x: 12.0d
-			y: 3.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["F201000000000060"]
 			description: [
 				"§7Visit all §c4 Nether biome types§7: Crimson Forest, Warped Forest, Soul Sand Valley, and Basalt Deltas."
 				""
@@ -495,31 +484,30 @@
 				""
 				"§8Use §aXaero's World Map§8 to track which Nether biomes you've visited."
 			]
-			id: "F201000000000070"
+			id: "2514352554ED5E89"
 			rewards: [
 				{
-					id: "F201000000000071"
+					id: "6B57CB17CF3F4F07"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 3
-					id: "F201000000000072"
+					id: "62827A7A7487CCA6"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F201000000000073"
+				id: "38D8A591500E0D32"
 				title: "Visit all 4 Nether biome types."
 				type: "checkmark"
 			}]
 			title: "§cNether Cartographer"
 			x: 15.0d
-			y: 3.5d
+			y: -5.0d
 		}
 		{
-			dependencies: ["F200000000000040"]
 			description: [
 				"§7Find and enter §bThe Aether§7 — the sky dimension of clouds and floating islands."
 				""
@@ -531,22 +519,22 @@
 				"§8The Aether is the Phase IV sky dimension — best done with Phase III gear."
 				"§8Dungeon bosses drop Aether-exclusive tools and armor."
 			]
-			id: "F201000000000080"
+			id: "1754BF2805B82AD8"
 			rewards: [
 				{
-					id: "F201000000000081"
+					id: "4FA3C0551F3CAEF2"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 3
-					id: "F201000000000082"
+					id: "4CEC9D860ECA722D"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F201000000000083"
+				id: "7F6584C68B15635A"
 				title: "Enter the Aether dimension."
 				type: "checkmark"
 			}]
@@ -555,7 +543,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F200000000000060"]
 			description: [
 				"§7Find a §cNether Fortress§7 and collect §c8 Blaze Rods§7."
 				""
@@ -565,32 +552,31 @@
 				""
 				"§8Mark the Fortress on your world map. A Wither Skeleton farm here is one of the best long-term investments."
 			]
-			id: "F201000000000090"
+			id: "703B7480B3513409"
 			rewards: [
 				{
-					id: "F201000000000091"
+					id: "5324A65EC6B8E341"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 8
-					id: "F201000000000092"
+					id: "45D1D481FD45B1EC"
 					item: "minecraft:blaze_rod"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 8L
-				id: "F201000000000093"
+				id: "510C56843FCA8E35"
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
 			title: "§cNether Fortress"
 			x: 6.0d
-			y: 7.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["F200000000000060"]
 			description: [
 				"§7Find a §6Nether Bastion Remnant§7 and loot it."
 				""
@@ -602,28 +588,29 @@
 				"§8Wear gold armor to keep regular Piglins neutral — only Brutes will attack."
 				"§8The bridge chests in Treasure Bastions have the best loot in the Nether."
 			]
-			id: "F201000000000100"
+			id: "115F86F53C49FBFC"
 			rewards: [
 				{
-					id: "F201000000000101"
+					id: "20A366CF6B6054E1"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 4
-					id: "F201000000000102"
+					id: "0DBD1D93DC746FC1"
 					item: "minecraft:netherite_scrap"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F201000000000103"
+				id: "7DC202552E04D354"
 				title: "Loot a Nether Bastion Remnant."
 				type: "checkmark"
 			}]
 			title: "§6Bastion Raided"
 			x: 9.0d
-			y: 7.0d
+			y: 5.5d
 		}
 	]
+	title: "§aWanderer's Atlas"
 }

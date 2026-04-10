@@ -4,10 +4,9 @@
 	filename: "ch2_circuits_sorcery"
 	group: "3E586F2160161EEA"
 	icon: "bloodmagic:altar"
-	id: "BB00000000000001"
-	order_index: 2
-	quest_links: []
-	title: "§d§lII. Circuits & Sorcery"
+	id: "142D160077A5C284"
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
 			description: [
@@ -18,25 +17,24 @@
 				""
 				"§8Unlock condition: §6The First Seal §8(Phase I complete)"
 			]
-			id: "BB00000000000002"
+			id: "3EF3915D0AFA357F"
 			rewards: [{
-				id: "BB00000000000003"
+				id: "25B3AFE6F99DEF66"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "BB00000000000004"
+				id: "7CAF5D7BC84563A7"
 				title: "Enter Phase II."
 				type: "checkmark"
 			}]
-			title: "§d§lCircuits & Sorcery"
+			title: "§d§lCircuits \& Sorcery"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["BB00000000000002"]
 			description: [
 				"§7Craft and place a §4Blood Magic Altar§7."
 				""
@@ -46,27 +44,27 @@
 				"§8The altar is gated behind the §6Phase I Seal§8. Craft it now that you have access."
 				"§8Start slow. Your altar tier determines how fast LP fills."
 			]
-			id: "BB00000000000010"
+			id: "58CC0233BE34EB82"
 			rewards: [
 				{
-					id: "BB00000000000011"
+					id: "57F0441DE058F98B"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
-					id: "BB00000000000012"
+					id: "19E988EBC815AFF5"
 					item: "bloodmagic:sacrificial_dagger"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "BB00000000000013"
+					id: "5FE04A3B7F983EF3"
 					item: "bloodmagic:altar"
 					type: "item"
 				}
 				{
-					id: "BB00000000000014"
+					id: "50EF0B3CF0664254"
 					title: "Right-click the altar with the Sacrificial Dagger to add Life Points."
 					type: "checkmark"
 				}
@@ -76,7 +74,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["BB00000000000010"]
 			description: [
 				"§7Craft a §bMana Pool§7 and place it outdoors."
 				"§7Then place at least §b2 Daybloom flowers§7 nearby on dirt — they passively generate §bMana§7 from sunlight."
@@ -85,28 +82,28 @@
 				""
 				"§8Dayblooms are slow. Later you'll replace them with faster flowers (Endoflame, Kekimurus)."
 			]
-			id: "BB00000000000020"
+			id: "504B6D2EE51842DC"
 			rewards: [
 				{
-					id: "BB00000000000021"
+					id: "61ADD8CAE889ABAA"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "BB00000000000022"
+					id: "77470060465E84B7"
 					item: "botania:daybloom"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "BB00000000000023"
+					id: "2C61783C1C6C76FE"
 					item: "botania:mana_pool"
 					type: "item"
 				}
 				{
-					id: "BB00000000000024"
+					id: "1BA9530C00F6BDBB"
 					title: "Place 2 Daybloom flowers near your Mana Pool and watch mana accumulate."
 					type: "checkmark"
 				}
@@ -116,7 +113,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["BB00000000000020"]
 			description: [
 				"§7Craft a §aRefined Storage Controller§7 and a §aDisk Drive§7."
 				""
@@ -126,27 +122,27 @@
 				"§8§aRefined Storage§8 is gated behind Phase I. Craft it now."
 				"§8Place the Controller first, then connect other RS components to it."
 			]
-			id: "BB00000000000030"
+			id: "2337AD8E48EDE51C"
 			rewards: [
 				{
-					id: "BB00000000000031"
+					id: "3E86F8F04FDF9291"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
-					id: "BB00000000000032"
+					id: "5BA956E51FD63043"
 					item: "refinedstorage:storage_disk_64k"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "BB00000000000033"
+					id: "6C52E172149C7812"
 					item: "refinedstorage:controller"
 					type: "item"
 				}
 				{
-					id: "BB00000000000034"
+					id: "621BB03A4AB076FB"
 					item: "refinedstorage:disk_drive"
 					type: "item"
 				}
@@ -156,7 +152,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["BB00000000000030"]
 			description: [
 				"§7Craft a §aCrafting Grid§7 and connect it to your §aRefined Storage§7 network."
 				""
@@ -164,21 +159,21 @@
 				""
 				"§8Your network is only as useful as what's connected to it. Add Importers on all your chests next."
 			]
-			id: "BB00000000000040"
+			id: "6ABB42E9FC78A061"
 			rewards: [
 				{
-					id: "BB00000000000041"
+					id: "261CFA01EFB41F24"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
-					id: "BB00000000000042"
+					id: "36DA27E84B95449F"
 					item: "refinedstorage:importer"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "BB00000000000043"
+				id: "02E5F012DDAB4CA6"
 				item: "refinedstorage:crafting_grid"
 				type: "item"
 			}]
@@ -187,7 +182,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["BB00000000000040"]
 			description: [
 				"§d§l✦ Phase II Complete"
 				""
@@ -197,40 +191,40 @@
 				""
 				"§c§lUnlocks: §fMystical Agriculture Seed Base  ·  Farmer's Delight Cooking Pot  ·  Apotheosis Salvaging Table"
 			]
-			id: "BB00000000000050"
+			id: "10F2216D18CC8217"
 			rewards: [
 				{
-					id: "BB00000000000051"
+					id: "6F9AC35A3BAF2667"
 					type: "xp_levels"
 					xp_levels: 20
 				}
 				{
 					count: 8
-					id: "BB00000000000052"
+					id: "67DDADA13F7BBF35"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "BB00000000000053"
+					id: "40035052DD92E00C"
 					item: "kubejs:moathco_files_vol_2"
 					type: "item"
 				}
 				{
 					count: 5
-					id: "BB00000000000054"
+					id: "006E43643ED9666D"
 					item: "minecraft:golden_apple"
 					type: "item"
 				}
 				{
 					command: "/function moathco:phase_2_broadcast"
-					id: "BB00000000000055"
+					id: "260240C365A256F9"
 					type: "command"
 				}
 			]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
-				id: "BB00000000000056"
+				id: "3B37710421591D33"
 				item: "kubejs:crimson_circuit_of_passage"
 				type: "item"
 			}]
@@ -239,7 +233,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["BB00000000000010"]
 			description: [
 				"§7Craft a §4Weak Blood Orb§7 at your Blood Magic Altar."
 				""
@@ -248,30 +241,29 @@
 				""
 				"§8Higher tier orbs hold more LP and unlock more powerful rituals."
 			]
-			id: "BB00000000000060"
+			id: "5118A2E360CE4F2E"
 			rewards: [
 				{
-					id: "BB00000000000061"
+					id: "33D2C57BDA323319"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
-					id: "BB00000000000062"
+					id: "3DA350181EC001AE"
 					item: "bloodmagic:reagent_binding"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "BB00000000000063"
+				id: "04D035494E2D7C71"
 				item: "bloodmagic:blood_orb"
 				type: "item"
 			}]
 			title: "§4Blood Orb"
 			x: 3.0d
-			y: -3.5d
+			y: -6.0d
 		}
 		{
-			dependencies: ["BB00000000000060"]
 			description: [
 				"§7Use the §4Ritual of Binding§7 to bind a mob to a §4Living Armor§7 enhancement."
 				""
@@ -280,23 +272,22 @@
 				""
 				"§8Rituals automate many tasks — ore processing, mob farming, and more. Learn the system early."
 			]
-			id: "BB00000000000064"
+			id: "7AE1F5CFB3B0F820"
 			rewards: [{
-				id: "BB00000000000065"
+				id: "6E837E5FA0528F02"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "BB00000000000066"
+				id: "2D9967F8C3E516DE"
 				item: "bloodmagic:ritual_stone_master"
 				type: "item"
 			}]
 			title: "§4Ritual Mastery"
 			x: 6.0d
-			y: -3.5d
+			y: -6.0d
 		}
 		{
-			dependencies: ["BB00000000000020"]
 			description: [
 				"§7Grow §b4 different functional flora§7 from Botania."
 				""
@@ -304,34 +295,30 @@
 				""
 				"§8Functional flora are different from Generating flora. Read the Lexica Botania carefully — it explains every flower's function."
 			]
-			id: "BB00000000000070"
+			id: "0D0F2AFC3625E61B"
 			rewards: [
 				{
-					id: "BB00000000000071"
+					id: "6100A03A7CCECFAF"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
-					id: "BB00000000000072"
+					id: "14AABE624D876806"
 					item: "botania:lexicon"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 4L
-				id: "BB00000000000073"
-				item: {
-					Count: 1
-					id: "botania:endoflame"
-				}
+				id: "4D37211EDF0DF65B"
+				item: "botania:endoflame"
 				type: "item"
 			}]
 			title: "§bFlora Study"
 			x: 6.0d
-			y: 3.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["BB00000000000070"]
 			description: [
 				"§7Craft §bBotania Runes§7 at the §bRunic Altar§7."
 				""
@@ -340,31 +327,30 @@
 				""
 				"§8You'll need at least 8 runes for Terrasteel. Build the Runic Altar near your Mana Pool."
 			]
-			id: "BB00000000000074"
+			id: "0D9FCACD010AD94C"
 			rewards: [
 				{
-					id: "BB00000000000075"
+					id: "0FC660E2F5F0E9AA"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 2
-					id: "BB00000000000076"
+					id: "2614A8ABEBB23F95"
 					item: "botania:rune_fire"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "BB00000000000077"
+				id: "5E5EC312844B5C92"
 				item: "botania:rune_altar"
 				type: "item"
 			}]
 			title: "§bRunic Altar"
 			x: 9.0d
-			y: 3.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["BB00000000000030"]
 			description: [
 				"§7Craft an §eApotheosis Salvaging Table§7."
 				""
@@ -373,30 +359,29 @@
 				""
 				"§8Apotheosis also adds rare §eLoot Modifiers§7, §eGems§7, and an §eSoul Cage§7 system for mob farming. Explore its JEI tabs."
 			]
-			id: "BB00000000000080"
+			id: "578DA8B97C5E3651"
 			rewards: [
 				{
-					id: "BB00000000000081"
+					id: "6F5C0EE1CC5F0F13"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
-					id: "BB00000000000082"
+					id: "4D4FD3998233EFD8"
 					item: "apotheosis:gem_dust"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "BB00000000000083"
+				id: "5439D522A1A32DD7"
 				item: "apotheosis:salvaging_table"
 				type: "item"
 			}]
 			title: "§eApotheosis Salvage"
 			x: 9.0d
-			y: -3.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["BB00000000000040"]
 			description: [
 				"§7Craft a §aThermal Pulverizer§7 and connect it to your power grid."
 				""
@@ -405,31 +390,30 @@
 				""
 				"§8Pair with the §eThermal Induction Smelter§7 for triple-processing ore chains."
 			]
-			id: "BB00000000000090"
+			id: "5A45CBF410243C53"
 			rewards: [
 				{
-					id: "BB00000000000091"
+					id: "36CAE65AEE6EDC87"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 2
-					id: "BB00000000000092"
+					id: "25AE2091CC8EACB0"
 					item: "minecraft:diamond"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "BB00000000000093"
+				id: "23C32CB4129814A8"
 				item: "thermal:machine_pulverizer"
 				type: "item"
 			}]
 			title: "§eThermal Pulverizer"
 			x: 12.0d
-			y: -3.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["BB00000000000030"]
 			description: [
 				"§7Build a §eTinkers' Smeltery§7: a 3×3×3 hollow structure of §eSmeltery Bricks§7 with a §eSmeltery Controller§7 on the side."
 				""
@@ -440,31 +424,30 @@
 				""
 				"§8Smeltery alloys are some of the best Tinkers' tool materials in the early game."
 			]
-			id: "BB000000000000A0"
+			id: "546CC3849C096DE6"
 			rewards: [
 				{
-					id: "BB000000000000A1"
+					id: "255F28CD6423F8FD"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "BB000000000000A2"
+					id: "2748ACA35C071A89"
 					item: "tconstruct:bronze_ingot"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "BB000000000000A3"
+				id: "6FF74CA7FA429057"
 				item: "tconstruct:smeltery_controller"
 				type: "item"
 			}]
 			title: "§eTinkers' Smeltery"
 			x: 12.0d
-			y: 3.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["BB000000000000A0"]
 			description: [
 				"§7Craft a §eThermal Induction Smelter§7 and use it to produce alloys."
 				""
@@ -475,31 +458,30 @@
 				""
 				"§8Invar and Constantan are required for mid-tier Thermal components. Build this before any advanced machines."
 			]
-			id: "BB01000000000010"
+			id: "51918D22FA079733"
 			rewards: [
 				{
-					id: "BB01000000000011"
+					id: "7E82F814FF3B5D39"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 8
-					id: "BB01000000000012"
+					id: "7C77D321EEB0098C"
 					item: "thermal:ingot_invar"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "BB01000000000013"
+				id: "74041E9AC144F07E"
 				item: "thermal:machine_smelter"
 				type: "item"
 			}]
 			title: "§eInduction Smelter"
 			x: 15.0d
-			y: 3.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["BB01000000000010"]
 			description: [
 				"§7Build a §eThermal Phytogenic Insolator§7 — a machine that grows crops using RF and water."
 				""
@@ -509,31 +491,30 @@
 				"§8Pair with a §aRefined Storage Exporter§8 to automatically feed seeds in and extract crops out."
 				"§8This eliminates the need for a traditional farm for most base materials."
 			]
-			id: "BB01000000000020"
+			id: "5307464C8BF24D00"
 			rewards: [
 				{
-					id: "BB01000000000021"
+					id: "223D5EEEAF1ED0D4"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 16
-					id: "BB01000000000022"
+					id: "2BB27295C1385A59"
 					item: "thermal:phyto_gro"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "BB01000000000023"
+				id: "396735D2B154AF88"
 				item: "thermal:machine_insolator"
 				type: "item"
 			}]
 			title: "§ePhytogenic Insolator"
 			x: 18.0d
-			y: 3.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["BB00000000000090"]
 			description: [
 				"§7Set up §aRS Autocrafting§7 — the most powerful feature of Refined Storage."
 				""
@@ -546,38 +527,37 @@
 				""
 				"§8Encode §a8 patterns§8 for your most-used materials first: iron plates, circuits, machine frames."
 			]
-			id: "BB01000000000030"
+			id: "362C3E05D89C6567"
 			rewards: [
 				{
-					id: "BB01000000000031"
+					id: "0A466620A2828BC5"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
-					id: "BB01000000000032"
+					id: "69F3A647A4D8D348"
 					item: "refinedstorage:crafting_monitor"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "BB01000000000033"
+					id: "661EE762342FD551"
 					item: "refinedstorage:pattern_grid"
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "BB01000000000034"
+					id: "659636A5B85090FE"
 					item: "refinedstorage:pattern"
 					type: "item"
 				}
 			]
 			title: "§aRS Autocrafting"
 			x: 15.0d
-			y: -3.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["BB01000000000030"]
 			description: [
 				"§7Place §aRS Importers§7 on all your existing chests and furnaces."
 				""
@@ -587,32 +567,31 @@
 				"§8Setup: Chest → [Importer] → Network → [Exporter] → Machine → [Importer] → Network"
 				"§8This is the foundation of automated crafting pipelines."
 			]
-			id: "BB01000000000040"
+			id: "342C8031C15B084C"
 			rewards: [
 				{
-					id: "BB01000000000041"
+					id: "213C5349EF45693D"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 4
-					id: "BB01000000000042"
+					id: "38EA8C0DE7DFFAF5"
 					item: "refinedstorage:exporter"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 4L
-				id: "BB01000000000043"
+				id: "7BD2E76DE3E888A7"
 				item: "refinedstorage:importer"
 				type: "item"
 			}]
 			title: "§aImport Everything"
 			x: 18.0d
-			y: -3.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["BB00000000000060"]
 			description: [
 				"§7Craft a §4Divination Sigil§7 — Blood Magic's LP tracking tool."
 				""
@@ -622,23 +601,22 @@
 				"§8You'll use this constantly when upgrading the altar or crafting costly items."
 				"§8Keep it in a hotbar slot — it's the most-used Blood Magic utility item."
 			]
-			id: "BB01000000000050"
+			id: "5600CA40BF86F05F"
 			rewards: [{
-				id: "BB01000000000051"
+				id: "356FA6A903885A47"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			tasks: [{
-				id: "BB01000000000052"
+				id: "007AB2B2D322430B"
 				item: "bloodmagic:divination_sigil"
 				type: "item"
 			}]
 			title: "§4Divination Sigil"
 			x: 3.0d
-			y: -5.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["BB00000000000064"]
 			description: [
 				"§7Perform the §4Ritual of the Green Grove§7 — a Blood Magic ritual that boosts crop growth in an area."
 				""
@@ -648,31 +626,30 @@
 				"§8Green Grove is one of the most useful early rituals — it pairs perfectly with a Farmer's Delight farm."
 				"§8Other useful early rituals: §4Ritual of Magnetism §8(pulls ores), §4Ritual of the Crusher §8(breaks blocks)"
 			]
-			id: "BB01000000000060"
+			id: "75F29E2F793AE2EA"
 			rewards: [
 				{
-					id: "BB01000000000061"
+					id: "25FB1D8E723F5815"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "BB01000000000062"
+					id: "3E4F36EAEA4679B5"
 					item: "bloodmagic:reagent_binding"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "BB01000000000063"
+				id: "363E3EF70005FCA8"
 				title: "Perform the Ritual of the Green Grove."
 				type: "checkmark"
 			}]
 			title: "§4Green Grove Ritual"
 			x: 9.0d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["BB00000000000074"]
 			description: [
 				"§7Produce §b4 Terrasteel Ingots§7 using the §bTerrestrial Agglomeration Plate§7."
 				""
@@ -684,34 +661,31 @@
 				""
 				"§8Terrasteel is required for the §bTerra Blade§8 — Botania's signature sword."
 			]
-			id: "BB01000000000070"
+			id: "0C88FCC349D5404E"
 			rewards: [
 				{
-					id: "BB01000000000071"
+					id: "3BE09FC2B5A7C008"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 2
-					id: "BB01000000000072"
+					id: "043E0579DE0A01A4"
 					item: "botania:terrasteel_ingot"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
 				count: 4L
-				id: "BB01000000000073"
+				id: "0431CE1908CF5575"
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
 			title: "§b§lTerrasteel"
 			x: 9.0d
-			y: 5.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["BB01000000000070"]
 			description: [
 				"§7Craft the §bTerra Blade§7 — Botania's signature endgame sword for this phase."
 				""
@@ -721,33 +695,30 @@
 				"§8Keep your Mana Tablet charged when fighting — the Terra Bolts drain mana quickly."
 				"§8This is one of the best weapons available before Twilight Forest gear."
 			]
-			id: "BB01000000000080"
+			id: "5B3A642898A28DCE"
 			rewards: [
 				{
-					id: "BB01000000000081"
+					id: "652B339B382482AA"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 8
-					id: "BB01000000000082"
+					id: "317CF0235274A8F5"
 					item: "botania:mana_tablet"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "BB01000000000083"
+				id: "3E859B872268B2E2"
 				item: "botania:terra_blade"
 				type: "item"
 			}]
 			title: "§b§lTerra Blade"
 			x: 12.0d
-			y: 5.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["BB00000000000040"]
 			description: [
 				"§7Craft a §eTom's Simple Storage Network§7 — a lightweight alternative storage that connects to barrels and drawers."
 				""
@@ -757,31 +728,30 @@
 				"§8Use §aRS§8 for crafting and logistics, §eTom's + Drawers§8 for bulk materials."
 				"§8This frees up your RS storage disks for diverse items."
 			]
-			id: "BB01000000000090"
+			id: "6981699861B24E9A"
 			rewards: [
 				{
-					id: "BB01000000000091"
+					id: "21FB1282771AF61D"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 4
-					id: "BB01000000000092"
+					id: "699D707989640CD9"
 					item: "toms_storage:ts.inventory_connector"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "BB01000000000093"
+				id: "1EC28BF406215A61"
 				item: "toms_storage:ts.inventory_connector"
 				type: "item"
 			}]
 			title: "§aTom's Storage"
 			x: 15.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["BB00000000000020"]
 			description: [
 				"§7Build a §bBotania Mana Spreader§7 to distribute mana between pools and flowers."
 				""
@@ -791,32 +761,31 @@
 				"§8Upgrade spreaders with §bPotency§8 and §bVelocity§8 Lenses for faster, longer-range mana transmission."
 				"§8You'll need many spreaders as your Botania network grows."
 			]
-			id: "BB010000000000A0"
+			id: "3FD0CD685EFF4617"
 			rewards: [
 				{
-					id: "BB010000000000A1"
+					id: "5F300DF06D226EDC"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 2
-					id: "BB010000000000A2"
+					id: "5D76510DE1AEC104"
 					item: "botania:mana_spreader"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 2L
-				id: "BB010000000000A3"
+				id: "7A133386D362DC00"
 				item: "botania:mana_spreader"
 				type: "item"
 			}]
 			title: "§bMana Spreader"
 			x: 6.0d
-			y: 5.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["BB010000000000A0"]
 			description: [
 				"§7Craft a §bMana Tablet§7 — a portable mana storage device."
 				""
@@ -825,27 +794,28 @@
 				""
 				"§8Upgrade to the §bMana Ring§8 (Curio slot) to carry mana passively without occupying an inventory slot."
 			]
-			id: "BB010000000000B0"
+			id: "456314E85B04F768"
 			rewards: [
 				{
-					id: "BB010000000000B1"
+					id: "64163E4C6F3CB511"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
-					id: "BB010000000000B2"
+					id: "33E9A5383B3BC28B"
 					item: "botania:mana_tablet"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "BB010000000000B3"
+				id: "7A85C77A7718DF2B"
 				item: "botania:mana_tablet"
 				type: "item"
 			}]
 			title: "§bMana Tablet"
 			x: 3.0d
-			y: 5.5d
+			y: 6.0d
 		}
 	]
+	title: "§d§lII. Circuits \& Sorcery"
 }

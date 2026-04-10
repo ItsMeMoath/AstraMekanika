@@ -4,10 +4,9 @@
 	filename: "side_farmers_table"
 	group: "5186F2D762C2C9E0"
 	icon: "farmersdelight:cooking_pot"
-	id: "F400000000000001"
-	order_index: 13
-	quest_links: []
-	title: "§2Farmer's Table"
+	id: "773F60B75F033D92"
+	order_index: 5
+	quest_links: [ ]
 	quests: [
 		{
 			description: [
@@ -18,16 +17,16 @@
 				""
 				"§8Build a farm early. Keep it automated late."
 			]
-			id: "F400000000000002"
+			id: "560E1DE8FB50D080"
 			rewards: [{
-				id: "F400000000000003"
+				id: "322D87C9C523A292"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
-				id: "F400000000000004"
+				id: "1939EB91CC8D099C"
 				title: "Open the Farmer's Table."
 				type: "checkmark"
 			}]
@@ -36,7 +35,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F400000000000002"]
 			description: [
 				"§7Craft a §2Farmer's Delight Cooking Pot§7."
 				""
@@ -46,22 +44,22 @@
 				"§8§2Farmer's Delight§8 meals give stronger saturation and sometimes bonus effects like Regeneration or Strength."
 				"§8Always carry a stack of your best food."
 			]
-			id: "F400000000000010"
+			id: "2064B457D972D537"
 			rewards: [
 				{
-					id: "F400000000000011"
+					id: "7F0510EDD3017AD9"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 4
-					id: "F400000000000012"
+					id: "58054ABFF7A14CB1"
 					item: "farmersdelight:tomato_soup"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F400000000000013"
+				id: "27F78814A946AF61"
 				item: "farmersdelight:cooking_pot"
 				type: "item"
 			}]
@@ -70,7 +68,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F400000000000010"]
 			description: [
 				"§7Cook §e5 different §2Farmer's Delight§7 meals."
 				""
@@ -81,23 +78,23 @@
 				""
 				"§8The knife (craft from iron + stick) is required for many Farmer's Delight recipes."
 			]
-			id: "F400000000000020"
+			id: "028C96216686A97E"
 			rewards: [
 				{
-					id: "F400000000000021"
+					id: "0D239EA90152307E"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 2
-					id: "F400000000000022"
+					id: "306F6CCB4EAEA66F"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F400000000000023"
 				count: 5L
+				id: "2EDBEA50BF20E4A1"
 				item: "farmersdelight:cooked_rice"
 				type: "item"
 			}]
@@ -106,7 +103,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F400000000000002"]
 			description: [
 				"§7Craft your first §2Mystical Agriculture§7 crop seed using a §2Seed Base§7."
 				""
@@ -117,22 +113,22 @@
 				""
 				"§8Higher tier seeds are made from lower tier essences. Start with §2Tier 1§8 (Inferium) seeds."
 			]
-			id: "F400000000000030"
+			id: "7515693E445D9409"
 			rewards: [
 				{
-					id: "F400000000000031"
+					id: "4EE8D474BC4206EE"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "F400000000000032"
+					id: "3D2A79A3A5072470"
 					item: "mysticalagriculture:inferium_essence"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F400000000000033"
+				id: "1B3DC0D90456A42E"
 				item: "mysticalagriculture:seed_base"
 				type: "item"
 			}]
@@ -141,7 +137,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["F400000000000030"]
 			description: [
 				"§7Plant §2Tier 3 Mystical Agriculture seeds§7 on §2Essence Farmland§7."
 				""
@@ -152,24 +147,22 @@
 				""
 				"§8Automating Tier 3+ seeds with an §aIndustrial Foregoing Plant Gatherer§8 removes the need to mine most ores."
 			]
-			id: "F400000000000040"
+			id: "5066285AA490A639"
 			rewards: [
 				{
-					id: "F400000000000041"
+					id: "5B7062D473C45984"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 4
-					id: "F400000000000042"
+					id: "32B7710FB68AE9BE"
 					item: "mysticalagriculture:iron_seeds"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "F400000000000043"
+				id: "7082C705F0C7E088"
 				item: "mysticalagriculture:essence_farmland"
 				type: "item"
 			}]
@@ -178,7 +171,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["F400000000000010"]
 			description: [
 				"§7Plant §e8 different crop types§7 in your base farm."
 				""
@@ -187,22 +179,22 @@
 				""
 				"§8A diverse farm enables the most complex Farmer's Delight recipes and the best food saturation."
 			]
-			id: "F400000000000050"
+			id: "3342E026C8DB8956"
 			rewards: [
 				{
-					id: "F400000000000051"
+					id: "52F7BE632CAFC744"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 2
-					id: "F400000000000052"
+					id: "5129F652502B0F14"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F400000000000053"
+				id: "79E9C73DC5DBF359"
 				title: "Plant 8 different crop types on your farm."
 				type: "checkmark"
 			}]
@@ -211,7 +203,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["F400000000000020"]
 			description: [
 				"§7Craft a §2Farmer's Delight Stove§7 and cook on it."
 				""
@@ -222,22 +213,22 @@
 				""
 				"§8Stove + Cooking Pot = full access to every Farmer's Delight recipe."
 			]
-			id: "F401000000000010"
+			id: "4B1315F2A380847D"
 			rewards: [
 				{
-					id: "F401000000000011"
+					id: "06B29AF6C8E5F63F"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 4
-					id: "F401000000000012"
-					item: "farmersdelight:smoked_ham"
+					id: "2F3AFE2A50C1C6F6"
+					item: "farmersdelight:tomato_soup"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F401000000000013"
+				id: "75FEBCEC7769CF1F"
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
@@ -246,7 +237,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F401000000000010"]
 			description: [
 				"§7Set up an §aIndustrial Foregoing Plant Gatherer§7 to automate crop harvesting."
 				""
@@ -256,22 +246,22 @@
 				"§8Needs RF power — connect to your power grid."
 				"§8Install §aRange Addons§8 to expand the working area to 9x9 or larger."
 			]
-			id: "F401000000000020"
+			id: "0075AFEE6DA5C64F"
 			rewards: [
 				{
-					id: "F401000000000021"
+					id: "488486C97F8E611A"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 2
-					id: "F401000000000022"
+					id: "077B02521BB74B37"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F401000000000023"
+				id: "5045E9523C62816A"
 				item: "industrialforegoing:plant_gatherer"
 				type: "item"
 			}]
@@ -280,7 +270,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F400000000000040"]
 			description: [
 				"§7Plant §2Tier 5 Mystical Agriculture seeds§7 — the highest-tier resource crops."
 				""
@@ -290,22 +279,22 @@
 				"§8At this tier you can grow Netherite without ever mining Ancient Debris."
 				"§8Automate with the §aPlant Gatherer§8 for passive, infinite Netherite generation."
 			]
-			id: "F401000000000030"
+			id: "063FC8EB536E8D92"
 			rewards: [
 				{
-					id: "F401000000000031"
+					id: "19EBAD0C75C32A70"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 2
-					id: "F401000000000032"
+					id: "34B8DAFF5CB9058D"
 					item: "mysticalagriculture:diamond_seeds"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F401000000000033"
+				id: "00115383CBF4D2EF"
 				item: "mysticalagriculture:diamond_seeds"
 				type: "item"
 			}]
@@ -314,7 +303,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["F401000000000030"]
 			description: [
 				"§7Craft and equip a §2Mystical Agriculture Growth Charm§7."
 				""
@@ -325,22 +313,21 @@
 				""
 				"§8The §2Growth Charm§8 is essential for Tier 5 seeds, which grow slowly even on Essence Farmland."
 			]
-			id: "F401000000000040"
+			id: "6BD0ADBEB54D746D"
 			rewards: [
 				{
-					id: "F401000000000041"
+					id: "514BF407D806BD13"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
-					count: 1
-					id: "F401000000000042"
+					id: "76EF446A6C3AA593"
 					item: "mysticalagriculture:growth_charm"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F401000000000043"
+				id: "1F69292F071E0126"
 				item: "mysticalagriculture:growth_charm"
 				type: "item"
 			}]
@@ -349,7 +336,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["F401000000000040"]
 			description: [
 				"§7Grow §2Nether Star Seeds§7 and craft a §4Beacon§7 — without fighting the Wither."
 				""
@@ -360,24 +346,21 @@
 				""
 				"§8§6Haste II§8 from a Beacon makes mining dramatically faster — a quality-of-life staple."
 			]
-			id: "F401000000000050"
+			id: "1BBEE1D480154447"
 			rewards: [
 				{
-					id: "F401000000000051"
+					id: "4BE07DC5CCFD276D"
 					type: "xp_levels"
 					xp_levels: 15
 				}
 				{
-					count: 1
-					id: "F401000000000052"
+					id: "1DC501C3EE4DF2B2"
 					item: "minecraft:beacon"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "F401000000000053"
+				id: "75A97E1510BB0836"
 				item: "minecraft:beacon"
 				type: "item"
 			}]
@@ -386,7 +369,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["F400000000000050"]
 			description: [
 				"§7Build an §aanimal farm§7 with at least §e3 different animal species§7."
 				""
@@ -396,22 +378,22 @@
 				"§8Breed animals using their preferred foods. Separate pens prevent chaos."
 				"§8Use an §aIndustrial Foregoing Animal Rancher§8 for hands-off automation."
 			]
-			id: "F401000000000060"
+			id: "2C526454A3A87C63"
 			rewards: [
 				{
-					id: "F401000000000061"
+					id: "3453628087687479"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "F401000000000062"
-					item: "farmersdelight:roast_chicken"
+					id: "403BA320CC4C8FA4"
+					item: "minecraft:cooked_chicken"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F401000000000063"
+				id: "53556B916F14545A"
 				title: "Build an animal farm with 3 species."
 				type: "checkmark"
 			}]
@@ -420,7 +402,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["F401000000000060"]
 			description: [
 				"§7Set up a §aThermal Phytogenic Insolator§7 to grow crops at machine speed."
 				""
@@ -431,22 +412,22 @@
 				"§8Stack multiple Insolators for bulk production of rare ingredients."
 				"§8This bridges manual farming and the Plant Gatherer automation line."
 			]
-			id: "F401000000000070"
+			id: "3EEAE912F5A16866"
 			rewards: [
 				{
-					id: "F401000000000071"
+					id: "60FEDE7B61D061A7"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 2
-					id: "F401000000000072"
+					id: "4EE6E5BEAB34FA9D"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F401000000000073"
+				id: "42F9A531BE665D73"
 				item: "thermal:machine_insolator"
 				type: "item"
 			}]
@@ -455,7 +436,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["F401000000000070"]
 			description: [
 				"§7Build a fully automated §2food production line§7 — crop to cooked meal with no player interaction."
 				""
@@ -465,24 +445,22 @@
 				"§8This is one of the most satisfying automation chains in the pack."
 				"§8Set it up once and it just keeps producing forever."
 			]
-			id: "F401000000000080"
+			id: "168DA5E9B022A3ED"
 			rewards: [
 				{
-					id: "F401000000000081"
+					id: "78AE1ACA50F69945"
 					type: "xp_levels"
 					xp_levels: 12
 				}
 				{
 					count: 5
-					id: "F401000000000082"
+					id: "4FB84B40D900305B"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "F401000000000083"
+				id: "54800515D81BD68B"
 				title: "Set up a fully automated crop-to-meal production pipeline."
 				type: "checkmark"
 			}]
@@ -491,7 +469,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["F400000000000002"]
 			description: [
 				"§7Craft a §2Farmer's Delight Compost Heap§7 and produce §2Rich Soil§7."
 				""
@@ -501,31 +478,30 @@
 				""
 				"§8Nothing goes to waste — feed your crop overflow into the Compost Heap."
 			]
-			id: "F401000000000090"
+			id: "0C476D3E52DBD034"
 			rewards: [
 				{
-					id: "F401000000000091"
+					id: "0ED6145901C0DB99"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 8
-					id: "F401000000000092"
+					id: "36AB0EC8515CEAB2"
 					item: "farmersdelight:rich_soil"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F401000000000093"
-				item: "farmersdelight:composter"
-				type: "item"
+				id: "0B316A06B4626CFA"
+				title: "Craft a Compost Heap and produce Rich Soil."
+				type: "checkmark"
 			}]
 			title: "§2Compost"
 			x: 3.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["F400000000000002"]
 			description: [
 				"§7Craft a §aSophisticated Backpack§7 with a §aPickup Upgrade§7 installed."
 				""
@@ -535,28 +511,28 @@
 				"§8Never miss an essence drop again during long farming sessions."
 				"§8Pair with a §aCompacting Drawer§8 linked by §aPipez§8 for zero-overflow essence storage."
 			]
-			id: "F401000000000100"
+			id: "52CCB7004B06CD64"
 			rewards: [
 				{
-					id: "F401000000000101"
+					id: "36DF452668EBC3F0"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
-					count: 1
-					id: "F401000000000102"
+					id: "2AC6D0B6BB9ECF70"
 					item: "sophisticatedbackpacks:pickup_upgrade"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F401000000000103"
+				id: "65DED03650975BDD"
 				item: "sophisticatedbackpacks:pickup_upgrade"
 				type: "item"
 			}]
 			title: "§aAuto Pickup"
-			x: 3.0d
-			y: -7.0d
+			x: 18.0d
+			y: -3.5d
 		}
 	]
+	title: "§2Farmer's Table"
 }

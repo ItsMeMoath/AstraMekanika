@@ -54,7 +54,7 @@
 				title: "Got it."
 				type: "checkmark"
 			}]
-			title: "&6The Arcane"
+			title: "&5The Arcane"
 			x: -6.0d
 			y: 2.5d
 		}
@@ -103,7 +103,7 @@
 				title: "Got it."
 				type: "checkmark"
 			}]
-			title: "&6The Storage"
+			title: "&aThe Storage"
 			x: 2.0d
 			y: 2.5d
 		}
@@ -127,7 +127,7 @@
 				title: "Got it."
 				type: "checkmark"
 			}]
-			title: "&6The World"
+			title: "&cThe World"
 			x: 6.0d
 			y: 2.5d
 		}
@@ -164,10 +164,10 @@
 				title: "Begin."
 				type: "checkmark"
 			}]
-			title: "&6&lJourney Awaits"
+			title: "&e&lJourney Awaits"
 			x: 0.0d
 			y: 5.0d
 		}
 	]
-	title: "&6Get Started"
+	title: "&aGet Started"
 }

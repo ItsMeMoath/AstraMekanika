@@ -4,10 +4,9 @@
 	filename: "ch3_forest_beyond"
 	group: "3E586F2160161EEA"
 	icon: "twilightforest:twilight_shard"
-	id: "CC00000000000001"
-	order_index: 3
-	quest_links: []
-	title: "§3§lIII. The Forest Beyond"
+	id: "38BD0A17B709262C"
+	order_index: 2
+	quest_links: [ ]
 	quests: [
 		{
 			description: [
@@ -19,16 +18,16 @@
 				""
 				"§8Unlock condition: §dCrimson Circuit of Passage §8(Phase II complete)"
 			]
-			id: "CC00000000000002"
+			id: "7F243F8B32DF199D"
 			rewards: [{
-				id: "CC00000000000003"
+				id: "54005C1B295A8526"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "CC00000000000004"
+				id: "553C74060757B64E"
 				title: "Enter Phase III."
 				type: "checkmark"
 			}]
@@ -37,7 +36,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["CC00000000000002"]
 			description: [
 				"§7Craft a §3Twilight Forest Portal§7."
 				""
@@ -47,21 +45,21 @@
 				"§8Step through. The forest awaits."
 				"§8Warning: §7The Twilight Forest has a strict boss order. Follow the §3Twilight Path§7 tab."
 			]
-			id: "CC00000000000010"
+			id: "075DA54D6C5F916A"
 			rewards: [
 				{
-					id: "CC00000000000011"
+					id: "4D6BE35DAEB92459"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
-					id: "CC00000000000012"
+					id: "464A7CEC37E9352C"
 					item: "twilightforest:magic_map"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "CC00000000000013"
+				id: "01FA6E0560C22DA6"
 				title: "Craft and step through the Twilight Forest portal."
 				type: "checkmark"
 			}]
@@ -70,7 +68,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["CC00000000000010"]
 			description: [
 				"§3Complete the full Twilight Forest boss chain.§7"
 				""
@@ -81,22 +78,22 @@
 				""
 				"§8Return here when the full chain is complete."
 			]
-			id: "CC00000000000020"
+			id: "556201C0588A5FD4"
 			rewards: [
 				{
-					id: "CC00000000000021"
+					id: "5FD337AEABD1924D"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 5
-					id: "CC00000000000022"
+					id: "5C718D797A310F5E"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "CC00000000000023"
+				id: "7B3EE7AAA0EB6418"
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
@@ -105,7 +102,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["CC00000000000020"]
 			description: [
 				"§7Craft a §6Mekanism Metallurgic Infuser§7."
 				""
@@ -114,21 +110,21 @@
 				""
 				"§8§6Mekanism§8 machines run on Joules (J). You'll need a §6Basic Energy Cube§8 or §6Heat Generator§8 for power."
 			]
-			id: "CC00000000000030"
+			id: "3BCDFFBEC06B82A0"
 			rewards: [
 				{
-					id: "CC00000000000031"
+					id: "4313C53136A3D80C"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
-					id: "CC00000000000032"
+					id: "2568B64F94E87D95"
 					item: "mekanism:energy_tablet"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "CC00000000000033"
+				id: "71B3B78CCC64B9DC"
 				item: "mekanism:metallurgic_infuser"
 				type: "item"
 			}]
@@ -137,7 +133,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["CC00000000000030"]
 			description: [
 				"§7Use the §6Metallurgic Infuser§7 to produce §e8 Enriched Iron§7 by infusing iron with §eDiamond Dust§7."
 				""
@@ -146,25 +141,23 @@
 				""
 				"§8Set up a §6Heat Generator§8 adjacent to lava to power the Infuser passively."
 			]
-			id: "CC00000000000040"
+			id: "25CC5F4B3BF00382"
 			rewards: [
 				{
-					id: "CC00000000000041"
+					id: "20159E75CF30D462"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "CC00000000000042"
+					id: "2603CB16AEC2006E"
 					item: "mekanism:ingot_osmium"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
 				count: 8L
-				id: "CC00000000000043"
+				id: "2C2DC8E426CAF84C"
 				item: "mekanism:enriched_iron"
 				type: "item"
 			}]
@@ -173,7 +166,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["CC00000000000040"]
 			description: [
 				"§3§l✦ Phase III Complete"
 				""
@@ -183,40 +175,40 @@
 				""
 				"§c§lUnlocks: §fMekanism full suite  ·  Applied Energistics 2  ·  Mystical Agriculture Seed Base  ·  Industrial Foregoing"
 			]
-			id: "CC00000000000050"
+			id: "0F6CAA970531B1C0"
 			rewards: [
 				{
-					id: "CC00000000000051"
+					id: "64A80A59D34F074F"
 					type: "xp_levels"
 					xp_levels: 25
 				}
 				{
 					count: 12
-					id: "CC00000000000052"
+					id: "29A120528F52806D"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "CC00000000000053"
+					id: "669C7A21238DD17D"
 					item: "kubejs:moathco_files_vol_3"
 					type: "item"
 				}
 				{
 					count: 10
-					id: "CC00000000000054"
+					id: "4C3B1E792F3DF978"
 					item: "minecraft:golden_apple"
 					type: "item"
 				}
 				{
 					command: "/function moathco:phase_3_broadcast"
-					id: "CC00000000000055"
+					id: "246C8607DCE90D19"
 					type: "command"
 				}
 			]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
-				id: "CC00000000000056"
+				id: "0C71AE32A34A79DA"
 				item: "kubejs:twilight_sigil_plate"
 				type: "item"
 			}]
@@ -225,7 +217,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["CC00000000000002"]
 			description: [
 				"§7Enter §9The Undergarden§7 — a deep underground dimension of crystalline caves, unique mobs, and exotic plants."
 				""
@@ -235,23 +226,23 @@
 				""
 				"§8The Undergarden has its own ore veins — worth mining early."
 			]
-			id: "CC00000000000060"
+			id: "728254A45D22AFDA"
 			rewards: [
 				{
-					id: "CC00000000000061"
+					id: "3BFF2659130B00EE"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "CC00000000000062"
+					id: "2D5B8EF1911419B5"
 					item: "undergarden:smogstem_log"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 5L
-				id: "CC00000000000063"
+				id: "34CC4E7E35C40E72"
 				item: "undergarden:gloomgourd"
 				type: "item"
 			}]
@@ -260,7 +251,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["CC00000000000010"]
 			description: [
 				"§7Craft your first §2Mystical Agriculture§7 crop seed using a §2Seed Base§7."
 				""
@@ -270,22 +260,22 @@
 				"§8The Seed Base recipe requires a §2Prosperity Shard§7 found in structures or dropped by mobs."
 				"§8Plant in Essence Farmland for faster growth."
 			]
-			id: "CC00000000000070"
+			id: "5073E76541A3D414"
 			rewards: [
 				{
-					id: "CC00000000000071"
+					id: "72FBB8969A956F58"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 2
-					id: "CC00000000000072"
+					id: "168B401ED4D77810"
 					item: "mysticalagriculture:prosperity_shard"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "CC00000000000073"
+				id: "0A8B281C23C98B00"
 				item: "mysticalagriculture:seed_base"
 				type: "item"
 			}]
@@ -294,7 +284,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["CC00000000000030"]
 			description: [
 				"§7Craft an §eIron's Spellbooks Arcane Altar§7."
 				""
@@ -303,30 +292,29 @@
 				""
 				"§8Pairs well with §5Ars Nouveau§7 — different school, different strengths."
 			]
-			id: "CC00000000000080"
+			id: "77AC4C716D36A41B"
 			rewards: [
 				{
-					id: "CC00000000000081"
+					id: "0E78CE9F7D2D4FA5"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
-					id: "CC00000000000082"
+					id: "6028A70DC4887F42"
 					item: "irons_spellbooks:scroll_of_fire_breath"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "CC00000000000083"
+				id: "54A25F8395A64510"
 				item: "irons_spellbooks:arcane_anvil"
 				type: "item"
 			}]
 			title: "§eArcane Anvil"
 			x: 9.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["CC00000000000030"]
 			description: [
 				"§7Build an §aIndustrial Foregoing Plant Gatherer§7 over a crop field."
 				""
@@ -335,30 +323,29 @@
 				""
 				"§8Upgrade the Range Addon to harvest a larger area."
 			]
-			id: "CC00000000000090"
+			id: "2051B8CBB45BDEFD"
 			rewards: [
 				{
-					id: "CC00000000000091"
+					id: "7EDD18FE7BF0FF19"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
-					id: "CC00000000000092"
+					id: "50A74CED723F1AAE"
 					item: "industrialforegoing:plant_fertilizer"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "CC00000000000093"
+				id: "1BADB52D627C4BCF"
 				item: "industrialforegoing:plant_gatherer"
 				type: "item"
 			}]
 			title: "§aIndustrial Harvest"
 			x: 12.0d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
-			dependencies: ["CC00000000000010"]
 			description: [
 				"§7Explore §cBetter Nether§7 — a dramatically overhauled Nether with new biomes, structures, and unique materials."
 				""
@@ -367,23 +354,23 @@
 				""
 				"§8Better Nether also adds Nether villages with unique trades. Worth visiting before endgame."
 			]
-			id: "CC000000000000A0"
+			id: "052054FA026BA66F"
 			rewards: [
 				{
-					id: "CC000000000000A1"
+					id: "2C87C01A2D225C35"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "CC000000000000A2"
+					id: "0566BFAED09ECE44"
 					item: "betternether:nether_ruby"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 8L
-				id: "CC000000000000A3"
+				id: "33EF84D79F95B376"
 				item: "betternether:cincinnasite"
 				type: "item"
 			}]
@@ -392,7 +379,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["CC00000000000020"]
 			description: [
 				"§7Build a §6Mekanism Heat Generator§7 adjacent to a lava source."
 				""
@@ -403,37 +389,36 @@
 				""
 				"§8Multiple Heat Generators can run in parallel — place them around a lava pool."
 			]
-			id: "CC000000000000B0"
+			id: "4F4A662FABC7C663"
 			rewards: [
 				{
-					id: "CC000000000000B1"
+					id: "2D60713E70C90362"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
-					id: "CC000000000000B2"
+					id: "185127F924FD44A2"
 					item: "mekanism:basic_energy_cube"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "CC000000000000B3"
+					id: "7DC4A3DF5475DB8B"
 					item: "mekanism:heat_generator"
 					type: "item"
 				}
 				{
-					id: "CC000000000000B4"
+					id: "0FDB4C5159F80CD8"
 					item: "mekanism:basic_energy_cube"
 					type: "item"
 				}
 			]
 			title: "§6Mekanism Power"
 			x: 9.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["CC000000000000B0"]
 			description: [
 				"§7Craft a §6Mekanism Enrichment Chamber§7 and a §6Crusher§7."
 				""
@@ -443,38 +428,37 @@
 				"§85x ore processing chain: Ore → Crusher → Enrichment Chamber → Smelter → Combiner → Purification Chamber"
 				"§8Each step requires power and infrastructure but multiplies ore output dramatically."
 			]
-			id: "CC000000000000C0"
+			id: "70FE7F99AB8E78FE"
 			rewards: [
 				{
-					id: "CC000000000000C1"
+					id: "2FC5DB06F9FA4F06"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 8
-					id: "CC000000000000C2"
+					id: "2E35FE1F31935671"
 					item: "mekanism:ingot_osmium"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "CC000000000000C3"
+					id: "65DCF2B07648B792"
 					item: "mekanism:enrichment_chamber"
 					type: "item"
 				}
 				{
-					id: "CC000000000000C4"
+					id: "0E8D364D1ED6BC65"
 					item: "mekanism:crusher"
 					type: "item"
 				}
 			]
 			title: "§6Ore Processing Chain"
 			x: 12.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["CC00000000000010"]
 			description: [
 				"§3Boss 2: The Twilight Lich§7"
 				""
@@ -487,31 +471,30 @@
 				"§eDrop: §7Scepters (Twilight, Life Draining, Zombie), §7Twilight Armor pieces."
 				"§8The Twilight Scepter is extremely strong for this phase — keep it."
 			]
-			id: "CC01000000000010"
+			id: "2C2F01165EA2F4CE"
 			rewards: [
 				{
-					id: "CC01000000000011"
+					id: "0BB4311816782F9B"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 3
-					id: "CC01000000000012"
+					id: "105C2487A8B8C144"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "CC01000000000013"
+				id: "1E007AB6E412CDCB"
 				item: "twilightforest:lich_trophy"
 				type: "item"
 			}]
 			title: "§3Boss II — Twilight Lich"
 			x: 3.0d
-			y: -3.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["CC01000000000010"]
 			description: [
 				"§3Boss 4: The Knight Phantoms§7"
 				""
@@ -523,32 +506,31 @@
 				""
 				"§eDrop: §7§3Knightmetal Ingots§7 — required for the §6Twilight Sigil Plate§7."
 			]
-			id: "CC01000000000020"
+			id: "6EE22BC2695D9A25"
 			rewards: [
 				{
-					id: "CC01000000000021"
+					id: "09DD98681A4F211F"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 4
-					id: "CC01000000000022"
+					id: "60B28B23E0ADB80B"
 					item: "twilightforest:knightmetal_ingot"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 4L
-				id: "CC01000000000023"
+				id: "4C6E4BE0167B3FF0"
 				item: "twilightforest:knightmetal_ingot"
 				type: "item"
 			}]
 			title: "§3Boss IV — Knight Phantoms"
 			x: 6.0d
-			y: -3.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["CC01000000000020"]
 			description: [
 				"§3Boss 5: The Ur-Ghast§7"
 				""
@@ -560,31 +542,30 @@
 				""
 				"§eDrop: §7§3Fiery Blood§7 → smelt into §3Fiery Ingots§7 for Fiery armor and tools."
 			]
-			id: "CC01000000000030"
+			id: "68DE8330D7064C24"
 			rewards: [
 				{
-					id: "CC01000000000031"
+					id: "7D90293058012C42"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 4
-					id: "CC01000000000032"
+					id: "6D928728B0DE26C3"
 					item: "twilightforest:fiery_ingot"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "CC01000000000033"
+				id: "647EF61C0246B901"
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
 			title: "§3Boss V — Ur-Ghast"
 			x: 9.0d
-			y: -3.5d
+			y: -6.5d
 		}
 		{
-			dependencies: ["CC00000000000090"]
 			description: [
 				"§7Craft a §6Mekanism Purification Chamber§7."
 				""
@@ -595,31 +576,30 @@
 				""
 				"§8Build the Electrolytic Separator first to produce Oxygen and Hydrogen."
 			]
-			id: "CC01000000000040"
+			id: "769CB3B0E43A2E62"
 			rewards: [
 				{
-					id: "CC01000000000041"
+					id: "127A1EBE37D8D173"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 8
-					id: "CC01000000000042"
+					id: "20BF5A3489DD059A"
 					item: "mekanism:ingot_osmium"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "CC01000000000043"
+				id: "62129E1D7183C070"
 				item: "mekanism:purification_chamber"
 				type: "item"
 			}]
 			title: "§65x Ore Processing"
 			x: 12.0d
-			y: -3.5d
+			y: -7.0d
 		}
 		{
-			dependencies: ["CC01000000000040"]
 			description: [
 				"§7Craft a §6Mekanism Digital Miner§7 — the most powerful automated mining tool in Phase III."
 				""
@@ -630,33 +610,30 @@
 				"§8Set it up over your base and let it mine your local chunk cluster for you."
 				"§8With a §6Silk Touch§7 upgrade, it mines blocks intact for further processing."
 			]
-			id: "CC01000000000050"
+			id: "1F0F14B9C2F72FD5"
 			rewards: [
 				{
-					id: "CC01000000000051"
+					id: "641C235033C7C10F"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 2
-					id: "CC01000000000052"
+					id: "5403AAC4031FD8B5"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "CC01000000000053"
+				id: "320B56DFB3D3163A"
 				item: "mekanism:digital_miner"
 				type: "item"
 			}]
 			title: "§6§lDigital Miner"
 			x: 15.0d
-			y: -3.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["CC00000000000070"]
 			description: [
 				"§7Craft §2Tier 2 Mystical Agriculture seeds§7 — Prudentium tier."
 				""
@@ -666,31 +643,30 @@
 				"§8Tier 2 seeds grow slower than Tier 1 — place them on §2Essence Farmland§8 to compensate."
 				"§8Target: Coal and Redstone seeds first. Both are high-demand resources."
 			]
-			id: "CC01000000000060"
+			id: "1CFF5765B68CDE84"
 			rewards: [
 				{
-					id: "CC01000000000061"
+					id: "3289C95ACA941B4E"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "CC01000000000062"
+					id: "000E371446309E18"
 					item: "mysticalagriculture:prudentium_essence"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "CC01000000000063"
+				id: "74027B033C4D3A8F"
 				item: "mysticalagriculture:coal_seeds"
 				type: "item"
 			}]
 			title: "§2Tier 2 Seeds"
 			x: 9.0d
-			y: -5.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["CC01000000000060"]
 			description: [
 				"§7Craft §2Essence Farmland§7 — §2Mystical Agriculture's§7 boosted soil."
 				""
@@ -701,32 +677,31 @@
 				""
 				"§8Upgrade to §2Fertilized Essence§8 Farmland (from §2Inferium Fertilizer§8) for even faster growth."
 			]
-			id: "CC01000000000070"
+			id: "229FEBD7EEB7694B"
 			rewards: [
 				{
-					id: "CC01000000000071"
+					id: "144BF5768FD671B0"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 16
-					id: "CC01000000000072"
+					id: "47C4F26070054B16"
 					item: "mysticalagriculture:essence_farmland"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 16L
-				id: "CC01000000000073"
+				id: "7AB056FEE7F04F95"
 				item: "mysticalagriculture:essence_farmland"
 				type: "item"
 			}]
 			title: "§2Essence Farmland"
 			x: 12.0d
-			y: -5.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["CC00000000000090"]
 			description: [
 				"§7Build an §aIndustrial Foregoing Mob Crusher§7."
 				""
@@ -736,31 +711,30 @@
 				"§8Combine with a §aMob Spawner§7 (vanilla spawner + Apotheosis upgrade) for a fully automated XP and drop farm."
 				"§8The §aSewer§8 collects drops passively from the floor — pair it with the crusher."
 			]
-			id: "CC01000000000080"
+			id: "3AAE11A39AC12C9C"
 			rewards: [
 				{
-					id: "CC01000000000081"
+					id: "2BEB84A06DE7304F"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "CC01000000000082"
+					id: "3580285FFF12E9CA"
 					item: "minecraft:experience_bottle"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "CC01000000000083"
+				id: "2CB19534993EA7BD"
 				item: "industrialforegoing:mob_crusher"
 				type: "item"
 			}]
 			title: "§aMob Crusher"
 			x: 15.0d
-			y: -5.0d
+			y: -7.5d
 		}
 		{
-			dependencies: ["CC000000000000A0"]
 			description: [
 				"§7Enter §5Better End§7 — a dramatically overhauled End dimension."
 				""
@@ -771,23 +745,23 @@
 				""
 				"§8Better End also adds an §5End City alternative§8 structure with its own loot tables."
 			]
-			id: "CC01000000000090"
+			id: "7656E2E68FF3AB93"
 			rewards: [
 				{
-					id: "CC01000000000091"
+					id: "31235A28C6AA0906"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "CC01000000000092"
+					id: "7C3690C4A696E6A0"
 					item: "betterend:aeternium_ingot"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 8L
-				id: "CC01000000000093"
+				id: "645852225F8D4207"
 				item: "betterend:thallasium_ingot"
 				type: "item"
 			}]
@@ -796,7 +770,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["CC000000000000B0"]
 			description: [
 				"§7Craft a §6Mekanism Electrolytic Separator§7."
 				""
@@ -807,31 +780,30 @@
 				"§8You need a §6Basic Fluid Tank§8 to store each gas. Pipe them with §6Mechanical Pipes§8."
 				"§8Power cost is significant — run it off your Heat Generator or build a dedicated Stirling setup."
 			]
-			id: "CC010000000000A0"
+			id: "175EE168E7B87930"
 			rewards: [
 				{
-					id: "CC010000000000A1"
+					id: "092F1C005BFF3593"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "CC010000000000A2"
+					id: "0FC852BEC5AC8DCB"
 					item: "mekanism:basic_fluid_tank"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "CC010000000000A3"
+				id: "6461F90362483F41"
 				item: "mekanism:electrolytic_separator"
 				type: "item"
 			}]
 			title: "§6Electrolytic Separator"
 			x: 9.0d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
-			dependencies: ["CC010000000000A0"]
 			description: [
 				"§7Craft §6Mekanism Osmium Armor§7 — your first dedicated Mekanism protection set."
 				""
@@ -842,38 +814,37 @@
 				""
 				"§8Osmium armor is craftable now and should replace your iron set for the rest of Phase III."
 			]
-			id: "CC010000000000B0"
+			id: "74437799D3154342"
 			rewards: [
 				{
-					id: "CC010000000000B1"
+					id: "5F56F878BD84B8CF"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 4
-					id: "CC010000000000B2"
+					id: "396478AA1B699130"
 					item: "mekanism:ingot_osmium"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "CC010000000000B3"
+					id: "4CCFE030F40DF1C6"
 					item: "mekanism:hazmat_mask"
 					type: "item"
 				}
 				{
-					id: "CC010000000000B4"
+					id: "0DCF5661B2C69A8E"
 					item: "mekanism:hazmat_gown"
 					type: "item"
 				}
 			]
 			title: "§6Mekanism Suit"
 			x: 12.0d
-			y: 5.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["CC000000000000C0"]
 			description: [
 				"§7Build a §6Create Mechanical Crafter§7 array — a grid of crafters that can automatically perform complex shapeful recipes."
 				""
@@ -883,29 +854,30 @@
 				"§8Essential for automating §6Create Contraptions§8 and mid-tier Mekanism component production."
 				"§8The crafter needs rotation input — connect your shaft network to it."
 			]
-			id: "CC010000000000C0"
+			id: "035C8E4D25F39AA3"
 			rewards: [
 				{
-					id: "CC010000000000C1"
+					id: "2C58529936D5ABF7"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "CC010000000000C2"
+					id: "7926089539B50DA1"
 					item: "create:mechanical_crafter"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 4L
-				id: "CC010000000000C3"
+				id: "27A2192A65C0D176"
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
 			title: "§eMechanical Crafter"
 			x: 15.0d
-			y: 3.5d
+			y: 5.5d
 		}
 	]
+	title: "§3§lIII. The Forest Beyond"
 }

@@ -27,7 +27,7 @@
 				title: "Open it."
 				type: "checkmark"
 			}]
-			title: "&6&lSurvivor's Handbook"
+			title: "&b&lSurvivor's Handbook"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -47,7 +47,7 @@
 				title: "Noted."
 				type: "checkmark"
 			}]
-			title: "&6&l⚔ Survival"
+			title: "&4&l⚔ Survival"
 			x: 0.0d
 			y: -5.0d
 		}
@@ -71,7 +71,7 @@
 				title: "Got it."
 				type: "checkmark"
 			}]
-			title: "&6Combat Mastery"
+			title: "&cCombat Mastery"
 			x: -2.5d
 			y: -8.5d
 		}
@@ -95,7 +95,7 @@
 				title: "Got it."
 				type: "checkmark"
 			}]
-			title: "&6Armor Priority"
+			title: "&cArmor Priority"
 			x: 2.5d
 			y: -8.5d
 		}
@@ -121,7 +121,7 @@
 				title: "Got it."
 				type: "checkmark"
 			}]
-			title: "&6Food & Buffs"
+			title: "&cFood & Buffs"
 			x: 0.0d
 			y: -10.5d
 		}
@@ -242,7 +242,7 @@
 				title: "Noted."
 				type: "checkmark"
 			}]
-			title: "&6&l✦ Magic"
+			title: "&5&l✦ Magic"
 			x: 3.0d
 			y: 4.0d
 		}
@@ -267,7 +267,7 @@
 				title: "Got it."
 				type: "checkmark"
 			}]
-			title: "&6Source Flow"
+			title: "&5Source Flow"
 			x: 5.5d
 			y: 6.5d
 		}
@@ -292,7 +292,7 @@
 				title: "Got it."
 				type: "checkmark"
 			}]
-			title: "&6Blood Sacrifice"
+			title: "&5Blood Sacrifice"
 			x: 2.0d
 			y: 7.5d
 		}
@@ -318,7 +318,7 @@
 				title: "Got it."
 				type: "checkmark"
 			}]
-			title: "&6Magic + Tech Synergy"
+			title: "&5Magic + Tech Synergy"
 			x: 0.0d
 			y: 8.0d
 		}
@@ -338,7 +338,7 @@
 				title: "Noted."
 				type: "checkmark"
 			}]
-			title: "&6&l🌍 Exploration"
+			title: "&2&l🌍 Exploration"
 			x: -3.0d
 			y: 4.0d
 		}
@@ -366,7 +366,7 @@
 				title: "Got it."
 				type: "checkmark"
 			}]
-			title: "&6Dimension Order"
+			title: "&2Dimension Order"
 			x: -4.5d
 			y: 7.0d
 		}
@@ -392,7 +392,7 @@
 				title: "Got it."
 				type: "checkmark"
 			}]
-			title: "&6Waystones"
+			title: "&2Waystones"
 			x: -6.0d
 			y: 5.5d
 		}
@@ -418,7 +418,7 @@
 				title: "Got it."
 				type: "checkmark"
 			}]
-			title: "&6Claim Your Land"
+			title: "&2Claim Your Land"
 			x: -7.0d
 			y: 3.0d
 		}
@@ -438,7 +438,7 @@
 				title: "Noted."
 				type: "checkmark"
 			}]
-			title: "&6&l💻 Performance"
+			title: "&b&l💻 Performance"
 			x: -4.5d
 			y: -3.0d
 		}
@@ -464,7 +464,7 @@
 				title: "Running it."
 				type: "checkmark"
 			}]
-			title: "&6Pre-gen the World"
+			title: "&bPre-gen the World"
 			x: -7.5d
 			y: -5.0d
 		}
@@ -492,7 +492,7 @@
 				title: "Got it."
 				type: "checkmark"
 			}]
-			title: "&6JEI Pro Tips"
+			title: "&bJEI Pro Tips"
 			x: -8.5d
 			y: -2.0d
 		}
@@ -522,10 +522,10 @@
 				title: "Got it."
 				type: "checkmark"
 			}]
-			title: "&6Key Binds"
+			title: "&bKey Binds"
 			x: -6.5d
 			y: 1.5d
 		}
 	]
-	title: "&6Helpful Advices"
+	title: "&bHelpful Advices"
 }

@@ -4,10 +4,9 @@
 	filename: "side_blood_mana"
 	group: "5186F2D762C2C9E0"
 	icon: "ars_nouveau:worn_notebook"
-	id: "F100000000000001"
-	order_index: 10
-	quest_links: []
-	title: "§5Blood & Mana"
+	id: "18DC5E35BE66BE44"
+	order_index: 2
+	quest_links: [ ]
 	quests: [
 		{
 			description: [
@@ -20,25 +19,24 @@
 				"§8These quests deepen the magic systems already introduced in the main chapters."
 				"§8No gating. Explore at your own pace."
 			]
-			id: "F100000000000002"
+			id: "1FD3FF9119F2CFAE"
 			rewards: [{
-				id: "F100000000000003"
+				id: "6E2A93B9F188C420"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
-				id: "F100000000000004"
+				id: "043B61040048DF36"
 				title: "Begin the arcane path."
 				type: "checkmark"
 			}]
-			title: "§5§lBlood & Mana"
+			title: "§5§lBlood \& Mana"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["F100000000000002"]
 			description: [
 				"§7Craft an §5Ars Nouveau Source Jar§7 and place it near your crops or mana generation."
 				""
@@ -48,28 +46,28 @@
 				"§8Source is consumed by spellcasting, the Imbuement Chamber, and Ars automation blocks."
 				"§8Run out of Source and your spells stop working. Always keep jars topped up."
 			]
-			id: "F100000000000010"
+			id: "0285DD79DBC533FF"
 			rewards: [
 				{
-					id: "F100000000000011"
+					id: "3A4D551A250AA8AD"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 4
-					id: "F100000000000012"
+					id: "1671B3A2899E831D"
 					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "F100000000000013"
+					id: "3D584D89E8479D4F"
 					item: "ars_nouveau:source_jar"
 					type: "item"
 				}
 				{
-					id: "F100000000000014"
+					id: "1C6379E141ABAA6E"
 					item: "ars_nouveau:agronomic_sourcelink"
 					type: "item"
 				}
@@ -79,7 +77,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F100000000000010"]
 			description: [
 				"§7Craft the §5Imbuement Chamber§7 — the core crafting station for Ars Nouveau."
 				""
@@ -88,22 +85,22 @@
 				"§8You need the Imbuement Chamber for:"
 				"§5  Mana Fiber, Archwood Charm, Amulet of Mana Boost, Summoning Focuses"
 			]
-			id: "F100000000000020"
+			id: "185BF91499F18097"
 			rewards: [
 				{
-					id: "F100000000000021"
+					id: "42573F5D587CFE10"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 4
-					id: "F100000000000022"
+					id: "24CFAE2D33F2D6F3"
 					item: "ars_nouveau:mana_fiber"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F100000000000023"
+				id: "6F88C42AE854768F"
 				item: "ars_nouveau:imbuement_chamber"
 				type: "item"
 			}]
@@ -112,7 +109,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F100000000000020"]
 			description: [
 				"§7Craft the §5Archmage Spellbook§7 — the highest tier Ars Nouveau spellbook."
 				""
@@ -122,24 +118,22 @@
 				"§8Requires Apprentice → Mage → Archmage progression."
 				"§8Each upgrade requires §5Mana Fiber§8 and significant Source."
 			]
-			id: "F100000000000030"
+			id: "64158B8767B1D3F1"
 			rewards: [
 				{
-					id: "F100000000000031"
+					id: "7D5069874E76357D"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 8
-					id: "F100000000000032"
+					id: "695A0A363EAA706D"
 					item: "ars_nouveau:source_gem"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "F100000000000033"
+				id: "5943D092A29C306C"
 				item: "ars_nouveau:archmage_spell_book"
 				type: "item"
 			}]
@@ -148,7 +142,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F100000000000002"]
 			description: [
 				"§7Craft a §4Tier 2 Blood Altar§7 by placing §4Blank Runes§7 around your existing altar."
 				""
@@ -158,31 +151,30 @@
 				"§8Higher tiers: T3 = Air Runes, T4 = Dusk Runes, T5 = Dense Runes."
 				"§8Each tier unlocks new item imbuing recipes in Blood Magic."
 			]
-			id: "F100000000000040"
+			id: "712BD6DAA38C379C"
 			rewards: [
 				{
-					id: "F100000000000041"
+					id: "0386E90F98D3B292"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 8
-					id: "F100000000000042"
+					id: "2E6411A2125BAC3E"
 					item: "bloodmagic:rune_blank"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F100000000000043"
+				id: "09165F82C30B142B"
 				item: "bloodmagic:rune_blank"
 				type: "item"
 			}]
 			title: "§4Altar Upgrade"
 			x: 3.0d
-			y: -3.5d
+			y: -8.0d
 		}
 		{
-			dependencies: ["F100000000000040"]
 			description: [
 				"§7Craft §4Living Armor§7 — Blood Magic's signature armor set."
 				""
@@ -191,30 +183,29 @@
 				""
 				"§8Keep it equipped for long sessions. The investment pays off significantly in Phase III+."
 			]
-			id: "F100000000000050"
+			id: "0B6F19D131EE07D3"
 			rewards: [
 				{
-					id: "F100000000000051"
+					id: "708CAA1DA46BD75F"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
-					id: "F100000000000052"
+					id: "552E98E3EAC595EB"
 					item: "bloodmagic:living_armor_upgrade_protection"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F100000000000053"
+				id: "6592D3F87379F81E"
 				item: "bloodmagic:living_chestplate"
 				type: "item"
 			}]
 			title: "§4Living Armor"
 			x: 6.0d
-			y: -3.5d
+			y: -8.0d
 		}
 		{
-			dependencies: ["F100000000000002"]
 			description: [
 				"§7Craft §bTerrasteel§7 using Botania's §bTerrestrial Agglomeration Plate§7."
 				""
@@ -224,32 +215,31 @@
 				"§8Terrasteel is used for the §bTerra Blade§7 — one of the strongest swords in the early game."
 				"§8Also required for Elementium (next tier)."
 			]
-			id: "F100000000000060"
+			id: "186581BA85BC3AF5"
 			rewards: [
 				{
-					id: "F100000000000061"
+					id: "6AAAB88C596EC1DD"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 4
-					id: "F100000000000062"
+					id: "3307AF40609721C5"
 					item: "botania:terrasteel_ingot"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 4L
-				id: "F100000000000063"
+				id: "281EED45098F0DCF"
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
 			title: "§bTerrasteel"
 			x: 3.0d
-			y: 3.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["F100000000000060"]
 			description: [
 				"§7Defeat §b§lGaia Guardian I§7 — Botania's first endgame boss."
 				""
@@ -260,33 +250,30 @@
 				""
 				"§8You'll need at least §bGaia Guardian II§8 drops to fully complete Botania endgame."
 			]
-			id: "F100000000000070"
+			id: "4A85D1FD417C490E"
 			rewards: [
 				{
-					id: "F100000000000071"
+					id: "235FDBC6256B544A"
 					type: "xp_levels"
 					xp_levels: 15
 				}
 				{
 					count: 4
-					id: "F100000000000072"
+					id: "6FDA916BF43D63AB"
 					item: "botania:gaia_ingot"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "F100000000000073"
+				id: "667709950416ACC0"
 				item: "botania:gaia_spirit"
 				type: "item"
 			}]
 			title: "§b§lGaia Guardian"
 			x: 6.0d
-			y: 3.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["F100000000000030"]
 			description: [
 				"§7Craft a §5Spell Turret§7 and set it to cast an offensive spell automatically."
 				""
@@ -296,22 +283,22 @@
 				"§8Place multiple turrets around your base for automated defense."
 				"§8Set them to cast Ignite, Freeze, or Lightning for elemental mob farm damage."
 			]
-			id: "F101000000000010"
+			id: "7389110D79AE598F"
 			rewards: [
 				{
-					id: "F101000000000011"
+					id: "285B947E31604E00"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 2
-					id: "F101000000000012"
+					id: "10BC31A017AC50AF"
 					item: "ars_nouveau:spell_turret"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F101000000000013"
+				id: "1DB23DEF4C248A77"
 				item: "ars_nouveau:spell_turret"
 				type: "item"
 			}]
@@ -320,7 +307,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F101000000000010"]
 			description: [
 				"§7Defeat the §5Wilden Chimera§7 — Ars Nouveau's mid-game boss."
 				""
@@ -332,24 +318,22 @@
 				"§8Recommended: §5Archmage Spellbook§8 with Amplify + Lightning + Burst."
 				"§8Keep moving — it tracks the nearest player aggressively."
 			]
-			id: "F101000000000020"
+			id: "538A55C415CBD26C"
 			rewards: [
 				{
-					id: "F101000000000021"
+					id: "4C1495ADE8CC4A7F"
 					type: "xp_levels"
 					xp_levels: 15
 				}
 				{
 					count: 2
-					id: "F101000000000022"
+					id: "3CF2E418FD9E3198"
 					item: "ars_nouveau:wilden_tribute"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "F101000000000023"
+				id: "1055B1EFA7DB4770"
 				title: "Defeat the Wilden Chimera."
 				type: "checkmark"
 			}]
@@ -358,7 +342,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F100000000000050"]
 			description: [
 				"§7Craft a §4Ritual Diviner§7 and set up the §4Ritual of Magnetism§7."
 				""
@@ -368,31 +351,29 @@
 				"§8Requires: Ritual Stones + LP. The higher your Altar tier, the wider the pull range."
 				"§8Combine with a §4Crushing Ritual§8 for automatic ore doubling."
 			]
-			id: "F101000000000030"
+			id: "774352C7752DD69A"
 			rewards: [
 				{
-					id: "F101000000000031"
+					id: "6375171EAA869CC6"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
-					count: 1
-					id: "F101000000000032"
+					id: "2968E4673AA11AA0"
 					item: "bloodmagic:item_ritual_diviner"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F101000000000033"
+				id: "6AC3196044F194BC"
 				item: "bloodmagic:item_ritual_diviner"
 				type: "item"
 			}]
 			title: "§4Ritual of Magnetism"
 			x: 9.0d
-			y: -3.5d
+			y: -8.0d
 		}
 		{
-			dependencies: ["F101000000000030"]
 			description: [
 				"§7Set up the §4Well of Suffering§7 — Blood Magic's automated LP generation ritual."
 				""
@@ -402,33 +383,30 @@
 				"§8This is the standard endgame Blood Magic LP source — it scales with mob density."
 				"§8Pair with a mob spawner for continuous LP generation."
 			]
-			id: "F101000000000040"
+			id: "7B10827247C7F208"
 			rewards: [
 				{
-					id: "F101000000000041"
+					id: "6212D28A33A844F8"
 					type: "xp_levels"
 					xp_levels: 12
 				}
 				{
 					count: 5
-					id: "F101000000000042"
+					id: "4520CA1A85330C4A"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "F101000000000043"
+				id: "22413DF012A3C261"
 				title: "Set up the Well of Suffering ritual with a trapped mob."
 				type: "checkmark"
 			}]
 			title: "§4§lWell of Suffering"
 			x: 12.0d
-			y: -3.5d
+			y: -8.0d
 		}
 		{
-			dependencies: ["F101000000000040"]
 			description: [
 				"§7Upgrade your §4Blood Altar to Tier 4§7 using §4Dusk Runes§7."
 				""
@@ -437,31 +415,30 @@
 				""
 				"§8Tier 5 requires Dense Runes and is the final tier — hold off until your LP generation is stable."
 			]
-			id: "F101000000000050"
+			id: "01ABF21F38D7626C"
 			rewards: [
 				{
-					id: "F101000000000051"
+					id: "1FEF4B7730AE39AF"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 4
-					id: "F101000000000052"
+					id: "2E685845ED7A6F7C"
 					item: "bloodmagic:rune_dusk"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F101000000000053"
+				id: "33FA0097CD762057"
 				item: "bloodmagic:rune_dusk"
 				type: "item"
 			}]
 			title: "§4Tier 4 Altar"
 			x: 15.0d
-			y: -3.5d
+			y: -8.0d
 		}
 		{
-			dependencies: ["F100000000000070"]
 			description: [
 				"§7Craft §bElementium Ingots§7 using Botania's elvish crafting."
 				""
@@ -471,32 +448,31 @@
 				"§8Elementium is used for: §bPixie Dust§7, §bDragonstone§7, and §bElementium Armor§7."
 				"§8The armor set grants bonus damage from pixies that fight alongside you."
 			]
-			id: "F101000000000060"
+			id: "511CE4AFC78D8D8D"
 			rewards: [
 				{
-					id: "F101000000000061"
+					id: "5554D51F1FE8F59D"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 4
-					id: "F101000000000062"
+					id: "720E5C091517A94A"
 					item: "botania:elementium_ingot"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 4L
-				id: "F101000000000063"
+				id: "45A47E12EA71890A"
 				item: "botania:elementium_ingot"
 				type: "item"
 			}]
 			title: "§bElementium"
 			x: 9.0d
-			y: 3.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["F101000000000060"]
 			description: [
 				"§7Craft the §b§lElementium Chestplate§7 — the pinnacle of Botania combat gear."
 				""
@@ -506,31 +482,36 @@
 				"§8Pair with the §bTerra Blade§8 for a complete Botania melee build."
 				"§8Pixies are especially deadly against bosses with fast attack speeds."
 			]
-			id: "F101000000000070"
+			id: "74D2CEA2371860AB"
 			rewards: [
 				{
-					id: "F101000000000071"
+					id: "54AAFFD3342DE841"
 					type: "xp_levels"
 					xp_levels: 12
 				}
 				{
 					count: 4
-					id: "F101000000000072"
+					id: "42DB35016B6E4E17"
 					item: "botania:elementium_ingot"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F101000000000073"
-				item: "botania:elementium_chestplate"
+				id: "3160BC9FF7894425"
+				item: {
+					Count: 1
+					id: "botania:elementium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			title: "§bPixie Armor"
 			x: 12.0d
-			y: 3.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["F101000000000070"]
 			description: [
 				"§7Craft the §b§lMana Gun§7 — Botania's ranged weapon."
 				""
@@ -540,31 +521,29 @@
 				"§8The §bExplosive Lens§8 is devastating — pairs well with mining."
 				"§8Load it with a §bContainment Lens§8 to capture weak mobs without killing them."
 			]
-			id: "F101000000000080"
+			id: "024B26236285CA67"
 			rewards: [
 				{
-					id: "F101000000000081"
+					id: "4BBBCDFDA3BE502C"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
-					count: 1
-					id: "F101000000000082"
+					id: "1DDD14020F715326"
 					item: "botania:mana_gun"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F101000000000083"
+				id: "3E936DBE1A4D7861"
 				item: "botania:mana_gun"
 				type: "item"
 			}]
 			title: "§bMana Gun"
 			x: 15.0d
-			y: 3.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["F100000000000060"]
 			description: [
 				"§7Build the §b§lAlfheim Portal§7 — Botania's Elven Gateway to Alfheim."
 				""
@@ -574,33 +553,30 @@
 				"§8Required for: Elementium, Dreamwood, Elfsteel, and Elven-exclusive crafting recipes."
 				"§8The Portal must stay active by continuously receiving Mana — connect a Mana Spreader to it."
 			]
-			id: "F101000000000090"
+			id: "505A625456E48D93"
 			rewards: [
 				{
-					id: "F101000000000091"
+					id: "6797B4443E16A093"
 					type: "xp_levels"
 					xp_levels: 12
 				}
 				{
 					count: 4
-					id: "F101000000000092"
+					id: "4CEB20A2C6CE0D33"
 					item: "botania:elf_quartz"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "F101000000000093"
-				item: "botania:alfheim_portal"
-				type: "item"
+				id: "063D4A3F31833AE2"
+				title: "Build and activate the Alfheim Portal."
+				type: "checkmark"
 			}]
 			title: "§b§lAlf Portal"
 			x: 6.0d
-			y: 7.0d
+			y: 11.0d
 		}
 		{
-			dependencies: ["F101000000000090"]
 			description: [
 				"§7Defeat §b§lGaia Guardian II§7 — the true Botania endgame boss."
 				""
@@ -611,33 +587,30 @@
 				""
 				"§8The §bRing of Odin§8 is one of the best survival items in the entire pack. Always pursue Guardian II."
 			]
-			id: "F101000000000100"
+			id: "09322623CA918D56"
 			rewards: [
 				{
-					id: "F101000000000101"
+					id: "078A33F7F2E0B1A1"
 					type: "xp_levels"
 					xp_levels: 20
 				}
 				{
 					count: 6
-					id: "F101000000000102"
+					id: "2C9C3483C5ADFBD6"
 					item: "botania:gaia_spirit"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "F101000000000103"
+				id: "47A266A71A2C2195"
 				title: "Defeat Gaia Guardian II."
 				type: "checkmark"
 			}]
 			title: "§b§lGaia II"
 			x: 9.0d
-			y: 7.0d
+			y: 11.0d
 		}
 		{
-			dependencies: ["F101000000000100"]
 			description: [
 				"§7Craft the §b§lRod of the Hells§7 — Botania's fire-elemental rod."
 				""
@@ -647,28 +620,28 @@
 				"§8Pair with a §bRod of the Seas§8 (water rod) for full elemental control."
 				"§8Both rods drain Mana from your Mana Tablet — keep one topped up."
 			]
-			id: "F101000000000110"
+			id: "2DC6122172921D59"
 			rewards: [
 				{
-					id: "F101000000000111"
+					id: "0B2348D98E524308"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
-					count: 1
-					id: "F101000000000112"
+					id: "04C71939C08A4B8B"
 					item: "botania:rod_of_the_hells"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F101000000000113"
+				id: "33DABFFC6E5746CB"
 				item: "botania:rod_of_the_hells"
 				type: "item"
 			}]
 			title: "§b§lRod of the Hells"
 			x: 12.0d
-			y: 7.0d
+			y: 11.0d
 		}
 	]
+	title: "§5Blood \& Mana"
 }

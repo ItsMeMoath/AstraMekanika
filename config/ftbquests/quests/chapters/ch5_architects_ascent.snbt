@@ -4,10 +4,9 @@
 	filename: "ch5_architects_ascent"
 	group: "3E586F2160161EEA"
 	icon: "kubejs:heart_of_the_vault"
-	id: "EE00000000000001"
-	order_index: 5
-	quest_links: []
-	title: "§5§lV. The Architect's Ascent"
+	id: "2C5AD1E4C0609245"
+	order_index: 4
+	quest_links: [ ]
 	quests: [
 		{
 			description: [
@@ -20,16 +19,16 @@
 				""
 				"§8Unlock condition: §9Reactor Authority Seal §8(Phase IV complete)"
 			]
-			id: "EE00000000000002"
+			id: "1D1706B02CDE5D4C"
 			rewards: [{
-				id: "EE00000000000003"
+				id: "31A8C75F5089F256"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "EE00000000000004"
+				id: "2476D41493C766E0"
 				title: "Enter Phase V."
 				type: "checkmark"
 			}]
@@ -38,7 +37,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["EE00000000000002"]
 			description: [
 				"§7Craft an §6Ad Astra Rocket§7 and launch it."
 				""
@@ -50,22 +48,22 @@
 				""
 				"§8Bring pickaxes and food. The Moon has §eMoon Rock§7 ores worth collecting."
 			]
-			id: "EE00000000000010"
+			id: "7A14AC2541A5832C"
 			rewards: [
 				{
-					id: "EE00000000000011"
+					id: "655858925E0F1AD6"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 5
-					id: "EE00000000000012"
+					id: "35C315DFF157B916"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "EE00000000000013"
+				id: "247CD8B5A6F7CD61"
 				title: "Launch a rocket and land on the Moon."
 				type: "checkmark"
 			}]
@@ -74,7 +72,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["EE00000000000010"]
 			description: [
 				"§7Craft a §5Draconic Evolution Wyvern Core§7."
 				""
@@ -85,22 +82,22 @@
 				""
 				"§8The Draconic reactor and energy storage are endgame power infrastructure."
 			]
-			id: "EE00000000000020"
+			id: "3294A3EFFED289B2"
 			rewards: [
 				{
-					id: "EE00000000000021"
+					id: "17461FC37F8929E6"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 4
-					id: "EE00000000000022"
+					id: "6C5D31D0E7593A5F"
 					item: "draconicevolution:draconium_ingot"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "EE00000000000023"
+				id: "50077250DCC4988D"
 				item: "draconicevolution:wyvern_core"
 				type: "item"
 			}]
@@ -109,7 +106,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["EE00000000000020"]
 			description: [
 				"§7Defeat at least §cone §cEnder's Cataclysm§7 boss."
 				""
@@ -118,22 +114,22 @@
 				"§8§cWarning: §7These bosses are §ctechnically demanding§7 — bring Phase V gear. Do not fight them in Phase III equipment."
 				"§8Find the Cataclysm dungeon structures in the world or The End."
 			]
-			id: "EE00000000000030"
+			id: "16DB9BBDAB775A9A"
 			rewards: [
 				{
-					id: "EE00000000000031"
+					id: "71FF47976EC0DE5E"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 8
-					id: "EE00000000000032"
+					id: "31E0E2C00E50FC65"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "EE00000000000033"
+				id: "683A81D7D3DF0F6F"
 				title: "Defeat at least one Ender's Cataclysm boss."
 				type: "checkmark"
 			}]
@@ -142,7 +138,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["EE00000000000030"]
 			description: [
 				"§7Build a §5Draconic Evolution Fusion Crafting§7 setup."
 				""
@@ -155,24 +150,22 @@
 				""
 				"§8Fusion Crafting consumes enormous amounts of RF. Have your Mekanism Fusion Reactor or Draconic Reactor running first."
 			]
-			id: "EE00000000000040"
+			id: "26792C2D14A0485C"
 			rewards: [
 				{
-					id: "EE00000000000041"
+					id: "7E6938C4655626BF"
 					type: "xp_levels"
 					xp_levels: 15
 				}
 				{
 					count: 4
-					id: "EE00000000000042"
+					id: "745676826B6308EB"
 					item: "draconicevolution:awakened_draconium_ingot"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "EE00000000000043"
+				id: "5D4D0E516D07C1CC"
 				item: "draconicevolution:fusion_crafting_core"
 				type: "item"
 			}]
@@ -181,7 +174,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["EE00000000000040"]
 			description: [
 				"§7Using Fusion Crafting, produce the §5Heart of the Vault§7."
 				""
@@ -190,29 +182,28 @@
 				""
 				"§8Gather all materials. This is the last checkpoint before convergence."
 			]
-			id: "EE00000000000050"
+			id: "6054904900DD67E4"
 			rewards: [
 				{
-					id: "EE00000000000051"
+					id: "1985DB6225E45DCD"
 					type: "xp_levels"
 					xp_levels: 20
 				}
 				{
 					count: 15
-					id: "EE00000000000052"
+					id: "4491AB1FEB674634"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "EE00000000000053"
+					id: "5F5D1DCF29B054D4"
 					item: "kubejs:moathco_files_vol_5"
 					type: "item"
 				}
 			]
-			shape: "diamond"
 			size: 1.5d
 			tasks: [{
-				id: "EE00000000000054"
+				id: "3453C18830C9D3E8"
 				item: "kubejs:heart_of_the_vault"
 				type: "item"
 			}]
@@ -221,7 +212,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["EE00000000000050"]
 			description: [
 				"§5§l✦ THE END."
 				""
@@ -235,34 +225,34 @@
 				""
 				"§8The §5Prestige§8 system unlocks after this. Begin again — but differently."
 			]
-			id: "EE00000000000060"
+			id: "3546BD47AB39349C"
 			rewards: [
 				{
-					id: "EE00000000000061"
+					id: "03A058BFAB8C2A0F"
 					type: "xp_levels"
 					xp_levels: 50
 				}
 				{
 					count: 25
-					id: "EE00000000000062"
+					id: "196D4FB208AC277A"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
 					command: "/function moathco:phase_5_broadcast"
-					id: "EE00000000000063"
+					id: "31E9B6BC1EF092D3"
 					type: "command"
 				}
 				{
 					command: "/title @a title {\"text\":\"The Architect\",\"color\":\"gold\",\"bold\":true}"
-					id: "EE00000000000064"
+					id: "6746812200665025"
 					type: "command"
 				}
 			]
 			shape: "hexagon"
 			size: 2.5d
 			tasks: [{
-				id: "EE00000000000065"
+				id: "732464A1659ACA08"
 				item: "kubejs:vault_convergence"
 				type: "item"
 			}]
@@ -271,7 +261,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["EE00000000000010"]
 			description: [
 				"§7Visit §e3 different Ad Astra planets§7."
 				""
@@ -282,43 +271,42 @@
 				"§8Each planet requires a more advanced rocket and specific oxygen gear."
 				"§8You can build permanent §6Space Stations§8 in orbit once you have the resources."
 			]
-			id: "EE00000000000070"
+			id: "3049E185DF485293"
 			rewards: [
 				{
-					id: "EE00000000000071"
+					id: "2FA00AEF8E9D3C58"
 					type: "xp_levels"
 					xp_levels: 15
 				}
 				{
 					count: 5
-					id: "EE00000000000072"
+					id: "45218C7B7D4B6C97"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "EE00000000000073"
+					id: "725488E3BEF909AD"
 					title: "Land on the Moon."
 					type: "checkmark"
 				}
 				{
-					id: "EE00000000000074"
+					id: "1B895AED59D4E7E9"
 					title: "Land on Mars."
 					type: "checkmark"
 				}
 				{
-					id: "EE00000000000075"
+					id: "5C345F490FB99F5D"
 					title: "Land on Venus or another planet."
 					type: "checkmark"
 				}
 			]
 			title: "§6Planetary Explorer"
 			x: 3.0d
-			y: -3.5d
+			y: -8.0d
 		}
 		{
-			dependencies: ["EE00000000000020"]
 			description: [
 				"§7Craft §5Draconic Evolution§7 armor and defeat the §cEnder Dragon§7 wearing it."
 				""
@@ -327,30 +315,29 @@
 				""
 				"§8The Dragon must be killed fresh — not a previously killed dragon. Re-summon with 4 End Crystals."
 			]
-			id: "EE00000000000080"
+			id: "05D8EF100DC07A54"
 			rewards: [
 				{
-					id: "EE00000000000081"
+					id: "10EBBC06B84AAB83"
 					type: "xp_levels"
 					xp_levels: 15
 				}
 				{
-					id: "EE00000000000082"
+					id: "160721CCEF21E0C7"
 					item: "draconicevolution:dragon_heart"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "EE00000000000083"
+				id: "0B5D4FC59D2B332A"
 				title: "Defeat the Ender Dragon while wearing Draconic Evolution armor."
 				type: "checkmark"
 			}]
 			title: "§5Dragon's End"
 			x: 6.0d
-			y: -3.5d
+			y: -8.0d
 		}
 		{
-			dependencies: ["EE00000000000030"]
 			description: [
 				"§7Visit the §8Mining Dimension§7 and mine §e256 ores§7."
 				""
@@ -359,31 +346,30 @@
 				""
 				"§8Use FTB UltiMine (hold §eU§8 while mining) to vein-mine entire ore clusters at once."
 			]
-			id: "EE00000000000090"
+			id: "6E7BE1492B419CA3"
 			rewards: [
 				{
-					id: "EE00000000000091"
+					id: "6DFEDCA7EB40B2EF"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 8
-					id: "EE00000000000092"
+					id: "0F26B2E82428B4E7"
 					item: "minecraft:diamond"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "EE00000000000093"
+				id: "5230C2ECB3F3539D"
 				title: "Mine 256 ores in the Mining Dimension."
 				type: "checkmark"
 			}]
 			title: "§8Mining Infinite"
 			x: 9.0d
-			y: -3.5d
+			y: -6.0d
 		}
 		{
-			dependencies: ["EE00000000000040"]
 			description: [
 				"§7Build the §5Draconic Evolution Reactor§7 structure."
 				""
@@ -394,31 +380,30 @@
 				"§8Research the safety parameters before starting it. Monitor it constantly."
 				"§8Disable it safely before any pack updates or major changes to your power grid."
 			]
-			id: "EE000000000000A0"
+			id: "688227E55EA8CF6F"
 			rewards: [
 				{
-					id: "EE000000000000A1"
+					id: "31ACDFC05121CC54"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 2
-					id: "EE000000000000A2"
+					id: "1B4E711E308C3BC8"
 					item: "draconicevolution:reactor_stabilizer"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "EE000000000000A3"
+				id: "069A0802C67184A1"
 				title: "Build the Draconic Evolution Reactor structure."
 				type: "checkmark"
 			}]
 			title: "§5Draconic Reactor"
 			x: 12.0d
-			y: -3.5d
+			y: -6.0d
 		}
 		{
-			dependencies: ["EE00000000000070"]
 			description: [
 				"§7Land on §eMars§7 — the second destination in the §6Ad Astra§7 progression."
 				""
@@ -430,31 +415,30 @@
 				""
 				"§8Establish a base on Mars before leaving — it's a long trip back for materials."
 			]
-			id: "EE01000000000010"
+			id: "14CF0BDCD1466F63"
 			rewards: [
 				{
-					id: "EE01000000000011"
+					id: "2741833FC9C2CA65"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 4
-					id: "EE01000000000012"
+					id: "68D9C178CB704357"
 					item: "ad_astra:desh_ingot"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "EE01000000000013"
+				id: "010017FF683184E3"
 				title: "Land on Mars and collect Desh ore."
 				type: "checkmark"
 			}]
 			title: "§eMars Landing"
 			x: 6.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["EE01000000000010"]
 			description: [
 				"§7Build an §6Ad Astra Space Station§7 in orbit."
 				""
@@ -466,31 +450,30 @@
 				"§8A Space Station with a §6Gravitational Anomalizer§8 produces artificial gravity — no more floating builds."
 				"§8Use it as a logistics hub for inter-planetary resource routing."
 			]
-			id: "EE01000000000020"
+			id: "53B2213A1EA69543"
 			rewards: [
 				{
-					id: "EE01000000000021"
+					id: "16C3C3E2AB783C9C"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 5
-					id: "EE01000000000022"
+					id: "32F6D0BAF175CD1B"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "EE01000000000023"
+				id: "0D6A4BC9F3F23BF9"
 				title: "Build a Space Station in orbit."
 				type: "checkmark"
 			}]
 			title: "§6Space Station"
 			x: 9.0d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["EE00000000000020"]
 			description: [
 				"§7Craft a full set of §5Draconic Evolution Wyvern tools§7."
 				""
@@ -502,38 +485,37 @@
 				"§8Keep them charged in a §5Draconic Energy Core§8 (a massive RF storage structure)."
 				"§8They make all previous tools obsolete."
 			]
-			id: "EE01000000000030"
+			id: "320A9EAA15033AD9"
 			rewards: [
 				{
-					id: "EE01000000000031"
+					id: "074858EF5848F014"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 4
-					id: "EE01000000000032"
+					id: "0B877C3B0407954F"
 					item: "draconicevolution:draconium_ingot"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "EE01000000000033"
+					id: "0E6FE5301525928D"
 					item: "draconicevolution:wyvern_pickaxe"
 					type: "item"
 				}
 				{
-					id: "EE01000000000034"
+					id: "6ECE13D0F4EC8381"
 					item: "draconicevolution:wyvern_sword"
 					type: "item"
 				}
 			]
 			title: "§5Wyvern Tools"
 			x: 9.0d
-			y: -5.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["EE01000000000030"]
 			description: [
 				"§7Craft a full set of §5Draconic Evolution Draconic Armor§7."
 				""
@@ -545,40 +527,37 @@
 				"§8The suit needs a constant RF supply. Connect to a §5Draconic Energy Core§8 for nearly infinite charge."
 				"§8With full Draconic Armor charged, you are effectively invincible."
 			]
-			id: "EE01000000000040"
+			id: "75CEC7609FE000DC"
 			rewards: [
 				{
-					id: "EE01000000000041"
+					id: "46BC09D8C84DBE92"
 					type: "xp_levels"
 					xp_levels: 15
 				}
 				{
 					count: 4
-					id: "EE01000000000042"
+					id: "690F408EB74492C8"
 					item: "draconicevolution:draconium_ingot"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [
 				{
-					id: "EE01000000000043"
+					id: "7C3DEC27B3E0D087"
 					item: "draconicevolution:draconic_chestplate"
 					type: "item"
 				}
 				{
-					id: "EE01000000000044"
+					id: "18584F7779612AA3"
 					item: "draconicevolution:draconic_helmet"
 					type: "item"
 				}
 			]
 			title: "§5§lDraconic Armor"
 			x: 12.0d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["EE00000000000030"]
 			description: [
 				"§7Defeat the §cIgnited Revenant§7 — a Cataclysm boss."
 				""
@@ -590,31 +569,30 @@
 				""
 				"§eDrop: §cIgnited Scale§7 — used for §cCataclysm armor§7 and endgame crafting."
 			]
-			id: "EE01000000000050"
+			id: "7173DD4BCCA590FA"
 			rewards: [
 				{
-					id: "EE01000000000051"
+					id: "0F8DC5E2559A23FB"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 3
-					id: "EE01000000000052"
+					id: "0CA15CD6E9C75A87"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "EE01000000000053"
+				id: "359DCC4A1BA3F88B"
 				title: "Defeat the Ignited Revenant (Cataclysm)."
 				type: "checkmark"
 			}]
 			title: "§cIgnited Revenant"
 			x: 15.0d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["EE01000000000050"]
 			description: [
 				"§7Defeat the §c§lEnder Guardian§7 — Cataclysm's most dangerous overworld boss."
 				""
@@ -626,33 +604,30 @@
 				""
 				"§eDrop: §cGuardian's Eye§7 — required for the §5Heart of the Vault§7 recipe."
 			]
-			id: "EE01000000000060"
+			id: "43D0C9EA40B3EA97"
 			rewards: [
 				{
-					id: "EE01000000000061"
+					id: "011BF4229E13F9AF"
 					type: "xp_levels"
 					xp_levels: 15
 				}
 				{
 					count: 5
-					id: "EE01000000000062"
+					id: "6E89A60E351F993F"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "EE01000000000063"
+				id: "5D8DB8F38F353EC2"
 				title: "Defeat the Ender Guardian (Cataclysm)."
 				type: "checkmark"
 			}]
 			title: "§c§lEnder Guardian"
 			x: 18.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["EE01000000000040"]
 			description: [
 				"§7Build a §5Draconic Evolution Energy Core§7 — the ultimate RF storage structure."
 				""
@@ -664,33 +639,30 @@
 				"§8Connect your Fusion Reactor, NuclearCraft Reactor, and Draconic Reactor all to this."
 				"§8Every machine in your base draws from one unified energy core."
 			]
-			id: "EE01000000000070"
+			id: "52B2ED7CB20FD231"
 			rewards: [
 				{
-					id: "EE01000000000071"
+					id: "7AB8029B10AE1E4A"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 4
-					id: "EE01000000000072"
+					id: "58AC947F15091975"
 					item: "draconicevolution:draconium_block"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "EE01000000000073"
+				id: "5CF430CD3AA0CF6A"
 				title: "Build a Draconic Evolution Energy Core (any tier)."
 				type: "checkmark"
 			}]
 			title: "§5Energy Core"
 			x: 15.0d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["EE00000000000050"]
 			description: [
 				"§7Produce §6Mekanism Polonium§7 using the §6Isotopic Centrifuge§7."
 				""
@@ -701,32 +673,31 @@
 				""
 				"§8This starts a production chain that powers your Fusion Reactor with Mekanism-native fuel."
 			]
-			id: "EE01000000000080"
+			id: "6E2D718BB0005A04"
 			rewards: [
 				{
-					id: "EE01000000000081"
+					id: "7668F998B80647CF"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 4
-					id: "EE01000000000082"
+					id: "2B7B9624319E0245"
 					item: "mekanism:polonium_pellet"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 4L
-				id: "EE01000000000083"
+				id: "2E5E0F2E245631D5"
 				item: "mekanism:polonium_pellet"
 				type: "item"
 			}]
 			title: "§6Polonium Production"
 			x: 18.0d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["EE01000000000080"]
 			description: [
 				"§7Produce §6Mekanism Antimatter§7 using the §6Antiprotonic Nucleosynthesizer§7."
 				""
@@ -738,24 +709,22 @@
 				""
 				"§8This is endgame Mekanism. Getting here means your power infrastructure is complete."
 			]
-			id: "EE01000000000090"
+			id: "3DA5C495BC93A8C1"
 			rewards: [
 				{
-					id: "EE01000000000091"
+					id: "628520AB933C40B5"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 2
-					id: "EE01000000000092"
+					id: "4D21ACE9577F2765"
 					item: "mekanism:antimatter_pellet"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "EE01000000000093"
+				id: "62896DF73784EC9C"
 				item: "mekanism:antimatter_pellet"
 				type: "item"
 			}]
@@ -764,4 +733,5 @@
 			y: 0.0d
 		}
 	]
+	title: "§5§lV. The Architect's Ascent"
 }

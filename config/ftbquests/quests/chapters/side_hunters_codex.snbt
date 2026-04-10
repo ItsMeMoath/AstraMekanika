@@ -3,11 +3,16 @@
 	default_quest_shape: "circle"
 	filename: "side_hunters_codex"
 	group: "5186F2D762C2C9E0"
-	icon: "minecraft:netherite_sword"
-	id: "F300000000000001"
-	order_index: 12
-	quest_links: []
-	title: "§cHunter's Codex"
+	icon: {
+		Count: 1
+		id: "minecraft:netherite_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "77DE0A15CDC020DC"
+	order_index: 4
+	quest_links: [ ]
 	quests: [
 		{
 			description: [
@@ -18,16 +23,16 @@
 				""
 				"§8§cWarning: §7Mob difficulty scales with each phase you complete. Phase V mobs are significantly tougher than Phase I mobs."
 			]
-			id: "F300000000000002"
+			id: "5C3F7FE06989C607"
 			rewards: [{
-				id: "F300000000000003"
+				id: "11DC530816394C68"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
-				id: "F300000000000004"
+				id: "60CAF40FB31F0A4F"
 				title: "Open the Hunter's Codex."
 				type: "checkmark"
 			}]
@@ -36,7 +41,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F300000000000002"]
 			description: [
 				"§7Kill §e50 hostile mobs§7."
 				""
@@ -45,32 +49,30 @@
 				""
 				"§8Build a small fighting arena near your base: light the surrounding area and leave one dark kill chamber."
 			]
-			id: "F300000000000010"
+			id: "7405FE27512AB1E1"
 			rewards: [
 				{
-					id: "F300000000000011"
+					id: "66D2665BD9FDC06A"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 				{
 					count: 3
-					id: "F300000000000012"
+					id: "52C4A777DCFDCDE0"
 					item: "minecraft:experience_bottle"
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 50L
-				id: "F300000000000013"
-				entity: "minecraft:zombie"
-				type: "kill"
+			tasks: [{			
+				id: "71936455F6B3F316"
+				title: "Kill 1 Zombies."
+				type: "checkmark"
 			}]
 			title: "§cFirst Kills"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["F300000000000010"]
 			description: [
 				"§7Craft an §eApotheosis Reforging Table§7 and reforge a weapon."
 				""
@@ -80,21 +82,21 @@
 				"§8Every reforge is random — keep rerolling until you get something useful."
 				"§8This is how you get genuinely powerful combat gear without spending hours in dungeons."
 			]
-			id: "F300000000000020"
+			id: "2D8B4C512DC012B5"
 			rewards: [
 				{
-					id: "F300000000000021"
+					id: "51C58FC72E8A9BA1"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
-					id: "F300000000000022"
+					id: "22A328A7AA54B932"
 					item: "apotheosis:gem_dust"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F300000000000023"
+				id: "5AE39E0A5AEFB6F9"
 				item: "apotheosis:reforging_table"
 				type: "item"
 			}]
@@ -103,7 +105,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F300000000000020"]
 			description: [
 				"§7Defeat a §6Mowzies Mobs§7 boss."
 				""
@@ -115,22 +116,22 @@
 				""
 				"§8Their drops are unique and cannot be obtained elsewhere."
 			]
-			id: "F300000000000030"
+			id: "48DDE908F6A71E9F"
 			rewards: [
 				{
-					id: "F300000000000031"
+					id: "1A288FC052089997"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 3
-					id: "F300000000000032"
+					id: "56027601898FB8D2"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F300000000000033"
+				id: "405497A0E3746099"
 				title: "Defeat a Mowzies Mobs boss."
 				type: "checkmark"
 			}]
@@ -139,7 +140,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F300000000000030"]
 			description: [
 				"§7Craft a §eSoul Cage§7 using §eApotheosis§7 and trap a mob spawner."
 				""
@@ -148,22 +148,22 @@
 				""
 				"§8Target high-value mobs: Zombies for iron, Skeletons for arrows, Blaze for Blaze Rods."
 			]
-			id: "F300000000000040"
+			id: "3BC459EB229A198C"
 			rewards: [
 				{
-					id: "F300000000000041"
+					id: "49563A23F80D626A"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 2
-					id: "F300000000000042"
+					id: "233AB2722A0E22A7"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F300000000000043"
+				id: "78C1C73E335EC724"
 				item: "apotheosis:soul_cage"
 				type: "item"
 			}]
@@ -172,7 +172,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F300000000000002"]
 			description: [
 				"§7Survive a §cBlood Moon§7 without dying."
 				""
@@ -183,22 +182,22 @@
 				""
 				"§8Build walls, use your spellbook, and keep your armor repaired before night."
 			]
-			id: "F300000000000050"
+			id: "15FE7118AFDA6C91"
 			rewards: [
 				{
-					id: "F300000000000051"
+					id: "0A1623355229919A"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 3
-					id: "F300000000000052"
+					id: "1BF4C301148B4222"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F300000000000053"
+				id: "20DDCAD712064121"
 				title: "Survive a Blood Moon without dying."
 				type: "checkmark"
 			}]
@@ -207,7 +206,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["F300000000000010"]
 			description: [
 				"§7Craft an §cIron Jetpack§7 and achieve basic flight."
 				""
@@ -218,22 +216,22 @@
 				"§8Equip it in the chestplate slot (or curio slot if available)."
 				"§8Pair with a good RF source — it drains power quickly at high tiers."
 			]
-			id: "F300000000000060"
+			id: "1F57E315CA74D32F"
 			rewards: [
 				{
-					id: "F300000000000061"
+					id: "6BEAF4DEF15BEBD4"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 2
-					id: "F300000000000062"
+					id: "75032CD19329D5A6"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F300000000000063"
+				id: "5C0EED8F4BCF4DB7"
 				item: "ironjetpacks:basic_jetpack"
 				type: "item"
 			}]
@@ -242,7 +240,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["F300000000000020"]
 			description: [
 				"§7Find and kill an §6Alex's Mobs§7 creature — specifically a creature you've never seen before."
 				""
@@ -253,22 +250,22 @@
 				""
 				"§8Target: §6Hammerhead Shark§7 (ocean), §6Komodo Dragon§7 (jungle), or §6Void Worm§7 (The End)."
 			]
-			id: "F300000000000070"
+			id: "1E1E54BEFB4B2AE6"
 			rewards: [
 				{
-					id: "F300000000000071"
+					id: "5A928955828806CB"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
 					count: 2
-					id: "F300000000000072"
+					id: "489642847B88FF42"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F300000000000073"
+				id: "5B8164A0EC780F9D"
 				title: "Kill an Alex's Mobs unique creature."
 				type: "checkmark"
 			}]
@@ -277,7 +274,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["F300000000000040"]
 			description: [
 				"§7Defeat the §4§lWither§7 — the Overworld's first mega-boss."
 				""
@@ -289,34 +285,29 @@
 				"§8Warning: In this pack, the Wither is significantly buffed. Bring your best armor and potions."
 				"§8A small enclosed underground room limits its movement and prevents runaway explosions."
 			]
-			id: "F301000000000010"
+			id: "090F628B0D1BE10D"
 			rewards: [
 				{
-					id: "F301000000000011"
+					id: "20FFDAC6F845793F"
 					type: "xp_levels"
 					xp_levels: 15
 				}
 				{
-					count: 1
-					id: "F301000000000012"
+					id: "4103FBF48B976DF1"
 					item: "minecraft:nether_star"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
-			tasks: [{
-				count: 1L
-				id: "F301000000000013"
-				entity: "minecraft:wither"
-				type: "kill"
+			tasks: [{			
+				id: "0175C203EB7DCD22"
+				title: "Kill 1 Withers."
+				type: "checkmark"
 			}]
 			title: "§4§lWither Slain"
 			x: 15.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["F301000000000010"]
 			description: [
 				"§7Defeat the §5§lEnder Dragon§7 — the guardian of The End."
 				""
@@ -329,34 +320,30 @@
 				""
 				"§8Defeating the Dragon respawns it infinitely — each kill yields more XP."
 			]
-			id: "F301000000000020"
+			id: "1590DD5073D4CA55"
 			rewards: [
 				{
-					id: "F301000000000021"
+					id: "448E39CE23DCD7EC"
 					type: "xp_levels"
 					xp_levels: 20
 				}
 				{
 					count: 3
-					id: "F301000000000022"
+					id: "6D5F6B5A07CBAFB6"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
-			tasks: [{
-				count: 1L
-				id: "F301000000000023"
-				entity: "minecraft:ender_dragon"
-				type: "kill"
+			tasks: [{			
+				id: "033CD2E26B6A2155"
+				title: "Kill 1 Ender Dragons."
+				type: "checkmark"
 			}]
 			title: "§5§lEnder Dragon"
 			x: 18.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["F300000000000070"]
 			description: [
 				"§7Defeat an §9Elder Guardian§7 inside an Ocean Monument."
 				""
@@ -367,32 +354,30 @@
 				"§8Drops: §9Sponges§7 and §9Prismarine Shards§7."
 				"§8Keep distance and use a Power V bow — Elder Guardians are slow."
 			]
-			id: "F301000000000030"
+			id: "5F6539945EECAD0C"
 			rewards: [
 				{
-					id: "F301000000000031"
+					id: "75ABDE3E493377ED"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 4
-					id: "F301000000000032"
+					id: "38C2E9E0021CC1AE"
 					item: "minecraft:sponge"
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 1L
-				id: "F301000000000033"
-				entity: "minecraft:elder_guardian"
-				type: "kill"
+			tasks: [{			
+				id: "5C1C1FD01FD024E7"
+				title: "Kill 1 Elder Guardians."
+				type: "checkmark"
 			}]
 			title: "§9Elder Guardian"
 			x: 12.0d
 			y: -3.5d
 		}
 		{
-			dependencies: ["F301000000000030"]
 			description: [
 				"§7Defeat the §8§lWarden§7 — the deep dark's apex predator."
 				""
@@ -403,34 +388,30 @@
 				"§8Use long-range potions, keep distance, and disengage when health is low."
 				"§8Drops: §8Sculk Catalyst§7. The real reward is bragging rights."
 			]
-			id: "F301000000000040"
+			id: "2FAFF918A81F51D0"
 			rewards: [
 				{
-					id: "F301000000000041"
+					id: "526F660EE8EE1C01"
 					type: "xp_levels"
 					xp_levels: 15
 				}
 				{
 					count: 5
-					id: "F301000000000042"
+					id: "6D115C06F92A26B8"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
-			tasks: [{
-				count: 1L
-				id: "F301000000000043"
-				entity: "minecraft:warden"
-				type: "kill"
+			tasks: [{			
+				id: "42B7F74A51B42E2B"
+				title: "Kill 1 Wardens."
+				type: "checkmark"
 			}]
 			title: "§8§lWarden Slain"
 			x: 15.0d
 			y: -3.5d
 		}
 		{
-			dependencies: ["F301000000000040"]
 			description: [
 				"§7Defeat a §cCataclysm Dungeon Boss§7."
 				""
@@ -442,24 +423,22 @@
 				"§8Phase IV armor minimum recommended."
 				"§8You scouted the dungeon in Wanderer's Atlas — now go back armed."
 			]
-			id: "F301000000000050"
+			id: "1FAAF61375AACE07"
 			rewards: [
 				{
-					id: "F301000000000051"
+					id: "654BFD37BF6FBC93"
 					type: "xp_levels"
 					xp_levels: 20
 				}
 				{
 					count: 8
-					id: "F301000000000052"
+					id: "10F61348CA04EFA0"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "F301000000000053"
+				id: "542D8D162C5BAFA7"
 				title: "Defeat any Cataclysm dungeon boss."
 				type: "checkmark"
 			}]
@@ -468,7 +447,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["F300000000000002"]
 			description: [
 				"§7Hunt §cWither Skeletons§7 in a Nether Fortress and collect §c3 Wither Skulls§7."
 				""
@@ -478,23 +456,23 @@
 				"§8Build a Wither Skeleton farm once you have the resources — skulls are always worth collecting."
 				"§8Pro tip: Apotheosis Spawner upgrades make Wither Skeleton farms extremely efficient."
 			]
-			id: "F301000000000060"
+			id: "68B39659801BCC2A"
 			rewards: [
 				{
-					id: "F301000000000061"
+					id: "73FAD162680A3587"
 					type: "xp_levels"
 					xp_levels: 8
 				}
 				{
 					count: 3
-					id: "F301000000000062"
+					id: "708B172E6DAD6F7F"
 					item: "minecraft:wither_skeleton_skull"
 					type: "item"
 				}
 			]
 			tasks: [{
 				count: 3L
-				id: "F301000000000063"
+				id: "1D10DABECEFC685A"
 				item: "minecraft:wither_skeleton_skull"
 				type: "item"
 			}]
@@ -503,7 +481,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["F301000000000060"]
 			description: [
 				"§7Clear an §eApotheosis-upgraded dungeon§7 — a Spawner Room with a glowing gold cage border."
 				""
@@ -513,22 +490,22 @@
 				"§8The best gems are only available from Apotheosis dungeon drops."
 				"§8Socket them into your best weapons and armor using a §eGem Socket§8."
 			]
-			id: "F301000000000070"
+			id: "6777FBD2FDD40FB3"
 			rewards: [
 				{
-					id: "F301000000000071"
+					id: "51D06DA496E3C4CE"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 2
-					id: "F301000000000072"
+					id: "5A307D4820892941"
 					item: "apotheosis:gem_dust"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F301000000000073"
+				id: "1E6E14152305FE33"
 				title: "Clear an Apotheosis-upgraded dungeon room."
 				type: "checkmark"
 			}]
@@ -537,7 +514,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["F301000000000070"]
 			description: [
 				"§7Kill §c500 total hostile mobs§7."
 				""
@@ -548,32 +524,30 @@
 				""
 				"§8500 kills also levels a §eBlood Magic Living Armor§8 significantly — keep it equipped while farming."
 			]
-			id: "F301000000000080"
+			id: "30C84EF03650610A"
 			rewards: [
 				{
-					id: "F301000000000081"
+					id: "5AFD0F9837DAD0EB"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
 					count: 5
-					id: "F301000000000082"
+					id: "705C85C348929E0C"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 500L
-				id: "F301000000000083"
-				entity: "minecraft:zombie"
-				type: "kill"
+			tasks: [{			
+				id: "4F2AD454F8EB9769"
+				title: "Kill 1 Zombies."
+				type: "checkmark"
 			}]
 			title: "§c500 Kills"
 			x: 9.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["F301000000000080"]
 			description: [
 				"§7Craft a §6§lNetherite Sword§7 and fully enchant it."
 				""
@@ -584,23 +558,34 @@
 				"§8A properly built Apotheosis Netherite sword is viable well into Phase IV."
 				"§8Socket a §6Vicious§8 gem for additional crit damage."
 			]
-			id: "F301000000000090"
+			id: "59AD920A087EF2E5"
 			rewards: [
 				{
-					id: "F301000000000091"
+					id: "35293C495C085086"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 				{
-					count: 1
-					id: "F301000000000092"
-					item: "minecraft:netherite_sword"
+					id: "4747F9C9D7C6CA26"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "F301000000000093"
-				item: "minecraft:netherite_sword"
+				id: "16A167584CD52ADF"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			title: "§6Netherite Blade"
@@ -608,7 +593,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["F300000000000050"]
 			description: [
 				"§7Survive §c3 consecutive Blood Moons§7 without dying."
 				""
@@ -619,30 +603,29 @@
 				"§8Trap-based defenses (lava channels, arrow dispensers) are valid — use everything available."
 				"§8Use the 6 safe days between moons to repair, restock, and improve your defenses."
 			]
-			id: "F301000000000100"
+			id: "205B42FBBD80BA87"
 			rewards: [
 				{
-					id: "F301000000000101"
+					id: "60F9221CB3F40C58"
 					type: "xp_levels"
 					xp_levels: 15
 				}
 				{
 					count: 8
-					id: "F301000000000102"
+					id: "784BB69FD1C23515"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.3d
 			tasks: [{
-				id: "F301000000000103"
+				id: "42EF04B6C7695ED7"
 				title: "Survive 3 consecutive Blood Moons without dying."
 				type: "checkmark"
 			}]
 			title: "§c§lBlood Moon Veteran"
-			x: 6.0d
-			y: -7.0d
+			x: 15.0d
+			y: 3.5d
 		}
 	]
+	title: "§cHunter's Codex"
 }
