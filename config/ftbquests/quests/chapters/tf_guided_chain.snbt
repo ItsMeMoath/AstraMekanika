@@ -21,9 +21,9 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "17A04EB1F9BCC860"
-				title: "Enter the Twilight Forest portal."
-				type: "checkmark"
+				id: "D001000000000001"
+				item: "minecraft:diamond"
+				type: "item"
 			}]
 			title: "§3§lThe Twilight Path"
 			x: 0.0d
@@ -292,9 +292,9 @@
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
-				id: "412749D2D76C80AD"
-				title: "The Twilight yields to the Architect."
-				type: "checkmark"
+				id: "D001000000000002"
+				item: "twilightforest:trophy_pedestal"
+				type: "item"
 			}]
 			title: "§3§l✦ Forest Conquered ✦"
 			x: 0.0d

@@ -25,9 +25,9 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "481AC89B13CED4E8"
-				title: "Begin the journey."
-				type: "checkmark"
+				id: "A001000000000001"
+				item: "minecraft:wooden_pickaxe"
+				type: "item"
 			}]
 			title: "§6§lThe Awakening"
 			x: 0.0d
@@ -373,9 +373,9 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "79CD00C55B5B34E5"
-				title: "Sleep through your first night."
-				type: "checkmark"
+				id: "A001000000000002"
+				item: "minecraft:white_bed"
+				type: "item"
 			}]
 			title: "§fFirst Night Survived"
 			x: 3.0d
@@ -777,11 +777,19 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "3A14DE565FCAE7A4"
-				title: "Build a Nether Portal and step through."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					count: 10L
+					id: "A001000000000003"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "A001000000000004"
+					item: "minecraft:flint_and_steel"
+					type: "item"
+				}
+			]
 			title: "§cNether Portal"
 			x: 3.0d
 			y: 3.0d
@@ -885,9 +893,9 @@
 				}
 			]
 			tasks: [{
-				id: "4C9B76E637797B59"
-				title: "Write and cast a custom Ars Nouveau spell with at least 2 glyphs."
-				type: "checkmark"
+				id: "A001000000000005"
+				item: "ars_nouveau:spell_book"
+				type: "item"
 			}]
 			title: "§5First Spell Cast"
 			x: 15.0d

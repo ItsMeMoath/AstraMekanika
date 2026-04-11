@@ -33,9 +33,10 @@
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
-				id: "68BE2BE25D824FC7"
-				title: "Pick up a tool and start building."
-				type: "checkmark"
+				count: 64L
+				id: "B005000000000001"
+				item: "minecraft:oak_planks"
+				type: "item"
 			}]
 			title: "§7§lBuilder's Pride"
 			x: 0.0d
@@ -73,9 +74,9 @@
 				}
 			]
 			tasks: [{
-				id: "2FA66EB31AB88474"
-				title: "Craft and place an Adorn furniture piece."
-				type: "checkmark"
+				id: "B005000000000002"
+				item: "adorn:oak_armchair"
+				type: "item"
 			}]
 			title: "§7First Furnishing"
 			x: 3.0d
@@ -115,9 +116,10 @@
 				}
 			]
 			tasks: [{
-				id: "2DB0A209FEEE1647"
-				title: "Build a room using Architect Palette or decorative blocks."
-				type: "checkmark"
+				count: 8L
+				id: "B005000000000003"
+				item: "architects_palette:rocky_dirt"
+				type: "item"
 			}]
 			title: "§7Palette Work"
 			x: 6.0d
@@ -191,9 +193,9 @@
 				}
 			]
 			tasks: [{
-				id: "1AA0998E788EFCEF"
-				title: "Place a Prefab structure."
-				type: "checkmark"
+				id: "B005000000000004"
+				item: "prefab:structure_wand"
+				type: "item"
 			}]
 			title: "§7Prefab Architect"
 			x: 3.0d
@@ -226,9 +228,10 @@
 				}
 			]
 			tasks: [{
-				id: "43B67F4C66DFA1FF"
-				title: "Place 5 MCW Furniture pieces in a room."
-				type: "checkmark"
+				count: 5L
+				id: "B005000000000005"
+				item: "mcwfurnitures:oak_chair"
+				type: "item"
 			}]
 			title: "§7Interior Design"
 			x: 6.0d
@@ -259,11 +262,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "42C5E5B8E6F4D1E2"
-				title: "Build a proper base exterior (20×20 minimum, mixed materials)."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					count: 64L
+					id: "B005000000000006"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "B005000000000007"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+			]
 			title: "§7§lProud Builder"
 			x: 9.0d
 			y: -3.5d
@@ -333,11 +345,26 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "5FF0D2DE5C63D295"
-				title: "Build a facade using 3 different block families."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					count: 16L
+					id: "B005000000000008"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "B005000000000009"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "B00500000000000A"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
 			title: "§7Facade Design"
 			x: 15.0d
 			y: 0.0d
@@ -369,11 +396,18 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "72CC850D36AC456C"
-				title: "Build a hidden room with a concealed entrance."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "B00500000000000B"
+					item: "minecraft:iron_door"
+					type: "item"
+				}
+				{
+					id: "B00500000000000C"
+					item: "minecraft:stone_pressure_plate"
+					type: "item"
+				}
+			]
 			title: "§7Secret Room"
 			x: 12.0d
 			y: -2.5d
@@ -406,11 +440,23 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "5E3215E27DABAF6B"
-				title: "Build a base with 5 distinct functional rooms."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "B00500000000000D"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "B00500000000000E"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "B00500000000000F"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
 			title: "§7§lProper Base"
 			x: 15.0d
 			y: -3.5d
@@ -442,11 +488,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "39E20565B6D7CCCE"
-				title: "Build a garden area outside your base."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					count: 16L
+					id: "B005000000000010"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "B005000000000011"
+					item: "minecraft:flower_pot"
+					type: "item"
+				}
+			]
 			title: "§aGarden"
 			x: 3.0d
 			y: 7.0d
@@ -485,11 +540,19 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "3E12DAC6823AD52A"
-				title: "Replace all torches with decorative light sources."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					count: 8L
+					id: "B005000000000012"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+				{
+					id: "B005000000000013"
+					item: "mcwlights:iron_chandelier"
+					type: "item"
+				}
+			]
 			title: "§eLighting Overhaul"
 			x: 6.0d
 			y: 5.0d
@@ -520,9 +583,10 @@
 				}
 			]
 			tasks: [{
-				id: "05C1A6F92220DDA1"
-				title: "Create a stained glass window (5+ blocks in a pattern)."
-				type: "checkmark"
+				count: 5L
+				id: "B005000000000014"
+				item: "minecraft:white_stained_glass"
+				type: "item"
 			}]
 			title: "§eStained Glass"
 			x: 9.0d
@@ -553,11 +617,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "2CF98F0D8AFCA24A"
-				title: "Build a sky bridge connecting two structures."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					count: 32L
+					id: "B005000000000015"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "B005000000000016"
+					item: "minecraft:oak_slab"
+					type: "item"
+				}
+			]
 			title: "§7Sky Bridge"
 			x: 12.0d
 			y: 2.5d
@@ -590,11 +663,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "2FD09562786235F9"
-				title: "Build a watchtower (20 blocks tall minimum)."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					count: 32L
+					id: "B005000000000017"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "B005000000000018"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+			]
 			title: "§7Watchtower"
 			x: 6.0d
 			y: -2.5d
@@ -626,11 +708,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "30C2BDCA3874BA7C"
-				title: "Decorate a themed room using MCW Furniture pieces."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					count: 2L
+					id: "B005000000000019"
+					item: "mcwfurnitures:oak_table"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "B00500000000001A"
+					item: "mcwfurnitures:oak_chair"
+					type: "item"
+				}
+			]
 			title: "§7Themed Room"
 			x: 6.0d
 			y: 2.5d

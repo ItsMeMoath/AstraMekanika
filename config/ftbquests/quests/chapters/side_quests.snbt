@@ -19,9 +19,9 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "2825757A68C1F06C"
-				title: "Challenges await."
-				type: "checkmark"
+				id: "C001000000000001"
+				item: "minecraft:iron_sword"
+				type: "item"
 			}]
 			title: "§e§lAstra Archives"
 			x: 0.0d
@@ -309,9 +309,10 @@
 				}
 			]
 			tasks: [{
-				id: "30AFD8CC168FA643"
-				title: "Survived a Blood Moon (mark at dawn)"
-				type: "checkmark"
+				count: 32L
+				id: "C001000000000002"
+				item: "minecraft:rotten_flesh"
+				type: "item"
 			}]
 			title: "§4Blood Moon Survivor"
 			x: 2.0d

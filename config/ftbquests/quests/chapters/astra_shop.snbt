@@ -22,8 +22,8 @@
 			size: 2.0d
 			tasks: [{
 				id: "06EDAE9F3E516C32"
-				title: "Browse the shop."
-				type: "checkmark"
+				item: "kubejs:astra_coin"
+				type: "item"
 			}]
 			title: "§a§lAstra Shop"
 			x: 0.0d

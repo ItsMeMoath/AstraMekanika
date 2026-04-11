@@ -26,9 +26,9 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "7CAF5D7BC84563A7"
-				title: "Enter Phase II."
-				type: "checkmark"
+				id: "A002000000000001"
+				item: "kubejs:phase_seal_1"
+				type: "item"
 			}]
 			title: "§d§lCircuits  Sorcery"
 			x: 0.0d
@@ -65,9 +65,9 @@
 					type: "item"
 				}
 				{
-					id: "50EF0B3CF0664254"
-					title: "Right-click the altar with the Sacrificial Dagger to add Life Points."
-					type: "checkmark"
+					id: "A002000000000002"
+					item: "bloodmagic:sacrificialdagger"
+					type: "item"
 				}
 			]
 			title: "§4Blood Covenant"
@@ -105,9 +105,15 @@
 					type: "item"
 				}
 				{
-					id: "1BA9530C00F6BDBB"
-					title: "Place 2 Daybloom flowers near your Mana Pool and watch mana accumulate."
-					type: "checkmark"
+					count: 2L
+					id: "A002000000000003"
+					item: "botania:daybloom"
+					type: "item"
+				}
+				{
+					id: "A002000000000004"
+					item: "botania:mana_pool"
+					type: "item"
 				}
 			]
 			title: "§bLiving Mana"
@@ -668,11 +674,19 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "363E3EF70005FCA8"
-				title: "Perform the Ritual of the Green Grove."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "A002000000000005"
+					item: "bloodmagic:master_ritual_stone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "A002000000000006"
+					item: "bloodmagic:ritual_stone"
+					type: "item"
+				}
+			]
 			title: "§4Green Grove Ritual"
 			x: 9.0d
 			y: -6.0d

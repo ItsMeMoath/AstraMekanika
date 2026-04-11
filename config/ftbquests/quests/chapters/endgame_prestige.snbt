@@ -279,9 +279,10 @@
 				}
 			]
 			tasks: [{
-				id: "6EACABCF59AEC0FB"
-				title: "Kill 500 hostile mobs (mark manually)."
-				type: "checkmark"
+				count: 500L
+				entity: "minecraft:zombie"
+				id: "C002000000000001"
+				type: "kill"
 			}]
 			title: "§c⚔ Arch Slayer I"
 			x: -4.0d
@@ -318,9 +319,10 @@
 				}
 			]
 			tasks: [{
-				id: "1C42A97BBDE82D12"
-				title: "Kill 2000 hostile mobs (mark manually)."
-				type: "checkmark"
+				count: 2000L
+				entity: "minecraft:zombie"
+				id: "C002000000000002"
+				type: "kill"
 			}]
 			title: "§4⚔ Arch Slayer II"
 			x: -8.0d
@@ -389,9 +391,10 @@
 				}
 			]
 			tasks: [{
-				id: "69A74978556475F5"
-				title: "Slay a Warden in the Ancient City (mark manually)."
-				type: "checkmark"
+				count: 1L
+				entity: "minecraft:warden"
+				id: "C002000000000003"
+				type: "kill"
 			}]
 			title: "§8Fear the Ancient"
 			x: -8.0d
@@ -430,11 +433,33 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "3240CDA85122DC5C"
-				title: "Defeat 5 different modded bosses (mark manually)."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "C002000000000004"
+					item: "cataclysm:ignited_revenants_eye"
+					type: "item"
+				}
+				{
+					id: "C002000000000005"
+					item: "mowziesmobs:barakoa_mask"
+					type: "item"
+				}
+				{
+					id: "C002000000000006"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "C002000000000007"
+					item: "botania:gaia_spirit"
+					type: "item"
+				}
+				{
+					id: "C002000000000008"
+					item: "twilightforest:phantom_helm"
+					type: "item"
+				}
+			]
 			title: "§c§l★ Champion of Champions"
 			x: -6.0d
 			y: 11.0d
@@ -595,9 +620,9 @@
 				}
 			]
 			tasks: [{
-				id: "2B8D47428B6BAE8E"
-				title: "Build and ignite a Mekanism Fusion Reactor (mark manually)."
-				type: "checkmark"
+				id: "C002000000000009"
+				item: "mekanism:fusion_reactor_controller"
+				type: "item"
 			}]
 			title: "§3Fusion Ignited"
 			x: -4.0d
@@ -627,11 +652,19 @@
 					xp_levels: 20
 				}
 			]
-			tasks: [{
-				id: "665678E63FB7CD30"
-				title: "Build a Tier 7 Draconic Energy Core and fill it to 10% (mark manually)."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "C00200000000000A"
+					item: "draconicevolution:energy_core"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "C00200000000000B"
+					item: "draconicevolution:energy_pylon"
+					type: "item"
+				}
+			]
 			title: "§5Power Incarnate"
 			x: 4.0d
 			y: 8.0d
@@ -663,11 +696,18 @@
 					xp_levels: 25
 				}
 			]
-			tasks: [{
-				id: "7565508652AF3987"
-				title: "Set up a fully automated AE2 + Fusion Crafting network (mark manually)."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "C00200000000000C"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "C00200000000000D"
+					item: "draconicevolution:fusion_crafting_injector"
+					type: "item"
+				}
+			]
 			title: "§b§lFactory of the Architect"
 			x: 4.0d
 			y: 11.0d
@@ -805,9 +845,9 @@
 				}
 			]
 			tasks: [{
-				id: "3D22637E561311D9"
-				title: "The Vault has recorded everything. Step forward."
-				type: "checkmark"
+				id: "C00200000000000E"
+				item: "kubejs:heart_of_the_vault"
+				type: "item"
 			}]
 			title: "§b§l✦ Astra Eternum: Witnessed"
 			x: 0.0d
@@ -876,9 +916,9 @@
 			shape: "octagon"
 			size: 3.5d
 			tasks: [{
-				id: "343137A10865ED91"
-				title: "You are Astra Eternum."
-				type: "checkmark"
+				id: "C00200000000000F"
+				item: "kubejs:vault_convergence"
+				type: "item"
 			}]
 			title: "§b§l✦ ASTRA ETERNUM ✦"
 			x: 0.0d

@@ -27,9 +27,9 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "553C74060757B64E"
-				title: "Enter Phase III."
-				type: "checkmark"
+				id: "A003000000000001"
+				item: "kubejs:phase_seal_2"
+				type: "item"
 			}]
 			title: "§3§lThe Forest Beyond"
 			x: 0.0d
@@ -60,9 +60,9 @@
 				}
 			]
 			tasks: [{
-				id: "01FA6E0560C22DA6"
-				title: "Craft and step through the Twilight Forest portal."
-				type: "checkmark"
+				id: "A003000000000002"
+				item: "minecraft:diamond"
+				type: "item"
 			}]
 			title: "§3Into the Twilight"
 			x: 3.0d

@@ -26,9 +26,9 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "60D24BC3135923DD"
-				title: "Enter Phase IV."
-				type: "checkmark"
+				id: "A004000000000001"
+				item: "kubejs:phase_seal_3"
+				type: "item"
 			}]
 			title: "§9§lInfinite Architecture"
 			x: 0.0d
@@ -143,9 +143,9 @@
 				}
 			]
 			tasks: [{
-				id: "7845FEB9BD52A797"
-				title: "Build and activate a NuclearCraft Fission Reactor."
-				type: "checkmark"
+				id: "A004000000000002"
+				item: "nuclearcraft:solid_fission_controller"
+				type: "item"
 			}]
 			title: "§cNuclear Kindling"
 			x: 9.0d
@@ -340,14 +340,14 @@
 			]
 			tasks: [
 				{
-					id: "44B7EB5DA2D5374A"
-					title: "Visit the Everbright dimension."
-					type: "checkmark"
+					id: "A004000000000003"
+					item: "blue_skies:everbright_phylactery"
+					type: "item"
 				}
 				{
-					id: "2BE9A8DB0DED1B1E"
-					title: "Visit the Everdawn dimension."
-					type: "checkmark"
+					id: "A004000000000004"
+					item: "blue_skies:everdawn_phylactery"
+					type: "item"
 				}
 			]
 			title: "§eBlue Horizons"
@@ -381,9 +381,9 @@
 				}
 			]
 			tasks: [{
-				id: "0A864AEDB5BEE2C2"
-				title: "Obtain a Legendary quality item from Apotheosis."
-				type: "checkmark"
+				id: "A004000000000005"
+				item: "apotheosis:gem"
+				type: "item"
 			}]
 			title: "§6Legendary Grade"
 			x: 9.0d
@@ -414,9 +414,9 @@
 				}
 			]
 			tasks: [{
-				id: "155C73B158F6DA67"
-				title: "Build and activate a Mekanism Fusion Reactor."
-				type: "checkmark"
+				id: "A004000000000006"
+				item: "mekanism:fusion_reactor_controller"
+				type: "item"
 			}]
 			title: "§6Fusion Reactor"
 			x: 12.0d
@@ -480,9 +480,9 @@
 				}
 			]
 			tasks: [{
-				id: "1CAA7ED551560D70"
-				title: "Complete the Aether Bronze Dungeon and defeat the Slider."
-				type: "checkmark"
+				id: "A004000000000007"
+				item: "aether:slider_music_disc"
+				type: "item"
 			}]
 			title: "§bAether Delver"
 			x: 12.0d
@@ -516,9 +516,9 @@
 				}
 			]
 			tasks: [{
-				id: "4EDEF66595CD27E0"
-				title: "Defeat the Aether Silver Dungeon (Valkyrie Queen)."
-				type: "checkmark"
+				id: "A004000000000008"
+				item: "aether:valkyrie_lance"
+				type: "item"
 			}]
 			title: "§bSilver Dungeon"
 			x: 12.0d
@@ -552,9 +552,9 @@
 				}
 			]
 			tasks: [{
-				id: "562C9E51BFD3F72A"
-				title: "Defeat the Aether Gold Dungeon (Sun Spirit)."
-				type: "checkmark"
+				id: "A004000000000009"
+				item: "aether:sun_spirit_shard"
+				type: "item"
 			}]
 			title: "§bGold Dungeon"
 			x: 9.0d
@@ -665,11 +665,18 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "72BAA0E9F831D322"
-				title: "Craft NuclearCraft Radaway and wear radiation protection armor."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "A00400000000000A"
+					item: "nuclearcraft:radaway"
+					type: "item"
+				}
+				{
+					id: "A00400000000000B"
+					item: "nuclearcraft:hazmat_suit_helmet"
+					type: "item"
+				}
+			]
 			title: "§cRadiation Safety"
 			x: 12.0d
 			y: -3.0d

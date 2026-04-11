@@ -33,9 +33,9 @@
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
-				id: "08BE01DE817D0CB6"
-				title: "Open the world map and begin your atlas."
-				type: "checkmark"
+				id: "B002000000000001"
+				item: "minecraft:filled_map"
+				type: "item"
 			}]
 			title: "§a§lWanderer's Atlas"
 			x: 0.0d
@@ -112,9 +112,9 @@
 				}
 			]
 			tasks: [{
-				id: "363EADF5DD7AEBD3"
-				title: "Find and loot a Dungeons Arise structure."
-				type: "checkmark"
+				id: "B002000000000002"
+				item: "dungeons_arise:adventurer_map"
+				type: "item"
 			}]
 			title: "§eDungeon Dive"
 			x: 6.0d
@@ -150,9 +150,9 @@
 				}
 			]
 			tasks: [{
-				id: "38ACC8EF81493E8A"
-				title: "Visit 5 distinct biomes in one journey."
-				type: "checkmark"
+				id: "B002000000000003"
+				item: "minecraft:compass"
+				type: "item"
 			}]
 			title: "§aFive Biomes"
 			x: 9.0d
@@ -184,9 +184,9 @@
 				}
 			]
 			tasks: [{
-				id: "63F3EC3384E47E46"
-				title: "Find a Cataclysm dungeon structure."
-				type: "checkmark"
+				id: "B002000000000004"
+				item: "cataclysm:ancient_key"
+				type: "item"
 			}]
 			title: "§cCataclysm Scouted"
 			x: 12.0d
@@ -217,9 +217,9 @@
 				}
 			]
 			tasks: [{
-				id: "44E3F2F079CE51FE"
-				title: "Loot a Dungeons Plus structure."
-				type: "checkmark"
+				id: "B002000000000005"
+				item: "dungeons_plus:dungeon_key"
+				type: "item"
 			}]
 			title: "§7Plus Dungeon"
 			x: 3.0d
@@ -257,9 +257,10 @@
 				}
 			]
 			tasks: [{
-				id: "393D1674547ACF3B"
-				title: "Trade with 3 different villager professions."
-				type: "checkmark"
+				count: 10L
+				id: "B002000000000006"
+				item: "minecraft:emerald"
+				type: "item"
 			}]
 			title: "§eTrade Routes"
 			x: 6.0d
@@ -292,9 +293,10 @@
 				}
 			]
 			tasks: [{
-				id: "16ADE3EC33F23F23"
-				title: "Enter the Undergarden dimension."
-				type: "checkmark"
+				count: 4L
+				id: "B002000000000007"
+				item: "undergarden:gloomstone"
+				type: "item"
 			}]
 			title: "§9Undergarden"
 			x: 9.0d
@@ -332,9 +334,10 @@
 				}
 			]
 			tasks: [{
-				id: "399431CD18FC7346"
-				title: "Find the Stronghold End Portal Room."
-				type: "checkmark"
+				count: 3L
+				id: "B002000000000008"
+				item: "minecraft:ender_eye"
+				type: "item"
 			}]
 			title: "§7Stronghold Found"
 			x: 3.0d
@@ -373,9 +376,9 @@
 				}
 			]
 			tasks: [{
-				id: "02EB5A646A2CE249"
-				title: "Loot an Ancient City chest."
-				type: "checkmark"
+				id: "B002000000000009"
+				item: "minecraft:echo_shard"
+				type: "item"
 			}]
 			title: "§8Ancient City"
 			x: 6.0d
@@ -414,9 +417,9 @@
 				}
 			]
 			tasks: [{
-				id: "13F53E20E8374C51"
-				title: "Raid an Ocean Monument and defeat the Elder Guardians."
-				type: "checkmark"
+				id: "B00200000000000A"
+				item: "minecraft:sponge"
+				type: "item"
 			}]
 			title: "§9Ocean Monument"
 			x: 9.0d
@@ -455,9 +458,10 @@
 				}
 			]
 			tasks: [{
-				id: "7BB4DDF7117AFE4B"
-				title: "Enter The End dimension."
-				type: "checkmark"
+				count: 4L
+				id: "B00200000000000B"
+				item: "minecraft:end_stone"
+				type: "item"
 			}]
 			title: "§fInto The End"
 			x: 12.0d
@@ -538,9 +542,9 @@
 				}
 			]
 			tasks: [{
-				id: "4066436D4D5D31D8"
-				title: "Visit a Better End unique biome."
-				type: "checkmark"
+				id: "B00200000000000C"
+				item: "betterend:aeternium_ingot"
+				type: "item"
 			}]
 			title: "§aBetter End"
 			x: 12.0d
@@ -573,11 +577,32 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "38D8A591500E0D32"
-				title: "Visit all 4 Nether biome types."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					count: 4L
+					id: "B00200000000000D"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "B00200000000000E"
+					item: "minecraft:crimson_fungus"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "B00200000000000F"
+					item: "minecraft:warped_fungus"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "B002000000000010"
+					item: "minecraft:basalt"
+					type: "item"
+				}
+			]
 			title: "§cNether Cartographer"
 			x: 15.0d
 			y: -5.0d
@@ -610,9 +635,10 @@
 				}
 			]
 			tasks: [{
-				id: "7F6584C68B15635A"
-				title: "Enter the Aether dimension."
-				type: "checkmark"
+				count: 4L
+				id: "B002000000000011"
+				item: "aether:skyroot_log"
+				type: "item"
 			}]
 			title: "§bAether Reached"
 			x: 15.0d
@@ -693,9 +719,9 @@
 				}
 			]
 			tasks: [{
-				id: "7DC202552E04D354"
-				title: "Loot a Nether Bastion Remnant."
-				type: "checkmark"
+				id: "B002000000000012"
+				item: "minecraft:lodestone"
+				type: "item"
 			}]
 			title: "§6Bastion Raided"
 			x: 9.0d

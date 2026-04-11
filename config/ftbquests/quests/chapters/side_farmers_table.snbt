@@ -33,9 +33,9 @@
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
-				id: "1939EB91CC8D099C"
-				title: "Open the Farmer's Table."
-				type: "checkmark"
+				id: "B004000000000001"
+				item: "farmersdelight:cutting_board"
+				type: "item"
 			}]
 			title: "§2§lFarmer's Table"
 			x: 0.0d
@@ -223,11 +223,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "79E9C73DC5DBF359"
-				title: "Plant 8 different crop types on your farm."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					count: 8L
+					id: "B004000000000002"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "B004000000000003"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+			]
 			title: "§2Diverse Farm"
 			x: 6.0d
 			y: 3.5d
@@ -458,11 +467,26 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "53556B916F14545A"
-				title: "Build an animal farm with 3 species."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					count: 4L
+					id: "B004000000000004"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "B004000000000005"
+					item: "minecraft:wool"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "B004000000000006"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
 			title: "§2Animal Farm"
 			x: 9.0d
 			y: 3.5d
@@ -527,11 +551,18 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "54800515D81BD68B"
-				title: "Set up a fully automated crop-to-meal production pipeline."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "B004000000000007"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "B004000000000008"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+			]
 			title: "§2§lFood Factory"
 			x: 15.0d
 			y: 3.5d
@@ -567,11 +598,18 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "0B316A06B4626CFA"
-				title: "Craft a Compost Heap and produce Rich Soil."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "B004000000000009"
+					item: "farmersdelight:compost_heap"
+					type: "item"
+				}
+				{
+					id: "B00400000000000A"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+			]
 			title: "§2Compost"
 			x: 3.0d
 			y: 3.5d

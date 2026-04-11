@@ -27,8 +27,8 @@
 			size: 2.0d
 			tasks: [{
 				id: "0001000000000003"
-				title: "Let's go."
-				type: "checkmark"
+				item: "minecraft:book"
+				type: "item"
 			}]
 			title: "&6&lStart Here"
 			x: 0.0d
@@ -51,8 +51,8 @@
 			size: 1.5d
 			tasks: [{
 				id: "0001000000000011"
-				title: "Got it."
-				type: "checkmark"
+				item: "ars_nouveau:source_gem"
+				type: "item"
 			}]
 			title: "&5The Arcane"
 			x: -6.0d
@@ -76,8 +76,8 @@
 			size: 1.5d
 			tasks: [{
 				id: "0001000000000021"
-				title: "Got it."
-				type: "checkmark"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
 			}]
 			title: "&6The Tech"
 			x: -2.0d
@@ -100,8 +100,8 @@
 			size: 1.5d
 			tasks: [{
 				id: "0001000000000031"
-				title: "Got it."
-				type: "checkmark"
+				item: "minecraft:chest"
+				type: "item"
 			}]
 			title: "&aThe Storage"
 			x: 2.0d
@@ -124,8 +124,8 @@
 			size: 1.5d
 			tasks: [{
 				id: "0001000000000041"
-				title: "Got it."
-				type: "checkmark"
+				item: "minecraft:compass"
+				type: "item"
 			}]
 			title: "&cThe World"
 			x: 6.0d
@@ -161,8 +161,9 @@
 			size: 1.75d
 			tasks: [{
 				id: "0001000000000051"
-				title: "Begin."
-				type: "checkmark"
+				item: "minecraft:iron_ingot"
+				count: 4L
+				type: "item"
 			}]
 			title: "&e&lJourney Awaits"
 			x: 0.0d

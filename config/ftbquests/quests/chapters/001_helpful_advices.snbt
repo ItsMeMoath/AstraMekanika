@@ -23,9 +23,9 @@
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
-				id: "0002000000000003"
-				title: "Open it."
-				type: "checkmark"
+				id: "E001000000000001"
+				item: "minecraft:knowledge_book"
+				type: "item"
 			}]
 			title: "&b&lSurvivor's Handbook"
 			x: 0.0d
@@ -43,9 +43,9 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "4E5EEF222C75A956"
-				title: "Noted."
-				type: "checkmark"
+				id: "E001000000000002"
+				item: "minecraft:shield"
+				type: "item"
 			}]
 			title: "&4&l⚔ Survival"
 			x: 0.0d
@@ -67,9 +67,9 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "1FF3A616187F9F8C"
-				title: "Got it."
-				type: "checkmark"
+				id: "E001000000000003"
+				item: "minecraft:shield"
+				type: "item"
 			}]
 			title: "&cCombat Mastery"
 			x: -2.5d
@@ -91,9 +91,9 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "53E11C478A324BC9"
-				title: "Got it."
-				type: "checkmark"
+				id: "E001000000000004"
+				item: "minecraft:netherite_ingot"
+				type: "item"
 			}]
 			title: "&cArmor Priority"
 			x: 2.5d
@@ -117,11 +117,11 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "433C2503BDA47FDB"
-				title: "Got it."
-				type: "checkmark"
+				id: "E001000000000005"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
 			}]
-			title: "&cFood \& Buffs"
+			title: "&cFood  Buffs"
 			x: 0.0d
 			y: -10.5d
 		}
@@ -137,11 +137,11 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "466B2F77F18ECC50"
-				title: "Noted."
-				type: "checkmark"
+				id: "E001000000000006"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
 			}]
-			title: "&6&l⚙ Tech \& Power"
+			title: "&6&l⚙ Tech  Power"
 			x: 4.5d
 			y: -3.0d
 		}
@@ -165,9 +165,9 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "26E0279A134F3830"
-				title: "Got it."
-				type: "checkmark"
+				id: "E001000000000007"
+				item: "immersiveengineering:waterwheel_segment"
+				type: "item"
 			}]
 			title: "&6Power Ladder"
 			x: 7.5d
@@ -192,9 +192,9 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "72978F5C4DCDA862"
-				title: "Got it."
-				type: "checkmark"
+				id: "E001000000000008"
+				item: "thermal:pulverizer"
+				type: "item"
 			}]
 			title: "&6Ore Processing"
 			x: 8.5d
@@ -218,9 +218,9 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "640B128F36224A1D"
-				title: "Got it."
-				type: "checkmark"
+				id: "E001000000000009"
+				item: "ae2:controller"
+				type: "item"
 			}]
 			title: "&6Automate First"
 			x: 6.5d
@@ -238,9 +238,9 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "3A90947C4DD7C1B9"
-				title: "Noted."
-				type: "checkmark"
+				id: "E00100000000000A"
+				item: "ars_nouveau:spell_book"
+				type: "item"
 			}]
 			title: "&5&l✦ Magic"
 			x: 3.0d
@@ -263,9 +263,9 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "131003A479EA4A29"
-				title: "Got it."
-				type: "checkmark"
+				id: "E00100000000000B"
+				item: "ars_nouveau:source_jar"
+				type: "item"
 			}]
 			title: "&5Source Flow"
 			x: 5.5d
@@ -288,9 +288,9 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "34AE4229A97DEB6F"
-				title: "Got it."
-				type: "checkmark"
+				id: "E00100000000000C"
+				item: "bloodmagic:ritual_diviner"
+				type: "item"
 			}]
 			title: "&5Blood Sacrifice"
 			x: 2.0d
@@ -314,9 +314,9 @@
 				xp_levels: 2
 			}]
 			tasks: [{
-				id: "3FFB2BEEDB42A9FC"
-				title: "Got it."
-				type: "checkmark"
+				id: "E00100000000000D"
+				item: "botania:rune_earth"
+				type: "item"
 			}]
 			title: "&5Magic + Tech Synergy"
 			x: 0.0d
@@ -334,9 +334,9 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "75BD2C2522CF0B0B"
-				title: "Noted."
-				type: "checkmark"
+				id: "E00100000000000E"
+				item: "minecraft:compass"
+				type: "item"
 			}]
 			title: "&2&l🌍 Exploration"
 			x: -3.0d
@@ -362,9 +362,10 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "5F915F0C39E53134"
-				title: "Got it."
-				type: "checkmark"
+				count: 4L
+				id: "E00100000000000F"
+				item: "minecraft:ender_pearl"
+				type: "item"
 			}]
 			title: "&2Dimension Order"
 			x: -4.5d
@@ -388,9 +389,9 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "5C69B4D6FED492A4"
-				title: "Got it."
-				type: "checkmark"
+				id: "E001000000000010"
+				item: "waystones:waystone"
+				type: "item"
 			}]
 			title: "&2Waystones"
 			x: -6.0d
@@ -414,9 +415,9 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "2BC1470997DE8F31"
-				title: "Got it."
-				type: "checkmark"
+				id: "E001000000000011"
+				item: "minecraft:banner"
+				type: "item"
 			}]
 			title: "&2Claim Your Land"
 			x: -7.0d
@@ -434,9 +435,9 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "1A2FDF93936A1C00"
-				title: "Noted."
-				type: "checkmark"
+				id: "E001000000000012"
+				item: "minecraft:comparator"
+				type: "item"
 			}]
 			title: "&b&l💻 Performance"
 			x: -4.5d
@@ -460,9 +461,9 @@
 				xp_levels: 2
 			}]
 			tasks: [{
-				id: "52141A483C039DE7"
-				title: "Running it."
-				type: "checkmark"
+				id: "E001000000000013"
+				item: "minecraft:grass_block"
+				type: "item"
 			}]
 			title: "&bPre-gen the World"
 			x: -7.5d
@@ -488,9 +489,9 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "6CDF36DEA804ED1E"
-				title: "Got it."
-				type: "checkmark"
+				id: "E001000000000014"
+				item: "minecraft:writable_book"
+				type: "item"
 			}]
 			title: "&bJEI Pro Tips"
 			x: -8.5d
@@ -518,9 +519,9 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "30BD87436C0D6037"
-				title: "Got it."
-				type: "checkmark"
+				id: "E001000000000015"
+				item: "minecraft:paper"
+				type: "item"
 			}]
 			title: "&bKey Binds"
 			x: -6.5d

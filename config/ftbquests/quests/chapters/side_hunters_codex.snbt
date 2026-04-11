@@ -39,9 +39,9 @@
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
-				id: "60CAF40FB31F0A4F"
-				title: "Open the Hunter's Codex."
-				type: "checkmark"
+				id: "B003000000000001"
+				item: "minecraft:iron_sword"
+				type: "item"
 			}]
 			title: "§c§lHunter's Codex"
 			x: 0.0d
@@ -78,9 +78,10 @@
 				}
 			]
 			tasks: [{
-				id: "71936455F6B3F316"
-				title: "Kill 1 Zombies."
-				type: "checkmark"
+				count: 1L
+				entity: "minecraft:zombie"
+				id: "B003000000000002"
+				type: "kill"
 			}]
 			title: "§cFirst Kills"
 			x: 3.0d
@@ -153,9 +154,10 @@
 				}
 			]
 			tasks: [{
-				id: "405497A0E3746099"
-				title: "Defeat a Mowzies Mobs boss."
-				type: "checkmark"
+				count: 1L
+				entity: "mowziesmobs:barako"
+				id: "B003000000000003"
+				type: "kill"
 			}]
 			title: "§6Mowzies Slain"
 			x: 9.0d
@@ -220,11 +222,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "20DDCAD712064121"
-				title: "Survive a Blood Moon without dying."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					count: 32L
+					id: "B003000000000004"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "B003000000000005"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
 			title: "§cBlood Moon Survivor"
 			x: 3.0d
 			y: -3.5d
@@ -291,9 +302,10 @@
 				}
 			]
 			tasks: [{
-				id: "5B8164A0EC780F9D"
-				title: "Kill an Alex's Mobs unique creature."
-				type: "checkmark"
+				count: 1L
+				entity: "alexsmobs:raccoon"
+				id: "B003000000000006"
+				type: "kill"
 			}]
 			title: "§6Alex's Hunt"
 			x: 9.0d
@@ -332,9 +344,10 @@
 				}
 			]
 			tasks: [{
-				id: "0175C203EB7DCD22"
-				title: "Kill 1 Withers."
-				type: "checkmark"
+				count: 1L
+				entity: "minecraft:wither"
+				id: "B003000000000007"
+				type: "kill"
 			}]
 			title: "§4§lWither Slain"
 			x: 15.0d
@@ -369,9 +382,10 @@
 				}
 			]
 			tasks: [{
-				id: "033CD2E26B6A2155"
-				title: "Kill 1 Ender Dragons."
-				type: "checkmark"
+				count: 1L
+				entity: "minecraft:ender_dragon"
+				id: "B003000000000008"
+				type: "kill"
 			}]
 			title: "§5§lEnder Dragon"
 			x: 18.0d
@@ -410,9 +424,10 @@
 				}
 			]
 			tasks: [{
-				id: "5C1C1FD01FD024E7"
-				title: "Kill 1 Elder Guardians."
-				type: "checkmark"
+				count: 1L
+				entity: "minecraft:elder_guardian"
+				id: "B003000000000009"
+				type: "kill"
 			}]
 			title: "§9Elder Guardian"
 			x: 12.0d
@@ -445,9 +460,10 @@
 				}
 			]
 			tasks: [{
-				id: "42B7F74A51B42E2B"
-				title: "Kill 1 Wardens."
-				type: "checkmark"
+				count: 1L
+				entity: "minecraft:warden"
+				id: "B00300000000000A"
+				type: "kill"
 			}]
 			title: "§8§lWarden Slain"
 			x: 15.0d
@@ -481,9 +497,9 @@
 				}
 			]
 			tasks: [{
-				id: "542D8D162C5BAFA7"
-				title: "Defeat any Cataclysm dungeon boss."
-				type: "checkmark"
+				id: "B00300000000000B"
+				item: "cataclysm:ignited_revenants_eye"
+				type: "item"
 			}]
 			title: "§c§lCataclysm Boss"
 			x: 18.0d
@@ -562,9 +578,9 @@
 				}
 			]
 			tasks: [{
-				id: "1E6E14152305FE33"
-				title: "Clear an Apotheosis-upgraded dungeon room."
-				type: "checkmark"
+				id: "B00300000000000C"
+				item: "apotheosis:gem"
+				type: "item"
 			}]
 			title: "§eApotheosis Dungeon"
 			x: 6.0d
@@ -597,9 +613,10 @@
 				}
 			]
 			tasks: [{
-				id: "4F2AD454F8EB9769"
-				title: "Kill 1 Zombies."
-				type: "checkmark"
+				count: 1L
+				entity: "minecraft:zombie"
+				id: "B00300000000000D"
+				type: "kill"
 			}]
 			title: "§c500 Kills"
 			x: 9.0d
@@ -683,11 +700,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "42EF04B6C7695ED7"
-				title: "Survive 3 consecutive Blood Moons without dying."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					count: 64L
+					id: "B00300000000000E"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "B00300000000000F"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
 			title: "§c§lBlood Moon Veteran"
 			x: 15.0d
 			y: 3.5d

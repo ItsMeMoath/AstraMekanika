@@ -28,9 +28,9 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "2476D41493C766E0"
-				title: "Enter Phase V."
-				type: "checkmark"
+				id: "A005000000000001"
+				item: "kubejs:phase_seal_4"
+				type: "item"
 			}]
 			title: "§5§lThe Architect's Ascent"
 			x: 0.0d
@@ -64,9 +64,9 @@
 				}
 			]
 			tasks: [{
-				id: "247CD8B5A6F7CD61"
-				title: "Launch a rocket and land on the Moon."
-				type: "checkmark"
+				id: "A005000000000002"
+				item: "galacticraft:rocket_t1"
+				type: "item"
 			}]
 			title: "§6§lLaunch Protocol"
 			x: 3.0d
@@ -132,9 +132,9 @@
 				}
 			]
 			tasks: [{
-				id: "683A81D7D3DF0F6F"
-				title: "Defeat at least one Ender's Cataclysm boss."
-				type: "checkmark"
+				id: "A005000000000003"
+				item: "cataclysm:ignited_revenants_eye"
+				type: "item"
 			}]
 			title: "§cCataclysm Survivor"
 			x: 9.0d
@@ -305,19 +305,22 @@
 			]
 			tasks: [
 				{
-					id: "725488E3BEF909AD"
-					title: "Land on the Moon."
-					type: "checkmark"
+					count: 8L
+					id: "A005000000000004"
+					item: "galacticraft:moon_rock"
+					type: "item"
 				}
 				{
-					id: "1B895AED59D4E7E9"
-					title: "Land on Mars."
-					type: "checkmark"
+					count: 8L
+					id: "A005000000000005"
+					item: "galacticraft:mars_surface_rock"
+					type: "item"
 				}
 				{
-					id: "5C345F490FB99F5D"
-					title: "Land on Venus or another planet."
-					type: "checkmark"
+					count: 8L
+					id: "A005000000000006"
+					item: "galacticraft:venus_surface_rock"
+					type: "item"
 				}
 			]
 			title: "§6Planetary Explorer"
@@ -347,11 +350,18 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "0B5D4FC59D2B332A"
-				title: "Defeat the Ender Dragon while wearing Draconic Evolution armor."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "A005000000000007"
+					item: "draconicevolution:awakened_core"
+					type: "item"
+				}
+				{
+					id: "A005000000000008"
+					item: "draconicevolution:draconic_chestplate"
+					type: "item"
+				}
+			]
 			title: "§5Dragon's End"
 			x: 6.0d
 			y: -8.0d
@@ -381,9 +391,9 @@
 				}
 			]
 			tasks: [{
-				id: "5230C2ECB3F3539D"
-				title: "Mine 256 ores in the Mining Dimension."
-				type: "checkmark"
+				id: "A005000000000009"
+				item: "rftools:dimension_builder"
+				type: "item"
 			}]
 			title: "§8Mining Infinite"
 			x: 9.0d
@@ -416,9 +426,9 @@
 				}
 			]
 			tasks: [{
-				id: "069A0802C67184A1"
-				title: "Build the Draconic Evolution Reactor structure."
-				type: "checkmark"
+				id: "A00500000000000A"
+				item: "draconicevolution:reactor_core"
+				type: "item"
 			}]
 			title: "§5Draconic Reactor"
 			x: 12.0d
@@ -452,9 +462,10 @@
 				}
 			]
 			tasks: [{
-				id: "010017FF683184E3"
-				title: "Land on Mars and collect Desh ore."
-				type: "checkmark"
+				count: 4L
+				id: "A00500000000000B"
+				item: "galacticraft:raw_desh"
+				type: "item"
 			}]
 			title: "§eMars Landing"
 			x: 6.0d
@@ -488,9 +499,9 @@
 				}
 			]
 			tasks: [{
-				id: "0D6A4BC9F3F23BF9"
-				title: "Build a Space Station in orbit."
-				type: "checkmark"
+				id: "A00500000000000C"
+				item: "galacticraft:rocket_launch_pad"
+				type: "item"
 			}]
 			title: "§6Space Station"
 			x: 9.0d
@@ -610,9 +621,9 @@
 				}
 			]
 			tasks: [{
-				id: "359DCC4A1BA3F88B"
-				title: "Defeat the Ignited Revenant (Cataclysm)."
-				type: "checkmark"
+				id: "A00500000000000D"
+				item: "cataclysm:ignited_revenants_eye"
+				type: "item"
 			}]
 			title: "§cIgnited Revenant"
 			x: 15.0d
@@ -646,9 +657,9 @@
 				}
 			]
 			tasks: [{
-				id: "5D8DB8F38F353EC2"
-				title: "Defeat the Ender Guardian (Cataclysm)."
-				type: "checkmark"
+				id: "A00500000000000E"
+				item: "cataclysm:ender_guardian_eye"
+				type: "item"
 			}]
 			title: "§c§lEnder Guardian"
 			x: 18.0d
@@ -682,9 +693,9 @@
 				}
 			]
 			tasks: [{
-				id: "5CF430CD3AA0CF6A"
-				title: "Build a Draconic Evolution Energy Core (any tier)."
-				type: "checkmark"
+				id: "A00500000000000F"
+				item: "draconicevolution:energy_core"
+				type: "item"
 			}]
 			title: "§5Energy Core"
 			x: 15.0d

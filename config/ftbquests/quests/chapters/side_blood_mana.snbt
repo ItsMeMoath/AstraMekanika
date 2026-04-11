@@ -35,9 +35,9 @@
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
-				id: "043B61040048DF36"
-				title: "Begin the arcane path."
-				type: "checkmark"
+				id: "B001000000000001"
+				item: "bloodmagic:blood_orb"
+				type: "item"
 			}]
 			title: "§5§lBlood  Mana"
 			x: 0.0d
@@ -403,9 +403,9 @@
 				}
 			]
 			tasks: [{
-				id: "1055B1EFA7DB4770"
-				title: "Defeat the Wilden Chimera."
-				type: "checkmark"
+				id: "B001000000000002"
+				item: "ars_nouveau:wilden_spike"
+				type: "item"
 			}]
 			title: "§5§lWilden Chimera"
 			x: 15.0d
@@ -475,11 +475,19 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "22413DF012A3C261"
-				title: "Set up the Well of Suffering ritual with a trapped mob."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "B001000000000003"
+					item: "bloodmagic:master_ritual_stone"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "B001000000000004"
+					item: "bloodmagic:ritual_stone"
+					type: "item"
+				}
+			]
 			title: "§4§lWell of Suffering"
 			x: 12.0d
 			y: -8.0d
@@ -681,9 +689,9 @@
 				}
 			]
 			tasks: [{
-				id: "063D4A3F31833AE2"
-				title: "Build and activate the Alfheim Portal."
-				type: "checkmark"
+				id: "B001000000000005"
+				item: "botania:alfheim_portal"
+				type: "item"
 			}]
 			title: "§b§lAlf Portal"
 			x: 6.0d
@@ -722,9 +730,9 @@
 				}
 			]
 			tasks: [{
-				id: "47A266A71A2C2195"
-				title: "Defeat Gaia Guardian II."
-				type: "checkmark"
+				id: "B001000000000006"
+				item: "botania:gaia_spirit"
+				type: "item"
 			}]
 			title: "§b§lGaia II"
 			x: 9.0d
