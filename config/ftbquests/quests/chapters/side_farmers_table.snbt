@@ -18,14 +18,14 @@
 				"§8Build a farm early. Keep it automated late."
 			]
 			id: "560E1DE8FB50D080"
-			rewards: [{
-				id: "322D87C9C523A292"
-				type: "xp_levels"
-				xp_levels: 1
+			rewards: [
+				{
+					id: "322D87C9C523A292"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 				{
-					count: 1
-					id: "D1E2F3A4B5C60059"
+					id: "39607D983494CF4F"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -42,6 +42,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["560E1DE8FB50D080"]
 			description: [
 				"§7Craft a §2Farmer's Delight Cooking Pot§7."
 				""
@@ -66,7 +67,7 @@
 				}
 				{
 					count: 2
-					id: "D1E2F3A4B5C60040"
+					id: "67F30ADC7A0C3EF8"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -81,6 +82,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2064B457D972D537"]
 			description: [
 				"§7Cook §e5 different §2Farmer's Delight§7 meals."
 				""
@@ -116,6 +118,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["560E1DE8FB50D080"]
 			description: [
 				"§7Craft your first §2Mystical Agriculture§7 crop seed using a §2Seed Base§7."
 				""
@@ -141,7 +144,7 @@
 				}
 				{
 					count: 2
-					id: "D1E2F3A4B5C60041"
+					id: "27B98A5A9E802BBB"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -156,6 +159,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["7515693E445D9409"]
 			description: [
 				"§7Plant §2Tier 3 Mystical Agriculture seeds§7 on §2Essence Farmland§7."
 				""
@@ -181,7 +185,7 @@
 				}
 				{
 					count: 3
-					id: "D1E2F3A4B5C60042"
+					id: "4B9208C6E94AE724"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -196,6 +200,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["0C476D3E52DBD034"]
 			description: [
 				"§7Plant §e8 different crop types§7 in your base farm."
 				""
@@ -228,6 +233,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["028C96216686A97E"]
 			description: [
 				"§7Craft a §2Farmer's Delight Stove§7 and cook on it."
 				""
@@ -253,7 +259,7 @@
 				}
 				{
 					count: 2
-					id: "D1E2F3A4B5C60043"
+					id: "39FEDFA6C0981C5C"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -268,6 +274,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4B1315F2A380847D"]
 			description: [
 				"§7Set up an §aIndustrial Foregoing Plant Gatherer§7 to automate crop harvesting."
 				""
@@ -301,6 +308,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5066285AA490A639"]
 			description: [
 				"§7Plant §2Tier 5 Mystical Agriculture seeds§7 — the highest-tier resource crops."
 				""
@@ -325,7 +333,7 @@
 				}
 				{
 					count: 3
-					id: "D1E2F3A4B5C60044"
+					id: "12C19ADDE471B56B"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -340,6 +348,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["063FC8EB536E8D92"]
 			description: [
 				"§7Craft and equip a §2Mystical Agriculture Growth Charm§7."
 				""
@@ -364,7 +373,7 @@
 				}
 				{
 					count: 3
-					id: "D1E2F3A4B5C60045"
+					id: "7202BD31AB6CE55F"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -379,6 +388,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["6BD0ADBEB54D746D"]
 			description: [
 				"§7Grow §2Nether Star Seeds§7 and craft a §4Beacon§7 — without fighting the Wither."
 				""
@@ -403,7 +413,7 @@
 				}
 				{
 					count: 5
-					id: "D1E2F3A4B5C60046"
+					id: "123FB96E8053D1A8"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -418,6 +428,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["3342E026C8DB8956"]
 			description: [
 				"§7Build an §aanimal farm§7 with at least §e3 different animal species§7."
 				""
@@ -442,7 +453,7 @@
 				}
 				{
 					count: 2
-					id: "D1E2F3A4B5C60047"
+					id: "3EB0D631711C04AB"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -457,6 +468,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["2C526454A3A87C63"]
 			description: [
 				"§7Set up a §aThermal Phytogenic Insolator§7 to grow crops at machine speed."
 				""
@@ -491,6 +503,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["3EEAE912F5A16866"]
 			description: [
 				"§7Build a fully automated §2food production line§7 — crop to cooked meal with no player interaction."
 				""
@@ -524,6 +537,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["560E1DE8FB50D080"]
 			description: [
 				"§7Craft a §2Farmer's Delight Compost Heap§7 and produce §2Rich Soil§7."
 				""
@@ -548,7 +562,7 @@
 				}
 				{
 					count: 2
-					id: "D1E2F3A4B5C60048"
+					id: "0C6DAFCB419C30AC"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -563,6 +577,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["1BBEE1D480154447"]
 			description: [
 				"§7Craft a §aSophisticated Backpack§7 with a §aPickup Upgrade§7 installed."
 				""
@@ -586,7 +601,7 @@
 				}
 				{
 					count: 2
-					id: "D1E2F3A4B5C60049"
+					id: "0AD8F0F0F9B7E9EF"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}

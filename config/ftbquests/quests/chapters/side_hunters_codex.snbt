@@ -24,14 +24,14 @@
 				"§8§cWarning: §7Mob difficulty scales with each phase you complete. Phase V mobs are significantly tougher than Phase I mobs."
 			]
 			id: "5C3F7FE06989C607"
-			rewards: [{
-				id: "11DC530816394C68"
-				type: "xp_levels"
-				xp_levels: 1
+			rewards: [
+				{
+					id: "11DC530816394C68"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 				{
-					count: 1
-					id: "D1E2F3A4B5C60058"
+					id: "19A718CDC680EF93"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -48,6 +48,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5C3F7FE06989C607"]
 			description: [
 				"§7Kill §e50 hostile mobs§7."
 				""
@@ -71,12 +72,12 @@
 				}
 				{
 					count: 2
-					id: "D1E2F3A4B5C60032"
+					id: "0BEDD89E42036C53"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
-			tasks: [{			
+			tasks: [{
 				id: "71936455F6B3F316"
 				title: "Kill 1 Zombies."
 				type: "checkmark"
@@ -86,6 +87,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7405FE27512AB1E1"]
 			description: [
 				"§7Craft an §eApotheosis Reforging Table§7 and reforge a weapon."
 				""
@@ -109,7 +111,7 @@
 				}
 				{
 					count: 2
-					id: "D1E2F3A4B5C60033"
+					id: "77B5201CFD5E73E3"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -124,6 +126,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2D8B4C512DC012B5"]
 			description: [
 				"§7Defeat a §6Mowzies Mobs§7 boss."
 				""
@@ -159,6 +162,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["48DDE908F6A71E9F"]
 			description: [
 				"§7Craft a §eSoul Cage§7 using §eApotheosis§7 and trap a mob spawner."
 				""
@@ -191,6 +195,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5C3F7FE06989C607"]
 			description: [
 				"§7Survive a §cBlood Moon§7 without dying."
 				""
@@ -225,6 +230,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["15FE7118AFDA6C91"]
 			description: [
 				"§7Craft an §cIron Jetpack§7 and achieve basic flight."
 				""
@@ -259,6 +265,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["1F57E315CA74D32F"]
 			description: [
 				"§7Find and kill an §6Alex's Mobs§7 creature — specifically a creature you've never seen before."
 				""
@@ -293,6 +300,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["3BC459EB229A198C"]
 			description: [
 				"§7Defeat the §4§lWither§7 — the Overworld's first mega-boss."
 				""
@@ -318,12 +326,12 @@
 				}
 				{
 					count: 5
-					id: "D1E2F3A4B5C60034"
+					id: "03226E27A1451200"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
-			tasks: [{			
+			tasks: [{
 				id: "0175C203EB7DCD22"
 				title: "Kill 1 Withers."
 				type: "checkmark"
@@ -333,6 +341,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["090F628B0D1BE10D"]
 			description: [
 				"§7Defeat the §5§lEnder Dragon§7 — the guardian of The End."
 				""
@@ -359,7 +368,7 @@
 					type: "item"
 				}
 			]
-			tasks: [{			
+			tasks: [{
 				id: "033CD2E26B6A2155"
 				title: "Kill 1 Ender Dragons."
 				type: "checkmark"
@@ -369,6 +378,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1E1E54BEFB4B2AE6"]
 			description: [
 				"§7Defeat an §9Elder Guardian§7 inside an Ocean Monument."
 				""
@@ -394,12 +404,12 @@
 				}
 				{
 					count: 3
-					id: "D1E2F3A4B5C60035"
+					id: "7C9D4E54ABC4966F"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
-			tasks: [{			
+			tasks: [{
 				id: "5C1C1FD01FD024E7"
 				title: "Kill 1 Elder Guardians."
 				type: "checkmark"
@@ -409,6 +419,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["5F6539945EECAD0C"]
 			description: [
 				"§7Defeat the §8§lWarden§7 — the deep dark's apex predator."
 				""
@@ -433,7 +444,7 @@
 					type: "item"
 				}
 			]
-			tasks: [{			
+			tasks: [{
 				id: "42B7F74A51B42E2B"
 				title: "Kill 1 Wardens."
 				type: "checkmark"
@@ -443,6 +454,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["2FAFF918A81F51D0"]
 			description: [
 				"§7Defeat a §cCataclysm Dungeon Boss§7."
 				""
@@ -478,6 +490,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["5C3F7FE06989C607"]
 			description: [
 				"§7Hunt §cWither Skeletons§7 in a Nether Fortress and collect §c3 Wither Skulls§7."
 				""
@@ -502,7 +515,7 @@
 				}
 				{
 					count: 3
-					id: "D1E2F3A4B5C60036"
+					id: "16329738FCB7487C"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -518,6 +531,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["68B39659801BCC2A"]
 			description: [
 				"§7Clear an §eApotheosis-upgraded dungeon§7 — a Spawner Room with a glowing gold cage border."
 				""
@@ -542,7 +556,7 @@
 				}
 				{
 					count: 3
-					id: "D1E2F3A4B5C60037"
+					id: "17C2ACF074E22E96"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -557,6 +571,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["6777FBD2FDD40FB3"]
 			description: [
 				"§7Kill §c500 total hostile mobs§7."
 				""
@@ -581,7 +596,7 @@
 					type: "item"
 				}
 			]
-			tasks: [{			
+			tasks: [{
 				id: "4F2AD454F8EB9769"
 				title: "Kill 1 Zombies."
 				type: "checkmark"
@@ -591,6 +606,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["30C84EF03650610A"]
 			description: [
 				"§7Craft a §6§lNetherite Sword§7 and fully enchant it."
 				""
@@ -621,7 +637,7 @@
 				}
 				{
 					count: 3
-					id: "D1E2F3A4B5C60038"
+					id: "75B49A72331660F7"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -642,6 +658,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["59AD920A087EF2E5"]
 			description: [
 				"§7Survive §c3 consecutive Blood Moons§7 without dying."
 				""

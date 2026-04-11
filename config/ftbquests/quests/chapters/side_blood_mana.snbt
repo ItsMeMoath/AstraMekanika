@@ -20,14 +20,14 @@
 				"§8No gating. Explore at your own pace."
 			]
 			id: "1FD3FF9119F2CFAE"
-			rewards: [{
-				id: "6E2A93B9F188C420"
-				type: "xp_levels"
-				xp_levels: 1
+			rewards: [
+				{
+					id: "6E2A93B9F188C420"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 				{
-					count: 1
-					id: "D1E2F3A4B5C60056"
+					id: "585782B931CA5A8E"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -39,11 +39,12 @@
 				title: "Begin the arcane path."
 				type: "checkmark"
 			}]
-			title: "§5§lBlood \& Mana"
+			title: "§5§lBlood  Mana"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["1FD3FF9119F2CFAE"]
 			description: [
 				"§7Craft an §5Ars Nouveau Source Jar§7 and place it near your crops or mana generation."
 				""
@@ -68,7 +69,7 @@
 				}
 				{
 					count: 2
-					id: "D1E2F3A4B5C60002"
+					id: "57AEB211E0195253"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -90,6 +91,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0285DD79DBC533FF"]
 			description: [
 				"§7Craft the §5Imbuement Chamber§7 — the core crafting station for Ars Nouveau."
 				""
@@ -113,7 +115,7 @@
 				}
 				{
 					count: 2
-					id: "D1E2F3A4B5C60003"
+					id: "1C349B4B88B3640D"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -128,6 +130,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["185BF91499F18097"]
 			description: [
 				"§7Craft the §5Archmage Spellbook§7 — the highest tier Ars Nouveau spellbook."
 				""
@@ -152,7 +155,7 @@
 				}
 				{
 					count: 3
-					id: "D1E2F3A4B5C60004"
+					id: "1CA49370FC448269"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -167,6 +170,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1FD3FF9119F2CFAE"]
 			description: [
 				"§7Craft a §4Tier 2 Blood Altar§7 by placing §4Blank Runes§7 around your existing altar."
 				""
@@ -191,7 +195,7 @@
 				}
 				{
 					count: 2
-					id: "D1E2F3A4B5C60005"
+					id: "6D162D6BBE3F9F8D"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -206,6 +210,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["712BD6DAA38C379C"]
 			description: [
 				"§7Craft §4Living Armor§7 — Blood Magic's signature armor set."
 				""
@@ -228,7 +233,7 @@
 				}
 				{
 					count: 3
-					id: "D1E2F3A4B5C60006"
+					id: "1DD3D1C55EE05BF6"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -243,6 +248,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["1FD3FF9119F2CFAE"]
 			description: [
 				"§7Craft §bTerrasteel§7 using Botania's §bTerrestrial Agglomeration Plate§7."
 				""
@@ -267,7 +273,7 @@
 				}
 				{
 					count: 3
-					id: "D1E2F3A4B5C60007"
+					id: "4CD04F4B4CF5CAB9"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -283,6 +289,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["186581BA85BC3AF5"]
 			description: [
 				"§7Defeat §b§lGaia Guardian I§7 — Botania's first endgame boss."
 				""
@@ -308,7 +315,7 @@
 				}
 				{
 					count: 5
-					id: "D1E2F3A4B5C60008"
+					id: "485665C3CDF4B0CA"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -323,6 +330,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["64158B8767B1D3F1"]
 			description: [
 				"§7Craft a §5Spell Turret§7 and set it to cast an offensive spell automatically."
 				""
@@ -347,7 +355,7 @@
 				}
 				{
 					count: 2
-					id: "D1E2F3A4B5C60009"
+					id: "15FB192D39B743BD"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -362,6 +370,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7389110D79AE598F"]
 			description: [
 				"§7Defeat the §5Wilden Chimera§7 — Ars Nouveau's mid-game boss."
 				""
@@ -388,7 +397,7 @@
 				}
 				{
 					count: 5
-					id: "D1E2F3A4B5C60010"
+					id: "19C2F3C64E2AC987"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -403,6 +412,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0B6F19D131EE07D3"]
 			description: [
 				"§7Craft a §4Ritual Diviner§7 and set up the §4Ritual of Magnetism§7."
 				""
@@ -426,7 +436,7 @@
 				}
 				{
 					count: 3
-					id: "D1E2F3A4B5C60011"
+					id: "6B5FA717C1748E6C"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -441,6 +451,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["774352C7752DD69A"]
 			description: [
 				"§7Set up the §4Well of Suffering§7 — Blood Magic's automated LP generation ritual."
 				""
@@ -474,6 +485,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["7B10827247C7F208"]
 			description: [
 				"§7Upgrade your §4Blood Altar to Tier 4§7 using §4Dusk Runes§7."
 				""
@@ -497,7 +509,7 @@
 				}
 				{
 					count: 3
-					id: "D1E2F3A4B5C60012"
+					id: "0AED834F4DDCAAFA"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -512,6 +524,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["4A85D1FD417C490E"]
 			description: [
 				"§7Craft §bElementium Ingots§7 using Botania's elvish crafting."
 				""
@@ -536,7 +549,7 @@
 				}
 				{
 					count: 3
-					id: "D1E2F3A4B5C60013"
+					id: "2210E4ECFC9F4D77"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -552,6 +565,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["511CE4AFC78D8D8D"]
 			description: [
 				"§7Craft the §b§lElementium Chestplate§7 — the pinnacle of Botania combat gear."
 				""
@@ -576,7 +590,7 @@
 				}
 				{
 					count: 5
-					id: "D1E2F3A4B5C60014"
+					id: "2BA928463C50F763"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -597,6 +611,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["74D2CEA2371860AB"]
 			description: [
 				"§7Craft the §b§lMana Gun§7 — Botania's ranged weapon."
 				""
@@ -620,7 +635,7 @@
 				}
 				{
 					count: 3
-					id: "D1E2F3A4B5C60015"
+					id: "785466BE20B15F31"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -635,6 +650,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["186581BA85BC3AF5"]
 			description: [
 				"§7Build the §b§lAlfheim Portal§7 — Botania's Elven Gateway to Alfheim."
 				""
@@ -659,7 +675,7 @@
 				}
 				{
 					count: 5
-					id: "D1E2F3A4B5C60016"
+					id: "5FCD06644A81B87A"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -674,6 +690,7 @@
 			y: 11.0d
 		}
 		{
+			dependencies: ["505A625456E48D93"]
 			description: [
 				"§7Defeat §b§lGaia Guardian II§7 — the true Botania endgame boss."
 				""
@@ -699,7 +716,7 @@
 				}
 				{
 					count: 7
-					id: "D1E2F3A4B5C60017"
+					id: "576C52BBAA70A509"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -714,6 +731,7 @@
 			y: 11.0d
 		}
 		{
+			dependencies: ["09322623CA918D56"]
 			description: [
 				"§7Craft the §b§lRod of the Hells§7 — Botania's fire-elemental rod."
 				""
@@ -737,7 +755,7 @@
 				}
 				{
 					count: 3
-					id: "D1E2F3A4B5C60018"
+					id: "558D45430C31A361"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -752,5 +770,5 @@
 			y: 11.0d
 		}
 	]
-	title: "§5Blood \& Mana"
+	title: "§5Blood  Mana"
 }

@@ -34,6 +34,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["000C944A6343CC29"]
 			description: [
 				"§7Craft a §fCrafting Table§7 and a §fFurnace§7."
 				""
@@ -70,6 +71,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5FE6D4881FD496E9"]
 			description: [
 				"§7Mine and smelt §e24 iron ingots§7."
 				""
@@ -102,6 +104,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6BC999382AD4499C"]
 			description: [
 				"§7Craft the §6Engineer's Workbench§7 — the core crafting station for all §6Immersive Engineering§7 recipes."
 				""
@@ -142,6 +145,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7098E33CCD23CDEC"]
 			description: [
 				"§7Build the §6Blast Furnace§7: a 3×3×3 structure of §6Blast Furnace Bricks§7. Right-click the center with your §6Engineer's Hammer§7."
 				""
@@ -176,6 +180,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3BAC065679119906"]
 			description: [
 				"§e§l✦ Phase I Complete"
 				""
@@ -216,12 +221,12 @@
 				}
 				{
 					command: "/title @a title {\"text\":\"✦ Phase I Complete\",\"color\":\"gold\",\"bold\":true}"
-					id: "B1C2D3E4F5A60001"
+					id: "5B11BC2F6A0B2126"
 					type: "command"
 				}
 				{
 					command: "/title @a subtitle {\"text\":\"Rusted Dawn cleared. The world opens.\",\"color\":\"gray\"}"
-					id: "B1C2D3E4F5A60002"
+					id: "321E599B676CA6AF"
 					type: "command"
 				}
 			]
@@ -237,6 +242,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5FE6D4881FD496E9"]
 			description: [
 				"§7§eTinkers' Construct§7 gives you fully customizable tools built from modular parts."
 				""
@@ -260,6 +266,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["64086EAB05744070"]
 			description: [
 				"§7The §eTool Station§7 lets you assemble your custom tool parts into a complete tool."
 				""
@@ -283,6 +290,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["770EB454F1E24B8B"]
 			description: [
 				"§7Place your first §aWaystone§7 at your base."
 				""
@@ -314,6 +322,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["40EBCC433DB15EBC"]
 			description: [
 				"§7Connect a §6Kinetic Dynamo§7 to flowing water with a §6Waterwheel§7 segment to generate RF."
 				"§7Then string §6LV Wire Coils§7 between §6LV Connectors§7 to move power to your machines."
@@ -349,6 +358,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["000C944A6343CC29"]
 			description: [
 				"§7Place a bed and sleep through your first night."
 				""
@@ -372,6 +382,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["7C8E48AD78BF3F61"]
 			description: [
 				"§5Source Gems§7 are the primary crafting material for §5Ars Nouveau§7 magic."
 				""
@@ -405,6 +416,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["03CE38724F4747CA"]
 			description: [
 				"§7Craft an §5Apprentice Spellbook§7 at the §5Scribe's Table§7."
 				""
@@ -437,6 +449,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["61CD65EA82DF485E"]
 			description: [
 				"§7Soak planks in §6Creosote Oil§7 (a barrel + planks) to make §6Treated Wood§7."
 				"§7Then craft a §eThermal Machine Frame§7 from Iron, Copper, and Tin ingots."
@@ -461,6 +474,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["0D03A1DA3A178ED9"]
 			description: [
 				"§7Craft a §eStirling Dynamo§7 and burn §6Coal Coke§7 in it to produce §eRF power§7."
 				""
@@ -493,6 +507,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["5FE6D4881FD496E9"]
 			description: [
 				"§7Before anything else, you need a full suit of §firon armor§7."
 				""
@@ -566,6 +581,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["2245D50E2941F6FF"]
 			description: [
 				"§7Find your first §bdiamond§7 vein."
 				""
@@ -600,6 +616,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["67CAD5BE9612FC06"]
 			description: [
 				"§7Craft an §6Enchanting Table§7 and surround it with §e15 Bookshelves§7."
 				""
@@ -643,6 +660,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["6B9698E5934FB53A"]
 			description: [
 				"§7§eApotheosis§7 upgrades the enchanting system significantly."
 				""
@@ -675,6 +693,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["60C31DB336229111"]
 			description: [
 				"§7Build the §6IE Arc Furnace§7 — a multiblock that smelts alloys and ingots at high speed."
 				""
@@ -708,6 +727,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["227861EBBF7E543B"]
 			description: [
 				"§7Craft an §6IE Capacitor Bank§7 and connect it to your power grid."
 				""
@@ -733,6 +753,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["000C944A6343CC29"]
 			description: [
 				"§7Build a §cNether Portal§7 and step through."
 				""
@@ -766,6 +787,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["57BB589D57508D5A"]
 			description: [
 				"§7Collect §e32 Nether Quartz§7 from the Nether."
 				""
@@ -800,6 +822,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["2CC47BBF4FC94F4D"]
 			description: [
 				"§7Craft a §5Scribe's Table§7 — the workstation for writing §5Ars Nouveau§7 spells."
 				""
@@ -834,6 +857,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["30D839ACF4906FAA"]
 			description: [
 				"§7Craft your first §5custom spell§7 at the §5Scribe's Table§7."
 				""
@@ -870,6 +894,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["7C8E48AD78BF3F61"]
 			description: [
 				"§7§eCreate§7 is a rotational power mod — machines run on §ePower (Stress Units)§7 generated by §eWater Wheels§7, §eWindmills§7, and §eSteam Engines§7."
 				""
@@ -910,6 +935,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["61CD65EA82DF485E"]
 			description: [
 				"§7Build a §eMechanical Press§7 — §eCreate§7's core processing machine."
 				""
@@ -943,6 +969,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["616F5CA562F0FF9B"]
 			description: [
 				"§7Build a §eCreate Mixer§7 in a §eBasin§7 to mix multiple items or fluids into new products."
 				""
@@ -984,6 +1011,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["614CBE1ED1697998"]
 			description: [
 				"§7Craft a §eThermal Pulverizer§7 and connect it to your power grid."
 				""
@@ -1017,6 +1045,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["30BAA2B5E59BA281"]
 			description: [
 				"§7Craft a §eThermal Induction Smelter§7 — the next step in ore processing."
 				""
@@ -1049,6 +1078,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["3BE922C10417A945"]
 			description: [
 				"§7Craft a §aSophisticated Backpack§7 — a portable storage solution that holds 27+ slots and can be upgraded."
 				""

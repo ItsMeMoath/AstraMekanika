@@ -36,6 +36,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7F243F8B32DF199D"]
 			description: [
 				"§7Craft a §3Twilight Forest Portal§7."
 				""
@@ -68,6 +69,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["075DA54D6C5F916A"]
 			description: [
 				"§3Complete the full Twilight Forest boss chain.§7"
 				""
@@ -102,6 +104,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["556201C0588A5FD4"]
 			description: [
 				"§7Craft a §6Mekanism Metallurgic Infuser§7."
 				""
@@ -133,6 +136,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3BCDFFBEC06B82A0"]
 			description: [
 				"§7Use the §6Metallurgic Infuser§7 to produce §e8 Enriched Iron§7 by infusing iron with §eDiamond Dust§7."
 				""
@@ -166,6 +170,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["25CC5F4B3BF00382"]
 			description: [
 				"§3§l✦ Phase III Complete"
 				""
@@ -206,12 +211,12 @@
 				}
 				{
 					command: "/title @a title {\"text\":\"✦ Phase III Complete\",\"color\":\"aqua\",\"bold\":true}"
-					id: "B1C2D3E4F5A60005"
+					id: "2544781849B0486C"
 					type: "command"
 				}
 				{
 					command: "/title @a subtitle {\"text\":\"Twilight Pressure — The forest bows.\",\"color\":\"gray\"}"
-					id: "B1C2D3E4F5A60006"
+					id: "3AABD6C044663EB9"
 					type: "command"
 				}
 			]
@@ -227,6 +232,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7F243F8B32DF199D"]
 			description: [
 				"§7Enter §9The Undergarden§7 — a deep underground dimension of crystalline caves, unique mobs, and exotic plants."
 				""
@@ -261,6 +267,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["728254A45D22AFDA"]
 			description: [
 				"§7Craft your first §2Mystical Agriculture§7 crop seed using a §2Seed Base§7."
 				""
@@ -294,6 +301,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["5073E76541A3D414"]
 			description: [
 				"§7Craft an §eIron's Spellbooks Arcane Altar§7."
 				""
@@ -325,6 +333,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["77AC4C716D36A41B"]
 			description: [
 				"§7Build an §aIndustrial Foregoing Plant Gatherer§7 over a crop field."
 				""
@@ -356,6 +365,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["7F243F8B32DF199D"]
 			description: [
 				"§7Explore §cBetter Nether§7 — a dramatically overhauled Nether with new biomes, structures, and unique materials."
 				""
@@ -389,6 +399,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["7656E2E68FF3AB93"]
 			description: [
 				"§7Build a §6Mekanism Heat Generator§7 adjacent to a lava source."
 				""
@@ -429,6 +440,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["4F4A662FABC7C663"]
 			description: [
 				"§7Craft a §6Mekanism Enrichment Chamber§7 and a §6Crusher§7."
 				""
@@ -469,6 +481,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["7F243F8B32DF199D"]
 			description: [
 				"§3Boss 2: The Twilight Lich§7"
 				""
@@ -505,6 +518,7 @@
 			y: -5.5d
 		}
 		{
+			dependencies: ["2C2F01165EA2F4CE"]
 			description: [
 				"§3Boss 4: The Knight Phantoms§7"
 				""
@@ -541,6 +555,7 @@
 			y: -5.5d
 		}
 		{
+			dependencies: ["6EE22BC2695D9A25"]
 			description: [
 				"§3Boss 5: The Ur-Ghast§7"
 				""
@@ -576,6 +591,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["68DE8330D7064C24"]
 			description: [
 				"§7Craft a §6Mekanism Purification Chamber§7."
 				""
@@ -610,6 +626,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["2051B8CBB45BDEFD"]
 			description: [
 				"§7Craft a §6Mekanism Digital Miner§7 — the most powerful automated mining tool in Phase III."
 				""
@@ -644,6 +661,7 @@
 			y: -5.5d
 		}
 		{
+			dependencies: ["6EE22BC2695D9A25"]
 			description: [
 				"§7Craft §2Tier 2 Mystical Agriculture seeds§7 — Prudentium tier."
 				""
@@ -677,6 +695,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["1CFF5765B68CDE84"]
 			description: [
 				"§7Craft §2Essence Farmland§7 — §2Mystical Agriculture's§7 boosted soil."
 				""
@@ -712,6 +731,7 @@
 			y: -9.0d
 		}
 		{
+			dependencies: ["769CB3B0E43A2E62"]
 			description: [
 				"§7Build an §aIndustrial Foregoing Mob Crusher§7."
 				""
@@ -745,6 +765,7 @@
 			y: -7.5d
 		}
 		{
+			dependencies: ["052054FA026BA66F"]
 			description: [
 				"§7Enter §5Better End§7 — a dramatically overhauled End dimension."
 				""
@@ -780,6 +801,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["7656E2E68FF3AB93"]
 			description: [
 				"§7Craft a §6Mekanism Electrolytic Separator§7."
 				""
@@ -814,6 +836,7 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["175EE168E7B87930"]
 			description: [
 				"§7Craft §6Mekanism Osmium Armor§7 — your first dedicated Mekanism protection set."
 				""
@@ -855,6 +878,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["70FE7F99AB8E78FE"]
 			description: [
 				"§7Build a §6Create Mechanical Crafter§7 array — a grid of crafters that can automatically perform complex shapeful recipes."
 				""

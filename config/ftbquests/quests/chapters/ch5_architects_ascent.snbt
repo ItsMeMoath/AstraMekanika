@@ -37,6 +37,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1D1706B02CDE5D4C"]
 			description: [
 				"§7Craft an §6Ad Astra Rocket§7 and launch it."
 				""
@@ -72,6 +73,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7A14AC2541A5832C"]
 			description: [
 				"§7Craft a §5Draconic Evolution Wyvern Core§7."
 				""
@@ -106,6 +108,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3294A3EFFED289B2"]
 			description: [
 				"§7Defeat at least §cone §cEnder's Cataclysm§7 boss."
 				""
@@ -138,6 +141,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["16DB9BBDAB775A9A"]
 			description: [
 				"§7Build a §5Draconic Evolution Fusion Crafting§7 setup."
 				""
@@ -174,6 +178,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["26792C2D14A0485C"]
 			description: [
 				"§7Using Fusion Crafting, produce the §5Heart of the Vault§7."
 				""
@@ -202,12 +207,12 @@
 				}
 				{
 					command: "/title @a title {\"text\":\"§5Heart of the Vault\",\"bold\":true}"
-					id: "A1B2C3D4E5F60001"
+					id: "468CBD55360C49F9"
 					type: "command"
 				}
 				{
 					command: "/title @a subtitle {\"text\":\"The final gate is forged.\",\"color\":\"gray\"}"
-					id: "A1B2C3D4E5F60002"
+					id: "65D3C7C9D16BBCBD"
 					type: "command"
 				}
 			]
@@ -223,6 +228,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6054904900DD67E4"]
 			description: [
 				"§5§l✦ THE END."
 				""
@@ -272,6 +278,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1D1706B02CDE5D4C"]
 			description: [
 				"§7Visit §e3 different Ad Astra planets§7."
 				""
@@ -318,6 +325,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["3049E185DF485293"]
 			description: [
 				"§7Craft §5Draconic Evolution§7 armor and defeat the §cEnder Dragon§7 wearing it."
 				""
@@ -349,6 +357,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["14CF0BDCD1466F63"]
 			description: [
 				"§7Visit the §8Mining Dimension§7 and mine §e256 ores§7."
 				""
@@ -381,6 +390,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["6E7BE1492B419CA3"]
 			description: [
 				"§7Build the §5Draconic Evolution Reactor§7 structure."
 				""
@@ -415,6 +425,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["3049E185DF485293"]
 			description: [
 				"§7Land on §eMars§7 — the second destination in the §6Ad Astra§7 progression."
 				""
@@ -450,6 +461,7 @@
 			y: -5.5d
 		}
 		{
+			dependencies: ["14CF0BDCD1466F63"]
 			description: [
 				"§7Build an §6Ad Astra Space Station§7 in orbit."
 				""
@@ -485,6 +497,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["05D8EF100DC07A54"]
 			description: [
 				"§7Craft a full set of §5Draconic Evolution Wyvern tools§7."
 				""
@@ -527,6 +540,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["53B2213A1EA69543"]
 			description: [
 				"§7Craft a full set of §5Draconic Evolution Draconic Armor§7."
 				""
@@ -569,6 +583,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["688227E55EA8CF6F"]
 			description: [
 				"§7Defeat the §cIgnited Revenant§7 — a Cataclysm boss."
 				""
@@ -604,6 +619,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["52B2ED7CB20FD231"]
 			description: [
 				"§7Defeat the §c§lEnder Guardian§7 — Cataclysm's most dangerous overworld boss."
 				""
@@ -636,9 +652,10 @@
 			}]
 			title: "§c§lEnder Guardian"
 			x: 18.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
+			dependencies: ["75CEC7609FE000DC"]
 			description: [
 				"§7Build a §5Draconic Evolution Energy Core§7 — the ultimate RF storage structure."
 				""
@@ -674,6 +691,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["52B2ED7CB20FD231"]
 			description: [
 				"§7Produce §6Mekanism Polonium§7 using the §6Isotopic Centrifuge§7."
 				""
@@ -709,6 +727,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["3546BD47AB39349C"]
 			description: [
 				"§7Produce §6Mekanism Antimatter§7 using the §6Antiprotonic Nucleosynthesizer§7."
 				""

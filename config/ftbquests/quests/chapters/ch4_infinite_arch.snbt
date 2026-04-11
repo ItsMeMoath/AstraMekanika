@@ -35,6 +35,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["29C34A1844996E97"]
 			description: [
 				"§7Craft an §9AE2 Controller§7 and a §9ME Drive§7."
 				""
@@ -74,6 +75,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6BB83525DD455FAD"]
 			description: [
 				"§7Craft a §9Pattern Provider§7 and a §9Crafting CPU§7 cluster."
 				""
@@ -115,6 +117,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3B7AC979410F49C6"]
 			description: [
 				"§7Build and activate a §cNuclearCraft Fission Reactor§7."
 				""
@@ -149,6 +152,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["78A4C4E5E6BB9209"]
 			description: [
 				"§7Craft an §bAether Portal§7 — a frame of §bGlowstone§7 lit with a §bBucket of Water§7."
 				""
@@ -182,6 +186,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3590B30A6858EABC"]
 			description: [
 				"§9§l✦ Phase IV Complete"
 				""
@@ -222,12 +227,12 @@
 				}
 				{
 					command: "/title @a title {\"text\":\"✦ Phase IV Complete\",\"color\":\"blue\",\"bold\":true}"
-					id: "B1C2D3E4F5A60007"
+					id: "46629C86AE8EAAC6"
 					type: "command"
 				}
 				{
 					command: "/title @a subtitle {\"text\":\"Cataclysmic Breaker — The reactor roars.\",\"color\":\"gray\"}"
-					id: "B1C2D3E4F5A60008"
+					id: "7DA1EE13DB2515E4"
 					type: "command"
 				}
 			]
@@ -243,6 +248,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7402DA0324063919"]
 			description: [
 				"§7Craft a §9Wireless Access Terminal§7 and link it to your ME Network."
 				""
@@ -273,6 +279,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["4935BD84D912F1BA"]
 			description: [
 				"§7Craft a §bPsi CAD§7 (Computer Aided Device) and load a §bSpell Bullet§7 into it."
 				""
@@ -306,6 +313,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["4935BD84D912F1BA"]
 			description: [
 				"§7Visit §aBoth §eBlue Skies§a dimensions§7:"
 				"§e  Everbright §7— a golden daytime sky realm"
@@ -347,6 +355,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["4935BD84D912F1BA"]
 			description: [
 				"§7Obtain a §6Legendary§7 quality item via §eApotheosis§7."
 				""
@@ -381,6 +390,7 @@
 			y: -9.0d
 		}
 		{
+			dependencies: ["57DC84750D82F961"]
 			description: [
 				"§7Craft a §7Mekanism Fusion Reactor§7 — the most powerful energy source in Phase IV."
 				""
@@ -413,6 +423,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["673358F16CB845D7"]
 			description: [
 				"§7Craft a §ePneumaticCraft Pressure Chamber§7."
 				""
@@ -444,6 +455,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["673358F16CB845D7"]
 			description: [
 				"§7Complete the §bAether's §bBronze Dungeon§7 — a maze-like structure floating in the sky."
 				""
@@ -477,6 +489,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["673358F16CB845D7"]
 			description: [
 				"§7Defeat the §bAether Silver Dungeon§7 boss — the §bValkyrie Queen§7."
 				""
@@ -512,6 +525,7 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["3B7AC979410F49C6"]
 			description: [
 				"§7Defeat the §bAether Gold Dungeon§7 boss — the §bSun Spirit§7."
 				""
@@ -547,6 +561,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["6BB83525DD455FAD"]
 			description: [
 				"§7Craft a §9ME Interface§7 — the bridge between your AE2 network and other machines."
 				""
@@ -581,6 +596,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["6BB83525DD455FAD"]
 			description: [
 				"§7Set up §9AE2 Channels§7 correctly across your network."
 				""
@@ -624,6 +640,7 @@
 			y: -5.5d
 		}
 		{
+			dependencies: ["5D24B3B06ED7B1B9"]
 			description: [
 				"§7Craft a §cNuclearCraft Radiation Shielding§7 for your armor."
 				""
@@ -658,6 +675,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["344B331DF50E4AEB"]
 			description: [
 				"§7Set up §cNuclearCraft fuel reprocessing§7 using the §cReprocessor§7."
 				""
@@ -693,6 +711,7 @@
 			y: -5.5d
 		}
 		{
+			dependencies: ["3B7AC979410F49C6"]
 			description: [
 				"§7Craft a §6Mekanism Quantum Entangloporter§7."
 				""
@@ -726,6 +745,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["5EA83BCFD55D74D4"]
 			description: [
 				"§7Produce §6Refined Obsidian§7 using the §6Mekanism Osmium Compressor§7 and §6Chemical Injection Chamber§7."
 				""
@@ -761,6 +781,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["2F362D2523795C0F"]
 			description: [
 				"§7Craft and program a §ePneumaticCraft Drone§7."
 				""
@@ -797,6 +818,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["22CEA7B71AC412E6"]
 			description: [
 				"§7Build an §aIndustrial Foregoing Laser Drill§7 — automated deep-ore mining."
 				""

@@ -28,6 +28,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["59A351C0D5C3CB11"]
 			description: ["§7100 zombies. That's a start. Kill them all and collect your due."]
 			id: "44FAAF8FC3ED6965"
 			rewards: [{
@@ -47,6 +48,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["59A351C0D5C3CB11"]
 			description: ["§7Creepers don't care about your builds. Return the favor."]
 			id: "361B1B42F4FE997E"
 			rewards: [{
@@ -66,6 +68,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["59A351C0D5C3CB11"]
 			description: ["§7200 skeletons. Arrows everywhere. Collect their dust."]
 			id: "7C9E2ABD06C6B71D"
 			rewards: [{
@@ -85,6 +88,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["59A351C0D5C3CB11"]
 			description: ["§7100 blazes. You need them anyway. Make it count."]
 			id: "39D9A7894172B224"
 			rewards: [{
@@ -104,6 +108,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["59A351C0D5C3CB11"]
 			description: ["§7Enderman. 50 of them. Watch your eyes."]
 			id: "627BB2CC8A611837"
 			rewards: [{
@@ -123,6 +128,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["361B1B42F4FE997E"]
 			description: [
 				"§7The Wither. Three heads, zero mercy."
 				"§7Craft the Wither, survive, collect the star."
@@ -152,6 +158,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["39D9A7894172B224"]
 			description: [
 				"§7The Elder Guardian lurks beneath the ocean monument."
 				"§7Break its curse. Take its loot."
@@ -182,6 +189,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["44FAAF8FC3ED6965"]
 			description: [
 				"§7Phantoms spawn when you skip sleep."
 				"§7Kill 50. Your insomnia is noted."
@@ -204,6 +212,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["627BB2CC8A611837"]
 			description: [
 				"§7Collect 64 diamonds. That's the minimum."
 				"§7Get Fortune III first. You're welcome."
@@ -225,6 +234,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["611FC1FB522210BF"]
 			description: [
 				"§7Craft 64 IE Steel Ingots."
 				"§7The backbone of everything. Start early."
@@ -247,6 +257,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["611FC1FB522210BF"]
 			description: [
 				"§7Collect 10 Nether Stars."
 				"§7Build that beacon. You earned it."
@@ -276,6 +287,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["0862C360F1A0007E"]
 			description: [
 				"§7Survive a Blood Moon."
 				"§7It rises every 7 days. Do not hide."
@@ -306,6 +318,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["43C675916433B4B8"]
 			description: [
 				"§7Collect one of each Phase Seal."
 				"§7You forged them. Now show them off."
@@ -356,6 +369,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["6554AFED74225F0C"]
 			description: [
 				"§7Reach the End. Stand on end stone."
 				"§7The dragon is optional. The visit is not."
@@ -377,6 +391,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["1991F2274A492BB2"]
 			description: [
 				"§7Become a bee."
 				"§7Collect 64 honey bottles. Don't ask why."

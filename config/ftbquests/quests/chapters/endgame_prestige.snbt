@@ -37,6 +37,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6CF4F9BD408A8C00"]
 			description: [
 				"§5Prestige I — §fAwakened"
 				""
@@ -90,6 +91,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["6CF4F9BD408A8C00"]
 			description: [
 				"§dPrestige II — §fAscended"
 				""
@@ -164,6 +166,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["6CF4F9BD408A8C00"]
 			description: [
 				"§b§lPrestige III — §f§lTranscendent"
 				""
@@ -253,7 +256,6 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["71B1D95E8E60BA50"]
 			description: [
 				"§cYou hold the first Prestige. Now prove you can fight."
 				""
@@ -262,22 +264,22 @@
 				""
 				"§8Mark complete manually when done."
 			]
-			id: "C100000001000001"
+			id: "29499321E8EBBD70"
 			rewards: [
 				{
 					count: 5
-					id: "C200000001000001"
+					id: "05E6278C02D830F8"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C200000001000002"
+					id: "6DA192FC31B61844"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 			]
 			tasks: [{
-				id: "C300000001000001"
+				id: "6EACABCF59AEC0FB"
 				title: "Kill 500 hostile mobs (mark manually)."
 				type: "checkmark"
 			}]
@@ -286,7 +288,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["C100000001000001"]
+			dependencies: ["71B1D95E8E60BA50"]
 			description: [
 				"§4500 was just warmup."
 				""
@@ -295,28 +297,28 @@
 				""
 				"§8Mark complete manually."
 			]
-			id: "C100000001000002"
+			id: "7E3FEB65E65EA32D"
 			rewards: [
 				{
 					count: 10
-					id: "C200000001000003"
+					id: "2EF379441A8E9721"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C200000001000004"
+					id: "4B6EBCB085FAF147"
 					type: "xp_levels"
 					xp_levels: 20
 				}
 				{
 					count: 3
-					id: "C200000001000005"
+					id: "7334885CABC1B9A1"
 					item: "minecraft:enchanted_golden_apple"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "C300000001000002"
+				id: "1C42A97BBDE82D12"
 				title: "Kill 2000 hostile mobs (mark manually)."
 				type: "checkmark"
 			}]
@@ -325,7 +327,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["C100000001000001"]
 			description: [
 				"§7The Ender Dragon guards the exit of the world."
 				"§7You have surpassed the world."
@@ -333,28 +334,28 @@
 				"§7Kill the Ender Dragon. Collect its head as proof."
 				"§8It respawns with four End Crystals — fight it as many times as you like."
 			]
-			id: "C100000001000003"
+			id: "64AA73F927351E16"
 			rewards: [
 				{
 					count: 8
-					id: "C200000001000006"
+					id: "162B2CA8FD741153"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C200000001000007"
+					id: "31D906EAFCBBCBDD"
 					type: "xp_levels"
 					xp_levels: 15
 				}
 				{
 					count: 5
-					id: "C200000001000008"
+					id: "59B68404F3DEA14A"
 					item: "minecraft:enchanted_golden_apple"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "C300000001000003"
+				id: "74D5D1B403560653"
 				item: "minecraft:dragon_head"
 				type: "item"
 			}]
@@ -363,7 +364,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["C100000001000002"]
+			dependencies: ["0727C2587C66DB9E"]
 			description: [
 				"§8Deep beneath the Ancient Cities, it waits."
 				""
@@ -373,22 +374,22 @@
 				"§8Slay one Warden and mark complete."
 				"§cBring your best gear."
 			]
-			id: "C100000001000004"
+			id: "26BA2564919D66BC"
 			rewards: [
 				{
 					count: 10
-					id: "C200000001000009"
+					id: "5D588AE3793C61C4"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C200000001000010"
+					id: "722863D994171093"
 					type: "xp_levels"
 					xp_levels: 20
 				}
 			]
 			tasks: [{
-				id: "C300000001000004"
+				id: "69A74978556475F5"
 				title: "Slay a Warden in the Ancient City (mark manually)."
 				type: "checkmark"
 			}]
@@ -397,7 +398,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["C100000001000003" "C100000001000004"]
 			description: [
 				"§c§lYou are the apex."
 				""
@@ -410,28 +410,28 @@
 				""
 				"§8Mark complete when all 5 are done."
 			]
-			id: "C100000001000005"
+			id: "35A76A10941B13E5"
 			rewards: [
 				{
 					count: 15
-					id: "C200000001000011"
+					id: "33A9E90BE9E32E2C"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C200000001000012"
+					id: "1E4A370D99D2BA00"
 					type: "xp_levels"
 					xp_levels: 30
 				}
 				{
 					count: 5
-					id: "C200000001000013"
+					id: "0A718916D23E58AF"
 					item: "minecraft:enchanted_golden_apple"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "C300000001000005"
+				id: "3240CDA85122DC5C"
 				title: "Defeat 5 different modded bosses (mark manually)."
 				type: "checkmark"
 			}]
@@ -448,23 +448,23 @@
 				"§7Recipe: D A D / A N A / D A D"
 				"§8D = Awakened Draconium  A = Astra Alloy  N = Nether Star"
 			]
-			id: "C100000001000006"
+			id: "5B5B250288971B68"
 			rewards: [
 				{
 					count: 8
-					id: "C200000001000014"
+					id: "1E8E0A120609B94E"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C200000001000015"
+					id: "7A5F0AFCA4F586EA"
 					type: "xp_levels"
 					xp_levels: 15
 				}
 			]
 			tasks: [{
-				count: 3
-				id: "C300000001000006"
+				count: 3L
+				id: "72FE12FA6FCAE765"
 				item: "kubejs:prestige_seal"
 				type: "item"
 			}]
@@ -473,7 +473,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["C100000001000006"]
 			description: [
 				"§fTwenty Nether Stars."
 				""
@@ -482,29 +481,29 @@
 				""
 				"§8Farm them. Stack them. This is economy at its peak."
 			]
-			id: "C100000001000007"
+			id: "7248F8D9A0043234"
 			rewards: [
 				{
 					count: 12
-					id: "C200000001000016"
+					id: "62086E4BEC347E9A"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C200000001000017"
+					id: "4EEC7AA2E008400D"
 					type: "xp_levels"
 					xp_levels: 20
 				}
 				{
 					count: 2
-					id: "C200000001000018"
+					id: "70AEC61168E90AF9"
 					item: "minecraft:enchanted_golden_apple"
 					type: "item"
 				}
 			]
 			tasks: [{
-				count: 20
-				id: "C300000001000007"
+				count: 20L
+				id: "580150FAB44772F2"
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
@@ -513,7 +512,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["C100000001000006"]
+			dependencies: ["0727C2587C66DB9E"]
 			description: [
 				"§6You have completed all five phases."
 				"§6Now collect their seals together in one moment."
@@ -525,43 +524,43 @@
 				"§9  Phase IV §7— Reactor Authority Seal"
 				"§5  Phase V §7— Heart of the Vault"
 			]
-			id: "C100000001000008"
+			id: "58B64C3259339B7F"
 			rewards: [
 				{
 					count: 20
-					id: "C200000001000019"
+					id: "438C0B6DA88F20D5"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C200000001000020"
+					id: "1D6BB5E2B5555F9C"
 					type: "xp_levels"
 					xp_levels: 30
 				}
 			]
 			tasks: [
 				{
-					id: "C300000001000008"
+					id: "752E5A9FE7AA15DC"
 					item: "kubejs:rusted_conduit_core"
 					type: "item"
 				}
 				{
-					id: "C300000001000009"
+					id: "33173A74FDF3960A"
 					item: "kubejs:crimson_circuit_of_passage"
 					type: "item"
 				}
 				{
-					id: "C300000001000010"
+					id: "01E6AB3F901ED93E"
 					item: "kubejs:twilight_sigil_plate"
 					type: "item"
 				}
 				{
-					id: "C300000001000011"
+					id: "526C6106D7443833"
 					item: "kubejs:reactor_authority_seal"
 					type: "item"
 				}
 				{
-					id: "C300000001000012"
+					id: "78D668D894C2F470"
 					item: "kubejs:heart_of_the_vault"
 					type: "item"
 				}
@@ -581,22 +580,22 @@
 				"§8At full power it outputs hundreds of thousands of RF/t."
 				"§8Mark complete once the reactor is running."
 			]
-			id: "C100000001000009"
+			id: "5FE7D1B12C538834"
 			rewards: [
 				{
 					count: 10
-					id: "C200000001000021"
+					id: "7D4F3E52B94ABE79"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C200000001000022"
+					id: "224B5ADB22A63E41"
 					type: "xp_levels"
 					xp_levels: 20
 				}
 			]
 			tasks: [{
-				id: "C300000001000013"
+				id: "2B8D47428B6BAE8E"
 				title: "Build and ignite a Mekanism Fusion Reactor (mark manually)."
 				type: "checkmark"
 			}]
@@ -614,22 +613,22 @@
 				"§8Mark complete once filled."
 				"§8Hint: You'll need the Fusion Reactor from the adjacent quest — or a lot of Reactors."
 			]
-			id: "C100000001000010"
+			id: "541802DEC40BDF52"
 			rewards: [
 				{
 					count: 10
-					id: "C200000001000023"
+					id: "5A675A533398C860"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C200000001000024"
+					id: "3AE28114332C6E92"
 					type: "xp_levels"
 					xp_levels: 20
 				}
 			]
 			tasks: [{
-				id: "C300000001000014"
+				id: "665678E63FB7CD30"
 				title: "Build a Tier 7 Draconic Energy Core and fill it to 10% (mark manually)."
 				type: "checkmark"
 			}]
@@ -638,7 +637,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["C100000001000010"]
+			dependencies: ["343F2440DBAF6ADE"]
 			description: [
 				"§bAE2 + Draconic Fusion Crafting + Mekanism processing."
 				"§bFully automated. Zero hands."
@@ -650,22 +649,22 @@
 				""
 				"§8The factory never sleeps. Mark complete when it runs."
 			]
-			id: "C100000001000011"
+			id: "42DC9EFC0D71B865"
 			rewards: [
 				{
 					count: 12
-					id: "C200000001000025"
+					id: "3216BE43CA1935D4"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C200000001000026"
+					id: "7B3AF0C357B42007"
 					type: "xp_levels"
 					xp_levels: 25
 				}
 			]
 			tasks: [{
-				id: "C300000001000015"
+				id: "7565508652AF3987"
 				title: "Set up a fully automated AE2 + Fusion Crafting network (mark manually)."
 				type: "checkmark"
 			}]
@@ -674,7 +673,6 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["343F2440DBAF6ADE"]
 			description: [
 				"§5Prestige III. You have transcended the pack."
 				"§5But the Vault keeps records."
@@ -686,43 +684,43 @@
 				""
 				"§8Proof that you built it all from nothing."
 			]
-			id: "C100000001000012"
+			id: "32A88DF4F801F537"
 			rewards: [
 				{
 					count: 15
-					id: "C200000001000027"
+					id: "3D6B3085FE3DC67D"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C200000001000028"
+					id: "681929CAB13D999C"
 					type: "xp_levels"
 					xp_levels: 25
 				}
 			]
 			tasks: [
 				{
-					id: "C300000001000016"
+					id: "6E78632946F25107"
 					item: "kubejs:astra_alloy_ingot"
 					type: "item"
 				}
 				{
-					id: "C300000001000017"
+					id: "4A777F02BBDE25C1"
 					item: "kubejs:astra_field_blade"
 					type: "item"
 				}
 				{
-					id: "C300000001000018"
+					id: "1F84D624F7B2A634"
 					item: "kubejs:prestige_badge_i"
 					type: "item"
 				}
 				{
-					id: "C300000001000019"
+					id: "500E69B835DE61C8"
 					item: "kubejs:prestige_badge_ii"
 					type: "item"
 				}
 				{
-					id: "C300000001000020"
+					id: "2376AF7C6CF17492"
 					item: "kubejs:prestige_badge_iii"
 					type: "item"
 				}
@@ -732,7 +730,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["C100000001000005" "C100000001000008" "C100000001000011" "C100000001000012"]
+			dependencies: ["6CF4F9BD408A8C00"]
 			description: [
 				"§5§lThis is the gauntlet."
 				""
@@ -747,22 +745,22 @@
 				"§8Craft one final §5Vault Convergence§8 and submit it."
 				"§8Not to advance. To prove you could do it again."
 			]
-			id: "C100000001000013"
+			id: "7D10262FF89C0E2D"
 			rewards: [
 				{
 					count: 30
-					id: "C200000001000029"
+					id: "3EE84DCAFF21371E"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C200000001000030"
+					id: "2BBCB25F534E7CAE"
 					type: "xp_levels"
 					xp_levels: 50
 				}
 				{
 					count: 10
-					id: "C200000001000031"
+					id: "79980A6E5B1E7611"
 					item: "minecraft:enchanted_golden_apple"
 					type: "item"
 				}
@@ -770,7 +768,7 @@
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
-				id: "C300000001000021"
+				id: "105FCFD1509CA1E1"
 				item: "kubejs:vault_convergence"
 				type: "item"
 			}]
@@ -779,7 +777,7 @@
 			y: 18.0d
 		}
 		{
-			dependencies: ["C100000001000013"]
+			dependencies: ["6CF4F9BD408A8C00"]
 			description: [
 				"§b§lYou are witnessed."
 				""
@@ -792,22 +790,22 @@
 				""
 				"§8One more step."
 			]
-			id: "C100000001000014"
+			id: "41BE4A9FC262B9FF"
 			rewards: [
 				{
 					count: 20
-					id: "C200000001000032"
+					id: "37D6D3D6145A72BE"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C200000001000033"
+					id: "3173C536F1FF106C"
 					type: "xp_levels"
 					xp_levels: 50
 				}
 			]
 			tasks: [{
-				id: "C300000001000022"
+				id: "3D22637E561311D9"
 				title: "The Vault has recorded everything. Step forward."
 				type: "checkmark"
 			}]
@@ -816,7 +814,7 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["C100000001000014"]
+			dependencies: ["6CF4F9BD408A8C00"]
 			description: [
 				"§b§l✦ ASTRA ETERNUM ✦"
 				""
@@ -830,55 +828,55 @@
 				"§8This is the true ending of Astra Mekanika."
 				"§8No more phases. No more seals. Only legacy."
 			]
-			id: "C100000001000015"
+			id: "2BE373003D6317CC"
 			rewards: [
 				{
 					count: 100
-					id: "C200000001000034"
+					id: "773C1F6FC75AB9DF"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C200000001000035"
+					id: "2470497863D0A069"
 					type: "xp_levels"
 					xp_levels: 100
 				}
 				{
 					count: 20
-					id: "C200000001000036"
+					id: "737126CDDF348985"
 					item: "minecraft:enchanted_golden_apple"
 					type: "item"
 				}
 				{
-					id: "C200000001000037"
+					id: "581C4A1D9285FE37"
 					item: "draconicevolution:draconic_sword"
 					type: "item"
 				}
 				{
-					id: "C200000001000038"
+					id: "4E4052701C736F84"
 					item: "draconicevolution:draconic_chestplate"
 					type: "item"
 				}
 				{
 					command: "/title @a title {\"text\":\"✦ ASTRA ETERNUM ✦\",\"color\":\"aqua\",\"bold\":true}"
-					id: "C200000001000039"
+					id: "7E5A8F05B8A3D74F"
 					type: "command"
 				}
 				{
 					command: "/title @a subtitle {\"text\":\"You are beyond the Vault. The stars remember.\",\"color\":\"white\"}"
-					id: "C200000001000040"
+					id: "42E34B17379C2814"
 					type: "command"
 				}
 				{
 					command: "/me has achieved §bASTRA ETERNUM§r — the true ending of Astra Mekanika."
-					id: "C200000001000041"
+					id: "32925E463EDB1C2E"
 					type: "command"
 				}
 			]
 			shape: "octagon"
 			size: 3.5d
 			tasks: [{
-				id: "C300000001000023"
+				id: "343137A10865ED91"
 				title: "You are Astra Eternum."
 				type: "checkmark"
 			}]

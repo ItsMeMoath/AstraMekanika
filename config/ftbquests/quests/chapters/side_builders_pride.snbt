@@ -18,14 +18,14 @@
 				"§8Mods used: §eAdorn§8, §eArchitect's Palette§8, §eMCW Furniture§8, §ePrefab§8, §eEtched§8."
 			]
 			id: "7F09BC5575387E5E"
-			rewards: [{
-				id: "2570C07D24D2B040"
-				type: "xp_levels"
-				xp_levels: 1
+			rewards: [
+				{
+					id: "2570C07D24D2B040"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 				{
-					count: 1
-					id: "D1E2F3A4B5C60060"
+					id: "3C5F6C337C8E9C35"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -42,6 +42,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7F09BC5575387E5E"]
 			description: [
 				"§7Craft and place an §eAdorn§7 furniture piece."
 				""
@@ -66,8 +67,7 @@
 					type: "item"
 				}
 				{
-					count: 1
-					id: "D1E2F3A4B5C60051"
+					id: "71AE014ED074BD35"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -82,6 +82,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2433AC5BE4534E65"]
 			description: [
 				"§7Build a room using §eArchitect's Palette§7 decorative blocks."
 				""
@@ -108,13 +109,12 @@
 				}
 				{
 					count: 2
-					id: "D1E2F3A4B5C60052"
+					id: "4360B700D632F3FE"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
 			tasks: [{
-				count: 10L
 				id: "2DB0A209FEEE1647"
 				title: "Build a room using Architect Palette or decorative blocks."
 				type: "checkmark"
@@ -124,6 +124,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["67F3586EEECDC179"]
 			description: [
 				"§7Craft and use an §eEtched§7 block — a custom-patterned decorative block."
 				""
@@ -148,7 +149,7 @@
 				}
 				{
 					count: 2
-					id: "D1E2F3A4B5C60053"
+					id: "4511F51543CAB3C2"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -163,6 +164,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7F09BC5575387E5E"]
 			description: [
 				"§7Use §ePrefab§7 to instantly place a pre-built structure."
 				""
@@ -198,6 +200,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["188B7639E3A4C42E"]
 			description: [
 				"§7Craft and place §eMCW Furniture§7 pieces in a kitchen or living area."
 				""
@@ -232,6 +235,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["0B8716BE1ECC7625"]
 			description: [
 				"§7Build a proper base exterior — at least §720×20 blocks§7 with:"
 				"§7  A main entrance with gates or doors"
@@ -265,6 +269,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["0EFFAF7AAFEB500C"]
 			description: [
 				"§7Craft §7Framed Blocks§7 and use them to apply custom textures to structural shapes."
 				""
@@ -289,7 +294,7 @@
 				}
 				{
 					count: 2
-					id: "D1E2F3A4B5C60054"
+					id: "3647AA4F83C152E0"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -304,6 +309,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["06663A9C8FE8EFFC"]
 			description: [
 				"§7Build a decorative facade on your base using at least §73 different block families§7."
 				""
@@ -337,6 +343,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["555482122A7DA148"]
 			description: [
 				"§7Build a §7hidden room§7 with a concealed entrance."
 				""
@@ -372,6 +379,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["336DB28E7DACE54E"]
 			description: [
 				"§7Build a base with at least §75 distinct functional rooms§7."
 				""
@@ -408,6 +416,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["7F09BC5575387E5E"]
 			description: [
 				"§7Build a §aGarden§7 outside your base — at least §720 blocks of outdoor decoration§7."
 				""
@@ -443,6 +452,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["3886942E8A369E26"]
 			description: [
 				"§7Replace all torches in your base with §7decorative light sources§7."
 				""
@@ -470,7 +480,7 @@
 				}
 				{
 					count: 2
-					id: "D1E2F3A4B5C60055"
+					id: "77B89CAEE8B2AF92"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
@@ -485,6 +495,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["4CF3A7C940081CF3"]
 			description: [
 				"§7Create a §e§lstained glass window§7 — at least §75 colored glass blocks§7 in a deliberate pattern."
 				""
@@ -518,6 +529,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["522805E0357AE8EF"]
 			description: [
 				"§7Connect two structures with a §7sky bridge§7 — at least §715 blocks long§7."
 				""
@@ -551,6 +563,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["2433AC5BE4534E65"]
 			description: [
 				"§7Build a §7Watchtower§7 — at least §720 blocks tall§7 with a visible platform at the top."
 				""
@@ -587,6 +600,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["2433AC5BE4534E65"]
 			description: [
 				"§7Fully decorate a §7themed room§7 using MCW Furniture — kitchen, bedroom, office, or workshop."
 				""
