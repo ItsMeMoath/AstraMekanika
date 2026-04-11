@@ -22,7 +22,14 @@
 				id: "2570C07D24D2B040"
 				type: "xp_levels"
 				xp_levels: 1
-			}]
+				}
+				{
+					count: 1
+					id: "D1E2F3A4B5C60060"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
@@ -56,6 +63,12 @@
 					count: 4
 					id: "05C6A4AE1B86F8C9"
 					item: "minecraft:oak_slab"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "D1E2F3A4B5C60051"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -93,6 +106,12 @@
 					item: "minecraft:stone_bricks"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "D1E2F3A4B5C60052"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 10L
@@ -125,6 +144,12 @@
 					count: 4
 					id: "5E15E611A960AA6D"
 					item: "etched:etched_copper_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "D1E2F3A4B5C60053"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -260,6 +285,12 @@
 					count: 4
 					id: "60C36AB1186C054A"
 					item: "framedblocks:framed_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "D1E2F3A4B5C60054"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -435,6 +466,12 @@
 					count: 4
 					id: "0DA3B03670954F8C"
 					item: "minecraft:lantern"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "D1E2F3A4B5C60055"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]

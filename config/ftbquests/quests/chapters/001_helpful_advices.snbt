@@ -121,7 +121,7 @@
 				title: "Got it."
 				type: "checkmark"
 			}]
-			title: "&cFood & Buffs"
+			title: "&cFood \& Buffs"
 			x: 0.0d
 			y: -10.5d
 		}
@@ -141,7 +141,7 @@
 				title: "Noted."
 				type: "checkmark"
 			}]
-			title: "&6&l⚙ Tech & Power"
+			title: "&6&l⚙ Tech \& Power"
 			x: 4.5d
 			y: -3.0d
 		}

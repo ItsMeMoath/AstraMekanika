@@ -196,7 +196,7 @@
 				{
 					id: "70CB709DBFCC479D"
 					type: "xp_levels"
-					xp_levels: 30
+					xp_levels: 60
 				}
 				{
 					count: 15
@@ -218,6 +218,16 @@
 				{
 					command: "/function moathco:phase_4_broadcast"
 					id: "1BD4FD5C1DF1809A"
+					type: "command"
+				}
+				{
+					command: "/title @a title {\"text\":\"✦ Phase IV Complete\",\"color\":\"blue\",\"bold\":true}"
+					id: "B1C2D3E4F5A60007"
+					type: "command"
+				}
+				{
+					command: "/title @a subtitle {\"text\":\"Cataclysmic Breaker — The reactor roars.\",\"color\":\"gray\"}"
+					id: "B1C2D3E4F5A60008"
 					type: "command"
 				}
 			]

@@ -22,7 +22,14 @@
 				id: "5FFD186CFF8A5350"
 				type: "xp_levels"
 				xp_levels: 1
-			}]
+				}
+				{
+					count: 1
+					id: "D1E2F3A4B5C60057"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
@@ -53,6 +60,12 @@
 					count: 2
 					id: "7225810FBDC5DFE9"
 					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "D1E2F3A4B5C60020"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -89,6 +102,12 @@
 					item: "minecraft:golden_apple"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "D1E2F3A4B5C60021"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "363EADF5DD7AEBD3"
@@ -118,6 +137,12 @@
 				{
 					id: "592B2E05AA2941B4"
 					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "D1E2F3A4B5C60022"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -218,6 +243,12 @@
 					item: "minecraft:emerald"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "D1E2F3A4B5C60023"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "393D1674547ACF3B"
@@ -285,6 +316,12 @@
 					item: "minecraft:ender_pearl"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "D1E2F3A4B5C60024"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "399431CD18FC7346"
@@ -317,6 +354,12 @@
 					count: 4
 					id: "206FC87BC962ABAE"
 					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "D1E2F3A4B5C60025"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -353,6 +396,12 @@
 					item: "minecraft:sponge"
 					type: "item"
 				}
+				{
+					count: 3
+					id: "D1E2F3A4B5C60026"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "13F53E20E8374C51"
@@ -385,6 +434,12 @@
 					count: 8
 					id: "5A752DCAE78C8201"
 					item: "minecraft:end_stone"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "D1E2F3A4B5C60027"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -426,6 +481,12 @@
 							Damage: 0
 						}
 					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "D1E2F3A4B5C60028"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -565,6 +626,12 @@
 					item: "minecraft:blaze_rod"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "D1E2F3A4B5C60029"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 8L
@@ -599,6 +666,12 @@
 					count: 4
 					id: "0DBD1D93DC746FC1"
 					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "D1E2F3A4B5C60030"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]

@@ -28,7 +28,14 @@
 				id: "11DC530816394C68"
 				type: "xp_levels"
 				xp_levels: 1
-			}]
+				}
+				{
+					count: 1
+					id: "D1E2F3A4B5C60058"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
@@ -62,6 +69,12 @@
 					item: "minecraft:experience_bottle"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "D1E2F3A4B5C60032"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{			
 				id: "71936455F6B3F316"
@@ -92,6 +105,12 @@
 				{
 					id: "22A328A7AA54B932"
 					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "D1E2F3A4B5C60033"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -297,6 +316,12 @@
 					item: "minecraft:nether_star"
 					type: "item"
 				}
+				{
+					count: 5
+					id: "D1E2F3A4B5C60034"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{			
 				id: "0175C203EB7DCD22"
@@ -365,6 +390,12 @@
 					count: 4
 					id: "38C2E9E0021CC1AE"
 					item: "minecraft:sponge"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "D1E2F3A4B5C60035"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -469,6 +500,12 @@
 					item: "minecraft:wither_skeleton_skull"
 					type: "item"
 				}
+				{
+					count: 3
+					id: "D1E2F3A4B5C60036"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 3L
@@ -501,6 +538,12 @@
 					count: 2
 					id: "5A307D4820892941"
 					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "D1E2F3A4B5C60037"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -574,6 +617,12 @@
 							Damage: 0
 						}
 					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "D1E2F3A4B5C60038"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]

@@ -190,7 +190,7 @@
 				{
 					id: "43570725DD2C91C7"
 					type: "xp_levels"
-					xp_levels: 15
+					xp_levels: 30
 				}
 				{
 					count: 5
@@ -212,6 +212,16 @@
 				{
 					command: "/function moathco:phase_1_broadcast"
 					id: "32899A1194CEC840"
+					type: "command"
+				}
+				{
+					command: "/title @a title {\"text\":\"✦ Phase I Complete\",\"color\":\"gold\",\"bold\":true}"
+					id: "B1C2D3E4F5A60001"
+					type: "command"
+				}
+				{
+					command: "/title @a subtitle {\"text\":\"Rusted Dawn cleared. The world opens.\",\"color\":\"gray\"}"
+					id: "B1C2D3E4F5A60002"
 					type: "command"
 				}
 			]

@@ -180,7 +180,7 @@
 				{
 					id: "64A80A59D34F074F"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 50
 				}
 				{
 					count: 12
@@ -202,6 +202,16 @@
 				{
 					command: "/function moathco:phase_3_broadcast"
 					id: "246C8607DCE90D19"
+					type: "command"
+				}
+				{
+					command: "/title @a title {\"text\":\"✦ Phase III Complete\",\"color\":\"aqua\",\"bold\":true}"
+					id: "B1C2D3E4F5A60005"
+					type: "command"
+				}
+				{
+					command: "/title @a subtitle {\"text\":\"Twilight Pressure — The forest bows.\",\"color\":\"gray\"}"
+					id: "B1C2D3E4F5A60006"
 					type: "command"
 				}
 			]

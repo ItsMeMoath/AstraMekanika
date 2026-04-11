@@ -200,14 +200,25 @@
 					item: "kubejs:moathco_files_vol_5"
 					type: "item"
 				}
+				{
+					command: "/title @a title {\"text\":\"§5Heart of the Vault\",\"bold\":true}"
+					id: "A1B2C3D4E5F60001"
+					type: "command"
+				}
+				{
+					command: "/title @a subtitle {\"text\":\"The final gate is forged.\",\"color\":\"gray\"}"
+					id: "A1B2C3D4E5F60002"
+					type: "command"
+				}
 			]
-			size: 1.5d
+			shape: "octagon"
+			size: 2.0d
 			tasks: [{
 				id: "3453C18830C9D3E8"
 				item: "kubejs:heart_of_the_vault"
 				type: "item"
 			}]
-			title: "§5Heart of the Vault"
+			title: "§5§l✦ Heart of the Vault"
 			x: 15.0d
 			y: 0.0d
 		}
