@@ -28,7 +28,7 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "A005000000000001"
+				id: "30BDF5B9AB2EE414"
 				item: "kubejs:phase_seal_4"
 				type: "item"
 			}]
@@ -64,7 +64,7 @@
 				}
 			]
 			tasks: [{
-				id: "A005000000000002"
+				id: "7C95214461774C2B"
 				item: "galacticraft:rocket_t1"
 				type: "item"
 			}]
@@ -132,7 +132,7 @@
 				}
 			]
 			tasks: [{
-				id: "A005000000000003"
+				id: "08C003098009AA67"
 				item: "cataclysm:ignited_revenants_eye"
 				type: "item"
 			}]
@@ -235,8 +235,13 @@
 				"§7Every system you built. Every seal you forged. Every dimension you walked."
 				"§7It all comes together here."
 				""
-				"§7Craft the §5§lVault Convergence§7 using Fusion Crafting."
-				"§7Recipe: §5Awakened Draconium§7 + §6Astra Alloy§7 + §cNether Star§7 + §9AE2 Crystal§7 + §5Heart of the Vault§7"
+				"§7Craft the §5§lVault Convergence§7 at a Crafting Table."
+				"§8Ingredients:"
+				"§8  4× §5Awakened Draconium Ingot"
+				"§8  1× §4Dragon Egg"
+				"§8  2× §4Master Blood Orb"
+				"§8  1× §5Heart of the Vault"
+				"§8  1× §bMekanism Atomic Alloy"
 				""
 				"§e§lYou are the Architect."
 				""
@@ -306,19 +311,19 @@
 			tasks: [
 				{
 					count: 8L
-					id: "A005000000000004"
+					id: "07AB27000610C1D0"
 					item: "galacticraft:moon_rock"
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "A005000000000005"
+					id: "44DA7B2ED56CEB34"
 					item: "galacticraft:mars_surface_rock"
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "A005000000000006"
+					id: "3B23F21C190959EF"
 					item: "galacticraft:venus_surface_rock"
 					type: "item"
 				}
@@ -352,12 +357,12 @@
 			]
 			tasks: [
 				{
-					id: "A005000000000007"
+					id: "50CFE108DBCCB083"
 					item: "draconicevolution:awakened_core"
 					type: "item"
 				}
 				{
-					id: "A005000000000008"
+					id: "645C3A7D29779710"
 					item: "draconicevolution:draconic_chestplate"
 					type: "item"
 				}
@@ -391,7 +396,7 @@
 				}
 			]
 			tasks: [{
-				id: "A005000000000009"
+				id: "4264ACF60F2B7B86"
 				item: "rftools:dimension_builder"
 				type: "item"
 			}]
@@ -426,7 +431,7 @@
 				}
 			]
 			tasks: [{
-				id: "A00500000000000A"
+				id: "17F83270BAE06E69"
 				item: "draconicevolution:reactor_core"
 				type: "item"
 			}]
@@ -463,7 +468,7 @@
 			]
 			tasks: [{
 				count: 4L
-				id: "A00500000000000B"
+				id: "0D28119E9C08A167"
 				item: "galacticraft:raw_desh"
 				type: "item"
 			}]
@@ -499,7 +504,7 @@
 				}
 			]
 			tasks: [{
-				id: "A00500000000000C"
+				id: "56F7BE0BF61CF1B5"
 				item: "galacticraft:rocket_launch_pad"
 				type: "item"
 			}]
@@ -621,7 +626,7 @@
 				}
 			]
 			tasks: [{
-				id: "A00500000000000D"
+				id: "2EE3138228EAB484"
 				item: "cataclysm:ignited_revenants_eye"
 				type: "item"
 			}]
@@ -657,7 +662,7 @@
 				}
 			]
 			tasks: [{
-				id: "A00500000000000E"
+				id: "5D8FF34F6BF7E8EF"
 				item: "cataclysm:ender_guardian_eye"
 				type: "item"
 			}]
@@ -693,7 +698,7 @@
 				}
 			]
 			tasks: [{
-				id: "A00500000000000F"
+				id: "77E2BA9E903CC6B9"
 				item: "draconicevolution:energy_core"
 				type: "item"
 			}]

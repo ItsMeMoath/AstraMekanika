@@ -18,11 +18,11 @@
 				"§dThe Prestige system allows you to ascend beyond Phase V."
 				"§dEach Prestige brings greater rewards — and harder enemies."
 				""
-				"§8Craft a §5Prestige Seal§8 to begin:"
-				"§8  D A D"
-				"§8  A N A"
-				"§8  D A D"
-				"§8D = Awakened Draconium  A = Astra Alloy  N = Nether Star"
+				"§8Craft a §5Prestige Seal§8 to begin."
+				"§8Ingredients:"
+				"§8  4× §5Awakened Draconium Ingot"
+				"§8  4× §6Astra Alloy"
+				"§8  1× §fNether Star"
 			]
 			id: "6CF4F9BD408A8C00"
 			shape: "hexagon"
@@ -279,10 +279,10 @@
 				}
 			]
 			tasks: [{
-				count: 500L
 				entity: "minecraft:zombie"
-				id: "C002000000000001"
+				id: "4C072684D230F0E3"
 				type: "kill"
+				value: 0L
 			}]
 			title: "§c⚔ Arch Slayer I"
 			x: -4.0d
@@ -319,10 +319,10 @@
 				}
 			]
 			tasks: [{
-				count: 2000L
 				entity: "minecraft:zombie"
-				id: "C002000000000002"
+				id: "7B0D6A55C062299B"
 				type: "kill"
+				value: 0L
 			}]
 			title: "§4⚔ Arch Slayer II"
 			x: -8.0d
@@ -391,10 +391,10 @@
 				}
 			]
 			tasks: [{
-				count: 1L
 				entity: "minecraft:warden"
-				id: "C002000000000003"
+				id: "5CE52710398590FF"
 				type: "kill"
+				value: 0L
 			}]
 			title: "§8Fear the Ancient"
 			x: -8.0d
@@ -435,27 +435,27 @@
 			]
 			tasks: [
 				{
-					id: "C002000000000004"
+					id: "1BBF82DF954601EF"
 					item: "cataclysm:ignited_revenants_eye"
 					type: "item"
 				}
 				{
-					id: "C002000000000005"
+					id: "657C925A8CBD918D"
 					item: "mowziesmobs:barakoa_mask"
 					type: "item"
 				}
 				{
-					id: "C002000000000006"
+					id: "4F2E901CF505093C"
 					item: "minecraft:nether_star"
 					type: "item"
 				}
 				{
-					id: "C002000000000007"
+					id: "2CFC374BA97C458E"
 					item: "botania:gaia_spirit"
 					type: "item"
 				}
 				{
-					id: "C002000000000008"
+					id: "2924E603CC023C85"
 					item: "twilightforest:phantom_helm"
 					type: "item"
 				}
@@ -470,8 +470,7 @@
 				"§5The Prestige Seal is not a one-time craft."
 				""
 				"§7Craft 3 more Prestige Seals beyond the ones you've used."
-				"§7Recipe: D A D / A N A / D A D"
-				"§8D = Awakened Draconium  A = Astra Alloy  N = Nether Star"
+				"§8Ingredients: §54× Awakened Draconium Ingot §7+ §64× Astra Alloy §7+ §f1× Nether Star"
 			]
 			id: "5B5B250288971B68"
 			rewards: [
@@ -620,7 +619,7 @@
 				}
 			]
 			tasks: [{
-				id: "C002000000000009"
+				id: "0BB13C8AA0DDC9D5"
 				item: "mekanism:fusion_reactor_controller"
 				type: "item"
 			}]
@@ -654,13 +653,13 @@
 			]
 			tasks: [
 				{
-					id: "C00200000000000A"
+					id: "6CF5E56794E9E730"
 					item: "draconicevolution:energy_core"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "C00200000000000B"
+					id: "2602699AB0074FEA"
 					item: "draconicevolution:energy_pylon"
 					type: "item"
 				}
@@ -698,12 +697,12 @@
 			]
 			tasks: [
 				{
-					id: "C00200000000000C"
+					id: "2127D9AC468BF408"
 					item: "ae2:molecular_assembler"
 					type: "item"
 				}
 				{
-					id: "C00200000000000D"
+					id: "64060BC4DB677977"
 					item: "draconicevolution:fusion_crafting_injector"
 					type: "item"
 				}
@@ -845,7 +844,7 @@
 				}
 			]
 			tasks: [{
-				id: "C00200000000000E"
+				id: "18AB89BA5A813CF2"
 				item: "kubejs:heart_of_the_vault"
 				type: "item"
 			}]
@@ -916,7 +915,7 @@
 			shape: "octagon"
 			size: 3.5d
 			tasks: [{
-				id: "C00200000000000F"
+				id: "71AC34CD6D678565"
 				item: "kubejs:vault_convergence"
 				type: "item"
 			}]
