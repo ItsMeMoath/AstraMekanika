@@ -7,10 +7,10 @@ const NIGHT_START = 13000;      // tick when night begins
 
 ServerEvents.tick(event => {
     const server = event.server;
+    const level = server.overworld();
+    if (!level) return;
 
-    server.levels.forEach(level => {
-        if (level.dimension !== 'minecraft:overworld') return;
-
+    {
         const time = level.time % DAY_LENGTH;
         const dayCount = Math.floor(level.time / DAY_LENGTH);
         const data = level.persistentData;
@@ -68,5 +68,5 @@ ServerEvents.tick(event => {
                 level.runCommandSilent(`summon ${mob} ${spawnX} ${y} ${spawnZ} {PersistenceRequired:0b}`);
             });
         }
-    });
+    }
 });

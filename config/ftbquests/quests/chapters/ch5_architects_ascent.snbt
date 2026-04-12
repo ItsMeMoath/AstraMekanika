@@ -29,7 +29,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "30BDF5B9AB2EE414"
-				item: "kubejs:phase_seal_4"
+				item: "kubejs:reactor_authority_seal"
 				type: "item"
 			}]
 			title: "§5§lThe Architect's Ascent"

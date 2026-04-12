@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
 
     // Lock Refined Storage Controller behind Phase 2 Circuit
     // NOTE: type filter prevents TechReborn FluidGeneratorRecipe crash
-    event.remove({ type: 'minecraft:crafting_shaped', output: 'refinedstorage:controller' });
+    event.remove({ id: 'refinedstorage:controller' });
     event.shaped('refinedstorage:controller', [
         'QQQ',
         'QCQ',

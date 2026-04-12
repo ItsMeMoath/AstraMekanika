@@ -33,7 +33,7 @@
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
-				id: "B004000000000001"
+				id: "22E125E718182A97"
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
@@ -226,13 +226,13 @@
 			tasks: [
 				{
 					count: 8L
-					id: "B004000000000002"
+					id: "4816A5F2271CF0F3"
 					item: "minecraft:wheat_seeds"
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "B004000000000003"
+					id: "1FB6C9F25722C912"
 					item: "farmersdelight:rice"
 					type: "item"
 				}
@@ -470,19 +470,19 @@
 			tasks: [
 				{
 					count: 4L
-					id: "B004000000000004"
+					id: "0436AABFB51C2EB7"
 					item: "minecraft:egg"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "B004000000000005"
+					id: "1BA9092076D14B09"
 					item: "minecraft:wool"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "B004000000000006"
+					id: "26B819054FB0D57E"
 					item: "minecraft:leather"
 					type: "item"
 				}
@@ -553,12 +553,12 @@
 			]
 			tasks: [
 				{
-					id: "B004000000000007"
+					id: "519135271F267F0D"
 					item: "farmersdelight:cooking_pot"
 					type: "item"
 				}
 				{
-					id: "B004000000000008"
+					id: "18A8650954EE9462"
 					item: "create:mechanical_harvester"
 					type: "item"
 				}
@@ -600,12 +600,12 @@
 			]
 			tasks: [
 				{
-					id: "B004000000000009"
+					id: "7F7A23FFDB15C779"
 					item: "farmersdelight:compost_heap"
 					type: "item"
 				}
 				{
-					id: "B00400000000000A"
+					id: "18098057B4A881FD"
 					item: "farmersdelight:rich_soil"
 					type: "item"
 				}

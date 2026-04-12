@@ -160,9 +160,9 @@
 			shape: "octagon"
 			size: 1.75d
 			tasks: [{
+				count: 4L
 				id: "0001000000000051"
 				item: "minecraft:iron_ingot"
-				count: 4L
 				type: "item"
 			}]
 			title: "&e&lJourney Awaits"

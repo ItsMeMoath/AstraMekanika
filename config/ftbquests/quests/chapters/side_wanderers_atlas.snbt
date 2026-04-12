@@ -33,7 +33,7 @@
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
-				id: "B002000000000001"
+				id: "4E2489047923EB48"
 				item: "minecraft:filled_map"
 				type: "item"
 			}]
@@ -112,7 +112,7 @@
 				}
 			]
 			tasks: [{
-				id: "B002000000000002"
+				id: "13CC55FDC614DE35"
 				item: "dungeons_arise:adventurer_map"
 				type: "item"
 			}]
@@ -150,7 +150,7 @@
 				}
 			]
 			tasks: [{
-				id: "B002000000000003"
+				id: "745B27EE7321E67D"
 				item: "minecraft:compass"
 				type: "item"
 			}]
@@ -184,7 +184,7 @@
 				}
 			]
 			tasks: [{
-				id: "B002000000000004"
+				id: "31187393E39D459A"
 				item: "cataclysm:ancient_key"
 				type: "item"
 			}]
@@ -217,7 +217,7 @@
 				}
 			]
 			tasks: [{
-				id: "B002000000000005"
+				id: "2BC5F9D95682745A"
 				item: "dungeons_plus:dungeon_key"
 				type: "item"
 			}]
@@ -258,7 +258,7 @@
 			]
 			tasks: [{
 				count: 10L
-				id: "B002000000000006"
+				id: "2BBCB6FED8230B96"
 				item: "minecraft:emerald"
 				type: "item"
 			}]
@@ -294,7 +294,7 @@
 			]
 			tasks: [{
 				count: 4L
-				id: "B002000000000007"
+				id: "61DDC2CF971DBEA5"
 				item: "undergarden:gloomstone"
 				type: "item"
 			}]
@@ -335,7 +335,7 @@
 			]
 			tasks: [{
 				count: 3L
-				id: "B002000000000008"
+				id: "7453CBFD6E381B1A"
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
@@ -376,7 +376,7 @@
 				}
 			]
 			tasks: [{
-				id: "B002000000000009"
+				id: "07BBFC82CCD418D9"
 				item: "minecraft:echo_shard"
 				type: "item"
 			}]
@@ -417,7 +417,7 @@
 				}
 			]
 			tasks: [{
-				id: "B00200000000000A"
+				id: "5C7A34E532749B48"
 				item: "minecraft:sponge"
 				type: "item"
 			}]
@@ -459,7 +459,7 @@
 			]
 			tasks: [{
 				count: 4L
-				id: "B00200000000000B"
+				id: "1153634FFA18BB01"
 				item: "minecraft:end_stone"
 				type: "item"
 			}]
@@ -542,7 +542,7 @@
 				}
 			]
 			tasks: [{
-				id: "B00200000000000C"
+				id: "2079E51A23197621"
 				item: "betterend:aeternium_ingot"
 				type: "item"
 			}]
@@ -580,25 +580,25 @@
 			tasks: [
 				{
 					count: 4L
-					id: "B00200000000000D"
+					id: "5C8A163196057E27"
 					item: "minecraft:soul_sand"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "B00200000000000E"
+					id: "448549784981E93E"
 					item: "minecraft:crimson_fungus"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "B00200000000000F"
+					id: "23396C802A83986C"
 					item: "minecraft:warped_fungus"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "B002000000000010"
+					id: "73D1677F9D1FB940"
 					item: "minecraft:basalt"
 					type: "item"
 				}
@@ -636,7 +636,7 @@
 			]
 			tasks: [{
 				count: 4L
-				id: "B002000000000011"
+				id: "7599484893E90983"
 				item: "aether:skyroot_log"
 				type: "item"
 			}]
@@ -719,7 +719,7 @@
 				}
 			]
 			tasks: [{
-				id: "B002000000000012"
+				id: "5B4A3F86DA74670C"
 				item: "minecraft:lodestone"
 				type: "item"
 			}]

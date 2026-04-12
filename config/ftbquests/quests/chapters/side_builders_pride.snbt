@@ -34,7 +34,7 @@
 			size: 1.75d
 			tasks: [{
 				count: 64L
-				id: "B005000000000001"
+				id: "299C8698E2433129"
 				item: "minecraft:oak_planks"
 				type: "item"
 			}]
@@ -74,7 +74,7 @@
 				}
 			]
 			tasks: [{
-				id: "B005000000000002"
+				id: "76DF9C5AACDD95F6"
 				item: "adorn:oak_armchair"
 				type: "item"
 			}]
@@ -117,7 +117,7 @@
 			]
 			tasks: [{
 				count: 8L
-				id: "B005000000000003"
+				id: "09C6460F2CFBB34D"
 				item: "architects_palette:rocky_dirt"
 				type: "item"
 			}]
@@ -193,7 +193,7 @@
 				}
 			]
 			tasks: [{
-				id: "B005000000000004"
+				id: "13B86CEE9901FAB1"
 				item: "prefab:structure_wand"
 				type: "item"
 			}]
@@ -229,7 +229,7 @@
 			]
 			tasks: [{
 				count: 5L
-				id: "B005000000000005"
+				id: "5F3DE34D15E35D97"
 				item: "mcwfurnitures:oak_chair"
 				type: "item"
 			}]
@@ -265,13 +265,13 @@
 			tasks: [
 				{
 					count: 64L
-					id: "B005000000000006"
+					id: "009B45C8DFE231DA"
 					item: "minecraft:oak_log"
 					type: "item"
 				}
 				{
 					count: 64L
-					id: "B005000000000007"
+					id: "1380E5C39A9BF9ED"
 					item: "minecraft:oak_planks"
 					type: "item"
 				}
@@ -348,19 +348,19 @@
 			tasks: [
 				{
 					count: 16L
-					id: "B005000000000008"
+					id: "6CBBBF65635C676D"
 					item: "minecraft:stone_bricks"
 					type: "item"
 				}
 				{
 					count: 16L
-					id: "B005000000000009"
+					id: "38D60B5AA88AF9CF"
 					item: "minecraft:oak_planks"
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "B00500000000000A"
+					id: "29CB165DF8AF9D90"
 					item: "minecraft:glass"
 					type: "item"
 				}
@@ -398,12 +398,12 @@
 			]
 			tasks: [
 				{
-					id: "B00500000000000B"
+					id: "0423511A3994E154"
 					item: "minecraft:iron_door"
 					type: "item"
 				}
 				{
-					id: "B00500000000000C"
+					id: "18340973E6496510"
 					item: "minecraft:stone_pressure_plate"
 					type: "item"
 				}
@@ -442,17 +442,17 @@
 			]
 			tasks: [
 				{
-					id: "B00500000000000D"
+					id: "40B4EB39858C7F41"
 					item: "minecraft:crafting_table"
 					type: "item"
 				}
 				{
-					id: "B00500000000000E"
+					id: "75B9EC2A4EEFC253"
 					item: "minecraft:furnace"
 					type: "item"
 				}
 				{
-					id: "B00500000000000F"
+					id: "3EA4C43D8A95EA4F"
 					item: "minecraft:chest"
 					type: "item"
 				}
@@ -491,13 +491,13 @@
 			tasks: [
 				{
 					count: 16L
-					id: "B005000000000010"
+					id: "0FD0ABE5C6B5254B"
 					item: "minecraft:bone_meal"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "B005000000000011"
+					id: "5D90A518203D2089"
 					item: "minecraft:flower_pot"
 					type: "item"
 				}
@@ -543,12 +543,12 @@
 			tasks: [
 				{
 					count: 8L
-					id: "B005000000000012"
+					id: "3C7C83E700257D1E"
 					item: "minecraft:lantern"
 					type: "item"
 				}
 				{
-					id: "B005000000000013"
+					id: "3A343B304EF90CD5"
 					item: "mcwlights:iron_chandelier"
 					type: "item"
 				}
@@ -584,7 +584,7 @@
 			]
 			tasks: [{
 				count: 5L
-				id: "B005000000000014"
+				id: "76A035986285DE66"
 				item: "minecraft:white_stained_glass"
 				type: "item"
 			}]
@@ -620,13 +620,13 @@
 			tasks: [
 				{
 					count: 32L
-					id: "B005000000000015"
+					id: "4890DDDE6B966D05"
 					item: "minecraft:glass"
 					type: "item"
 				}
 				{
 					count: 32L
-					id: "B005000000000016"
+					id: "4414F3B2C9331B7B"
 					item: "minecraft:oak_slab"
 					type: "item"
 				}
@@ -666,13 +666,13 @@
 			tasks: [
 				{
 					count: 32L
-					id: "B005000000000017"
+					id: "6D30975F7706429F"
 					item: "minecraft:oak_log"
 					type: "item"
 				}
 				{
 					count: 64L
-					id: "B005000000000018"
+					id: "5DBD7FEF243321B9"
 					item: "minecraft:oak_planks"
 					type: "item"
 				}
@@ -711,13 +711,13 @@
 			tasks: [
 				{
 					count: 2L
-					id: "B005000000000019"
+					id: "3D9659297D37E23C"
 					item: "mcwfurnitures:oak_table"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "B00500000000001A"
+					id: "428586F56F39CE29"
 					item: "mcwfurnitures:oak_chair"
 					type: "item"
 				}

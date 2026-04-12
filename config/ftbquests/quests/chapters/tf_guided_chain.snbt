@@ -21,7 +21,7 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "D001000000000001"
+				id: "4441A4762C2ED5B4"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
@@ -292,7 +292,7 @@
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
-				id: "D001000000000002"
+				id: "00C9D57112BB6E72"
 				item: "twilightforest:trophy_pedestal"
 				type: "item"
 			}]

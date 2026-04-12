@@ -27,8 +27,8 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "A003000000000001"
-				item: "kubejs:phase_seal_2"
+				id: "30E4D40A7EA2D0A0"
+				item: "kubejs:crimson_circuit_of_passage"
 				type: "item"
 			}]
 			title: "§3§lThe Forest Beyond"
@@ -60,7 +60,7 @@
 				}
 			]
 			tasks: [{
-				id: "A003000000000002"
+				id: "5EA0B94BD44243B1"
 				item: "minecraft:diamond"
 				type: "item"
 			}]

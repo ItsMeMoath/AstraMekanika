@@ -23,7 +23,7 @@
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
-				id: "E001000000000001"
+				id: "429A7B663ABA7569"
 				item: "minecraft:knowledge_book"
 				type: "item"
 			}]
@@ -43,8 +43,14 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "E001000000000002"
-				item: "minecraft:shield"
+				id: "4FFE3EA109C02897"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			title: "&4&l⚔ Survival"
@@ -67,8 +73,14 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "E001000000000003"
-				item: "minecraft:shield"
+				id: "4E2509A65A718FDE"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			title: "&cCombat Mastery"
@@ -91,7 +103,7 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "E001000000000004"
+				id: "459F3CF72B430E07"
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
@@ -117,7 +129,7 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "E001000000000005"
+				id: "0002D4B849E05017"
 				item: "farmersdelight:cooking_pot"
 				type: "item"
 			}]
@@ -137,7 +149,7 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "E001000000000006"
+				id: "16F01D9BD32CD9A9"
 				item: "immersiveengineering:ingot_steel"
 				type: "item"
 			}]
@@ -165,7 +177,7 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "E001000000000007"
+				id: "53ED556E1C128290"
 				item: "immersiveengineering:waterwheel_segment"
 				type: "item"
 			}]
@@ -192,7 +204,7 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "E001000000000008"
+				id: "469D5FD7680C0DF2"
 				item: "thermal:pulverizer"
 				type: "item"
 			}]
@@ -218,7 +230,7 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "E001000000000009"
+				id: "353D5EB2B31CBD0B"
 				item: "ae2:controller"
 				type: "item"
 			}]
@@ -238,7 +250,7 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "E00100000000000A"
+				id: "39894EB4D75EEFCE"
 				item: "ars_nouveau:spell_book"
 				type: "item"
 			}]
@@ -263,7 +275,7 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "E00100000000000B"
+				id: "0CFB39EA22134267"
 				item: "ars_nouveau:source_jar"
 				type: "item"
 			}]
@@ -288,7 +300,7 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "E00100000000000C"
+				id: "25DA300E38CD4484"
 				item: "bloodmagic:ritual_diviner"
 				type: "item"
 			}]
@@ -314,7 +326,7 @@
 				xp_levels: 2
 			}]
 			tasks: [{
-				id: "E00100000000000D"
+				id: "5F1C1D580DD485FA"
 				item: "botania:rune_earth"
 				type: "item"
 			}]
@@ -334,7 +346,7 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "E00100000000000E"
+				id: "6A9B40F9F992E1B5"
 				item: "minecraft:compass"
 				type: "item"
 			}]
@@ -363,7 +375,7 @@
 			}]
 			tasks: [{
 				count: 4L
-				id: "E00100000000000F"
+				id: "2FFD9E8CF1E38324"
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
@@ -389,7 +401,7 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "E001000000000010"
+				id: "44C1A529CF68317D"
 				item: "waystones:waystone"
 				type: "item"
 			}]
@@ -415,7 +427,7 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "E001000000000011"
+				id: "6A43F813FDDE4D6B"
 				item: "minecraft:banner"
 				type: "item"
 			}]
@@ -435,7 +447,7 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "E001000000000012"
+				id: "4B9B7104CD1DD88F"
 				item: "minecraft:comparator"
 				type: "item"
 			}]
@@ -461,7 +473,7 @@
 				xp_levels: 2
 			}]
 			tasks: [{
-				id: "E001000000000013"
+				id: "41F42EF034A27517"
 				item: "minecraft:grass_block"
 				type: "item"
 			}]
@@ -489,7 +501,7 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "E001000000000014"
+				id: "4B2B87C5C2893225"
 				item: "minecraft:writable_book"
 				type: "item"
 			}]
@@ -519,7 +531,7 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "E001000000000015"
+				id: "3071F4A89E044BEE"
 				item: "minecraft:paper"
 				type: "item"
 			}]

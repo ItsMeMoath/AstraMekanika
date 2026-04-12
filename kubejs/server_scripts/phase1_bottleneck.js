@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
     // GATE: Blood Magic Altar requires the Rusted Conduit Core.
     // Player cannot enter Phase 2 without crafting the core first.
     // NOTE: type filter prevents TechReborn FluidGeneratorRecipe crash
-    event.remove({ type: 'minecraft:crafting_shaped', output: 'bloodmagic:altar' });
+    event.remove({ id: 'bloodmagic:altar' });
     event.shaped('bloodmagic:altar', [
         'S S',
         'SCS',

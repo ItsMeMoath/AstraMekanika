@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
 
     // GATE: Mekanism Metallurgic Infuser requires the Twilight Sigil Plate.
     // NOTE: type filter prevents TechReborn FluidGeneratorRecipe crash
-    event.remove({ type: 'minecraft:crafting_shaped', output: 'mekanism:metallurgic_infuser' });
+    event.remove({ id: 'mekanism:metallurgic_infuser' });
     event.shaped('mekanism:metallurgic_infuser', [
         'IFI',
         'RCR',
@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
 
     // GATE: AE2 Controller requires the Reactor Authority Seal.
     // NOTE: type filter prevents TechReborn FluidGeneratorRecipe crash
-    event.remove({ type: 'minecraft:crafting_shaped', output: 'ae2:controller' });
+    event.remove({ id: 'ae2:controller' });
     event.shaped('ae2:controller', [
         'QSQ',
         'SCS',
@@ -114,7 +114,7 @@ ServerEvents.recipes(event => {
     // GATE: Draconic Evolution Fusion Crafting Core requires the Heart of the Vault.
     // NOTE: type filter prevents TechReborn FluidGeneratorRecipe crash
     // NOTE: DE block item ID is draconicevolution:crafting_core (not fusion_crafting_core)
-    event.remove({ type: 'minecraft:crafting_shaped', output: 'draconicevolution:crafting_core' });
+    event.remove({ id: 'draconicevolution:crafting_core' });
     event.shaped('draconicevolution:crafting_core', [
         'DDD',
         'DHD',

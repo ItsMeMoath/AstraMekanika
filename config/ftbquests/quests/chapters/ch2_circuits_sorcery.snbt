@@ -26,8 +26,8 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "A002000000000001"
-				item: "kubejs:phase_seal_1"
+				id: "4E7D806CBDFFC57F"
+				item: "kubejs:rusted_conduit_core"
 				type: "item"
 			}]
 			title: "§d§lCircuits  Sorcery"
@@ -54,7 +54,7 @@
 				}
 				{
 					id: "19E988EBC815AFF5"
-					item: "bloodmagic:sacrificial_dagger"
+					item: "bloodmagic:daggerofsacrifice"
 					type: "item"
 				}
 			]
@@ -65,7 +65,7 @@
 					type: "item"
 				}
 				{
-					id: "A002000000000002"
+					id: "5173CA642D64DA2F"
 					item: "bloodmagic:sacrificialdagger"
 					type: "item"
 				}
@@ -106,12 +106,12 @@
 				}
 				{
 					count: 2L
-					id: "A002000000000003"
+					id: "4F5DDF96C7169846"
 					item: "botania:daybloom"
 					type: "item"
 				}
 				{
-					id: "A002000000000004"
+					id: "40F420B59F613A4D"
 					item: "botania:mana_pool"
 					type: "item"
 				}
@@ -140,7 +140,7 @@
 				}
 				{
 					id: "5BA956E51FD63043"
-					item: "refinedstorage:storage_disk_64k"
+					item: "refinedstorage:64k_storage_disk"
 					type: "item"
 				}
 			]
@@ -272,13 +272,13 @@
 				}
 				{
 					id: "3DA350181EC001AE"
-					item: "bloodmagic:reagent_binding"
+					item: "bloodmagic:reagentbinding"
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "04D035494E2D7C71"
-				item: "bloodmagic:blood_orb"
+				item: "bloodmagic:weakbloodorb"
 				type: "item"
 			}]
 			title: "§4Blood Orb"
@@ -303,7 +303,7 @@
 			}]
 			tasks: [{
 				id: "2D9967F8C3E516DE"
-				item: "bloodmagic:ritual_stone_master"
+				item: "bloodmagic:masterritualstone"
 				type: "item"
 			}]
 			title: "§4Ritual Mastery"
@@ -368,7 +368,7 @@
 			]
 			tasks: [{
 				id: "5E5EC312844B5C92"
-				item: "botania:rune_altar"
+				item: "botania:runic_altar"
 				type: "item"
 			}]
 			title: "§bRunic Altar"
@@ -462,7 +462,7 @@
 				{
 					count: 4
 					id: "2748ACA35C071A89"
-					item: "tconstruct:bronze_ingot"
+					item: "thermal:bronze_ingot"
 					type: "item"
 				}
 			]
@@ -497,7 +497,7 @@
 				{
 					count: 8
 					id: "7C77D321EEB0098C"
-					item: "thermal:ingot_invar"
+					item: "thermal:invar_ingot"
 					type: "item"
 				}
 			]
@@ -531,7 +531,7 @@
 				{
 					count: 16
 					id: "2BB27295C1385A59"
-					item: "thermal:phyto_gro"
+					item: "thermal:phytogro"
 					type: "item"
 				}
 			]
@@ -642,7 +642,7 @@
 			}]
 			tasks: [{
 				id: "007AB2B2D322430B"
-				item: "bloodmagic:divination_sigil"
+				item: "bloodmagic:divinationsigil"
 				type: "item"
 			}]
 			title: "§4Divination Sigil"
@@ -670,20 +670,20 @@
 				{
 					count: 4
 					id: "3E4F36EAEA4679B5"
-					item: "bloodmagic:reagent_binding"
+					item: "bloodmagic:reagentbinding"
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "A002000000000005"
-					item: "bloodmagic:master_ritual_stone"
+					id: "57698A947D3D5638"
+					item: "bloodmagic:masterritualstone"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "A002000000000006"
-					item: "bloodmagic:ritual_stone"
+					id: "41B31142FC31D4B5"
+					item: "bloodmagic:ritualstone"
 					type: "item"
 				}
 			]
@@ -755,7 +755,13 @@
 			]
 			tasks: [{
 				id: "3E859B872268B2E2"
-				item: "botania:terra_blade"
+				item: {
+					Count: 1
+					id: "botania:terra_sword"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			title: "§b§lTerra Blade"

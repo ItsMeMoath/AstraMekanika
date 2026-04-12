@@ -35,7 +35,7 @@
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
-				id: "B001000000000001"
+				id: "55F22FF5B0561004"
 				item: "bloodmagic:blood_orb"
 				type: "item"
 			}]
@@ -403,7 +403,7 @@
 				}
 			]
 			tasks: [{
-				id: "B001000000000002"
+				id: "2252B9E1A47DC55B"
 				item: "ars_nouveau:wilden_spike"
 				type: "item"
 			}]
@@ -477,13 +477,13 @@
 			]
 			tasks: [
 				{
-					id: "B001000000000003"
+					id: "1EDF923C1D19CA49"
 					item: "bloodmagic:master_ritual_stone"
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "B001000000000004"
+					id: "44E716123E76D8B2"
 					item: "bloodmagic:ritual_stone"
 					type: "item"
 				}
@@ -689,7 +689,7 @@
 				}
 			]
 			tasks: [{
-				id: "B001000000000005"
+				id: "5A4BB245773B25F1"
 				item: "botania:alfheim_portal"
 				type: "item"
 			}]
@@ -730,7 +730,7 @@
 				}
 			]
 			tasks: [{
-				id: "B001000000000006"
+				id: "7C2D5C801254CD52"
 				item: "botania:gaia_spirit"
 				type: "item"
 			}]

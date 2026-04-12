@@ -19,8 +19,14 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "C001000000000001"
-				item: "minecraft:iron_sword"
+				id: "34BDCF379B9C5EF3"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			title: "§e§lAstra Archives"
@@ -310,7 +316,7 @@
 			]
 			tasks: [{
 				count: 32L
-				id: "C001000000000002"
+				id: "478F2850EC20038F"
 				item: "minecraft:rotten_flesh"
 				type: "item"
 			}]

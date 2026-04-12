@@ -26,8 +26,8 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "A004000000000001"
-				item: "kubejs:phase_seal_3"
+				id: "17D1D27282BBCDFC"
+				item: "kubejs:twilight_sigil_plate"
 				type: "item"
 			}]
 			title: "§9§lInfinite Architecture"
@@ -143,7 +143,7 @@
 				}
 			]
 			tasks: [{
-				id: "A004000000000002"
+				id: "479058D13C83C724"
 				item: "nuclearcraft:solid_fission_controller"
 				type: "item"
 			}]
@@ -340,12 +340,12 @@
 			]
 			tasks: [
 				{
-					id: "A004000000000003"
+					id: "058006A0598793E7"
 					item: "blue_skies:everbright_phylactery"
 					type: "item"
 				}
 				{
-					id: "A004000000000004"
+					id: "5F45C7A0410F1692"
 					item: "blue_skies:everdawn_phylactery"
 					type: "item"
 				}
@@ -381,7 +381,7 @@
 				}
 			]
 			tasks: [{
-				id: "A004000000000005"
+				id: "1AD4D0B073F00239"
 				item: "apotheosis:gem"
 				type: "item"
 			}]
@@ -414,7 +414,7 @@
 				}
 			]
 			tasks: [{
-				id: "A004000000000006"
+				id: "6F51A4D6F2A68CBA"
 				item: "mekanism:fusion_reactor_controller"
 				type: "item"
 			}]
@@ -480,7 +480,7 @@
 				}
 			]
 			tasks: [{
-				id: "A004000000000007"
+				id: "356F5FAF93E18CF8"
 				item: "aether:slider_music_disc"
 				type: "item"
 			}]
@@ -516,8 +516,14 @@
 				}
 			]
 			tasks: [{
-				id: "A004000000000008"
-				item: "aether:valkyrie_lance"
+				id: "0855CFDEA0D2F946"
+				item: {
+					Count: 1
+					id: "aether:valkyrie_lance"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			title: "§bSilver Dungeon"
@@ -552,7 +558,7 @@
 				}
 			]
 			tasks: [{
-				id: "A004000000000009"
+				id: "418C6B23B8FEE43B"
 				item: "aether:sun_spirit_shard"
 				type: "item"
 			}]
@@ -667,12 +673,12 @@
 			]
 			tasks: [
 				{
-					id: "A00400000000000A"
+					id: "78DFC76DA4AC611E"
 					item: "nuclearcraft:radaway"
 					type: "item"
 				}
 				{
-					id: "A00400000000000B"
+					id: "0A8D25214C207CE2"
 					item: "nuclearcraft:hazmat_suit_helmet"
 					type: "item"
 				}

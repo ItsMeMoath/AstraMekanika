@@ -39,8 +39,14 @@
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
-				id: "B003000000000001"
-				item: "minecraft:iron_sword"
+				id: "4F111AEEDB74E1C0"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			title: "§c§lHunter's Codex"
@@ -78,10 +84,10 @@
 				}
 			]
 			tasks: [{
-				count: 1L
 				entity: "minecraft:zombie"
-				id: "B003000000000002"
+				id: "66DDEBE3F727626D"
 				type: "kill"
+				value: 0L
 			}]
 			title: "§cFirst Kills"
 			x: 3.0d
@@ -154,10 +160,10 @@
 				}
 			]
 			tasks: [{
-				count: 1L
 				entity: "mowziesmobs:barako"
-				id: "B003000000000003"
+				id: "6B02D0C90A06538A"
 				type: "kill"
+				value: 0L
 			}]
 			title: "§6Mowzies Slain"
 			x: 9.0d
@@ -225,13 +231,13 @@
 			tasks: [
 				{
 					count: 32L
-					id: "B003000000000004"
+					id: "4E49853844FEB6FE"
 					item: "minecraft:rotten_flesh"
 					type: "item"
 				}
 				{
 					count: 16L
-					id: "B003000000000005"
+					id: "1A1DDEEB97C88A61"
 					item: "minecraft:bone"
 					type: "item"
 				}
@@ -302,10 +308,10 @@
 				}
 			]
 			tasks: [{
-				count: 1L
 				entity: "alexsmobs:raccoon"
-				id: "B003000000000006"
+				id: "1ACA9E24240E695D"
 				type: "kill"
+				value: 0L
 			}]
 			title: "§6Alex's Hunt"
 			x: 9.0d
@@ -344,10 +350,10 @@
 				}
 			]
 			tasks: [{
-				count: 1L
 				entity: "minecraft:wither"
-				id: "B003000000000007"
+				id: "30A7CB4E13C77AE3"
 				type: "kill"
+				value: 0L
 			}]
 			title: "§4§lWither Slain"
 			x: 15.0d
@@ -382,10 +388,10 @@
 				}
 			]
 			tasks: [{
-				count: 1L
 				entity: "minecraft:ender_dragon"
-				id: "B003000000000008"
+				id: "39368575312D6B84"
 				type: "kill"
+				value: 0L
 			}]
 			title: "§5§lEnder Dragon"
 			x: 18.0d
@@ -424,10 +430,10 @@
 				}
 			]
 			tasks: [{
-				count: 1L
 				entity: "minecraft:elder_guardian"
-				id: "B003000000000009"
+				id: "591212DDAD76DDFF"
 				type: "kill"
+				value: 0L
 			}]
 			title: "§9Elder Guardian"
 			x: 12.0d
@@ -460,10 +466,10 @@
 				}
 			]
 			tasks: [{
-				count: 1L
 				entity: "minecraft:warden"
-				id: "B00300000000000A"
+				id: "46C710A5E5278102"
 				type: "kill"
+				value: 0L
 			}]
 			title: "§8§lWarden Slain"
 			x: 15.0d
@@ -497,7 +503,7 @@
 				}
 			]
 			tasks: [{
-				id: "B00300000000000B"
+				id: "34F8FB1A10FA2094"
 				item: "cataclysm:ignited_revenants_eye"
 				type: "item"
 			}]
@@ -578,7 +584,7 @@
 				}
 			]
 			tasks: [{
-				id: "B00300000000000C"
+				id: "54D98BA9A62C64A3"
 				item: "apotheosis:gem"
 				type: "item"
 			}]
@@ -613,10 +619,10 @@
 				}
 			]
 			tasks: [{
-				count: 1L
 				entity: "minecraft:zombie"
-				id: "B00300000000000D"
+				id: "015DDB6FEE52C523"
 				type: "kill"
+				value: 0L
 			}]
 			title: "§c500 Kills"
 			x: 9.0d
@@ -703,13 +709,13 @@
 			tasks: [
 				{
 					count: 64L
-					id: "B00300000000000E"
+					id: "08BDB0044DD9716E"
 					item: "minecraft:rotten_flesh"
 					type: "item"
 				}
 				{
 					count: 32L
-					id: "B00300000000000F"
+					id: "61F161553B5A878E"
 					item: "minecraft:bone"
 					type: "item"
 				}

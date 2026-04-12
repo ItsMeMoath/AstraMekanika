@@ -25,8 +25,14 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "A001000000000001"
-				item: "minecraft:wooden_pickaxe"
+				id: "6CA3643469CED134"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			title: "§6§lThe Awakening"
@@ -373,7 +379,7 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "A001000000000002"
+				id: "745FA45139F2B7F4"
 				item: "minecraft:white_bed"
 				type: "item"
 			}]
@@ -780,13 +786,19 @@
 			tasks: [
 				{
 					count: 10L
-					id: "A001000000000003"
+					id: "3525134D6F9177B9"
 					item: "minecraft:obsidian"
 					type: "item"
 				}
 				{
-					id: "A001000000000004"
-					item: "minecraft:flint_and_steel"
+					id: "5C3F027D2750E89A"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -893,7 +905,7 @@
 				}
 			]
 			tasks: [{
-				id: "A001000000000005"
+				id: "52955414D12D4E28"
 				item: "ars_nouveau:spell_book"
 				type: "item"
 			}]

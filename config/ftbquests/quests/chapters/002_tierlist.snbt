@@ -14,8 +14,14 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "F001000000000001"
-				item: "minecraft:diamond_sword"
+				id: "45E8B3FC12695449"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			title: "&e&l⚔ Weapons  Swords"
@@ -668,7 +674,7 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "F001000000000002"
+				id: "6AA38F099E972EB5"
 				item: "draconicevolution:draconic_chestplate"
 				type: "item"
 			}]
@@ -1325,8 +1331,14 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "F001000000000003"
-				item: "minecraft:wooden_pickaxe"
+				id: "67F5B65505F223F9"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			title: "&7&lD"
