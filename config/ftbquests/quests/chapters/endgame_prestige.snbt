@@ -32,6 +32,7 @@
 				item: "kubejs:vault_convergence"
 				type: "item"
 			}]
+			image: "ftbquests:images/PrestigeSeal1.png"
 			title: "§5§l✦ Beyond the Architect ✦"
 			x: 0.0d
 			y: 0.0d

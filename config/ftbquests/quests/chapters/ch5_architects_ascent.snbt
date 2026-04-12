@@ -223,6 +223,7 @@
 				item: "kubejs:heart_of_the_vault"
 				type: "item"
 			}]
+			image: "ftbquests:images/PhaseSeal5.png"
 			title: "§5§l✦ Heart of the Vault"
 			x: 15.0d
 			y: 0.0d
@@ -278,6 +279,7 @@
 				item: "kubejs:vault_convergence"
 				type: "item"
 			}]
+			image: "ftbquests:images/VaultConvergence.png"
 			title: "§5§l★ Vault Convergence"
 			x: 18.0d
 			y: 0.0d

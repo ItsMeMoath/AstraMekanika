@@ -64,6 +64,7 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
+			image: "ftbquests:images/Twilight.png"
 			title: "§3Into the Twilight"
 			x: 3.0d
 			y: 0.0d
@@ -227,6 +228,7 @@
 				item: "kubejs:twilight_sigil_plate"
 				type: "item"
 			}]
+			image: "ftbquests:images/PhaseSeal3.png"
 			title: "§3§l⚙ Twilight Sigil Plate"
 			x: 15.0d
 			y: 0.0d
@@ -690,6 +692,7 @@
 				item: "mysticalagriculture:coal_seeds"
 				type: "item"
 			}]
+			image: "ftbquests:images/InferiumSeed.png"
 			title: "§2Tier 2 Seeds"
 			x: 9.0d
 			y: -8.0d
@@ -726,6 +729,7 @@
 				item: "mysticalagriculture:essence_farmland"
 				type: "item"
 			}]
+			image: "ftbquests:images/InferiumFarmland.png"
 			title: "§2Essence Farmland"
 			x: 12.0d
 			y: -9.0d

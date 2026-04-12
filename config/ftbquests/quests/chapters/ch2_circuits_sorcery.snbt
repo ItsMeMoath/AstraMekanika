@@ -70,6 +70,7 @@
 					type: "item"
 				}
 			]
+			image: "ftbquests:images/BloodTiers.png"
 			title: "§4Blood Covenant"
 			x: 3.0d
 			y: 0.0d
@@ -249,6 +250,7 @@
 				item: "kubejs:crimson_circuit_of_passage"
 				type: "item"
 			}]
+			image: "ftbquests:images/PhaseSeal2.png"
 			title: "§d§l⚙ Crimson Circuit"
 			x: 15.0d
 			y: 0.0d

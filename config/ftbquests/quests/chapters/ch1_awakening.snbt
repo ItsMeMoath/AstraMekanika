@@ -146,6 +146,7 @@
 					type: "item"
 				}
 			]
+			image: "ftbquests:images/EngineerWorkbench.png"
 			title: "§6Engineer's Start"
 			x: 9.0d
 			y: 0.0d
@@ -181,6 +182,7 @@
 				item: "immersiveengineering:ingot_steel"
 				type: "item"
 			}]
+			image: "ftbquests:images/CrudeBlastFurnace.png"
 			title: "§6§lSteel Spine"
 			x: 12.0d
 			y: 0.0d
@@ -243,6 +245,7 @@
 				item: "kubejs:rusted_conduit_core"
 				type: "item"
 			}]
+			image: "ftbquests:images/PhaseSeal1.png"
 			title: "§6§l⚙ The First Seal"
 			x: 15.0d
 			y: 0.0d
@@ -872,6 +875,7 @@
 				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
+			image: "ftbquests:images/ScribesArs.png"
 			title: "§5Scribe's Table"
 			x: 12.0d
 			y: 3.0d
