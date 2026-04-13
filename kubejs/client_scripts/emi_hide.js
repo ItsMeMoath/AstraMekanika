@@ -1,4 +1,4 @@
-JEIEvents.hideItems(event => {
+EMIEvents.removeEMIStacks(event => {
 
     const colors = [
         'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray',
@@ -22,7 +22,7 @@ JEIEvents.hideItems(event => {
     ['wool','terracotta','concrete','concrete_powder','stained_glass',
      'stained_glass_pane','bed','carpet','shulker_box','candle','banner'
     ].forEach(type => {
-        colors.forEach(c => event.hide(`minecraft:${c}_${type}`));
+        colors.forEach(c => event.remove(`minecraft:${c}_${type}`));
     });
 
     // ============================================================
@@ -35,22 +35,22 @@ JEIEvents.hideItems(event => {
     ].forEach(metal => {
         ['ingot','nugget','dust','small_dust','plate','gear','block',
          'crushed','purified','centrifuge_byproduct'
-        ].forEach(form => event.hide(`techreborn:${metal}_${form}`));
-        event.hide(`techreborn:${metal}_ore`);
-        event.hide(`techreborn:raw_${metal}`);
-        event.hide(`techreborn:deepslate_${metal}_ore`);
+        ].forEach(form => event.remove(`techreborn:${metal}_${form}`));
+        event.remove(`techreborn:${metal}_ore`);
+        event.remove(`techreborn:raw_${metal}`);
+        event.remove(`techreborn:deepslate_${metal}_ore`);
     });
     ['copper','gold','iron','diamond','emerald','quartz'].forEach(metal => {
-        ['dust','plate','gear','small_dust'].forEach(form => event.hide(`techreborn:${metal}_${form}`));
+        ['dust','plate','gear','small_dust'].forEach(form => event.remove(`techreborn:${metal}_${form}`));
     });
     // TR machine casings, cables, and battery items
-    event.hide(/techreborn:.*_machine_casing$/);
-    event.hide(/techreborn:.*_cable$/);
-    event.hide(/techreborn:.*_battery$/);
-    event.hide(/techreborn:.*_cell$/);
-    event.hide(/techreborn:.*_upgrade$/);
-    event.hide(/techreborn:.*_coil$/);
-    event.hide(/techreborn:.*_rotor$/);
+    event.remove(/techreborn:.*_machine_casing$/);
+    event.remove(/techreborn:.*_cable$/);
+    event.remove(/techreborn:.*_battery$/);
+    event.remove(/techreborn:.*_cell$/);
+    event.remove(/techreborn:.*_upgrade$/);
+    event.remove(/techreborn:.*_coil$/);
+    event.remove(/techreborn:.*_rotor$/);
     [
         'techreborn:mixed_metal_ingot','techreborn:advanced_alloy_ingot',
         'techreborn:hot_tungstensteel_ingot','techreborn:tungstensteel_ingot',
@@ -62,33 +62,33 @@ JEIEvents.hideItems(event => {
         'techreborn:blaze_powder_dust','techreborn:enderman_eye_dust',
         'techreborn:energium_dust','techreborn:chrome_ingot',
         'techreborn:sap','techreborn:rubber',
-    ].forEach(id => event.hide(id));
+    ].forEach(id => event.remove(id));
 
     // ============================================================
     // 3. MCW FURNITURE — keep only oak + a few stone types
     // ============================================================
-    woodTypes.forEach(w => event.hide(new RegExp(`mcwfurnitures:.*${w}.*`)));
+    woodTypes.forEach(w => event.remove(new RegExp(`mcwfurnitures:.*${w}.*`)));
     ['stone','granite','diorite','andesite','brick','iron','gold','diamond',
      'netherite','nether_brick','end_stone','purpur','quartz','sandstone'
-    ].forEach(s => event.hide(new RegExp(`mcwfurnitures:.*${s}.*`)));
+    ].forEach(s => event.remove(new RegExp(`mcwfurnitures:.*${s}.*`)));
 
     // ============================================================
     // 4. FANTASY FURNITURE — keep only oak
     // ============================================================
-    woodTypes.forEach(w => event.hide(new RegExp(`fantasyfurniture:.*${w}.*`)));
+    woodTypes.forEach(w => event.remove(new RegExp(`fantasyfurniture:.*${w}.*`)));
 
     // ============================================================
     // 5. ADORN — color variants + non-oak wood
     // ============================================================
     colors.forEach(c => {
-        event.hide(`adorn:${c}_terracotta_lamp`);
-        event.hide(`adorn:${c}_wall_lamp`);
-        event.hide(`adorn:${c}_table_lamp`);
+        event.remove(`adorn:${c}_terracotta_lamp`);
+        event.remove(`adorn:${c}_wall_lamp`);
+        event.remove(`adorn:${c}_table_lamp`);
     });
     woodTypes.forEach(wood => {
         ['chair','table','drawer','shelf','bench','bar_stool','step',
          'post','wall_post','platform','trade_post','sign_post'
-        ].forEach(f => event.hide(`adorn:${wood}_${f}`));
+        ].forEach(f => event.remove(`adorn:${wood}_${f}`));
     });
 
     // ============================================================
@@ -99,7 +99,7 @@ JEIEvents.hideItems(event => {
      'sign','fence','plate','bricks','brick','path','paving',
      'trapdoor','button','pressure_plate','fence_gate','log','bark',
      'stripped_log','stripped_bark','planks'
-    ].forEach(suffix => event.hide(new RegExp(`betterend:.*_${suffix}$`)));
+    ].forEach(suffix => event.remove(new RegExp(`betterend:.*_${suffix}$`)));
 
     // ============================================================
     // 7. BETTER NETHER — decorative block spam
@@ -108,8 +108,8 @@ JEIEvents.hideItems(event => {
      'chandelier','lantern','plate','door','sign','fence','trapdoor',
      'button','pressure_plate','fence_gate','planks','log','bark'
     ].forEach(suffix => {
-        event.hide(new RegExp(`betternether:.*_${suffix}$`));
-        event.hide(new RegExp(`bnb_nether:.*_${suffix}$`));
+        event.remove(new RegExp(`betternether:.*_${suffix}$`));
+        event.remove(new RegExp(`bnb_nether:.*_${suffix}$`));
     });
 
     // ============================================================
@@ -118,14 +118,14 @@ JEIEvents.hideItems(event => {
     ['stairs','slab','wall','fence','fence_gate','door','trapdoor',
      'button','pressure_plate','log','stripped_log','bark','stripped_bark',
      'planks','pillar','tiles','tile','bricks','brick','path'
-    ].forEach(suffix => event.hide(new RegExp(`blue_skies:.*_${suffix}$`)));
+    ].forEach(suffix => event.remove(new RegExp(`blue_skies:.*_${suffix}$`)));
 
     // ============================================================
     // 9. THE UNDERGARDEN — decorative blocks
     // ============================================================
     ['stairs','slab','wall','fence','fence_gate','door','trapdoor',
      'button','pressure_plate','pillar','planks','log'
-    ].forEach(suffix => event.hide(new RegExp(`undergarden:.*_${suffix}$`)));
+    ].forEach(suffix => event.remove(new RegExp(`undergarden:.*_${suffix}$`)));
 
     // ============================================================
     // 10. QUARK — stone type decorative variants
@@ -138,48 +138,48 @@ JEIEvents.hideItems(event => {
     quarkStoneTypes.forEach(stone => {
         ['stairs','slab','wall','bricks','brick','pillar','chiseled',
          'polished','smooth','cracked','mossy'
-        ].forEach(form => event.hide(new RegExp(`quark:${stone}_${form}`)));
-        event.hide(new RegExp(`quark:${form}_${stone}`) );
+        ].forEach(form => event.remove(new RegExp(`quark:${stone}_${form}`)));
+        event.remove(new RegExp(`quark:${form}_${stone}`) );
     });
     // Quark color variants
     colors.forEach(c => {
-        event.hide(`quark:${c}_pavement`);
-        event.hide(`quark:${c}_bookshelf`);
-        event.hide(`quark:${c}_pipe`);
-        event.hide(`quark:${c}_candle_cake`);
+        event.remove(`quark:${c}_pavement`);
+        event.remove(`quark:${c}_bookshelf`);
+        event.remove(`quark:${c}_pipe`);
+        event.remove(`quark:${c}_candle_cake`);
     });
     // Quark wood stairs/slabs for non-oak
     woodTypes.forEach(w => {
         ['stairs','slab','fence','fence_gate','door','trapdoor',
          'bookshelf','chest','ladder','sign','hanging_sign','pressure_plate','button'
-        ].forEach(f => event.hide(`quark:${w}_${f}`));
+        ].forEach(f => event.remove(`quark:${w}_${f}`));
     });
 
     // ============================================================
     // 11. BOTANIA — 15 color variants
     // ============================================================
     colors.forEach(c => {
-        event.hide(`botania:${c}_petal`);
-        event.hide(`botania:${c}_mystical_flower`);
-        event.hide(`botania:${c}_floating_flower`);
-        event.hide(`botania:${c}_shimmering_mushroom`);
-        event.hide(`botania:${c}_mushroom`);
-        event.hide(`botania:${c}_dye`);
-        event.hide(`botania:${c}_petal_apothecary`);
+        event.remove(`botania:${c}_petal`);
+        event.remove(`botania:${c}_mystical_flower`);
+        event.remove(`botania:${c}_floating_flower`);
+        event.remove(`botania:${c}_shimmering_mushroom`);
+        event.remove(`botania:${c}_mushroom`);
+        event.remove(`botania:${c}_dye`);
+        event.remove(`botania:${c}_petal_apothecary`);
     });
-    event.hide(/botania:.*_living_rock.*/);
-    event.hide(/botania:.*_shimmerrock.*/);
+    event.remove(/botania:.*_living_rock.*/);
+    event.remove(/botania:.*_shimmerrock.*/);
 
     // ============================================================
     // 12. IMMERSIVE ENGINEERING — decorative spam
     // ============================================================
-    event.hide(/immersiveengineering:sheetmetal_.*/);
-    event.hide(/immersiveengineering:.*_slab$/);
-    event.hide(/immersiveengineering:.*_stairs$/);
-    event.hide(/immersiveengineering:.*_fence$/);
-    event.hide(/immersiveengineering:scaffolding/);
-    event.hide(/immersiveengineering:connector_structural.*/);
-    event.hide('immersiveengineering:gunpowder_barrel');
+    event.remove(/immersiveengineering:sheetmetal_.*/);
+    event.remove(/immersiveengineering:.*_slab$/);
+    event.remove(/immersiveengineering:.*_stairs$/);
+    event.remove(/immersiveengineering:.*_fence$/);
+    event.remove(/immersiveengineering:scaffolding/);
+    event.remove(/immersiveengineering:connector_structural.*/);
+    event.remove('immersiveengineering:gunpowder_barrel');
 
     // ============================================================
     // 13. THERMAL — low-value forms
@@ -187,32 +187,32 @@ JEIEvents.hideItems(event => {
     ['tin','lead','silver','nickel','bronze','invar','electrum',
      'enderium','lumium','signalum','constantan'
     ].forEach(metal => {
-        event.hide(`thermal:${metal}_gear`);
-        event.hide(`thermal:${metal}_plate`);
+        event.remove(`thermal:${metal}_gear`);
+        event.remove(`thermal:${metal}_plate`);
     });
     // Thermal machine casings and frames
-    event.hide(/thermal:.*_frame$/);
-    event.hide(/thermal:.*_casing$/);
+    event.remove(/thermal:.*_frame$/);
+    event.remove(/thermal:.*_casing$/);
 
     // ============================================================
     // 14. MEKANISM — creative items + processing intermediates
     // ============================================================
-    event.hide(/mekanism:.*creative.*/);
-    event.hide('mekanism:module_base');
-    event.hide('mekanism:hdpe_pellet');
-    event.hide('mekanism:hdpe_rod');
-    event.hide('mekanism:hdpe_sheet');
-    event.hide('mekanism:hdpe_elytra');
+    event.remove(/mekanism:.*creative.*/);
+    event.remove('mekanism:module_base');
+    event.remove('mekanism:hdpe_pellet');
+    event.remove('mekanism:hdpe_rod');
+    event.remove('mekanism:hdpe_sheet');
+    event.remove('mekanism:hdpe_elytra');
     // Mekanism ore processing intermediates for unused ores
     ['tin','osmium','lead','uranium'].forEach(ore => {
         ['dirty_dust','clump','shard','crystal'].forEach(form => {
-            event.hide(`mekanism:${form}_${ore}`);
+            event.remove(`mekanism:${form}_${ore}`);
         });
     });
     // Mekanism alloy cables (internal)
-    event.hide(/mekanism:.*_alloy_cable.*/);
+    event.remove(/mekanism:.*_alloy_cable.*/);
     // Mekanism machine casings
-    event.hide('mekanism:basic_control_circuit');
+    event.remove('mekanism:basic_control_circuit');
 
     // ============================================================
     // 15. ARS NOUVEAU — archwood decorative variants
@@ -220,12 +220,12 @@ JEIEvents.hideItems(event => {
     ['blue','red','purple','yellow'].forEach(color => {
         ['slab','stairs','log','leaves','planks','fence',
          'fence_gate','door','trapdoor','pressure_plate','button'
-        ].forEach(f => event.hide(`ars_nouveau:${color}_archwood_${f}`));
+        ].forEach(f => event.remove(`ars_nouveau:${color}_archwood_${f}`));
     });
     // Ars Nouveau lesser-used internal items
-    event.hide(/ars_nouveau:.*_sourcestone_slab$/);
-    event.hide(/ars_nouveau:.*_sourcestone_stairs$/);
-    event.hide(/ars_nouveau:.*_sourcestone_wall$/);
+    event.remove(/ars_nouveau:.*_sourcestone_slab$/);
+    event.remove(/ars_nouveau:.*_sourcestone_stairs$/);
+    event.remove(/ars_nouveau:.*_sourcestone_wall$/);
 
     // ============================================================
     // 16. NUCLEARCRAFT — fuel processing intermediates
@@ -237,23 +237,23 @@ JEIEvents.hideItems(event => {
         'thorium_pellet','mixed_oxide_fuel_pellet','nuclear_waste',
         'cobalt_60','helium_3','lithium_hydride','neptunium_236','neptunium_237',
         'boron','calcium_sulfate','graphite_dust',
-    ].forEach(id => event.hide(`nuclearcraft:${id}`));
+    ].forEach(id => event.remove(`nuclearcraft:${id}`));
 
     // ============================================================
     // 17. BLOOD MAGIC — internal path components
     // ============================================================
-    event.hide(/bloodmagic:.*_path_component.*/);
-    event.hide(/bloodmagic:weak_activation_crystal.*/);
+    event.remove(/bloodmagic:.*_path_component.*/);
+    event.remove(/bloodmagic:weak_activation_crystal.*/);
 
     // ============================================================
     // 18. SUPPLEMENTARIES — lesser-used decorative
     // ============================================================
-    event.hide(/supplementaries:.*_sign_post$/);
-    event.hide(/supplementaries:.*_plaque$/);
+    event.remove(/supplementaries:.*_sign_post$/);
+    event.remove(/supplementaries:.*_plaque$/);
     ['oak','spruce','birch','jungle','acacia','dark_oak','mangrove','bamboo','cherry'
     ].forEach(w => {
-        event.hide(`supplementaries:${w}_sign_post`);
-        event.hide(`supplementaries:${w}_plaque`);
+        event.remove(`supplementaries:${w}_sign_post`);
+        event.remove(`supplementaries:${w}_plaque`);
     });
 
     // ============================================================
@@ -261,59 +261,59 @@ JEIEvents.hideItems(event => {
     // ============================================================
     ['stairs','slab','wall','fence','fence_gate','pillar',
      'bricks','brick','log','planks','door','trapdoor'
-    ].forEach(suffix => event.hide(new RegExp(`twilightforest:.*_${suffix}$`)));
+    ].forEach(suffix => event.remove(new RegExp(`twilightforest:.*_${suffix}$`)));
 
     // ============================================================
     // 20. CREATE — engineer's goggles and minor internal parts
     // ============================================================
-    event.hide('create:incomplete_cogwheel');
-    event.hide('create:incomplete_large_cogwheel');
+    event.remove('create:incomplete_cogwheel');
+    event.remove('create:incomplete_large_cogwheel');
 
     // ============================================================
     // 21. PNEUMATICCRAFT — internal processing tubes
     // ============================================================
-    event.hide(/pneumaticcraft:.*_module$/);
-    event.hide('pneumaticcraft:cannon_barrel');
-    event.hide('pneumaticcraft:empty_pcb');
-    event.hide('pneumaticcraft:failed_pcb');
-    event.hide('pneumaticcraft:unassembled_pcb');
+    event.remove(/pneumaticcraft:.*_module$/);
+    event.remove('pneumaticcraft:cannon_barrel');
+    event.remove('pneumaticcraft:empty_pcb');
+    event.remove('pneumaticcraft:failed_pcb');
+    event.remove('pneumaticcraft:unassembled_pcb');
 
     // ============================================================
     // 22. INDUSTRIAL FOREGOING — internal machine frames
     // ============================================================
-    event.hide(/industrialforegoing:.*_mechanical_dirt$/);
-    event.hide('industrialforegoing:pink_slime_block');
-    event.hide('industrialforegoing:meat_block');
+    event.remove(/industrialforegoing:.*_mechanical_dirt$/);
+    event.remove('industrialforegoing:pink_slime_block');
+    event.remove('industrialforegoing:meat_block');
 
     // ============================================================
     // 23. CREATIVE & TECHNICAL — universal
     // ============================================================
-    event.hide(/.*:creative_.*/);
-    event.hide(/.*:debug_.*/);
-    event.hide(/.*:dummy.*/);
+    event.remove(/.*:creative_.*/);
+    event.remove(/.*:debug_.*/);
+    event.remove(/.*:dummy.*/);
     ['minecraft:barrier','minecraft:structure_block','minecraft:jigsaw',
      'minecraft:light','minecraft:structure_void','minecraft:command_block',
      'minecraft:chain_command_block','minecraft:repeating_command_block',
      'minecraft:knowledge_book'
-    ].forEach(id => event.hide(id));
+    ].forEach(id => event.remove(id));
 
     // ============================================================
     // 24. LOOTR + GUIDEME — internal items
     // ============================================================
-    event.hide(/lootr:.*/);
-    event.hide(/guideme:.*/);
+    event.remove(/lootr:.*/);
+    event.remove(/guideme:.*/);
 
     // ============================================================
     // 25. ETCHED — internal disc/casing components
     // ============================================================
-    event.hide(/etched:.*_music_disc_cover$/);
-    event.hide(/etched:.*_etched_disc$/);
+    event.remove(/etched:.*_music_disc_cover$/);
+    event.remove(/etched:.*_etched_disc$/);
 
     // ============================================================
     // 26. AETHER — decorative blocks (keep gameplay items)
     // ============================================================
     ['stairs','slab','wall','fence','fence_gate','pillar','bricks',
      'door','trapdoor','button','pressure_plate'
-    ].forEach(suffix => event.hide(new RegExp(`aether:.*_${suffix}$`)));
+    ].forEach(suffix => event.remove(new RegExp(`aether:.*_${suffix}$`)));
 
 });
