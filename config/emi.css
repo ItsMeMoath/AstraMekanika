@@ -17,6 +17,11 @@
 	help-level: normal;
 
 	/**
+	 * Skip waiting for server sync — loads immediately on world join.
+	 */
+	start-ready: true;
+
+	/**
 	 * Where EMI should pull stacks from to populate the index.
 	 */
 	index-source: creative;
