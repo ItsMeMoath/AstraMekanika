@@ -1,8 +1,8 @@
 # Astra Mekanika
 
-MoathCo Adventure is a high-tech, high-magic odyssey centered on the progression from basic survival to intergalactic dominance. This pack bridges the gap between industrial automation and ancient arts, demanding mastery over both the machine and the soul.
+Astra Mekanika is a high-tech, high-magic odyssey centered on the progression from basic survival to intergalactic dominance. This pack bridges the gap between industrial automation and ancient arts, demanding mastery over both the machine and the soul.
 
-The Four Pillars of MoathCo
+The Four Pillars of Astra Mekanika
 🚀 Interstellar Conquest (Ad Astra & Beyond Earth)
 Leave the Overworld behind. Build advanced rocketry to explore the solar system, establish oxygen-rich colonies on distant moons, and survive the vacuum of space.
 
