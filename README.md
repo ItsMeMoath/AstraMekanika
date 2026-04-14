@@ -1,4 +1,4 @@
-# Moathco Adventure
+# Astra Mekanika
 
 MoathCo Adventure is a high-tech, high-magic odyssey centered on the progression from basic survival to intergalactic dominance. This pack bridges the gap between industrial automation and ancient arts, demanding mastery over both the machine and the soul.
 
