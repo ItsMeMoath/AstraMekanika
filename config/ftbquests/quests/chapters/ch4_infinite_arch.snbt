@@ -17,6 +17,7 @@
 				""
 				"§8Unlock condition: §3Twilight Sigil Plate §8(Phase III complete)"
 			]
+			dependencies: ["0F6CAA970531B1C0"]
 			id: "29C34A1844996E97"
 			rewards: [{
 				id: "052CD1B2EF5D8AB9"
@@ -147,7 +148,6 @@
 				item: "nuclearcraft:solid_fission_controller"
 				type: "item"
 			}]
-			image: "ftbquests:images/300px-Fission_reactor.png"
 			title: "§cNuclear Kindling"
 			x: 9.0d
 			y: 0.0d
@@ -244,7 +244,6 @@
 				item: "kubejs:reactor_authority_seal"
 				type: "item"
 			}]
-			image: "ftbquests:images/PhaseSeal4.png"
 			title: "§9§l⚙ Reactor Authority Seal"
 			x: 15.0d
 			y: 0.0d

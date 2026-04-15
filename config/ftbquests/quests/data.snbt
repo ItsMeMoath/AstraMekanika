@@ -19,8 +19,8 @@
 		passive: 4000
 	}
 	pause_game: false
-	progression_mode: "flexible"
+	progression_mode: "linear"
 	show_lock_icons: true
-	title: "MoathCo"
+	title: "Astra Mekanika"
 	version: 13
 }

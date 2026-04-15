@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "has_crimson_circuit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["kubejs:crimson_circuit_of_passage"] }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_crimson_circuit"]]
+}

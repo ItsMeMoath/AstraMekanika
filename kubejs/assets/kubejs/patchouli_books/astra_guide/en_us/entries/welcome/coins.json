@@ -1,0 +1,23 @@
+{
+  "name": "Astra Coins",
+  "category": "kubejs:astra_guide/welcome",
+  "icon": "kubejs:astra_coin",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Astra Coins",
+      "text": "$(bold)Astra Coins$() are the pack's secondary currency. They're earned by completing quests across all five chapters.$(br2)Coins are not farmable — each quest awards them once. This means your total coin supply is finite, so be selective about what you spend them on."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Earning Coins",
+      "text": "$(bold)Phase I — 20 coins$() available$(br)$(bold)Phase II — 24 coins$() available$(br)$(bold)Phase III — 22 coins$() available$(br)$(bold)Phase IV — 20 coins$() available$(br)$(bold)Phase V — 71 coins$() available$(br)$(bold)Prestige — 375 coins$() available$(br2)By end of Phase V you'll have around 157 total coins. Most of the economy lives in the Prestige chapter."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Spending Priority",
+      "text": "Early-game (5–30 coins): food, bone meal, blaze rods, ender pearls.$(br2)Mid-game (25–65 coins): iron ingots, diamonds, IE steel, obsidian, XP.$(br2)Late-game (80–300 coins): Ancient Debris, Totem, Astra Field Blade, full Armor Set, Nether Star, Elytra.$(br2)The Elytra costs 300 coins — a true prestige purchase."
+    }
+  ]
+}

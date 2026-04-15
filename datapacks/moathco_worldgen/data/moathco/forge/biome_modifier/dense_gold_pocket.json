@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "moathco:dense_gold_pocket",
+  "step": "underground_ores"
+}

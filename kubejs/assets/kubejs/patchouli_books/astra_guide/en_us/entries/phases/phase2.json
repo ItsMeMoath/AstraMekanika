@@ -1,0 +1,23 @@
+{
+  "name": "Phase II — Circuits & Sorcery",
+  "category": "kubejs:astra_guide/phases",
+  "icon": "bloodmagic:altar",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Phase II — Circuits & Sorcery",
+      "text": "$(bold)Core mods: Blood Magic, Botania, Refined Storage, Thermal, Tinkers'$(br2)The magic gate opens. Blood Magic requires your life force. Botania runs on mana. Refined Storage organizes everything.$(br2)Goal: Master all three systems, then craft the $(bold)Crimson Circuit of Passage$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Key Milestones",
+      "text": "$(bold)1.$() Blood Magic Altar — sacrifice HP for LP$(br)$(bold)2.$() Weak Blood Orb — personal LP vessel$(br)$(bold)3.$() Botania Mana Pool + Daybloom flowers$(br)$(bold)4.$() Mana Spreaders — distribute mana$(br)$(bold)5.$() Terrasteel — Phase II's endgame alloy$(br)$(bold)6.$() Refined Storage Controller + Disk Drive$(br)$(bold)7.$() Craft the Crimson Circuit of Passage"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Crimson Circuit of Passage",
+      "text": "Phase II seal recipe:$(br2)$(bold)Center:$() IE HV Steel Wire Coil$(br)$(bold)Top/Bottom:$() Blaze Powder$(br)$(bold)Left:$() Weak Blood Orb$(br)$(bold)Right:$() Blood Magic Blank Slate$(br2)The Weak Blood Orb requires leveling your Blood Altar to Tier 2. The Blank Slate is crafted from a smooth stone and your altar."
+    }
+  ]
+}

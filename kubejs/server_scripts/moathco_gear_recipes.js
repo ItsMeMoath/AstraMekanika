@@ -2,7 +2,7 @@
 
 ServerEvents.recipes(event => {
 
-    // === MoathCo Alloy ===
+    // === Astra Alloy ===
     // IE Steel + Source Gem + Blaze Powder
     // Shaped: S = steel_ingot, G = source_gem, B = blaze_powder
     //  G
@@ -24,13 +24,13 @@ ServerEvents.recipes(event => {
         'SBS',
         ' G '
     ], {
-        G: 'arsnouveau:source_gem',
+        G: 'ars_nouveau:source_gem',
         S: 'immersiveengineering:ingot_steel',
         B: 'minecraft:blaze_powder'
     });
 
     // === MoathCo Field Blade ===
-    // 2 MoathCo Alloy + 1 Stick
+    // 2 Astra Alloy + 1 Stick
     //  A
     //  A
     //  |

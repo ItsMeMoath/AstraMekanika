@@ -1,0 +1,18 @@
+{
+  "name": "The Astra Shop",
+  "category": "kubejs:astra_guide/welcome",
+  "icon": "minecraft:emerald",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Astra Shop",
+      "text": "The $(bold)Astra Shop$() is found in the FTB Quest Book as its own chapter.$(br2)Each shop entry consumes Astra Coins and gives you an item in return. Purchases are $(bold)one-time only$() — each item can only be bought once per player."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Shop Layout",
+      "text": "$(bold)Row 1 — Basic (5–30 coins):$() Bread, Bone Meal, Blaze Rods, Golden Apples, Ender Pearls, Lapis, String.$(br2)$(bold)Row 2 — Resources (25–65 coins):$() Iron, Gold, Diamonds, IE Steel, Obsidian, XP Levels, Emeralds.$(br2)$(bold)Row 3 — Late-Game (80–300 coins):$() Ancient Debris, Totem of Undying, Astra Field Blade, Astra Armor Set, Nether Star, Elytra."
+    }
+  ]
+}

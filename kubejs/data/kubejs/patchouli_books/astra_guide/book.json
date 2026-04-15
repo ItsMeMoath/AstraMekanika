@@ -1,0 +1,9 @@
+{
+  "name": "Astra Mekanika Field Guide",
+  "landing_text": "A division manual issued to all Astra Mekanika operatives on entry. Five phases of industrial and magical progression stand between you and Vault Convergence. Start with the Quest Book — this guide fills in what it doesn't.",
+  "model": "patchouli:book_blue",
+  "version": "1",
+  "subtitle": "MoathCo Division Manual v1.0",
+  "show_progress": true,
+  "use_resource_pack": true
+}

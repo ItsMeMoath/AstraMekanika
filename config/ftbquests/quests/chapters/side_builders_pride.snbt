@@ -75,7 +75,7 @@
 			]
 			tasks: [{
 				id: "76DF9C5AACDD95F6"
-				item: "adorn:oak_armchair"
+				item: "adorn:oak_chair"
 				type: "item"
 			}]
 			title: "§7First Furnishing"

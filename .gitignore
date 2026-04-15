@@ -13,6 +13,8 @@
 !/shaderpacks/
 !/patchouli_books/
 !/moonlight-global-datapacks/
+!/docs/
+!/server_pack/
 
 # -----------------
 # ALLOWED FILES
@@ -26,5 +28,7 @@
 # -----------------
 /mods/.connector/
 /mods/.index/
+/mods/.claude/
+/mods/fix_quest_deps.ps1
 /config/jei/world/
 /kubejs/export/

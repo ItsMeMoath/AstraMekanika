@@ -15,6 +15,11 @@
 				"§7Submit §eAstra Coins§7 to purchase items."
 				"§7Coins are earned by completing quests across all chapters."
 				""
+				"§8Row 1 §7— Basic consumables §8(5–30 coins)"
+				"§8Row 2 §7— Mid-tier resources §8(25–65 coins)"
+				"§8Row 3 §7— Late-game & special §8(80–300 coins)"
+				""
+				"§8Each item is a one-time purchase per player."
 				"§8Items are non-refundable. Choose wisely."
 			]
 			id: "5DBBC5A34F76EFF4"
@@ -30,10 +35,87 @@
 			y: 0.0d
 		}
 		{
-			description: ["§7§o15 Astra Coins§7 → §f10 Golden Apples"]
+			description: [
+				"§7§o5 Astra Coins§7 → §f32 Bread"
+				""
+				"§8Reliable food for early exploration."
+			]
+			id: "15BFAC51E5DBD6B5"
+			rewards: [{
+				count: 32
+				id: "5B147AE2A848453D"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "0F57526C033BA010"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§f[Shop] Bread ×32"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"§7§o8 Astra Coins§7 → §a64 Bone Meal"
+				""
+				"§8Speed up your farms and tree growth."
+			]
+			id: "12D43A8DDB33844D"
+			rewards: [{
+				count: 64
+				id: "6BBF0BFCE14CC8FC"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "1E8F12C2E9046BB7"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§a[Shop] Bone Meal ×64"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"§7§o12 Astra Coins§7 → §64 Blaze Rods"
+				""
+				"§8A small supplement for early brewing."
+				"§8Not a substitute for reaching the Nether."
+			]
+			id: "01C2F3B4E3A3E808"
+			rewards: [{
+				count: 4
+				id: "0389350D68785068"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 12L
+				id: "3E607EF547C3B57F"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§6[Shop] Blaze Rods ×4"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"§7§o15 Astra Coins§7 → §f3 Golden Apples"
+				""
+				"§8Emergency healing. Don't rely on these."
+			]
 			id: "7B84C681915DA826"
 			rewards: [{
-				count: 10
+				count: 3
 				id: "7E163AF0C7463CF1"
 				item: "minecraft:golden_apple"
 				type: "item"
@@ -45,135 +127,308 @@
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
-			title: "§f[Shop] Golden Apples ×10"
-			x: -6.0d
+			title: "§f[Shop] Golden Apples ×3"
+			x: 0.0d
 			y: 3.0d
 		}
 		{
-			description: ["§7§o20 Astra Coins§7 → §b10 Lapis Lazuli Blocks"]
-			id: "27948178D4CE4B45"
+			description: [
+				"§7§o20 Astra Coins§7 → §a8 Ender Pearls"
+				""
+				"§8Teleportation and Eye of Ender crafting."
+			]
+			id: "1B5378772695A6C0"
 			rewards: [{
-				count: 10
-				id: "18C6DEC125440462"
-				item: "minecraft:lapis_block"
+				count: 8
+				id: "66C326FD0AE78D05"
+				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 20L
+				id: "1F425A1A31C2C60F"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§a[Shop] Ender Pearls ×8"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"§7§o25 Astra Coins§7 → §b64 Lapis Lazuli"
+				""
+				"§8Never run dry mid-enchanting session."
+			]
+			id: "27948178D4CE4B45"
+			rewards: [{
+				count: 64
+				id: "18C6DEC125440462"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 25L
 				id: "3B8A0C93E97D6E00"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
-			title: "§b[Shop] Lapis Blocks ×10"
-			x: -4.0d
+			title: "§b[Shop] Lapis Lazuli ×64"
+			x: 4.0d
 			y: 3.0d
 		}
 		{
-			description: ["§7§o30 Astra Coins§7 → §e16 Gold Blocks"]
-			id: "6452F5460A875D4F"
+			description: [
+				"§7§o30 Astra Coins§7 → §f64 String"
+				""
+				"§8Bows, wool, scaffolding, tripwires."
+			]
+			id: "3CBF7D0930B3CAFE"
 			rewards: [{
-				count: 16
-				id: "5CC4A31A557CB2F1"
-				item: "minecraft:gold_block"
+				count: 64
+				id: "71F15F7FB9BA84E7"
+				item: "minecraft:string"
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 30L
+				id: "790B8AF1BDEA2F68"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§f[Shop] String ×64"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"§7§o25 Astra Coins§7 → §732 Iron Ingots"
+				""
+				"§8A small iron top-up for early machines."
+				"§8Not a substitute for iron mining."
+			]
+			id: "0D9EECE343088C27"
+			rewards: [{
+				count: 32
+				id: "332A54316A14A324"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "3C9A447F1ABFD287"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§7[Shop] Iron Ingots ×32"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"§7§o35 Astra Coins§7 → §e16 Gold Ingots"
+				""
+				"§8Powered rails, clocks, and mod recipes."
+			]
+			id: "6452F5460A875D4F"
+			rewards: [{
+				count: 16
+				id: "5CC4A31A557CB2F1"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 35L
 				id: "4DEC047EB68D8BC2"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
-			title: "§e[Shop] Gold Blocks ×16"
-			x: -2.0d
-			y: 3.0d
+			title: "§e[Shop] Gold Ingots ×16"
+			x: -4.0d
+			y: 6.0d
 		}
 		{
-			description: ["§7§o70 Astra Coins§7 → §b16 Diamond Blocks"]
+			description: [
+				"§7§o45 Astra Coins§7 → §b6 Diamonds"
+				""
+				"§8A handful — helpful, but you still need to mine."
+				"§8Not diamond blocks. Six individual diamonds."
+			]
 			id: "1237C5AC5AA9C0DD"
 			rewards: [{
-				count: 16
+				count: 6
 				id: "0A27B6A16D227BB4"
-				item: "minecraft:diamond_block"
+				item: "minecraft:diamond"
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
-				count: 70L
+				count: 45L
 				id: "4711A6F8A66B1E32"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
-			title: "§b[Shop] Diamond Blocks ×16"
-			x: 0.0d
-			y: 3.0d
+			title: "§b[Shop] Diamonds ×6"
+			x: -2.0d
+			y: 6.0d
 		}
 		{
-			description: ["§7§o40 Astra Coins§7 → §520 XP Levels"]
-			id: "11AC2E863ACAF04B"
+			description: [
+				"§7§o40 Astra Coins§7 → §716 IE Steel Ingots"
+				""
+				"§8A moderate steel boost for IE machines."
+				"§8You should still run the Coke Oven."
+			]
+			id: "23260DD134D7D636"
 			rewards: [{
-				id: "216210636BA4BEB0"
-				type: "xp_levels"
-				xp_levels: 20
+				count: 16
+				id: "6C4A322AF4C57224"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 40L
-				id: "6DE38C2FA565A082"
+				id: "02533C5B7EF90DD0"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
-			title: "§5[Shop] 20 XP Levels"
-			x: 2.0d
-			y: 3.0d
+			title: "§7[Shop] IE Steel ×16"
+			x: 0.0d
+			y: 6.0d
 		}
 		{
-			description: ["§7§o60 Astra Coins§7 → §61 Nether Star"]
-			id: "05FDAA5D726168B1"
+			description: [
+				"§7§o50 Astra Coins§7 → §832 Obsidian"
+				""
+				"§8Skip the lava-bucket method."
+			]
+			id: "5B72347A40917C7D"
 			rewards: [{
-				id: "0E30F899954AE2E9"
-				item: "minecraft:nether_star"
+				count: 32
+				id: "2591CD0A6C8F17B2"
+				item: "minecraft:obsidian"
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
-				count: 60L
-				id: "2992922F9C8D371F"
+				count: 50L
+				id: "7EE014D20F85A708"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
-			title: "§6[Shop] Nether Star ×1"
-			x: 4.0d
-			y: 3.0d
+			title: "§8[Shop] Obsidian ×32"
+			x: 2.0d
+			y: 6.0d
 		}
 		{
-			description: ["§7§o100 Astra Coins§7 → §71 Elytra"]
-			id: "18BB9018387FC56E"
+			description: [
+				"§7§o55 Astra Coins§7 → §510 XP Levels"
+				""
+				"§8A modest XP injection for enchanting."
+				"§8Worth the cost before a big enchant run."
+			]
+			id: "11AC2E863ACAF04B"
 			rewards: [{
-				id: "33B4A60A303AD4C6"
-				item: {
-					Count: 1
-					id: "minecraft:elytra"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "216210636BA4BEB0"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				consume_items: true
+				count: 55L
+				id: "6DE38C2FA565A082"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§5[Shop] 10 XP Levels"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"§7§o65 Astra Coins§7 → §a16 Emeralds"
+				""
+				"§8Trading currency — useful for villager deals."
+			]
+			id: "0834D5EE3959BDC5"
+			rewards: [{
+				count: 16
+				id: "20A18B07CA9EA29E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 65L
+				id: "1E9F926C61485B98"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§a[Shop] Emeralds ×16"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"§7§o80 Astra Coins§7 → §62 Ancient Debris"
+				""
+				"§8A rare head-start on Netherite progression."
+				"§8You still need to mine for more."
+			]
+			id: "0FB3387985D42922"
+			rewards: [{
+				count: 2
+				id: "66D1A16762769B5D"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 80L
+				id: "267B3315C50A5AA4"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§6[Shop] Ancient Debris ×2"
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"§7§o100 Astra Coins§7 → §d1 Totem of Undying"
+				""
+				"§8One second chance. Use it when it counts."
+			]
+			id: "299483377A211945"
+			rewards: [{
+				id: "09DD8A3747141433"
+				item: "minecraft:totem_of_undying"
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 100L
-				id: "54A83CB82DE62C4D"
+				id: "7D5B37B48A3D9FC2"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
-			title: "§7[Shop] Elytra"
-			x: 6.0d
-			y: 3.0d
+			title: "§d[Shop] Totem of Undying"
+			x: -2.0d
+			y: 9.0d
 		}
 		{
-			description: ["§7§o50 Astra Coins§7 → §aAstra Field Blade (custom sword)"]
+			description: [
+				"§7§o120 Astra Coins§7 → §6Astra Field Blade"
+				""
+				"§8A blade forged by the Astra Mekanika order."
+				"§8Unique. Non-craftable. Earned, not found."
+			]
 			id: "2213571D703A6295"
 			rewards: [{
 				id: "66B8D9F3B90EAE00"
@@ -188,17 +443,22 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 50L
+				count: 120L
 				id: "47E42E698B94E61A"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
 			title: "§6[Shop] Astra Field Blade"
-			x: -4.0d
-			y: 6.0d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
-			description: ["§7§o80 Astra Coins§7 → §6Full Astra Armor Set (helmet + chest + legs + boots)"]
+			description: [
+				"§7§o160 Astra Coins§7 → §6Full Astra Armor Set"
+				""
+				"§8Helmet, Chestplate, Leggings, Boots."
+				"§8A reward for those who've proven their worth."
+			]
 			id: "0902E277E52B9410"
 			rewards: [
 				{
@@ -248,73 +508,68 @@
 			]
 			tasks: [{
 				consume_items: true
-				count: 80L
+				count: 160L
 				id: "4B7729715EF7AEB2"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
 			title: "§6[Shop] Astra Armor Set"
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			description: ["§7§o30 Astra Coins§7 → §e64 IE Steel Ingots"]
-			id: "23260DD134D7D636"
-			rewards: [{
-				count: 64
-				id: "6C4A322AF4C57224"
-				item: "immersiveengineering:ingot_steel"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 30L
-				id: "02533C5B7EF90DD0"
-				item: "kubejs:astra_coin"
-				type: "item"
-			}]
-			title: "§7[Shop] IE Steel ×64"
-			x: 4.0d
-			y: 6.0d
-		}
-		{
-			description: ["§7§o75 Astra Coins§7 → §d1 Totem of Undying"]
-			id: "299483377A211945"
-			rewards: [{
-				id: "09DD8A3747141433"
-				item: "minecraft:totem_of_undying"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 75L
-				id: "7D5B37B48A3D9FC2"
-				item: "kubejs:astra_coin"
-				type: "item"
-			}]
-			title: "§d[Shop] Totem of Undying"
-			x: -2.0d
-			y: 6.0d
-		}
-		{
-			description: ["§7§o25 Astra Coins§7 → §e64 Blaze Rods"]
-			id: "4001D68E7567A1A6"
-			rewards: [{
-				count: 64
-				id: "590CF8D0276F9271"
-				item: "minecraft:blaze_rod"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 25L
-				id: "00E93B33276D162A"
-				item: "kubejs:astra_coin"
-				type: "item"
-			}]
-			title: "§6[Shop] Blaze Rods ×64"
 			x: 2.0d
-			y: 6.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"§7§o200 Astra Coins§7 → §61 Nether Star"
+				""
+				"§8Beacon power. A major endgame investment."
+				"§8Only the committed can afford this."
+			]
+			id: "05FDAA5D726168B1"
+			rewards: [{
+				id: "0E30F899954AE2E9"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 200L
+				id: "2992922F9C8D371F"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§6[Shop] Nether Star ×1"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"§7§o300 Astra Coins§7 → §71 Elytra"
+				""
+				"§8The ultimate mobility. The prestige purchase."
+				"§8You will have earned every coin that paid for this."
+			]
+			id: "18BB9018387FC56E"
+			rewards: [{
+				id: "33B4A60A303AD4C6"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 300L
+				id: "54A83CB82DE62C4D"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§7[Shop] Elytra"
+			x: 6.0d
+			y: 9.0d
 		}
 	]
 	title: "§a§lAstra Shop"

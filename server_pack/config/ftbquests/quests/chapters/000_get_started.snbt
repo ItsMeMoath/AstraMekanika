@@ -1,0 +1,173 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "000_get_started"
+	group: "5EA21B61C2E147CB"
+	icon: "minecraft:book"
+	id: "0001000000000001"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6Welcome to Astra Mekanika."
+				""
+				"&7Forget traditional sandbox play. This is a &cstructured journey&7. Everything is gated, shortcuts are closed, and you'll progress phase-by-phase with your friends."
+				""
+				"&eRead the categories above to see what's coming."
+			]
+			id: "0001000000000002"
+			rewards: [{
+				count: 16
+				id: "39F41FE837CB693F"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0001000000000003"
+				title: "Let's go."
+				type: "checkmark"
+			}]
+			title: "&6&lStart Here"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0001000000000002"]
+			description: [
+				"&dArs Nouveau &7— Available day 1. Magic automation and spells."
+				"&4Blood Magic &7— Sacrifice health for power. Unlocked in &6Phase 2&7."
+				"&bBotania &7— Flower-powered tech. Great for later phases."
+			]
+			id: "0001000000000010"
+			rewards: [{
+				id: "539CC89529963DF5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0001000000000011"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&5The Arcane"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0001000000000002"]
+			description: [
+				"&6Immersive Engineering &7— Start here. Industrial multiblocks."
+				"&eThermal &7— Dynamos and ore processing upgrades."
+				"&bMekanism &7— Massive power jump. Locked behind Phase 3."
+				"&cNuclearCraft &7— Endgame reactors. Phase 4 onwards."
+			]
+			id: "0001000000000020"
+			rewards: [{
+				id: "509558717898596D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0001000000000021"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&6The Tech"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0001000000000002"]
+			description: [
+				"&7Phase 1: &fIron Chests &7— Simple storage."
+				"&7Phase 3: &aRefined Storage &7— Digital networks."
+				"&7Phase 5: &9Applied Energistics 2 &7— The final logistics king."
+			]
+			id: "0001000000000030"
+			rewards: [{
+				id: "29ECDB27D3C0867D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0001000000000031"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&aThe Storage"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0001000000000002"]
+			description: [
+				"&aTwilight Forest &7— Required for Phase 3 progression."
+				"&bThe Aether &7— Sky islands, rare loot, fun explore."
+				"&cL'Ender's Cataclysm &7— Lethal bosses. Do &cNOT&7 fight before Phase 4."
+			]
+			id: "0001000000000040"
+			rewards: [{
+				id: "08E73CD0B3B41248"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0001000000000041"
+				title: "Got it."
+				type: "checkmark"
+			}]
+			title: "&cThe World"
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0001000000000010"
+				"0001000000000020"
+				"0001000000000030"
+				"0001000000000040"
+			]
+			description: [
+				"&7You're ready. Open &6Phase 1: The Rusted Dawn &7in the next tab and start your first quest."
+				""
+				"&c&lGood luck."
+			]
+			id: "0001000000000050"
+			rewards: [
+				{
+					id: "231F76D016C7349A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 16
+					id: "1F70F20EAFE3CDA0"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.75d
+			tasks: [{
+				id: "0001000000000051"
+				title: "Begin."
+				type: "checkmark"
+			}]
+			title: "&e&lJourney Awaits"
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+	title: "&aGet Started"
+}

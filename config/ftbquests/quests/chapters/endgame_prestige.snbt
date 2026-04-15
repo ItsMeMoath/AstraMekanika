@@ -32,7 +32,6 @@
 				item: "kubejs:vault_convergence"
 				type: "item"
 			}]
-			image: "ftbquests:images/PrestigeSeal1.png"
 			title: "§5§l✦ Beyond the Architect ✦"
 			x: 0.0d
 			y: 0.0d
@@ -257,6 +256,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["71B1D95E8E60BA50"]
 			description: [
 				"§cYou hold the first Prestige. Now prove you can fight."
 				""
@@ -283,7 +283,7 @@
 				entity: "minecraft:zombie"
 				id: "4C072684D230F0E3"
 				type: "kill"
-				value: 0L
+				value: 500L
 			}]
 			title: "§c⚔ Arch Slayer I"
 			x: -4.0d

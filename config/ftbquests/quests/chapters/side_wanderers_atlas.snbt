@@ -185,7 +185,7 @@
 			]
 			tasks: [{
 				id: "31187393E39D459A"
-				item: "cataclysm:ancient_key"
+				item: "cataclysm:strange_key"
 				type: "item"
 			}]
 			title: "§cCataclysm Scouted"

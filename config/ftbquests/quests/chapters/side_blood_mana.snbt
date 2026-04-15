@@ -36,7 +36,7 @@
 			size: 1.75d
 			tasks: [{
 				id: "55F22FF5B0561004"
-				item: "bloodmagic:blood_orb"
+				item: "bloodmagic:weakbloodorb"
 				type: "item"
 			}]
 			title: "§5§lBlood  Mana"
@@ -190,7 +190,7 @@
 				{
 					count: 8
 					id: "2E6411A2125BAC3E"
-					item: "bloodmagic:rune_blank"
+					item: "bloodmagic:blankrune"
 					type: "item"
 				}
 				{
@@ -202,7 +202,7 @@
 			]
 			tasks: [{
 				id: "09165F82C30B142B"
-				item: "bloodmagic:rune_blank"
+				item: "bloodmagic:blankrune"
 				type: "item"
 			}]
 			title: "§4Altar Upgrade"
@@ -228,7 +228,13 @@
 				}
 				{
 					id: "552E98E3EAC595EB"
-					item: "bloodmagic:living_armor_upgrade_protection"
+					item: {
+						Count: 1
+						id: "bloodmagic:upgradescraps"
+						tag: {
+							storedPoints: 256
+						}
+					}
 					type: "item"
 				}
 				{
@@ -240,7 +246,18 @@
 			]
 			tasks: [{
 				id: "6592D3F87379F81E"
-				item: "bloodmagic:living_chestplate"
+				item: {
+					Count: 1
+					id: "bloodmagic:livingplate"
+					tag: {
+						Damage: 0
+						livingStats: {
+							evolved: 0b
+							maxPoints: 100
+							upgrades: [ ]
+						}
+					}
+				}
 				type: "item"
 			}]
 			title: "§4Living Armor"
@@ -322,7 +339,7 @@
 			]
 			tasks: [{
 				id: "667709950416ACC0"
-				item: "botania:gaia_spirit"
+				item: "botania:life_essence"
 				type: "item"
 			}]
 			title: "§b§lGaia Guardian"
@@ -431,7 +448,7 @@
 				}
 				{
 					id: "2968E4673AA11AA0"
-					item: "bloodmagic:item_ritual_diviner"
+					item: "bloodmagic:ritualdiviner"
 					type: "item"
 				}
 				{
@@ -443,7 +460,7 @@
 			]
 			tasks: [{
 				id: "6AC3196044F194BC"
-				item: "bloodmagic:item_ritual_diviner"
+				item: "bloodmagic:ritualdiviner"
 				type: "item"
 			}]
 			title: "§4Ritual of Magnetism"
@@ -478,13 +495,13 @@
 			tasks: [
 				{
 					id: "1EDF923C1D19CA49"
-					item: "bloodmagic:master_ritual_stone"
+					item: "bloodmagic:masterritualstone"
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "44E716123E76D8B2"
-					item: "bloodmagic:ritual_stone"
+					item: "bloodmagic:ritualstone"
 					type: "item"
 				}
 			]
@@ -524,7 +541,7 @@
 			]
 			tasks: [{
 				id: "33FA0097CD762057"
-				item: "bloodmagic:rune_dusk"
+				item: "bloodmagic:duskritualstone"
 				type: "item"
 			}]
 			title: "§4Tier 4 Altar"
@@ -719,7 +736,7 @@
 				{
 					count: 6
 					id: "2C9C3483C5ADFBD6"
-					item: "botania:gaia_spirit"
+					item: "botania:gaia_ingot"
 					type: "item"
 				}
 				{
@@ -731,7 +748,7 @@
 			]
 			tasks: [{
 				id: "7C2D5C801254CD52"
-				item: "botania:gaia_spirit"
+				item: "botania:life_essence"
 				type: "item"
 			}]
 			title: "§b§lGaia II"
@@ -758,7 +775,7 @@
 				}
 				{
 					id: "04C71939C08A4B8B"
-					item: "botania:rod_of_the_hells"
+					item: "botania:fire_rod"
 					type: "item"
 				}
 				{
@@ -770,7 +787,7 @@
 			]
 			tasks: [{
 				id: "33DABFFC6E5746CB"
-				item: "botania:rod_of_the_hells"
+				item: "botania:fire_rod"
 				type: "item"
 			}]
 			title: "§b§lRod of the Hells"

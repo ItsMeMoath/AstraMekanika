@@ -1,0 +1,28 @@
+{
+  "name": "Operative Tips",
+  "category": "kubejs:astra_guide/notes",
+  "icon": "minecraft:torch",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "First 30 Minutes",
+      "text": "$(bold)1.$() Place your Waystone immediately — name it 'Base'.$(br)$(bold)2.$() Get 24 iron before anything else. It gates IE.$(br)$(bold)3.$() Build a Coke Oven before the Blast Furnace — you need Creosote first.$(br)$(bold)4.$() Keep your Source Gem from the first quest — it's needed for the Phase I seal.$(br)$(bold)5.$() Lure a Skeleton spawner near your base early. It's free XP for the entire pack."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Important Mods — Quick Ref",
+      "text": "$(bold)Waystones:$() free teleport, place at key locations$(br)$(bold)Tinkers' Construct:$() best early tools, repairable$(br)$(bold)Sophisticated Backpacks:$() wear on back, huge storage$(br)$(bold)Apotheosis:$() better enchanting, use its bookshelves$(br)$(bold)Lootr:$() dungeon chests are personal — all players get their own loot$(br)$(bold)Alex's Mobs / Mowzie's Mobs:$() passive and hostile creatures everywhere"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Important Mods — Quick Ref 2",
+      "text": "$(bold)Saint's Dragons:$() tameable with raw chicken (25% chance)$(br)$(bold)Electroblob's Wizardry:$() wands in dungeon loot, Wizard Towers in overworld$(br)$(bold)Opposing Force:$() Frowzy replaces some zombies, Skyvern is rare aerial threat$(br)$(bold)YUNG's Suite:$() all vanilla structures are bigger and better$(br)$(bold)Epic Villages:$() large, varied villages with market squares$(br)$(bold)Dungeons Enhanced:$() harder dungeons with better loot"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Do Not Skip",
+      "text": "$(bold)Do not skip Mekanism ore processing.$() 5x ore multiplication in Phase III is the resource foundation for Phase IV and V.$(br2)$(bold)Do not neglect Blood Magic.$() The Ritual of Green Grove accelerates crop farms dramatically. The Phase II seal requires a Blood Orb.$(br2)$(bold)Do not hoard Astra Coins.$() They don't accumulate interest. Spend them at the right phase — early coins on basic supplies, late coins on Totem, Elytra, and Armor."
+    }
+  ]
+}

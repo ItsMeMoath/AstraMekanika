@@ -17,6 +17,7 @@
 				""
 				"§8Unlock condition: §6The First Seal §8(Phase I complete)"
 			]
+			dependencies: ["2EB4F7796CCE5047"]
 			id: "3EF3915D0AFA357F"
 			rewards: [{
 				id: "25B3AFE6F99DEF66"
@@ -57,6 +58,12 @@
 					item: "bloodmagic:daggerofsacrifice"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "2E4C50FC524821EA"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -70,7 +77,6 @@
 					type: "item"
 				}
 			]
-			image: "ftbquests:images/BloodTiers.png"
 			title: "§4Blood Covenant"
 			x: 3.0d
 			y: 0.0d
@@ -96,6 +102,12 @@
 					count: 4
 					id: "77470060465E84B7"
 					item: "botania:daybloom"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "017E19AF21DCD0AB"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -142,6 +154,12 @@
 				{
 					id: "5BA956E51FD63043"
 					item: "refinedstorage:64k_storage_disk"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0C488A06CF08A978"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]
@@ -211,7 +229,7 @@
 					xp_levels: 40
 				}
 				{
-					count: 8
+					count: 12
 					id: "67DDADA13F7BBF35"
 					item: "kubejs:astra_coin"
 					type: "item"
@@ -250,7 +268,6 @@
 				item: "kubejs:crimson_circuit_of_passage"
 				type: "item"
 			}]
-			image: "ftbquests:images/PhaseSeal2.png"
 			title: "§d§l⚙ Crimson Circuit"
 			x: 15.0d
 			y: 0.0d
@@ -719,6 +736,12 @@
 					item: "botania:terrasteel_ingot"
 					type: "item"
 				}
+				{
+					count: 3
+					id: "2E9D51D1CFDAD60D"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 4L
@@ -752,6 +775,12 @@
 					count: 8
 					id: "317CF0235274A8F5"
 					item: "botania:mana_tablet"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1E0F776332B303D9"
+					item: "kubejs:astra_coin"
 					type: "item"
 				}
 			]

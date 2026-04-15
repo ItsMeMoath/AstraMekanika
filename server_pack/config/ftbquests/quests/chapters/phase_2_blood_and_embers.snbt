@@ -1,0 +1,669 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "phase_2_blood_and_embers"
+	group: "3E586F2160161EEA"
+	icon: "kubejs:crimson_circuit_of_passage"
+	id: "1002000000000001"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1001000000000001"]
+			description: [
+				"§4Blood. High voltage. Nether steel."
+				""
+				"§7Phase 2 takes everything you built and pushes it further — Blood Magic demands sacrifice, Immersive Engineering scales to HV power, and the Nether gives up Netherite and blaze rods."
+				""
+				"§cForge the Crimson Circuit of Passage to unlock Phase 3."
+			]
+			id: "5FB69D8D0953D125"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1A41BE2D102DBDE7"
+				title: "The phase begins."
+				type: "checkmark"
+			}]
+			title: "§4§lBlood and Embers"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FB69D8D0953D125"]
+			description: ["Place the Blood Altar you received as a reward from Phase 1. Right-click it with a Weak Blood Orb to bind it to you. Your first cut costs LP — every upgrade afterward demands more."]
+			id: "164EB377FB00FD36"
+			rewards: [
+				{
+					id: "71B554B55AE29DCA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0E01056B69C5FFDF"
+					item: "bloodmagic:apprentice_blood_orb"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4F04B7BBEDC8FD53"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "51620EA3101A09C1"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			title: "§4Blood Altar"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["164EB377FB00FD36"]
+			description: ["Fill the altar using a Sacrificial Knife and your Apprentice Orb. The altar needs LP to craft anything above Tier 1. Sacrifice regularly to maintain your LP pool."]
+			id: "060C170A2DC0047F"
+			rewards: [
+				{
+					id: "518C9FAF2931DCB6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 8
+					id: "21C3B53BADEB5BA7"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24766D3DD647A57F"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			title: "Apprentice Orb"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["060C170A2DC0047F"]
+			description: ["Blood Runes surround the altar and increase its LP capacity and fill rate. The more runes you place, the faster your altar fills. You need at least 8 blank runes before you can advance."]
+			id: "21CACE749CA5D6B3"
+			rewards: [
+				{
+					id: "5477C707AC550563"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "051E214C28E80656"
+					item: "bloodmagic:blank_rune"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "48AD4CBCBDC4A4CB"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "01805BE35713BC01"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "Blood Runes"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["21CACE749CA5D6B3"]
+			description: ["The Sigil of the Green Grove regenerates your health slowly while held. Craft it at the altar using LP. This is your first Blood Magic utility item — equip it before difficult fights."]
+			id: "5707766D6ABDF5B5"
+			rewards: [
+				{
+					id: "1FE228CE8C5C7945"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "0648077AAAF98264"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C6080172766FB4A"
+				item: {
+					Count: 1
+					id: "bloodmagic:growthsigil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Sigil of the Green Grove"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5707766D6ABDF5B5"]
+			description: ["The Magician Blood Orb unlocks Tier 3 altar crafting, larger LP storage, and faster fill rates. You now have access to runes that boost Altar efficiency — upgrade before attempting the Crimson Circuit."]
+			id: "668468B2B3BF8540"
+			rewards: [
+				{
+					id: "2104B25FF77079A4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "18D90A89308231C1"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27D1DFC125EEF3EE"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			title: "Magician's Blood Orb"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["668468B2B3BF8540"]
+			description: ["Craft the Rune of Sacrifice and Rune of Self-Sacrifice for your altar. These dramatically increase LP gained per kill or self-cut. You need Will to progress — farming it starts here."]
+			id: "49A6B2116331F6D5"
+			rewards: [
+				{
+					id: "03781F2A50FC928D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "04AD2F6417457D00"
+					item: "bloodmagic:sacredite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "33D0FE347E37E60E"
+					item: "bloodmagic:rune_sacrifice"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "07FA16EFF21B72DF"
+					item: "bloodmagic:rune_selfsacrifice"
+					type: "item"
+				}
+			]
+			title: "Sacrifice Runes"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49A6B2116331F6D5"]
+			description: ["The Sentient Sword is a living weapon that grows stronger with Demonic Will. Kill mobs with it and it absorbs their Will. The more Will it holds, the more damage it deals. This sword scales into Phase 5."]
+			id: "4BA7C8265D2A69DC"
+			rewards: [
+				{
+					id: "1D0809ADA7D85798"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "422A4AB302857CE7"
+					item: "bloodmagic:sentient_sword"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1FCDA25D3D8CB282"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "7EBD488477B3DB88"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "§4Sentient Sword"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4BA7C8265D2A69DC"]
+			description: ["Electrum wire doubles your RF transfer capacity compared to copper. Required to build HV infrastructure — the Excavator and Arc Furnace consume serious power and need HV to run at full speed."]
+			id: "5E8DD4C0C0E68C73"
+			rewards: [
+				{
+					id: "0CB9CE0E72228786"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "04565334E48BC779"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "67CA2DBA0C5BCB8D"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 2L
+				id: "6E6A5CA671FB02AE"
+				item: "immersiveengineering:wirecoil_electrum"
+				type: "item"
+			}]
+			title: "§6HV Wire Network"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5E8DD4C0C0E68C73"]
+			description: ["A multiblock machine that burns Biodiesel or Creosote for massive RF output. Far more power than the Stirling Dynamo. You need this to run the Excavator without power starvation."]
+			id: "17DEEF436A3811E7"
+			rewards: [{
+				id: "449A86F4DB667308"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "4FB62FFC51B1781D"
+				item: "immersiveengineering:diesel_generator"
+				type: "item"
+			}]
+			title: "Diesel Generator"
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["17DEEF436A3811E7"]
+			description: ["IE's conveyor system can route items between machines automatically. Place a Sorter on a Conveyor and configure input/output filters to automate your entire resource processing line."]
+			id: "7F621D24A10D53CA"
+			rewards: [
+				{
+					id: "31773BD3F9D73A9E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "4D7C0F24ACD539FC"
+					item: "immersiveengineering:conveyor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "7610DB891B3FB491"
+				item: "immersiveengineering:sorter"
+				type: "item"
+			}]
+			title: "IE Conveyor Automation"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7F621D24A10D53CA"]
+			description: ["A massive multiblock that automatically mines an entire chunk column. Wire it to HV power and point it at a good ore vein. It runs forever and outputs directly to a connected chest or conveyor."]
+			id: "65E362C2583EAAC0"
+			rewards: [
+				{
+					id: "06B494999470E28E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "14D2931C551F6775"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3FDAC6B0435B47CF"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F2D237E5A13E796"
+				item: "immersiveengineering:excavator"
+				type: "item"
+			}]
+			title: "§6The Excavator"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["65E362C2583EAAC0"]
+			description: ["The Arc Furnace smelts ores into alloys and processes multiple inputs simultaneously. Required to make Electrum, Constantan, and Invar — materials used in Phase 3 and beyond."]
+			id: "369BE15C83A8EB70"
+			rewards: [
+				{
+					id: "41340468542DD16F"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 4
+					id: "674FE3365E8077BF"
+					item: "immersiveengineering:ingot_electrum"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "33DD7898FA951B23"
+				item: "immersiveengineering:arc_furnace"
+				type: "item"
+			}]
+			title: "§6Arc Furnace"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["369BE15C83A8EB70"]
+			description: ["Mixes any two metal dusts into the correct alloy. Required to produce Constantan (copper + nickel), Electrum (gold + silver), and Invar (iron + nickel). Keep this running — you will need all three."]
+			id: "11900F0C7348C048"
+			rewards: [
+				{
+					id: "681FE435F22E6FE6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "35B6B8797FDA47E7"
+					item: "immersiveengineering:ingot_electrum"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "748B959A6BF1001C"
+				item: "immersiveengineering:alloy_smelter"
+				type: "item"
+			}]
+			title: "Alloy Kiln"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["11900F0C7348C048"]
+			description: ["Electrum is the HV alloy. You need it for HV wire, HV capacitors, and several Phase 3 components. Start a production loop now: Crusher → Arc Furnace → Alloy Kiln → Electrum Ingots."]
+			id: "0989B77DACDD9D75"
+			rewards: [
+				{
+					id: "79A104DF2480BF9F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "457BF7961FEF7FFD"
+					item: "immersiveengineering:ingot_electrum"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				count: 8L
+				id: "3703F47E8AC805E9"
+				item: "immersiveengineering:ingot_electrum"
+				type: "item"
+			}]
+			title: "§6Electrum Ingot"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0989B77DACDD9D75"]
+			description: ["Surviving your first Nether visit. Use a Fire Resistance potion. Don't sprint near lava lakes. Collect netherrack for later Nether Brick production and blaze rods for Blood Magic rituals."]
+			id: "5E1FE8F0CB822E82"
+			rewards: [
+				{
+					id: "32A8E923350DF7FA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "26094B7A017EBEEC"
+					item: "minecraft:fire_resistance"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "6868570D0145E9E5"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			title: "§cInto the Nether"
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5E1FE8F0CB822E82"]
+			description: ["Blazes drop rods needed for Blaze Powder — used in the Crimson Circuit recipe. Also required for brewing, Thermal machines, and later Blood Magic rituals. Kill until you have a stack."]
+			id: "7B0DEEA9D243FE7F"
+			rewards: [
+				{
+					id: "681ECA4A755424C1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "4A43C97F5D35DFEE"
+					item: "minecraft:fire_resistance"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "284FC9FDA9EE4F7C"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "Blaze Farm"
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7B0DEEA9D243FE7F"]
+			description: ["Mine at least 16 Ancient Debris, smelt into Netherite Scrap, alloy 4 Scrap + 4 Gold = 1 Ingot. Netherite armor is fire immune, knockback resistant, and required before entering Phase 3 dungeons."]
+			id: "7349CCE34717E81E"
+			rewards: [{
+				id: "385B7D982C45BD6B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 4L
+				id: "65F51D9FFD81C661"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			title: "Ancient Debris"
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7349CCE34717E81E"]
+			description: ["Full Netherite armor makes you immune to fire damage and knockback, and significantly more durable. You need this before the Twilight Forest — the bosses hit hard."]
+			id: "3FE443EE3C6FF703"
+			rewards: [
+				{
+					id: "24B3960B151D63B3"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 3
+					id: "48FD96AD39D9C60E"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6987438A98449C21"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1FEADC6C0A2F6CBA"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58514753F53B8BBB"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "§cNetherite Armor"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3FE443EE3C6FF703"]
+			description: ["Wither Skeleton Skulls drop rarely from Wither Skeletons found in Nether Fortresses. You need 3 to spawn the Wither later. Collect them now — return trips to the Fortress are annoying."]
+			id: "66C9753D274441C6"
+			rewards: [
+				{
+					id: "27D6F0E922B40BFA"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "771E5D2498EDB18C"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "362DB24728FBC138"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 3L
+				id: "65476B406D366497"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "§cWither Trophies"
+			x: -0.65d
+			y: 6.500000000000001d
+		}
+		{
+			dependencies: ["66C9753D274441C6"]
+			description: [
+				"§7Blood, fire, and HV wire — forged into one circuit."
+				""
+				"§eCraft the §4Crimson Circuit of Passage§e:"
+				"§f  _B_"
+				"§f  SWH"
+				"§f  _B_"
+				"§4B §f= Blaze Powder   §6H §f= HV Steel Wire Coil"
+				"§4W §f= Weak Blood Orb   §7S §f= Blank Slate"
+				""
+				"§a✔ UNLOCKS§f: Refined Storage Controller recipe"
+				"§c▶ Required to enter Phase 3."
+			]
+			id: "51FA255044523152"
+			rewards: [
+				{
+					id: "227873C14AA49AD2"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "3D66687A619FB1D7"
+					item: "refinedstorage:controller"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "68AEE7F8ACA98CE3"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					command: "/function moathco:phase_2_broadcast"
+					id: "62DB01BD16FBF05B"
+					type: "command"
+				}
+				{
+					id: "0B0C14B929D62CC3"
+					item: "kubejs:moathco_files_vol_2"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "72A10DB29E4ACB86"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.25d
+			tasks: [{
+				id: "66D53F41421D251D"
+				item: "kubejs:crimson_circuit_of_passage"
+				type: "item"
+			}]
+			title: "§4§l🔥 Crimson Circuit of Passage 🔥"
+			x: -6.75d
+			y: 6.75d
+		}
+	]
+	title: "§4Phase 2: Blood and Embers"
+}

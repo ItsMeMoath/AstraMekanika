@@ -1,0 +1,23 @@
+{
+  "name": "Welcome, Operative",
+  "category": "kubejs:astra_guide/welcome",
+  "icon": "minecraft:nether_star",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Astra Mekanika",
+      "text": "This is a structured modpack. Progress is locked behind five $(bold)Phase Seals$() — craftable items that unlock each chapter in sequence.$(br2)You cannot access Phase II mods until you craft the Phase I seal. You cannot enter Phase III until Phase II is sealed. This is intentional.$(br2)The seals aren't busywork. Each one requires materials only available at that phase."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Your Quest Book",
+      "text": "Press $(bold)H$() to open the FTB Quest Book. It is the primary source of truth for what to do next.$(br2)Each chapter walks you through a phase. Complete quests to earn $(bold)Astra Coins$() and unlock rewards.$(br2)The quest book also contains the exact recipe for each phase seal. When you're ready to advance, look for the phase completion quest at the end of each chapter."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "This Book",
+      "text": "This field guide doesn't replace the quest book. It supplements it.$(br2)Use it for:$(br)— Phase overviews before you dive in$(br)— Reminders on critical systems$(br)— Warnings about dangerous events$(br)— Tips that don't fit in quest descriptions$(br2)Start with the $(bold)Phase Progression$() section to understand the full arc."
+    }
+  ]
+}

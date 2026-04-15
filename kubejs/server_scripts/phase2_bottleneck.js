@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
         B: 'minecraft:blaze_powder',
         H: 'immersiveengineering:wirecoil_steel',
         W: 'bloodmagic:weakbloodorb',
-        S: 'bloodmagic:blankslate'
+        S: 'bloodmagic:blankrune'
     });
 
     // Lock Refined Storage Controller behind Phase 2 Circuit

@@ -59,6 +59,12 @@
 					item: "minecraft:torch"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "3BA62394279B8521"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -98,6 +104,12 @@
 					item: "minecraft:bread"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "1A8C57A256E93511"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 24L
@@ -132,6 +144,12 @@
 					item: "immersiveengineering:manual"
 					type: "item"
 				}
+				{
+					count: 3
+					id: "01F6D2CB9A98E5AC"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -146,7 +164,6 @@
 					type: "item"
 				}
 			]
-			image: "ftbquests:images/EngineerWorkbench.png"
 			title: "§6Engineer's Start"
 			x: 9.0d
 			y: 0.0d
@@ -175,6 +192,12 @@
 					item: "immersiveengineering:ingot_steel"
 					type: "item"
 				}
+				{
+					count: 3
+					id: "1D68E1EBBB031156"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 16L
@@ -182,7 +205,6 @@
 				item: "immersiveengineering:ingot_steel"
 				type: "item"
 			}]
-			image: "ftbquests:images/CrudeBlastFurnace.png"
 			title: "§6§lSteel Spine"
 			x: 12.0d
 			y: 0.0d
@@ -206,7 +228,7 @@
 					xp_levels: 30
 				}
 				{
-					count: 5
+					count: 10
 					id: "65454765D02C3EAF"
 					item: "kubejs:astra_coin"
 					type: "item"
@@ -245,7 +267,6 @@
 				item: "kubejs:rusted_conduit_core"
 				type: "item"
 			}]
-			image: "ftbquests:images/PhaseSeal1.png"
 			title: "§6§l⚙ The First Seal"
 			x: 15.0d
 			y: 0.0d
@@ -599,6 +620,7 @@
 				""
 				"§8Collect §b8 diamonds§8. You'll need them for: Enchanting Table, Draconic Evolution (much later), and Phase seals."
 				"§8Fortune III on a diamond pickaxe multiplies diamond yield — prioritize this enchant."
+				"§8Watch for §7Grumblos§8 (from §7Stoneveil§8) — passive cave creatures that flee pickaxes. Harmless, but startling."
 			]
 			id: "67CAD5BE9612FC06"
 			rewards: [
@@ -875,7 +897,6 @@
 				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
-			image: "ftbquests:images/ScribesArs.png"
 			title: "§5Scribe's Table"
 			x: 12.0d
 			y: 3.0d
@@ -910,7 +931,7 @@
 			]
 			tasks: [{
 				id: "52955414D12D4E28"
-				item: "ars_nouveau:spell_book"
+				item: "ars_nouveau:novice_spell_book"
 				type: "item"
 			}]
 			title: "§5First Spell Cast"
@@ -1135,6 +1156,210 @@
 			title: "§aSophisticated Backpack"
 			x: 18.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["745347F0C84944D0"]
+			description: [
+				"§7§cYUNG's Better Nether Fortresses§7 have replaced vanilla fortresses with sprawling multi-level structures."
+				"§7They're bigger, better-connected, and pack significantly more Blazes and loot rooms."
+				""
+				"§7Fight through a Nether Fortress and kill §c5 Blazes§7."
+				""
+				"§8Go in with iron armor minimum. Bring a bow for sniping Blazes from range."
+				"§8Ghast fireballs can be deflected back with any item — practice it."
+				"§8Blaze Rods are required for Phase II sealing and Ars Nouveau progression."
+			]
+			id: "1CCB6810D85CBBE1"
+			rewards: [
+				{
+					id: "5436AFDA28ACCE0D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "2DF14041ABF31C75"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "16A8FB7366CBD78A"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "7C433B5476FCB06C"
+				type: "kill"
+				value: 5L
+			}]
+			title: "§cFortress Breached"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"§5Electroblob's Wizardry§7 adds a full wand-and-spell system alongside Ars Nouveau."
+				"§7Wands are found in dungeon chests, wizard tower loot, and dropped by §5Wizards§7 roaming the world."
+				""
+				"§7Find and pick up a §5Magic Wand§7 to unlock the system."
+				""
+				"§8Wizard Towers generate across the overworld — tall stone towers with a wizard NPC inside."
+				"§8Right-clicking a Wizard lets you trade for spell books."
+				"§8Wands can be upgraded with §5Arcane Crystals§8 found in structure loot."
+			]
+			dependencies: ["7C8E48AD78BF3F61"]
+			id: "03286FC160881B14"
+			rewards: [
+				{
+					id: "7A59D6F9B310DD06"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 2
+					id: "1C70D07F0BD37B11"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3B6A999546936607"
+					item: "ebwizardry:arcane_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1AB91735E85BECF6"
+				item: "ebwizardry:magic_wand"
+				type: "item"
+			}]
+			title: "§5Arcane Discovery"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"§7Collect §53 Spell Books§7 to expand your wand's repertoire."
+				"§7Each spell book teaches your wand a new castable ability."
+				""
+				"§7Spell Books drop from Wizards, appear in dungeon chests, and can be traded for."
+				"§7Equip spells from your wand's right-click menu and scroll through them with the mouse wheel."
+				""
+				"§8Recommended early spells: §5Ice Spike §8(crowd control), §5Heal§8, §5Homing Arrow§8."
+				"§8Higher-tier wands hold more mana and unlock more powerful spell slots."
+			]
+			dependencies: ["03286FC160881B14"]
+			id: "279280FD9B987E3B"
+			rewards: [
+				{
+					id: "47AB562A671B66ED"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "3E1EBCC0B518520A"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "5BE8A6BA060C7FE5"
+				item: "ebwizardry:spell_book"
+				type: "item"
+			}]
+			title: "§5Wandlore"
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7C8E48AD78BF3F61"]
+			description: [
+				"§cOpposing Force§7 introduces new hostile mob variants replacing some vanilla spawns:"
+				"§c  Frowzy §7— aggressive zombie variant with higher base damage"
+				"§c  Umber Spider §7— venomous spider variant"
+				""
+				"§7Kill §c5 Frowzy§7 and §c3 Umber Spiders§7."
+				""
+				"§8These replace a portion of vanilla zombie and spider spawns — you'll run into them naturally at night."
+				"§8§eInhabitants§8 also adds new mob variants inside structures, so loot rooms won't always be predictable."
+			]
+			id: "057FB236E82FE853"
+			rewards: [
+				{
+					id: "31B17FC4F21B4D4C"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 2
+					id: "4AD358CE2CC369B5"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "opposing_force:frowzy"
+					id: "1EBA00E4F3605F9D"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "opposing_force:umber_spider"
+					id: "4D5E8BE373B51A3D"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "§cOpposing Forces"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"§7The §cSkyvern§7 is a rare aerial predator — a 2% spawn chance makes every sighting dangerous."
+				"§7It's fast, aggressive, and unlike anything vanilla Minecraft throws at you."
+				""
+				"§7Hunt down and kill one Skyvern."
+				""
+				"§8Skyverms spawn outdoors in the overworld — scan the sky during any outdoor fight."
+				"§8Bring your best bow. Keep moving — it closes distance fast."
+			]
+			dependencies: ["057FB236E82FE853"]
+			id: "21A3C4C966571C9A"
+			rewards: [
+				{
+					id: "52EBC15A10C64C26"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 3
+					id: "669A89ADB3D776B3"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0B474B97CBBDDFC4"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "opposing_force:skyvern"
+				id: "60FC996A738DA479"
+				type: "kill"
+				value: 1L
+			}]
+			title: "§cSkyvern Hunt"
+			x: 3.0d
+			y: 9.0d
 		}
 	]
 	title: "§6§lI. The Awakening"

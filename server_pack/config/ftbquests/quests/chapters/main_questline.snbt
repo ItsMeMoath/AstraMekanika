@@ -1,0 +1,2686 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "main_questline"
+	group: "3E586F2160161EEA"
+	icon: "kubejs:vault_convergence"
+	id: "165732C3B174DAEB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"§7Five phases. One path. Complete each seal to advance."
+				"§8Follow the spine. Check the branches. Leave nothing unfinished."
+			]
+			id: "5D63BCD8979ADA91"
+			rewards: [{
+				id: "2338C343B248D3C8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1CE588D3EC4E0419"
+				title: "Begin your journey."
+				type: "checkmark"
+			}]
+			title: "§6§lAstra Mekanika"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7Craft a Crafting Table and a Furnace. Everyone starts here."]
+			id: "62BBF8F76627D484"
+			rewards: [
+				{
+					id: "66E7F192D09C19D1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "5D1217BB6AA8A509"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "39FC0DAB740B647D"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "59D8D35F1A83D95E"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "§fFirst Light"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7Place a Water Wheel next to a Kinetic Dynamo beside flowing water."]
+			id: "060D8B20038D10F3"
+			rewards: [
+				{
+					id: "3D12F9E7BB01504A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "5CE75BDB94B104CE"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "167253C0799C600F"
+					item: "immersiveengineering:waterwheel_segment"
+					type: "item"
+				}
+				{
+					id: "0919BB05B7A0B0A4"
+					item: "immersiveengineering:dynamo"
+					type: "item"
+				}
+			]
+			title: "§6Waterwheel Power"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["060D8B20038D10F3"]
+			description: ["§7String Copper Wire Coils between LV Connectors to move power."]
+			id: "467790377813ED5C"
+			rewards: [{
+				id: "0D6B4F276964757E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "2A54674692AFEAFA"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6E61B92C8DAC8F5C"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+			]
+			title: "§6LV Wire Network"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["§716 iron ingots. Start a mine and do not come back until you have stacks."]
+			id: "28750D59FC5B2FF1"
+			rewards: [
+				{
+					id: "5AA3BD0175555ECC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "6FD291C5DF6865B3"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "1B98BEAA5C533D22"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "§fFirst Blood"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28750D59FC5B2FF1"]
+			description: ["§7Full iron armor and sword before night two hits."]
+			id: "75C78F1D0359DCD6"
+			rewards: [
+				{
+					id: "1555056BF40AA566"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "172D683F41ED9A69"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0249AE8C1454703D"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E9AB4DB69B14BBD"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5256AAF2CB2A483A"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "§fIron Will"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75C78F1D0359DCD6"]
+			description: ["§7Soak planks in Creosote Oil. IE machines need this for structural frames."]
+			id: "5644CB961A932E0E"
+			rewards: [
+				{
+					id: "0F46CFBE9623DD31"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 8
+					id: "60D4AF6D3889FE6E"
+					item: "immersiveengineering:treated_wood_horizontal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "050B3DFABEF8557A"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			title: "§6Treated Wood"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["§7Faster than vanilla. Wire it to your Waterwheel and smelt for free."]
+			id: "0C0C67EF8B65CC6F"
+			rewards: [
+				{
+					id: "21197317274EF9C0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 16
+					id: "45A5FE3327A7C78C"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1EF56F932CC55F71"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			title: "§eThermal Furnace"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75C78F1D0359DCD6"]
+			description: ["§7The most important tool in IE. Assembles multiblocks, rotates machines, configures connections."]
+			id: "688DC514484ABF11"
+			rewards: [
+				{
+					id: "52FE9A795917E8EA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6083FEE397DA5B94"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BA27C6B6C186BB4"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "§6Engineer's Hammer"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["688DC514484ABF11"]
+			description: ["§73x3x3 Coke Bricks. Right-click center with Hammer. Produces Coal Coke and Creosote Oil."]
+			id: "76446BD6FE88605C"
+			rewards: [
+				{
+					id: "56846B77185BFB93"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 16
+					id: "5926743C74707E7E"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "583ED9D029CBBECA"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			title: "§6Coke Oven"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76446BD6FE88605C"]
+			description: ["§7Critical component for the Phase 1 Seal. Craft at least two."]
+			id: "34B624E6C5431B15"
+			rewards: [
+				{
+					id: "54D25B46E3A82771"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "07FAF0F380616D68"
+					item: "thermal:rf_coil"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "1C67423E8C86F772"
+				item: "thermal:rf_coil"
+				type: "item"
+			}]
+			title: "§eRF Coil"
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34B624E6C5431B15"]
+			description: ["§7Heart of Ars Nouveau production. Surround with Pedestals, feed Source."]
+			id: "78278D4918668A2F"
+			rewards: [
+				{
+					id: "0E29E4FBC43FEAEF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "2457BE712B219997"
+					item: "ars_nouveau:mana_fiber"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1010333FEFC89135"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			title: "§5Imbuement Chamber"
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76446BD6FE88605C"]
+			description: ["§7Presses ingots into plates. You will need plates constantly — build this before anything complex."]
+			id: "74417313BFA678C8"
+			rewards: [
+				{
+					id: "1DDDE0D470F8A681"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "787400CE539100D0"
+					item: "immersiveengineering:ingot_iron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D40958F0759BBFC"
+				item: "immersiveengineering:metal_press"
+				type: "item"
+			}]
+			title: "§6Metal Press"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74417313BFA678C8"]
+			description: ["§7Blast Furnace: 3x3x3 Blast Furnace Bricks. Steel is the industrial backbone of everything."]
+			id: "5DD7E910170D8707"
+			rewards: [
+				{
+					id: "0EE3908BC4CD21CB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "7D7FEA8E86A19573"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 8L
+				id: "1457E1D9FE538E8A"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			title: "§6§lSteel Alloy"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DD7E910170D8707"]
+			description: ["§7Doubles ore output with different bonus drops than the IE Crusher."]
+			id: "0529B2F0D8629CB0"
+			rewards: [
+				{
+					id: "29D5E3982F286753"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "29613DFE9DFD183B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6786C17F4B4632F9"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			title: "§eThermal Pulverizer"
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0529B2F0D8629CB0"]
+			description: ["§7Two dust per ore. Doubles output permanently. Build it early."]
+			id: "6295133D3879E9F9"
+			rewards: [
+				{
+					id: "7C3BE407CF9838AC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "0074BAAD8C27E425"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "756B78B584A8185D"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			title: "§6The Crusher"
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5DD7E910170D8707"]
+			description: ["§7Ars Nouveau's primary resource. You need these in every recipe. Farm Source immediately."]
+			id: "6E50247891E81BF0"
+			rewards: [
+				{
+					id: "18286A43EC8DB8F1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "6B0641860CE547FF"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0718B73B8B82C928"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "§5Source Gem"
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			description: ["§7Passive Source generation near crops. Set it and leave it running."]
+			id: "5D8ED46E6DE2A447"
+			rewards: [
+				{
+					id: "6AD1EF89C5611735"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 8
+					id: "47E8F78BF4432AA7"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22BCDB8099D362F6"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			title: "§5Agronomic Source Link"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5DD7E910170D8707"]
+			description: ["§7Every Thermal machine needs one. Craft from Iron, Copper, and Tin. Keep a stack on hand."]
+			id: "45CDF4B5888BFA42"
+			rewards: [{
+				id: "6DA0C1B4A4BEFFD6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "52D1D95DC0F185F1"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			title: "§eMachine Frame"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7Burns Coal Coke for RF. Far more power than the Waterwheel."]
+			id: "58A0E9D9A32B3D95"
+			rewards: [
+				{
+					id: "47A73FAB4760D910"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 32
+					id: "5FB065813AA2BA6A"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59F83ABFB4F4FE18"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			title: "§6Stirling Dynamo"
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			description: ["§7Craft at the Scribes Table. Opens Blink, Leap, Light, and basic combat spells."]
+			id: "2899D161A1562506"
+			rewards: [
+				{
+					id: "59B07FEF90D9A02E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "552E9D4792ED4161"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "18BCB2B4E2848A6C"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			title: "§5§lApprentice Spellbook"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7Read the Source section first. Understand Source before crafting anything in Ars Nouveau."]
+			id: "730926C8216CE81F"
+			rewards: [{
+				id: "2DEFA6CFC1C4F70D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0FEEB05D559C0A74"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			title: "§5Worn Notebook"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"§7You mastered steel, power, and magic."
+				"§eCraft the §6Rusted Conduit Core§e to seal Phase 1."
+				"§a✔ UNLOCKS§f: Blood Magic Altar  §c▶ Required for Phase 2."
+			]
+			id: "405098546E75139D"
+			rewards: [
+				{
+					id: "0D8330E3814DD0C8"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "13699B7BEE3C05F8"
+					item: "bloodmagic:altar"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7321B670625C6C40"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					command: "/function moathco:phase_1_broadcast"
+					id: "1A99CA1F8F8EC404"
+					type: "command"
+				}
+				{
+					id: "6B7DDC2DACF8CD03"
+					item: "kubejs:moathco_files_vol_1"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.25d
+			tasks: [{
+				id: "75872993FA12BAAD"
+				item: "kubejs:rusted_conduit_core"
+				type: "item"
+			}]
+			title: "§6§l⚙ The Iron Oath ⚙"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["405098546E75139D"]
+			description: ["§7Place the altar you received. Right-click with a Weak Blood Orb to bind it."]
+			id: "49C88E342C3EC489"
+			rewards: [
+				{
+					id: "18125708DC88760F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0F5B42F6C7D1F6A0"
+					item: "bloodmagic:apprentice_blood_orb"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "1F751F29E94CC531"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			title: "§4Blood Altar"
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7Fill with a Sacrificial Knife and your Orb. The altar needs LP to craft anything."]
+			id: "3A6FC007D7616382"
+			rewards: [
+				{
+					id: "50537FD9B905823A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 8
+					id: "013D70FDD74409D6"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "026EC275068D0026"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			title: "§4Apprentice Orb"
+			x: 22.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A6FC007D7616382"]
+			description: ["§7Rune of Sacrifice + Rune of Self-Sacrifice dramatically increase LP per kill or cut."]
+			id: "254C41EDFF2BF625"
+			rewards: [
+				{
+					id: "4195B426269EAFFD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "458764DD8E12BE72"
+					item: "bloodmagic:sacredite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "372897965B14B8DB"
+					item: "bloodmagic:rune_sacrifice"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "673AB92E53C45054"
+					item: "bloodmagic:rune_selfsacrifice"
+					type: "item"
+				}
+			]
+			title: "§4Sacrifice Runes"
+			x: 21.5d
+			y: -3.0d
+		}
+		{
+			description: ["§7Surround the altar with Blank Runes to increase LP capacity and fill rate."]
+			id: "1554EF5936ADA2EC"
+			rewards: [
+				{
+					id: "4E94C363E59E5F71"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "0389FF7C746C0A17"
+					item: "bloodmagic:blank_rune"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "2B8DF99B0602C41A"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "§4Blood Runes"
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1554EF5936ADA2EC"]
+			description: ["§7Regenerates health slowly while held. Your first Blood Magic utility item."]
+			id: "7794C989AF5B84C0"
+			rewards: [
+				{
+					id: "2A415920F3D96B7F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "5893476756C6210C"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08925E7FACEE6848"
+				item: "bloodmagic:growthsigil"
+				type: "item"
+			}]
+			title: "§4Sigil of the Green Grove"
+			x: 24.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7794C989AF5B84C0"]
+			description: ["§7Unlocks Tier 3 altar crafting, larger LP storage, and faster fill rates."]
+			id: "086148139B18C02B"
+			rewards: [{
+				id: "752FD8575FC73A3B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "62A93E7E222C3199"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			title: "§4Magician's Blood Orb"
+			x: 23.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1554EF5936ADA2EC"]
+			description: ["§7Grows stronger with Demonic Will from kills. Scales into Phase 5."]
+			id: "3B297F4C69061D3F"
+			rewards: [
+				{
+					id: "6F4CEE0900BBA3C1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "18557F1CCF09EC4B"
+					item: "bloodmagic:sentient_sword"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "21EA87671086B253"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "§4§lSentient Sword"
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7Electrum wire doubles RF transfer capacity. Required for HV infrastructure."]
+			id: "76717290889C021B"
+			rewards: [
+				{
+					id: "60514847F786CC7B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "3A84DB05DACE679D"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 2L
+				id: "4F4827F4D42E1097"
+				item: "immersiveengineering:wirecoil_electrum"
+				type: "item"
+			}]
+			title: "§6HV Wire Network"
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76717290889C021B"]
+			description: ["§7Burns Biodiesel for massive RF. Far more power than the Stirling Dynamo."]
+			id: "219BE38C358607EC"
+			rewards: [{
+				id: "5C861BA82FD73E80"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "33525532C2F8AEEB"
+				item: "immersiveengineering:diesel_generator"
+				type: "item"
+			}]
+			title: "§6Diesel Generator"
+			x: 28.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["219BE38C358607EC"]
+			description: ["§7Sorters on conveyors auto-route items between machines. Set it and forget it."]
+			id: "6DC6F28C1BB417DA"
+			rewards: [
+				{
+					id: "548C692C88E01D4A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "41081DF973E28CDD"
+					item: "immersiveengineering:conveyor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "2A386D87F4B8BBF3"
+				item: "immersiveengineering:sorter"
+				type: "item"
+			}]
+			title: "§6IE Conveyor Automation"
+			x: 27.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76717290889C021B"]
+			description: ["§7Mines an entire chunk column automatically on HV power. Runs forever."]
+			id: "45A0B3CDE9241BC0"
+			rewards: [
+				{
+					id: "5FEC7370A0608AB4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "741E79EE039DCA42"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BDE03FAD417E717"
+				item: "immersiveengineering:excavator"
+				type: "item"
+			}]
+			title: "§6§lThe Excavator"
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45A0B3CDE9241BC0"]
+			description: ["§7Smelts ores into alloys. Required for Electrum, Constantan, and Invar."]
+			id: "3ABB844223B3ED51"
+			rewards: [
+				{
+					id: "06B88C13CEA34B21"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 4
+					id: "4B107F2F000BE2CC"
+					item: "immersiveengineering:ingot_electrum"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "20D1C0B7E1C05E82"
+				item: "immersiveengineering:arc_furnace"
+				type: "item"
+			}]
+			title: "§6Arc Furnace"
+			x: 30.0d
+			y: 1.5d
+		}
+		{
+			description: ["§7Mixes metal dusts into alloys. Required for Constantan, Electrum, and Invar."]
+			id: "0B2FCA2A591C1D73"
+			rewards: [
+				{
+					id: "2A2242F8D6408F6E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "0E309252A9D3D2D8"
+					item: "immersiveengineering:ingot_electrum"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2024F6EF1FBCD01C"
+				item: "immersiveengineering:alloy_smelter"
+				type: "item"
+			}]
+			title: "§6Alloy Kiln"
+			x: 29.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45A0B3CDE9241BC0"]
+			description: ["§7Fire immune, knockback resistant. You need this before the Twilight Forest."]
+			id: "245366436DF26F75"
+			rewards: [
+				{
+					id: "385F73C9B87007E2"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 3
+					id: "481FCB4AD0D5370B"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1D69C02F06B9D13A"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41EAB96278890876"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "§c§lNetherite Armor"
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["245366436DF26F75"]
+			description: ["§7Use Fire Resistance. Collect netherrack and blaze rods."]
+			id: "4330972C0C6DEF49"
+			rewards: [
+				{
+					id: "0CBFC9A0A2A85958"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "36790B0642CBEC09"
+					item: "minecraft:fire_resistance"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "587F17934DBF11D8"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			title: "§cInto the Nether"
+			x: 32.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4330972C0C6DEF49"]
+			description: ["§7Kill 8 Blazes. You need blaze rods for the Crimson Circuit."]
+			id: "7C23B22CA88DAD0B"
+			rewards: [
+				{
+					id: "4890CD12AA07D855"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "0AF2B4C31577B536"
+					item: "minecraft:fire_resistance"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "75C93469C779CA72"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "§6Blaze Farm"
+			x: 31.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["245366436DF26F75"]
+			description: ["§7Mine at least 4 Netherite Scrap. Fire immunity is mandatory."]
+			id: "03BE552927365FB8"
+			rewards: [{
+				id: "18C595544FCB4268"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 4L
+				id: "72BEE75F169D02FE"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			title: "§cAncient Debris"
+			x: 32.0d
+			y: 1.5d
+		}
+		{
+			description: ["§7HV alloy for wire, capacitors, and Phase 3 components."]
+			id: "336FC0F27EDF7552"
+			rewards: [
+				{
+					id: "3374934595A71193"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "6553BB52F434D9FE"
+					item: "immersiveengineering:ingot_electrum"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 8L
+				id: "6263C6DDC31C3D60"
+				item: "immersiveengineering:ingot_electrum"
+				type: "item"
+			}]
+			title: "§6Electrum Ingot"
+			x: 31.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["245366436DF26F75"]
+			description: ["§7Kill Wither Skeletons in Nether Fortresses. Collect 3 skulls — you will need them."]
+			id: "3636126E23D7B085"
+			rewards: [
+				{
+					id: "6B45BA84D3CB0580"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "1E82C7A5D2CA1325"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 3L
+				id: "264A6846075AA216"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "§c§lWither Trophies"
+			x: 34.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"§7Blood, fire, and HV wire — forged into one circuit."
+				"§a✔ UNLOCKS§f: Refined Storage Controller  §c▶ Required for Phase 3."
+			]
+			id: "44780111CC66BABF"
+			rewards: [
+				{
+					id: "47F18E4AEB952273"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "750A9F86830BEEB8"
+					item: "refinedstorage:controller"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7EA46FE22E49D707"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					command: "/function moathco:phase_2_broadcast"
+					id: "7E6F352D67DB4B53"
+					type: "command"
+				}
+				{
+					id: "04F6D952DC0D52A1"
+					item: "kubejs:moathco_files_vol_2"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.25d
+			tasks: [{
+				id: "2547958F6AF91FEB"
+				item: "kubejs:crimson_circuit_of_passage"
+				type: "item"
+			}]
+			title: "§4§l🔥 Crimson Circuit of Passage 🔥"
+			x: 36.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44780111CC66BABF"]
+			description: ["§7Place it. Connect to power. This is the brain of your storage network."]
+			id: "5631290509771B39"
+			rewards: [
+				{
+					id: "555320173BDCE4D8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0765021619DECAD1"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "68A9C635DA5C3BD7"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "§aRS Controller"
+			x: 38.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7Holds Storage Disks. Start with two 1M disks — you'll fill one fast."]
+			id: "39EA2E92FA3568A9"
+			rewards: [
+				{
+					id: "309A85012A0F8267"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "64BB27D54755C8A1"
+					item: "refinedstorage:storage_disk_1m"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "055AD1A17B6A0465"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6E5E186313ADAD97"
+					item: "refinedstorage:storage_disk_1m"
+					type: "item"
+				}
+			]
+			title: "§aDisk Drive"
+			x: 38.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["39EA2E92FA3568A9"]
+			description: ["§7Access and craft from your entire stored inventory in one block."]
+			id: "7607BAC937ED7A33"
+			rewards: [{
+				id: "7434D6FC2A0492DE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5C72642699DE1057"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			title: "§aThe Grid"
+			x: 37.5d
+			y: -3.0d
+		}
+		{
+			description: ["§7Write patterns, place in a Crafter adjacent to a machine. Your network now auto-crafts on demand."]
+			id: "08CC57FA07FE857B"
+			rewards: [
+				{
+					id: "633A32A2BB0A0F57"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "1E2FBE8F390D8BEF"
+					item: "refinedstorage:pattern"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5E6D8CB900AF287F"
+					item: "refinedstorage:pattern"
+					type: "item"
+				}
+				{
+					id: "2689378A89630A1F"
+					item: "refinedstorage:crafter"
+					type: "item"
+				}
+			]
+			title: "§a§lAutocrafting"
+			x: 40.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08CC57FA07FE857B"]
+			description: ["§7Pull items in, push items out. Fully automate your resource processing."]
+			id: "3AC60E754CD2A684"
+			rewards: [
+				{
+					id: "506031762BD9166D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "400E4769D36D3C2A"
+					item: "refinedstorage:importer"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "1EE5A6D73A6D394B"
+					item: "refinedstorage:importer"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "71C0808E50EB800C"
+					item: "refinedstorage:exporter"
+					type: "item"
+				}
+			]
+			title: "§aImporters & Exporters"
+			x: 40.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3AC60E754CD2A684"]
+			description: ["§7Required ingredient for the Twilight Sigil Plate."]
+			id: "3041BDB01203DE6D"
+			rewards: [
+				{
+					id: "6937E0D6E2142EF5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0BE592FED525B906"
+					item: "refinedstorage:processor_binding"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "30AD691BDDEA3047"
+				item: "refinedstorage:processor_binding"
+				type: "item"
+			}]
+			title: "§aProcessor Binding"
+			x: 39.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["08CC57FA07FE857B"]
+			description: ["§72x2 hole, water, flowers, diamond. Step through. Bring potions."]
+			id: "3B88681936458D8D"
+			rewards: [
+				{
+					id: "1E6C1DF7B3F33B04"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "383132A5C60FA51E"
+					item: "minecraft:fire_resistance"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "3CE198635142E510"
+				title: "Enter the Twilight Forest"
+				type: "dimension"
+			}]
+			title: "§3The Emerald Gate"
+			x: 42.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7Giant serpent. Sidestep body segments. Aim for the head."]
+			id: "3F745A0E09168F95"
+			rewards: [
+				{
+					id: "7B4694CD17D2F302"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "408DE4938385E543"
+					item: {
+						Count: 1
+						id: "twilightforest:naga_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "03256C343ADA4DB0"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			title: "§3Boss I — Naga"
+			x: 44.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F745A0E09168F95"]
+			description: ["§7Destroy orbiting shields first. Then the main boss. Dodge phantom bolts."]
+			id: "67E64631FF6F5232"
+			rewards: [
+				{
+					id: "29C6689EE5552CF8"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					id: "32BB02A7422CAD60"
+					item: "twilightforest:scepter_of_life_draining"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23A583EEFF7020CC"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			title: "§3Boss II — Twilight Lich"
+			x: 46.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7Three heads breathing fire. Get underneath and hit fast."]
+			id: "3F4EA5EE35CE1CE9"
+			rewards: [
+				{
+					id: "1CDB34A3BB4D22BA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5822E224B1159246"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "2F863B2B2DD1A783"
+				item: "twilightforest:hydra_chop"
+				type: "item"
+			}]
+			title: "§3Boss III — Hydra"
+			x: 48.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F4EA5EE35CE1CE9"]
+			description: ["§7Aurora Palace. Ice bolts in wide patterns. Dodge volleys on the way up."]
+			id: "3E0F251000B9BDF9"
+			rewards: [
+				{
+					id: "4160A20737D93DFD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "63501B75A262FB5B"
+					item: {
+						Count: 1
+						id: "twilightforest:ice_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "0F2D9A995A0312D7"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			title: "§3§lBoss IV — Snow Queen"
+			x: 50.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E0F251000B9BDF9"]
+			description: ["§7Collect one trophy and scale from each boss. The Sigil demands proof."]
+			id: "0C9AC152E36DE112"
+			rewards: [{
+				id: "771F1F9AE430FF7C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					id: "456A5F85CD06663D"
+					item: "twilightforest:naga_scale"
+					type: "item"
+				}
+				{
+					id: "01602B9E20564EBC"
+					item: "twilightforest:lich_trophy"
+					type: "item"
+				}
+				{
+					id: "3C2781C602F3FC4D"
+					item: "twilightforest:hydra_chop"
+					type: "item"
+				}
+				{
+					id: "3514E652AEDC7293"
+					item: "twilightforest:snow_queen_trophy"
+					type: "item"
+				}
+			]
+			title: "§3§lFour Trophies"
+			x: 50.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E0F251000B9BDF9"]
+			description: ["§7Find a Stronghold, activate the End Portal. The Dragon is not optional."]
+			id: "2EF81AF14CCEDD46"
+			rewards: [{
+				id: "2925ED3F67B9B1D6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "503B1013682363BD"
+				title: "Enter the End"
+				type: "dimension"
+			}]
+			title: "§5End Portal"
+			x: 52.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EF81AF14CCEDD46"]
+			description: ["§7Destroy End Crystals first. Wear it down at the central portal. One dragon egg — do not right-click it."]
+			id: "3AD2F42918639CB5"
+			rewards: [
+				{
+					id: "10B93EEE0D671F5A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "5D1BFE08E34C5854"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E908E6149A81173"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "§5§lDragon Slayer"
+			x: 54.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7New End biomes and ores. Mine 8 Thallasium Ingots now."]
+			id: "24525A1572951E9B"
+			rewards: [
+				{
+					id: "434D92AABAB10971"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "42CE5F2D24613B82"
+					item: "betterend:thallasium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "4B35029F95B198C9"
+				item: "betterend:thallasium_ingot"
+				type: "item"
+			}]
+			title: "§5Better End — Thallasium"
+			x: 54.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24525A1572951E9B"]
+			description: ["§7Hardest material in Better End. Outer shell of the Twilight Sigil Plate."]
+			id: "77601F7232CE1A47"
+			rewards: [
+				{
+					id: "625E9CA86447D5EB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "20A29AFD3EEFE640"
+					item: "betterend:aeternium_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 4L
+				id: "19705857B3F9E3B6"
+				item: "betterend:aeternium_ingot"
+				type: "item"
+			}]
+			title: "§5§lAeternium"
+			x: 53.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"§7Four lords dead. Network running. Dragon egg secured."
+				"§a✔ UNLOCKS§f: Mekanism Metallurgic Infuser  §c▶ Required for Phase 4."
+			]
+			id: "66CB70D927A8D41F"
+			rewards: [
+				{
+					id: "781B3A9087DCE625"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "386FD82840CF97FE"
+					item: "mekanism:metallurgic_infuser"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "20560E381B0675A3"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					command: "/function moathco:phase_3_broadcast"
+					id: "2D333723194E02CD"
+					type: "command"
+				}
+				{
+					id: "3C94AF0D3383EBBE"
+					item: "kubejs:moathco_files_vol_3"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.25d
+			tasks: [{
+				id: "6C7F96C8F3E91072"
+				item: "kubejs:twilight_sigil_plate"
+				type: "item"
+			}]
+			title: "§3§l🌲 Twilight Sigil Plate 🌲"
+			x: 56.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66CB70D927A8D41F"]
+			description: ["§7Insert Redstone/Osmium dust, feed Iron. Outputs Enriched Alloy — backbone of every Mekanism machine."]
+			id: "098EA61FBF8653E9"
+			rewards: [
+				{
+					id: "6F8DCC2EB5FE6727"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "44C691F4F42CCDCB"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "19C1CB34103C335A"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "§6Metallurgic Infuser"
+			x: 58.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7Produce 8. Build a loop: Infuser → Alloy → Machines. Set to auto-feed."]
+			id: "5F9E680825B7337B"
+			rewards: [
+				{
+					id: "7B4AFB7AC83A418E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "7D7CCA128C44D28B"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "47E8061D6F4D322B"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			title: "§6Enriched Alloy"
+			x: 58.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F9E680825B7337B"]
+			description: ["§7Place next to lava. Wire to an Energy Cube to buffer output."]
+			id: "283E2114E49680AF"
+			rewards: [{
+				id: "40CCD69283DFAAD5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "72BD366E2D7AA1B4"
+					item: "mekanism:heat_generator"
+					type: "item"
+				}
+				{
+					id: "33575AE39D727B08"
+					item: "mekanism:energy_cube_basic"
+					type: "item"
+				}
+			]
+			title: "§6Heat Generator"
+			x: 57.5d
+			y: -3.0d
+		}
+		{
+			description: ["§7Feed raw ores → two dust per ore. First step of 5x ore processing."]
+			id: "69344BEA4AFEC9BD"
+			rewards: [
+				{
+					id: "63981A55DD5DA31B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "45AB70346FE9B5B7"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "635DD7FC4D6E2888"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			title: "§6Enrichment Chamber"
+			x: 60.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7Mine 8 Uraninite. Multiple processing steps before it powers a reactor."]
+			id: "3EE1EC1EC3701A6A"
+			rewards: [{
+				id: "09DFC93B2A690D8A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 8L
+				id: "7AE347325F474935"
+				item: "nuclearcraft:uraninite"
+				type: "item"
+			}]
+			title: "§eUraninite Ore"
+			x: 60.0d
+			y: 1.5d
+		}
+		{
+			description: ["§7Uraninite → Uranium Oxide → UO2 Pellets (Manufactory chain). Produce 4 before building the reactor."]
+			id: "6FC000364A19AED9"
+			rewards: [
+				{
+					id: "093B20088DE855A5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "0AB158F9702829D2"
+					item: "nuclearcraft:uo2_fuel_pellet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6FCD8A9959AC8C9D"
+					item: "nuclearcraft:manufactory"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1363BA8DE14148E4"
+					item: "nuclearcraft:uo2_fuel_pellet"
+					type: "item"
+				}
+			]
+			title: "§eUO2 Fuel Pellets"
+			x: 59.5d
+			y: 3.0d
+		}
+		{
+			description: ["§7Configure ore filters and radius. Mines continuously day and night without you."]
+			id: "055478631AC482AF"
+			rewards: [
+				{
+					id: "1D7338FAFE6F2D92"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "5587105B15F0C140"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45EEE5027C54B330"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			title: "§6§lDigital Miner"
+			x: 62.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["055478631AC482AF"]
+			description: ["§7Three Enrichment Chambers in one block. Upgrade to Elite tier when possible."]
+			id: "3A7E332EEEB3E286"
+			rewards: [{
+				id: "75EB4F6E18571B5E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6F8CD48D7E0E83F0"
+				item: "mekanism:basic_enriching_factory"
+				type: "item"
+			}]
+			title: "§6Basic Enriching Factory"
+			x: 62.0d
+			y: -1.5d
+		}
+		{
+			description: ["§7Build 8 Fission Reactor Casings. The reactor is a hollow rectangular prism of these."]
+			id: "7FFC1F68B56E4AA3"
+			rewards: [{
+				id: "3CDDC71D0EB293DF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "3CB6D147B53F885C"
+				item: "nuclearcraft:fission_reactor_casing"
+				type: "item"
+			}]
+			title: "§eReactor Casing"
+			x: 61.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["055478631AC482AF"]
+			description: ["§7Hollow reactor structure + fuel rods + moderators + Controller. Even a 3x3x3 outputs insane RF."]
+			id: "0FEA33F0F60ED87D"
+			rewards: [{
+				id: "26E5BED47E213022"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "71297A19073E060E"
+				observe_type: 0
+				timer: 0L
+				title: "Activate a Fission Reactor"
+				to_observe: ""
+				type: "observation"
+			}]
+			title: "§e§l⚛ Fission Reactor Online"
+			x: 64.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7Full Netherite (enchanted). 6× Fire Resistance potions. Ars Nouveau combat spells. 20 hearts HP minimum."]
+			id: "3E99FF8C56D8C71D"
+			rewards: [
+				{
+					id: "7D03B3028F5119F5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 6
+					id: "52D7260C590EDA8C"
+					item: "minecraft:fire_resistance"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2494C645C852B13F"
+				title: "I am ready for the Cataclysm."
+				type: "checkmark"
+			}]
+			title: "§cPrepare for the Cataclysm"
+			x: 64.0d
+			y: -1.5d
+		}
+		{
+			description: ["§7Industrial Foregoing automated mob killer. Free XP and loot 24/7."]
+			id: "7357EB6E72030DE1"
+			rewards: [{
+				id: "760546F8F2E40CA0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4CCB2C3489B891F2"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			title: "§6Mob Crusher"
+			x: 64.0d
+			y: 1.5d
+		}
+		{
+			description: ["§7Mekanism Reinforced Alloy — required in the Reactor Authority Seal recipe."]
+			id: "232C7BF46D642743"
+			rewards: [
+				{
+					id: "61D0C6ABF84FAABF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "78B09DE1D1B84F62"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 4L
+				id: "7B93891CBAD40150"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			title: "§6Advanced Alloy"
+			x: 66.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["232C7BF46D642743"]
+			description: ["§7Cataclysm boss in the Nether. Lava waves, molten fireballs, fire eruption on injury. FIRE RESISTANCE MANDATORY."]
+			id: "14604CB63B366093"
+			rewards: [
+				{
+					id: "31E34B08B6C2F30A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "00E8C8136B01B3BC"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D84983C3F56C61E"
+				item: "cataclysm:ignited_revenants_eye"
+				type: "item"
+			}]
+			title: "§c§lBoss I — Ignited Revenant"
+			x: 68.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7End dimension. Teleports rapidly, shields via sacrificed Endermen. Destroy arm generators first."]
+			id: "21D9508BFE99DB3A"
+			rewards: [
+				{
+					id: "2CA547178C450732"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "44B4CC4EC6FDDEFE"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "13C49DE493160C0A"
+				item: "cataclysm:ender_golem_eye"
+				type: "item"
+			}]
+			title: "§c§lBoss II — Ender Golem"
+			x: 70.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"§7Factory running. Reactor online. Two gods dead."
+				"§a✔ UNLOCKS§f: AE2 Controller  §c▶ Required for Phase 5."
+			]
+			id: "5F6DE32DA3B536C7"
+			rewards: [
+				{
+					id: "5560E1AEEA617DFD"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "55475CF82E93643E"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "49D2957505FDB873"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					command: "/function moathco:phase_4_broadcast"
+					id: "2A3C0FC9B1932686"
+					type: "command"
+				}
+				{
+					id: "63B9056B6EE722A9"
+					item: "kubejs:moathco_files_vol_4"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.25d
+			tasks: [{
+				id: "5346CF6E06572F56"
+				item: "kubejs:reactor_authority_seal"
+				type: "item"
+			}]
+			title: "§c§l🔥 Reactor Authority Seal 🔥"
+			x: 72.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7Place + power. Everything connects via ME Cable. This is the brain."]
+			id: "1D687D4B90EA33D6"
+			rewards: [
+				{
+					id: "3B0C36E2CA1559A0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "777509DF28405341"
+					item: "ae2:drive"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "4C9AED45410D917E"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					id: "3C1E4F58BE5046A7"
+					item: "ae2:drive"
+					type: "item"
+				}
+			]
+			title: "§9ME Controller"
+			x: 74.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D687D4B90EA33D6"]
+			description: ["§7Normal cable = 8 channels. Dense cable = 32. Plan your trunk lines now."]
+			id: "5ED48F46F04F0A81"
+			rewards: [
+				{
+					id: "46319D2077492968"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "6375F8CDE7EDBF54"
+					item: "ae2:dense_covered_cable"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "10101DEB2EE5EB23"
+				item: "ae2:dense_covered_cable"
+				type: "item"
+			}]
+			title: "§9Dense Cable Network"
+			x: 74.0d
+			y: -1.5d
+		}
+		{
+			description: ["§7Access your entire stored network with a built-in crafting grid."]
+			id: "20D40838C60FA179"
+			rewards: [{
+				id: "3FA8F2235C6CE600"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "73606D9F7903D933"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			title: "§9Crafting Terminal"
+			x: 73.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D687D4B90EA33D6"]
+			description: ["§7Build an Inscriber. Use Press plates to craft Logic, Engineering, and Calculation processors. You need hundreds."]
+			id: "551569E5D618C281"
+			rewards: [
+				{
+					id: "3C90B0E27E29A19A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "781CC43FA45D420B"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "378792FAB000C24E"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "73EA3634D92361B8"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+			]
+			title: "§9Inscriber + Processors"
+			x: 76.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["551569E5D618C281"]
+			description: ["§7Throw Charged Certus + Nether Quartz + Redstone into water. Combine into Fluix. Stock up."]
+			id: "7E47D28476ACE024"
+			rewards: [
+				{
+					id: "2AE4D7F0B795EE66"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "1C1E99778BEA8358"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 8L
+				id: "659640ED3B6B3DC7"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			title: "§9Fluix Crystals"
+			x: 76.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E47D28476ACE024"]
+			description: ["§7AE2's crafting robot. Chain multiple Assemblers for parallel throughput."]
+			id: "23C12E285254C31D"
+			rewards: [{
+				id: "6DC97A975A6DB296"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "1FF43648924BC466"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "300CDF2A8DF3A82B"
+					item: "ae2:interface"
+					type: "item"
+				}
+			]
+			title: "§9Molecular Assembler"
+			x: 75.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["551569E5D618C281"]
+			description: ["§7Spawns in the End and Overworld deep underground. Mine at least 16 ingots. Digital Miner makes this easy."]
+			id: "04FF6178CDD77B67"
+			rewards: [
+				{
+					id: "1BFBD4480FA650FA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "6A223E879C58266B"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "226845445CC69858"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			title: "§dDraconium Ore"
+			x: 78.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04FF6178CDD77B67"]
+			description: ["§764 million items. Two of these and you won't need more storage this playthrough."]
+			id: "0F32779A2224CC19"
+			rewards: [
+				{
+					id: "25A1383F8C22CC8E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2552DE0447936B37"
+					item: "ae2:storage_cell_64m"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 2L
+				id: "7DB586A4A2A88500"
+				item: "ae2:storage_cell_64m"
+				type: "item"
+			}]
+			title: "§964M Storage Cell"
+			x: 78.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04FF6178CDD77B67"]
+			description: ["§7Re-summon the Dragon with 4 End Crystals. The Heart only drops from a re-summoned Dragon. Required for Draconic crafting."]
+			id: "1EB4C59FB69DA818"
+			rewards: [
+				{
+					id: "3218046964CA4BBF"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "0424133EB30BBCDA"
+					item: "draconicevolution:dragon_heart"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BB162CFD7BEEEBE"
+				item: "draconicevolution:dragon_heart"
+				type: "item"
+			}]
+			title: "§d§lDragon Heart"
+			x: 80.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EB4C59FB69DA818"]
+			description: ["§7Dragon Heart surrounded by Draconium Ingots. Produce at least 4."]
+			id: "096505666C7E73F0"
+			rewards: [
+				{
+					id: "18136A07AF013185"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "590CB36225438EBE"
+					item: "draconicevolution:draconic_core"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "4A86F640F973BC93"
+				item: "draconicevolution:draconic_core"
+				type: "item"
+			}]
+			title: "§dDraconic Core"
+			x: 82.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7AOE energy wave that damages everything in front of you. The strongest weapon in the pack."]
+			id: "26B87B058C2AE383"
+			rewards: [
+				{
+					id: "56FDD3FB57617949"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "38FF4792494DAB21"
+					item: "draconicevolution:draconic_pickaxe"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67EA075E8ECD6A13"
+				item: "draconicevolution:draconic_sword"
+				type: "item"
+			}]
+			title: "§d§lDraconic Sword"
+			x: 82.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26B87B058C2AE383"]
+			description: ["§7RF-powered armor shield absorbs damage. Near-unkillable while charged."]
+			id: "2B73462AA32917D1"
+			rewards: [
+				{
+					id: "1006ED2ABB85BD80"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "17C4EFC7119F171B"
+					item: "draconicevolution:draconic_leggings"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45419F7BDE06FCF2"
+				item: "draconicevolution:draconic_chestplate"
+				type: "item"
+			}]
+			title: "§d§lDraconic Chestplate"
+			x: 81.5d
+			y: -3.0d
+		}
+		{
+			description: ["§7Core Crystal + two Stabilizers. Even Tier 1 stores more energy than everything you've ever built."]
+			id: "3CBE3D26A0EAEDFF"
+			rewards: [{
+				id: "5727D00059AAD099"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "0EEBFEEFF945C964"
+				observe_type: 0
+				timer: 0L
+				title: "Build a Draconic Energy Core"
+				to_observe: ""
+				type: "observation"
+			}]
+			title: "§dDraconic Energy Core"
+			x: 84.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CBE3D26A0EAEDFF"]
+			description: ["§7Fusion Crafting Core + Injectors + Dragon Heart + Draconium. Required for the Heart of the Vault."]
+			id: "0E5FD7429989AA25"
+			rewards: [
+				{
+					id: "3C57467B280FE3F2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "45679BF80B20CCCD"
+					item: "draconicevolution:awakened_draconium_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 4L
+				id: "61CBD2F7FBC06ACD"
+				item: "draconicevolution:awakened_draconium_ingot"
+				type: "item"
+			}]
+			title: "§d§lAwakened Draconium"
+			x: 86.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E5FD7429989AA25"]
+			description: ["§7Upgrade with Living and Demon Will Crystals. Full LP capacity for mass-ritual casting."]
+			id: "2D04B1602A8D34BA"
+			rewards: [
+				{
+					id: "71EDFB4D7CF5CC38"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "4EEA4AAE51B7ABC4"
+					item: "bloodmagic:demoncrystalcluster"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B9A55A2F16F9F05"
+				item: "bloodmagic:magician_blood_orb"
+				type: "item"
+			}]
+			title: "§4Tier 5 Altar"
+			x: 86.0d
+			y: 1.5d
+		}
+		{
+			description: ["§7Mass transmutation using LP and Demon Will. Feed resources, convert to rare materials."]
+			id: "2C2E0C4AD0D3C7D6"
+			rewards: [{
+				id: "0AE3A1ECC36B3FCB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7306A17B44356E52"
+				item: "bloodmagic:alchemy_array"
+				type: "item"
+			}]
+			title: "§4Alchemy Array"
+			x: 85.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E5FD7429989AA25"]
+			description: ["§7Holds 10,000,000 LP. Enables the most powerful altar crafting. One of three Heart of the Vault ingredients."]
+			id: "7756ED2E8FC228C7"
+			rewards: [
+				{
+					id: "3D93D025D07C42B2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "70C474AC87F8205F"
+					item: "bloodmagic:master_blood_orb"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "717837DBB08EF4F3"
+				item: "bloodmagic:master_blood_orb"
+				type: "item"
+			}]
+			title: "§4§lMaster Blood Orb"
+			x: 88.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7756ED2E8FC228C7"]
+			description: ["§7Rapid regeneration in combat. Can invert to drain enemies. Set near your base before Phase 5 fights."]
+			id: "4CF3A38BF00692B6"
+			rewards: [{
+				id: "365DDD29BBBEF5EC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "440E6007731C4F56"
+				item: "bloodmagic:ritual_stone"
+				type: "item"
+			}]
+			title: "§4Ritual of Regeneration"
+			x: 88.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7756ED2E8FC228C7"]
+			description: [
+				"§7You built it all. Iron. Blood. Four Twilight lords. A nuclear reactor. A digital empire."
+				"§a✔ UNLOCKS§f: Fusion Crafting Core  §d▶ You have ascended."
+			]
+			id: "625AC7B54054E5A8"
+			rewards: [
+				{
+					id: "50D1A9F8DBCD73EA"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "1A620795C1D0EC7C"
+					item: "draconicevolution:crafting_core"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "66DE139E3FFDCCA6"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					command: "/function moathco:phase_5_broadcast"
+					id: "08653CC0E90D8CFD"
+					type: "command"
+				}
+				{
+					id: "5178F9DCF6EE189C"
+					item: "kubejs:moathco_files_vol_5"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.5d
+			tasks: [{
+				id: "4994C24A3FC9B577"
+				item: "kubejs:heart_of_the_vault"
+				type: "item"
+			}]
+			title: "§d§l✦ Heart of the Vault ✦"
+			x: 90.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"§6§l✦ THE CONVERGENCE ✦"
+				"§7Five phases. Five seals. Every system tamed."
+				"§7You have bled, burned, and built your way to this moment."
+				"§eForge the §6Vault Convergence§e — proof that you are the Architect."
+				"§a✔ §6You are the Architect. §aAstra Mekanika — Complete."
+			]
+			id: "1BCE7E1C8EC78F20"
+			rewards: [
+				{
+					id: "6964364D12021553"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					id: "1E63C6868C5210DC"
+					item: "draconicevolution:draconic_chestplate"
+					type: "item"
+				}
+				{
+					id: "2FD6CF56D0970C5D"
+					item: "draconicevolution:draconic_sword"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "1F1AEA7723D86A0C"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					command: "/function moathco:vault_convergence_broadcast"
+					id: "4A1F68C36EC59901"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				id: "2DB9EF434CA76998"
+				item: "kubejs:vault_convergence"
+				type: "item"
+			}]
+			title: "§6§l✦ The Vault Convergence ✦"
+			x: 92.0d
+			y: 0.0d
+		}
+	]
+	title: "§6§lAstra Mekanika"
+}

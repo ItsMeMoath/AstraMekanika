@@ -18,6 +18,7 @@
 				""
 				"§8Unlock condition: §dCrimson Circuit of Passage §8(Phase II complete)"
 			]
+			dependencies: ["10F2216D18CC8217"]
 			id: "7F243F8B32DF199D"
 			rewards: [{
 				id: "54005C1B295A8526"
@@ -64,7 +65,6 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			image: "ftbquests:images/Twilight.png"
 			title: "§3Into the Twilight"
 			x: 3.0d
 			y: 0.0d
@@ -228,7 +228,6 @@
 				item: "kubejs:twilight_sigil_plate"
 				type: "item"
 			}]
-			image: "ftbquests:images/PhaseSeal3.png"
 			title: "§3§l⚙ Twilight Sigil Plate"
 			x: 15.0d
 			y: 0.0d
@@ -295,7 +294,7 @@
 			]
 			tasks: [{
 				id: "0A8B281C23C98B00"
-				item: "mysticalagriculture:seed_base"
+				item: "mysticalagriculture:prosperity_seed_base"
 				type: "item"
 			}]
 			title: "§2Seeds of Fortune"
@@ -692,7 +691,6 @@
 				item: "mysticalagriculture:coal_seeds"
 				type: "item"
 			}]
-			image: "ftbquests:images/InferiumSeed.png"
 			title: "§2Tier 2 Seeds"
 			x: 9.0d
 			y: -8.0d
@@ -729,7 +727,6 @@
 				item: "mysticalagriculture:essence_farmland"
 				type: "item"
 			}]
-			image: "ftbquests:images/InferiumFarmland.png"
 			title: "§2Essence Farmland"
 			x: 12.0d
 			y: -9.0d
@@ -915,6 +912,120 @@
 			title: "§eMechanical Crafter"
 			x: 15.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["7F243F8B32DF199D"]
+			description: [
+				"§7§cSaint's Dragons§7 has populated the world with living dragons — each with unique behaviors and habitats."
+				""
+				"§c  Cindervane §7— fire dragon, spawns in deserts and volcanic biomes (80 HP)"
+				"§c  Raevyx §7— rare overworld flyer"
+				"§c  Stegonaut §7— cave dragon, lurks in lush caves"
+				"§c  Varasuchus §7— semi-aquatic, found near water"
+				"§c  Nulljaw §7— End dimension dragon (Phase V+)"
+				""
+				"§7Hunt and kill a §cCindervane§7 as your first true draconic encounter."
+				""
+				"§8Cindervanes breathe fire — keep moving and attack from range."
+				"§8Fire Resistance potions are strongly recommended."
+			]
+			id: "37394153BE12BC2D"
+			rewards: [
+				{
+					id: "6C1FF5E770FACB61"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "2BDCD7F315275702"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "saintsdragons:cindervane"
+				id: "7B55B2A7899AEA0F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "§cDrake Hunter"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["37394153BE12BC2D"]
+			description: [
+				"§7Dragons can be tamed by feeding them §aRaw Chicken§7 when they are hungry."
+				"§7Base tame chance: §a25%§7. With a fresh-killed chicken: §a33%§7."
+				""
+				"§7Tame any Saint's Dragon."
+				""
+				"§8Approach slowly — attacking breaks the taming window."
+				"§8Bring 6–8 raw chickens to account for failed attempts."
+				"§8Once tamed, the dragon follows you, sits on command, and can be ridden."
+			]
+			id: "4C4A2B8E70C59452"
+			rewards: [
+				{
+					id: "4CBA1BE3D8E91D9A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "2950AB19A1C20EC3"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0712B74405195B31"
+					item: "minecraft:raw_chicken"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38952A5DC85F8163"
+				type: "checkmark"
+			}]
+			title: "§aDragon Tamer"
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4C4A2B8E70C59452"]
+			description: [
+				"§7Right-click your tamed dragon to mount it."
+				"§7Use §aW/A/S/D§7 to steer, §aSpace§7 to ascend, and §aShift§7 to descend."
+				""
+				"§7Take to the skies on dragonback."
+				""
+				"§8Dragons are faster than Elytra and can fight alongside you."
+				"§8The §cNulljaw§8 — found only in the End — is the rarest and most powerful dragon in the pack."
+				"§8Explore the §cTwilight Forest§8 from dragonback for a significant advantage over its bosses."
+			]
+			id: "28A5273925676186"
+			rewards: [
+				{
+					id: "06E5DD05EB474036"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "23AF12F01DFC8D4B"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3EE15AABD9AA3F8C"
+				type: "checkmark"
+			}]
+			title: "§aDrake Rider"
+			x: 7.0d
+			y: 8.0d
 		}
 	]
 	title: "§3§lIII. The Forest Beyond"

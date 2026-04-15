@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "moathco:basalt_column_patch",
+  "step": "underground_decorations"
+}

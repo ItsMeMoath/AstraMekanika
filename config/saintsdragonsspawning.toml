@@ -1,0 +1,108 @@
+
+[spawning]
+	#Dragon spawn configuration - control where and how often dragons spawn
+	#Note: spawn weights are relative per biome/category roll.
+	#Final spawn frequency also depends on each dragon's spawn predicate and placement checks.
+	#Natural wild spawns are also filtered by shared density rules to stop creature-category dragons from piling up.
+	#Raevyx additionally requires a thunderstorm for natural/chunk-generation spawning.
+	#Raevyx spawn settings
+	#Range: 0 ~ 5000
+	raevyxSpawnWeight = 1
+	#Range: 1 ~ 10
+	raevyxMinGroupSize = 1
+	#Range: 1 ~ 10
+	raevyxMaxGroupSize = 2
+	#Additional biome IDs or biome tags where Raevyx can spawn (e.g., "minecraft:desert", "terralith:volcanic_crater", "#c:is_overworld")
+	raevyxAdditionalBiomes = []
+	#Biome IDs or biome tags to exclude from default Raevyx spawns (e.g., "minecraft:plains", "#minecraft:is_ocean")
+	raevyxExcludedBiomes = []
+	#Stegonaut spawn settings (lush caves by default; broaden via additional biome IDs/tags as needed)
+	#Range: 0 ~ 5000
+	stegonautSpawnWeight = 5
+	#Range: 1 ~ 10
+	stegonautMinGroupSize = 1
+	#Range: 1 ~ 10
+	stegonautMaxGroupSize = 4
+	#Additional biome IDs or biome tags where Stegonaut can spawn beyond lush caves (e.g., "minecraft:dripstone_caves", "terralith:cave/thermal_caves", "#forge:is_cave")
+	stegonautAdditionalBiomes = []
+	#Biome IDs or biome tags to exclude from default Stegonaut spawns (e.g., "minecraft:plains", "#minecraft:is_ocean")
+	stegonautExcludedBiomes = []
+	#Cindervane spawn settings
+	#Range: 0 ~ 5000
+	cindervaneSpawnWeight = 3
+	#Range: 1 ~ 10
+	cindervaneMinGroupSize = 1
+	#Range: 1 ~ 10
+	cindervaneMaxGroupSize = 3
+	#Additional biome IDs or biome tags where Cindervane can spawn (e.g., "minecraft:desert", "terralith:volcanic_crater", "#c:is_overworld")
+	cindervaneAdditionalBiomes = []
+	#Biome IDs or biome tags to exclude from default Cindervane spawns (e.g., "minecraft:plains", "#minecraft:is_ocean")
+	cindervaneExcludedBiomes = []
+	#Whether Cindervane egg blocks generate in worldgen feature patches
+	cindervaneEggBlockWorldgen = true
+	#Varasuchus spawn settings (semi-aquatic; biome tags can massively expand coverage)
+	#Range: 0 ~ 5000
+	varasuchusSpawnWeight = 2
+	#Range: 1 ~ 10
+	varasuchusMinGroupSize = 1
+	#Range: 1 ~ 10
+	varasuchusMaxGroupSize = 2
+	#Additional biome IDs or biome tags where Varasuchus can spawn (e.g., "minecraft:desert", "terralith:volcanic_crater", "#c:is_overworld")
+	varasuchusAdditionalBiomes = []
+	#Biome IDs or biome tags to exclude from default Varasuchus spawns (e.g., "minecraft:plains", "#minecraft:is_ocean")
+	varasuchusExcludedBiomes = []
+	#Whether Varasuchus egg blocks generate in worldgen feature patches
+	varasuchusEggBlockWorldgen = true
+	#Ignivorus spawn settings
+	#Range: 0 ~ 5000
+	ignivorusSpawnWeight = 1
+	#Range: 1 ~ 10
+	ignivorusMinGroupSize = 1
+	#Range: 1 ~ 10
+	ignivorusMaxGroupSize = 2
+	#Additional biome IDs or biome tags where Ignivorus can spawn (e.g., "minecraft:desert", "terralith:volcanic_crater", "#c:is_overworld")
+	ignivorusAdditionalBiomes = []
+	#Biome IDs or biome tags to exclude from default Ignivorus spawns (e.g., "minecraft:plains", "#minecraft:is_ocean")
+	ignivorusExcludedBiomes = []
+	#Volitans spawn settings (custom underwater spawner for ocean/wetland habitats)
+	#Range: 0 ~ 5000
+	volitansSpawnWeight = 1
+	#Range: 1 ~ 10
+	volitansMinGroupSize = 1
+	#Range: 1 ~ 10
+	volitansMaxGroupSize = 1
+	#Additional biome IDs or biome tags where Volitans can spawn (e.g., "minecraft:beach", "minecraft:lukewarm_ocean", "#minecraft:is_ocean")
+	volitansAdditionalBiomes = []
+	#Biome IDs or biome tags to exclude from default Volitans spawns (e.g., "minecraft:plains", "#minecraft:is_forest")
+	volitansExcludedBiomes = []
+	#Nulljaw spawn settings (End-floating dragon)
+	#Range: 0 ~ 5000
+	nulljawSpawnWeight = 10
+	#Range: 1 ~ 10
+	nulljawMinGroupSize = 1
+	#Range: 1 ~ 10
+	nulljawMaxGroupSize = 2
+	#Additional biome IDs or biome tags where Nulljaw can spawn (e.g., "minecraft:end_highlands", "#minecraft:is_end")
+	nulljawAdditionalBiomes = []
+	#Biome IDs or biome tags to exclude from default Nulljaw spawns
+	nulljawExcludedBiomes = []
+
+[gameplay]
+	#Extra Saints & Dragons griefing toggle layered on top of the vanilla mobGriefing gamerule.
+	#If false, dragon-caused block destruction is disabled even when mobGriefing is true.
+	dragonGriefingEnabled = true
+	#Global toggle for dragon and ability-driven screen shake effects.
+	screenShakeEnabled = true
+	#Global toggle for rider-triggered barrel roll on flying dragons.
+	barrelRollEnabled = true
+	#Global toggle for Stegonaut passive aura buffs and portable binder buffs.
+	stegonautBuffsEnabled = true
+	#Global toggle for tame dragon hunger decay.
+	hungerDecayEnabled = true
+	#Global toggle for tame dragon happiness decay.
+	happinessDecayEnabled = true
+
+[others]
+	#Global toggle for Ivy's house structure generation and Ivy spawning from that structure.
+	ivyHouseEnabled = true
+

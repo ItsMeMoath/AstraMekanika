@@ -1,0 +1,23 @@
+{
+  "name": "Phase I — The Awakening",
+  "category": "kubejs:astra_guide/phases",
+  "icon": "immersiveengineering:ingot_steel",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Phase I — The Awakening",
+      "text": "$(bold)Core mods: Immersive Engineering, Ars Nouveau, Tinkers' Construct, Create, Thermal$(br2)The foundation phase. No magic systems. No digital storage. Just iron, fire, and steel.$(br2)Your goal: build a Coke Oven, run it until you have steel, then craft the $(bold)Rusted Conduit Core$() to seal the phase."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Key Milestones",
+      "text": "$(bold)1.$() Craft the Engineer's Workbench — gates all IE recipes$(br)$(bold)2.$() Build the Coke Oven — coal coke for the Blast Furnace$(br)$(bold)3.$() Build the Blast Furnace — produces steel ingots$(br)$(bold)4.$() Craft 16 steel ingots$(br)$(bold)5.$() Craft the Rusted Conduit Core — Phase I seal$(br2)Side objectives: Tinkers' tools, Ars Nouveau basics, Waystone at base, Nether run for quartz."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Rusted Conduit Core",
+      "text": "The Phase I seal recipe:$(br2)$(bold)Center:$() Thermal RF Coil$(br)$(bold)Top/Bottom:$() Iron Ingots$(br)$(bold)Left:$() Treated Wood (IE)$(br)$(bold)Right:$() Ars Nouveau Source Gem$(br2)All ingredients are Phase I accessible. Treated Wood requires Creosote Oil from your Coke Oven."
+    }
+  ]
+}

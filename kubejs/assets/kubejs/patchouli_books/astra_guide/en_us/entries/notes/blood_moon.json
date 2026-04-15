@@ -1,0 +1,19 @@
+{
+  "name": "⚠ The Blood Moon",
+  "category": "kubejs:astra_guide/notes",
+  "icon": "minecraft:red_bed",
+  "sortnum": 0,
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "⚠ Blood Moon Warning",
+      "text": "Every $(bold)7 in-game days$(), the sky turns red at nightfall. This is a Blood Moon.$(br2)During a Blood Moon:$(br)— Hostile mobs spawn in significantly larger swarms$(br)— Mobs move faster and deal more damage$(br)— The effect lasts until dawn$(br2)$(bold)Do not be caught outside without gear during a Blood Moon.$() Even iron armor isn't enough without a solid strategy."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Surviving It",
+      "text": "$(bold)Best approach:$() be inside a sealed structure before nightfall.$(br2)You can tell a Blood Moon is coming when the moon rises red. Sleep if you have a bed — sleeping skips the Blood Moon entirely.$(br2)If you must fight: use high ground, choke points, and AoE attacks. Do not engage in open terrain.$(br2)The Blood Moon resets at dawn. Surviving it earns Astra Coins from a quest in Chapter 1."
+    }
+  ]
+}

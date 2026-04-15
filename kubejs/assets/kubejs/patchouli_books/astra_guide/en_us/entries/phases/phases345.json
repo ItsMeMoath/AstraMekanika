@@ -1,0 +1,23 @@
+{
+  "name": "Phases III, IV & V",
+  "category": "kubejs:astra_guide/phases",
+  "icon": "twilightforest:twilight_shard",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Phase III — The Forest Beyond",
+      "text": "$(bold)Core mods: Twilight Forest, Mekanism, Mystical Agriculture, NuclearCraft$(br2)Enter the Twilight Forest and defeat four bosses: Naga, Lich, Hydra, Snow Queen. Their trophies are required for the Phase III seal.$(br2)$(bold)Twilight Sigil Plate$() recipe: Naga Scale + Lich Trophy + Hydra Chop + Snow Queen Trophy + RS Processor Binding."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Phase IV — Infinite Architecture",
+      "text": "$(bold)Core mods: NuclearCraft, Cataclysm, Applied Energistics 2, Mekanism$(br2)Build a Fission Reactor. Fight two Cataclysm bosses for their eyes. Construct your first AE2 network.$(br2)$(bold)Reactor Authority Seal$() recipe: 2x Cataclysm Flame Eye + 2x Cataclysm Void Eye + 2x Mekanism Infused Alloy + NuclearCraft Fission Reactor Casing."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Phase V — Architect's Ascent",
+      "text": "$(bold)Core mods: Draconic Evolution, Blood Magic (Master tier), AE2$(br2)The final phase. Draconium from the End. Master Blood Orb. AE2 autocrafting networks. Draconic Evolution armor.$(br2)$(bold)Heart of the Vault:$() 2x AE2 Fluix Crystal + Draconium Ingot + Master Blood Orb + Cataclysm Flame Eye + Mekanism Atomic Alloy.$(br2)$(bold)Vault Convergence$() — the true endgame item — requires 4x Awakened Draconium, Dragon Egg, 2x Master Blood Orb, Heart of the Vault, and Atomic Alloy."
+    }
+  ]
+}

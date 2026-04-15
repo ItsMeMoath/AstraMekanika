@@ -1,0 +1,321 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "astra_shop"
+	group: "2C13369127D75AFD"
+	icon: "kubejs:astra_coin"
+	id: "106CF80DF9A21876"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"§a§lWelcome to the Astra Shop."
+				""
+				"§7Submit §eAstra Coins§7 to purchase items."
+				"§7Coins are earned by completing quests across all chapters."
+				""
+				"§8Items are non-refundable. Choose wisely."
+			]
+			id: "5DBBC5A34F76EFF4"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "06EDAE9F3E516C32"
+				title: "Browse the shop."
+				type: "checkmark"
+			}]
+			title: "§a§lAstra Shop"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["§7§o15 Astra Coins§7 → §f10 Golden Apples"]
+			id: "7B84C681915DA826"
+			rewards: [{
+				count: 10
+				id: "7E163AF0C7463CF1"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 15L
+				id: "528E1D3CEEFFBA41"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§f[Shop] Golden Apples ×10"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			description: ["§7§o20 Astra Coins§7 → §b10 Lapis Lazuli Blocks"]
+			id: "27948178D4CE4B45"
+			rewards: [{
+				count: 10
+				id: "18C6DEC125440462"
+				item: "minecraft:lapis_block"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "3B8A0C93E97D6E00"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§b[Shop] Lapis Blocks ×10"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			description: ["§7§o30 Astra Coins§7 → §e16 Gold Blocks"]
+			id: "6452F5460A875D4F"
+			rewards: [{
+				count: 16
+				id: "5CC4A31A557CB2F1"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "4DEC047EB68D8BC2"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§e[Shop] Gold Blocks ×16"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			description: ["§7§o70 Astra Coins§7 → §b16 Diamond Blocks"]
+			id: "1237C5AC5AA9C0DD"
+			rewards: [{
+				count: 16
+				id: "0A27B6A16D227BB4"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 70L
+				id: "4711A6F8A66B1E32"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§b[Shop] Diamond Blocks ×16"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["§7§o40 Astra Coins§7 → §520 XP Levels"]
+			id: "11AC2E863ACAF04B"
+			rewards: [{
+				id: "216210636BA4BEB0"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				consume_items: true
+				count: 40L
+				id: "6DE38C2FA565A082"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§5[Shop] 20 XP Levels"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			description: ["§7§o60 Astra Coins§7 → §61 Nether Star"]
+			id: "05FDAA5D726168B1"
+			rewards: [{
+				id: "0E30F899954AE2E9"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 60L
+				id: "2992922F9C8D371F"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§6[Shop] Nether Star ×1"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: ["§7§o100 Astra Coins§7 → §71 Elytra"]
+			id: "18BB9018387FC56E"
+			rewards: [{
+				id: "33B4A60A303AD4C6"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "54A83CB82DE62C4D"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§7[Shop] Elytra"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["§7§o50 Astra Coins§7 → §aAstra Field Blade (custom sword)"]
+			id: "2213571D703A6295"
+			rewards: [{
+				id: "66B8D9F3B90EAE00"
+				item: {
+					Count: 1
+					id: "kubejs:moathco_field_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 50L
+				id: "47E42E698B94E61A"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§6[Shop] Astra Field Blade"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			description: ["§7§o80 Astra Coins§7 → §6Full Astra Armor Set (helmet + chest + legs + boots)"]
+			id: "0902E277E52B9410"
+			rewards: [
+				{
+					id: "6FA2671B8CD9E911"
+					item: {
+						Count: 1
+						id: "kubejs:moathco_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EE87DCEACA7CC4E"
+					item: {
+						Count: 1
+						id: "kubejs:moathco_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CC64623D4EFDF2D"
+					item: {
+						Count: 1
+						id: "kubejs:moathco_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B131D3756A2EC4C"
+					item: {
+						Count: 1
+						id: "kubejs:moathco_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 80L
+				id: "4B7729715EF7AEB2"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§6[Shop] Astra Armor Set"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["§7§o30 Astra Coins§7 → §e64 IE Steel Ingots"]
+			id: "23260DD134D7D636"
+			rewards: [{
+				count: 64
+				id: "6C4A322AF4C57224"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "02533C5B7EF90DD0"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§7[Shop] IE Steel ×64"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			description: ["§7§o75 Astra Coins§7 → §d1 Totem of Undying"]
+			id: "299483377A211945"
+			rewards: [{
+				id: "09DD8A3747141433"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 75L
+				id: "7D5B37B48A3D9FC2"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§d[Shop] Totem of Undying"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			description: ["§7§o25 Astra Coins§7 → §e64 Blaze Rods"]
+			id: "4001D68E7567A1A6"
+			rewards: [{
+				count: 64
+				id: "590CF8D0276F9271"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "00E93B33276D162A"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§6[Shop] Blaze Rods ×64"
+			x: 2.0d
+			y: 6.0d
+		}
+	]
+	title: "§a§lAstra Shop"
+}

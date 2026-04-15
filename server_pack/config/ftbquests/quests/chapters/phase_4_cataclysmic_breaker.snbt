@@ -1,0 +1,509 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "phase_4_cataclysmic_breaker"
+	group: "3E586F2160161EEA"
+	icon: "cataclysm:ignited_revenants_eye"
+	id: "1004000000000001"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1003000000000001"]
+			description: [
+				"§cTwo gods. A nuclear reactor. A factory that never sleeps."
+				""
+				"§7Phase 4 is where your base becomes a true industrial empire. You'll spin up Mekanism ore processing, build a NuclearCraft fission reactor, and then tear through two Cataclysm bosses built to destroy you."
+				""
+				"§cForge the Reactor Authority Seal to unlock Phase 5."
+			]
+			id: "1EDC1428281AF6DE"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "458E292C13D1BFA9"
+				title: "The machine awakens."
+				type: "checkmark"
+			}]
+			title: "§c§lCataclysmic Breaker"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EDC1428281AF6DE"]
+			description: ["Place the Metallurgic Infuser you received from Phase 3. Insert Redstone or Osmium dust as an infusion material, then feed Iron inside. It outputs Enriched Alloy — the backbone of every Mekanism machine."]
+			id: "7943D629342D5036"
+			rewards: [
+				{
+					id: "0EDF0A66B753AE14"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "53A9AF53AB4DED98"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0DC6D6ECE118F7D2"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "38152D350D1940F8"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "§6Metallurgic Infuser"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7943D629342D5036"]
+			description: ["Produce at least 8 Enriched Alloys. You will burn through them constantly — build a production loop now: Infuser → Alloy → Mekanism machines. Set it to auto-feed using Exporters from your RS network."]
+			id: "0D91CDA6EDD11044"
+			rewards: [
+				{
+					id: "23B9A0413AB15BC6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "694E05B4C4B2777E"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "66C77C9F89CBAB69"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			title: "Enriched Alloy"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D91CDA6EDD11044"]
+			description: ["Mekanism runs on Joules (J), not RF — but most Mekanism generators output compatible with both. Place a Heat Generator next to lava to start generating power. Wire it to an Energy Cube to buffer your output."]
+			id: "0E7882E86260D570"
+			rewards: [{
+				id: "0DE19B2F00A54686"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "189825E510F68A40"
+					item: "mekanism:heat_generator"
+					type: "item"
+				}
+				{
+					id: "5CD43818403E9DDE"
+					item: "mekanism:energy_cube_basic"
+					type: "item"
+				}
+			]
+			title: "Heat Generator"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0E7882E86260D570"]
+			description: ["The first step in Mekanism's ore doubling chain. Feed it raw ores to get two dust per ore. Combine with a Purification Chamber and Crusher later for 5x output — the most efficient ore processing in the pack."]
+			id: "23E203162B3259CD"
+			rewards: [
+				{
+					id: "5E6EE803351C0962"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "0CCCCDCB3A120B1C"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1EAD4E919564BE17"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			title: "Enrichment Chamber"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["23E203162B3259CD"]
+			description: ["Three Enrichment Chambers in a single block. Feed it ore from your RS network and let the Factories handle all the processing while you focus on bigger machines. Upgrade to Elite tier when you have resources."]
+			id: "3A5462B4D777219D"
+			rewards: [{
+				id: "4FE224FF6F3B726A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "20177FAE02FB4696"
+				item: "mekanism:basic_enriching_factory"
+				type: "item"
+			}]
+			title: "§6Basic Factory"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3A5462B4D777219D"]
+			description: ["Configure it with ore filters (e.g. iron_ore, gold_ore) and a radius. It mines continuously day and night without you doing anything. Point it at a deep cave system and leave it running for hours."]
+			id: "763F154CB56D6B25"
+			rewards: [
+				{
+					id: "7478F4AC7E75950F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "4B71C4963866C55B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "678CC3FD674AAFAE"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3350CD28B6A314CB"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			title: "§6Digital Miner"
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["763F154CB56D6B25"]
+			description: ["A mid-tier Mekanism alloy that goes into the Reactor Authority Seal recipe. Produce 4 of these before attempting to forge the seal. You need them alongside Mekanism Infused Alloy in the crafting grid."]
+			id: "0E7C5005025DB20C"
+			rewards: [
+				{
+					id: "7835D324D7FC45E7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "0911578AEBE0EFD5"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				count: 4L
+				id: "69B5042F587CC870"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			title: "§6Advanced Alloy"
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0E7C5005025DB20C"]
+			description: ["NuclearCraft's uranium ore. Mine at least 16 — it requires multiple processing steps (Manufactory → Uranium Oxide → fuel pellets) before it can actually power a reactor. Start mining now."]
+			id: "5FD4B0DDA31A6B84"
+			rewards: [{
+				id: "5F1D37FDCB6406C3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 8L
+				id: "3DFD4F604C5D7850"
+				item: "nuclearcraft:uraninite"
+				type: "item"
+			}]
+			title: "§eUraninite Ore"
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5FD4B0DDA31A6B84"]
+			description: ["NuclearCraft's processing machine. Feed it Uraninite to get Uranium Oxide — the first step in the fuel chain. Chain it with a second Manufactory to convert Oxide into UO2 pellets."]
+			id: "51061E078B973A4E"
+			rewards: [{
+				id: "3C04DBB413E6B05C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5A4BD324BA628A2C"
+				item: "nuclearcraft:manufactory"
+				type: "item"
+			}]
+			title: "NC Manufactory"
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["51061E078B973A4E"]
+			description: ["Uraninite → Uranium Oxide (Manufactory) → UO2 Fuel Pellets (second Manufactory step). These pellets are loaded directly into your reactor's fuel rods. Produce at least 8 before building the reactor structure."]
+			id: "1567BA88ABE08923"
+			rewards: [
+				{
+					id: "5756E8E817EF0AA6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "3E5D7504BFCC59CF"
+					item: "nuclearcraft:uo2_fuel_pellet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "47CCD46D2E231B7B"
+				item: "nuclearcraft:uo2_fuel_pellet"
+				type: "item"
+			}]
+			title: "UO2 Fuel Pellets"
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1567BA88ABE08923"]
+			description: ["Craft at least 8 Fission Reactor Casings. The reactor structure is a hollow rectangular prism built from these — minimum 3x3x3 interior. Place moderator blocks (Graphite) inside to improve efficiency."]
+			id: "3CCFCD661493AF18"
+			rewards: [{
+				id: "5A36EAF891CD34C8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "0ADEE653EFAF83A6"
+				item: "nuclearcraft:fission_reactor_casing"
+				type: "item"
+			}]
+			title: "Reactor Casing"
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["3CCFCD661493AF18"]
+			description: ["Build the hollow reactor structure, insert fuel rods and moderators, then activate it with a Reactor Controller. Even a small 3x3x3 reactor outputs more RF than everything you've built in Phases 1-3 combined."]
+			id: "5B4033634B4C4296"
+			rewards: [
+				{
+					id: "0381D1681ED9F405"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "2AD54FB04198AC67"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "5DC18CA46845029C"
+				observe_type: 0
+				timer: 0L
+				title: "Activate a Fission Reactor"
+				to_observe: ""
+				type: "observation"
+			}]
+			title: "§e⚛ Fission Reactor Online"
+			x: 0.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["5B4033634B4C4296"]
+			description: ["Industrial Foregoing's automated mob killer. Powered by RF, it kills any mob in range and collects their drops. Combine it with a Mob Spawner or a spawn platform — free XP and loot 24/7."]
+			id: "1AD36E879FE6C9FA"
+			rewards: [{
+				id: "3EA557DBD18605C5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "514A4EF6F25FDAFF"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			title: "Mob Crusher"
+			x: 0.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["1AD36E879FE6C9FA"]
+			description: ["§cCataclysm bosses are significantly harder than anything in Phases 1-3. Before engaging:\n\n§7- Full Netherite armor (enchanted)\n§7- At least 6× Fire Resistance potions\n§7- Ars Nouveau combat spells equipped\n§7- At least 20 hearts of max HP\n\n§eDo not underestimate them."]
+			id: "2C349548EB71CE25"
+			rewards: [
+				{
+					id: "5D745FEC5F626242"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 6
+					id: "7C578C55B354C355"
+					item: "minecraft:fire_resistance"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "05B268C51F9B46D0"
+				title: "I'm ready for the Cataclysm."
+				type: "checkmark"
+			}]
+			title: "§cPrepare for the Cataclysm"
+			x: 0.0d
+			y: 28.5d
+		}
+		{
+			dependencies: ["2C349548EB71CE25"]
+			description: ["The Ignited Revenant is a fiery abomination found in a Cataclysm Structure in the Nether. It launches waves of lava, throws molten fireballs, and erupts in fire when injured. Stay mobile. Fire Resistance is mandatory."]
+			id: "590E1089FBF6A173"
+			rewards: [
+				{
+					id: "2D7E639BE2B70E3F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "3937AF2CF07F0E8E"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6C67E437B4E17BC7"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26FA1238F3D433C8"
+				item: "cataclysm:ignited_revenants_eye"
+				type: "item"
+			}]
+			title: "§cBoss I — Ignited Revenant"
+			x: 0.0d
+			y: 30.5d
+		}
+		{
+			dependencies: ["590E1089FBF6A173"]
+			description: ["The Ender Golem is found in an End dimension structure. It teleports rapidly, shields itself with Endermen sacrificed on mechanical arms, and blasts you with void energy. Destroy the arm generators first before targeting the core."]
+			id: "4C32B2BBA14F4DD6"
+			rewards: [
+				{
+					id: "1F74BC86CEB79D81"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "705556E79E68AC49"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "17854A6E7F899BA0"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F35B2ADE887D36B"
+				item: "cataclysm:ender_golem_eye"
+				type: "item"
+			}]
+			title: "§cBoss II — Ender Golem"
+			x: 0.0d
+			y: 32.5d
+		}
+		{
+			dependencies: ["4C32B2BBA14F4DD6"]
+			description: [
+				"§7Factory running. Reactor online. Two gods dead."
+				""
+				"§eCraft the §cReactor Authority Seal§e:"
+				"§f  CAC"
+				"§f  MNM"
+				"§f  CAC"
+				"§cC §f= Ignited Revenant's Eye   §cA §f= Ender Golem Eye"
+				"§6M §f= Mekanism Infused Alloy   §eN §f= NC Reactor Casing (center)"
+				""
+				"§a✔ UNLOCKS§f: AE2 Controller recipe"
+				"§c▶ Required to enter Phase 5."
+			]
+			id: "2E05DEF2519A255A"
+			rewards: [
+				{
+					id: "62413AEE8AC189DD"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "702FA34EB34D966F"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0C5B2FFCF83B7C6F"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					command: "/function moathco:phase_4_broadcast"
+					id: "5222858E1ECDA9E0"
+					type: "command"
+				}
+				{
+					id: "177D7ECB35E64DD2"
+					item: "kubejs:moathco_files_vol_4"
+					type: "item"
+				}
+				{
+					count: 13
+					id: "0F8809E3911D8A14"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.25d
+			tasks: [{
+				id: "0A12D9E28FA81F19"
+				item: "kubejs:reactor_authority_seal"
+				type: "item"
+			}]
+			title: "§c§l🔥 Reactor Authority Seal 🔥"
+			x: 0.0d
+			y: 38.0d
+		}
+	]
+	title: "§cPhase 4: Cataclysmic Breaker"
+}

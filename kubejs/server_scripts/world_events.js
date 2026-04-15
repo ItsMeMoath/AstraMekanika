@@ -1,32 +1,37 @@
 // MoathCo Adventure - Random World Events
-// Blood Moon: triggers roughly every 7 in-game days at nightfall
+// Blood Moon: triggers on every 7th in-game night at dusk (tick 12300, before sleep threshold)
 
-const BLOOD_MOON_INTERVAL = 7; // every N in-game days
-const DAY_LENGTH = 24000;       // ticks per MC day
-const NIGHT_START = 13000;      // tick when night begins
+const BLOOD_MOON_INTERVAL = 7;  // every N nights
+const DAY_LENGTH = 24000;        // ticks per MC day
+const DUSK = 12300;              // before sleep threshold (~12542) — guaranteed to hit every night
+const NOON = 6000;               // reset dusk-fired flag here each day
 
 ServerEvents.tick(event => {
     const server = event.server;
     const level = server.overworld();
     if (!level) return;
 
-    {
-        const time = level.time % DAY_LENGTH;
-        const dayCount = Math.floor(level.time / DAY_LENGTH);
-        const data = level.persistentData;
+    const time = level.time % DAY_LENGTH;
+    const data = level.persistentData;
 
-        // --- Blood Moon trigger ---
-        // Fire once per qualifying night (guard with lastBloodMoonDay)
-        if (
-            time >= NIGHT_START &&
-            time < NIGHT_START + 100 && // ~5-second window to trigger
-            dayCount % BLOOD_MOON_INTERVAL === 0 &&
-            data.getInt('lastBloodMoonDay') !== dayCount
-        ) {
-            data.putInt('lastBloodMoonDay', dayCount);
+    // ── Night counter ────────────────────────────────────────────────────────
+    // Increment once per dusk. bm_dusk_fired is reset at NOON so it never
+    // double-counts in the same day. Using DUSK (12300) instead of the old
+    // NIGHT_START (13000) because players can begin sleeping at tick 12542 —
+    // the 13000 window was skippable by sleeping, causing the blood moon to
+    // never fire. At 12300 sleeping is impossible, so this window is always hit.
+    if (time >= DUSK && time < DUSK + 100 && !data.getBoolean('bm_dusk_fired')) {
+        data.putBoolean('bm_dusk_fired', true);
+
+        const nightCount = data.getInt('bm_nightCount') + 1;
+        data.putInt('bm_nightCount', nightCount);
+
+        if (nightCount % BLOOD_MOON_INTERVAL === 0) {
             data.putBoolean('blood_moon_active', true);
 
-            // Broadcast to all players
+            // Lock out sleeping so players cannot skip the Blood Moon night
+            server.runCommandSilent('gamerule playersSleepingPercentage 101');
+
             server.tell('§4§l☽ BLOOD MOON RISES ☽');
             server.players.forEach(player => {
                 player.server.runCommandSilent(
@@ -40,33 +45,35 @@ ServerEvents.tick(event => {
                 );
             });
         }
+    }
 
-        // --- Clear Blood Moon at dawn ---
-        if (time < 1000 && data.getBoolean('blood_moon_active')) {
-            data.putBoolean('blood_moon_active', false);
-            server.tell('§e§l✦ The Blood Moon fades. Dawn breaks over Astra Mekanika lands. ✦');
-        }
+    // ── Reset dusk flag at noon ──────────────────────────────────────────────
+    // Clears bm_dusk_fired so the next dusk window can fire again.
+    if (time >= NOON && time < NOON + 100 && data.getBoolean('bm_dusk_fired')) {
+        data.putBoolean('bm_dusk_fired', false);
+    }
 
-        // --- Blood Moon mob spawning boost ---
-        // We use a separate tick gate to not spam every tick
-        if (
-            data.getBoolean('blood_moon_active') &&
-            level.time % 80 === 0 // every 4 seconds
-        ) {
-            server.players.forEach(player => {
-                if (player.level.dimension !== 'minecraft:overworld') return;
-                const x = player.x;
-                const y = player.y;
-                const z = player.z;
-                // Spawn a small wave of mobs around each player
-                const mobs = ['minecraft:zombie', 'minecraft:skeleton', 'minecraft:creeper'];
-                const mob = mobs[Math.floor(Math.random() * mobs.length)];
-                const angle = Math.random() * Math.PI * 2;
-                const dist = 24 + Math.random() * 8;
-                const spawnX = Math.floor(x + Math.cos(angle) * dist);
-                const spawnZ = Math.floor(z + Math.sin(angle) * dist);
-                level.runCommandSilent(`summon ${mob} ${spawnX} ${y} ${spawnZ} {PersistenceRequired:0b}`);
-            });
-        }
+    // ── Blood Moon end at dawn ───────────────────────────────────────────────
+    if (time < 1000 && data.getBoolean('blood_moon_active')) {
+        data.putBoolean('blood_moon_active', false);
+        server.runCommandSilent('gamerule playersSleepingPercentage 50');
+        server.tell('§e§l✦ The Blood Moon fades. Dawn breaks over Astra Mekanika lands. ✦');
+    }
+
+    // ── Blood Moon mob wave (every 4 seconds) ────────────────────────────────
+    if (data.getBoolean('blood_moon_active') && level.time % 80 === 0) {
+        server.players.forEach(player => {
+            if (player.level.dimension !== 'minecraft:overworld') return;
+            const x = player.x;
+            const y = player.y;
+            const z = player.z;
+            const mobs = ['minecraft:zombie', 'minecraft:skeleton', 'minecraft:creeper'];
+            const mob = mobs[Math.floor(Math.random() * mobs.length)];
+            const angle = Math.random() * Math.PI * 2;
+            const dist = 24 + Math.random() * 8;
+            const spawnX = Math.floor(x + Math.cos(angle) * dist);
+            const spawnZ = Math.floor(z + Math.sin(angle) * dist);
+            level.runCommandSilent(`summon ${mob} ${spawnX} ${y} ${spawnZ} {PersistenceRequired:0b}`);
+        });
     }
 });
