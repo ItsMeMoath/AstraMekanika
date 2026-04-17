@@ -1075,14 +1075,14 @@
 				id: "367C17CFC3C44CBF"
 				item: {
 					Count: 1
-					id: "techreborn:ruby_chestplate"
+					id: "techreborn:peridot_chestplate"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			title: "Ruby Chestplate"
+			title: "Peridot Chestplate"
 			x: 10.0d
 			y: 23.5d
 		}
@@ -1212,7 +1212,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Ruby Chestplate"
 			x: 8.0d
 			y: 26.5d
 		}
