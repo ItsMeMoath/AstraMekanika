@@ -14,11 +14,17 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "310A7DAB7ABF36CD"
-				title: "Swords"
-				type: "checkmark"
+				id: "45E8B3FC12695449"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
-			title: "&e&l⚔ Weapons & Swords"
+			title: "&e&l⚔ Weapons  Swords"
 			x: 2.0d
 			y: -2.0d
 		}
@@ -92,10 +98,7 @@
 			y: 0.0d
 		}
 		{
-			description: [
-				"&7Shoots magic beams for free. Melee damage at range."
-				"&ePhase 4."
-			]
+			description: ["&5Custom&r\n&7The MoathCo signature blade. Forged in Phase 5 from the rarest alloys.\n&cPhase 5."]
 			id: "493AAC0C4B7E8C7D"
 			rewards: [
 				{
@@ -111,16 +114,10 @@
 			]
 			tasks: [{
 				id: "5219C4EE02CBE86F"
-				item: {
-					Count: 1
-					id: "botania:terra_sword"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "kubejs:moathco_field_blade"
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "MoathCo Field Blade"
 			x: 4.0d
 			y: 0.0d
 		}
@@ -138,7 +135,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Thundercaller"
 			x: 6.0d
 			y: 0.0d
 		}
@@ -156,7 +153,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Aeternium Sword"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -168,7 +165,7 @@
 				item: "bloodmagic:bound_blade"
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Bound Blade"
 			x: 10.0d
 			y: 0.0d
 		}
@@ -180,7 +177,7 @@
 				item: "knightquest:dragonslayer"
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Dragonslayer"
 			x: 12.0d
 			y: 0.0d
 		}
@@ -190,7 +187,7 @@
 			id: "6827AE2378DAC3B8"
 			shape: "square"
 			size: 1.5d
-			title: "&4&lS"
+			title: "&6&lA-Tier"
 			x: -2.0d
 			y: 3.0d
 		}
@@ -208,7 +205,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Glass Sword"
 			x: 0.0d
 			y: 3.0d
 		}
@@ -226,12 +223,12 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Fiery Sword"
 			x: 2.0d
 			y: 3.0d
 		}
 		{
-			description: ["&aBotania&r\n&7Heals you on hit. Extremely reliable self-sustaining weapon.\n&ePhase 3."]
+			description: ["&aBotania&r\n&7Projects a magical blade on swing, dealing ranged melee damage. Mana-powered.\n&ePhase 3."]
 			id: "1C62050DAE63423B"
 			tasks: [{
 				id: "21BEE57EBC3B8E29"
@@ -244,7 +241,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Terra Sword"
 			x: 4.0d
 			y: 3.0d
 		}
@@ -256,7 +253,7 @@
 				item: "tconstruct:broadsword"
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Tinkers' Broadsword"
 			x: 6.0d
 			y: 3.0d
 		}
@@ -274,7 +271,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Netherite Sword"
 			x: 8.0d
 			y: 3.0d
 		}
@@ -292,7 +289,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Terminite Sword"
 			x: 10.0d
 			y: 3.0d
 		}
@@ -310,7 +307,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Paladin Sword"
 			x: 12.0d
 			y: 3.0d
 		}
@@ -328,7 +325,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Gravitite Sword"
 			x: 14.0d
 			y: 3.0d
 		}
@@ -338,7 +335,7 @@
 			id: "4D3708886B6DDA3E"
 			shape: "square"
 			size: 1.5d
-			title: "&4&lS"
+			title: "&e&lB-Tier"
 			x: -2.0d
 			y: 6.0d
 		}
@@ -356,7 +353,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Ice Sword"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -374,7 +371,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Elementium Sword"
 			x: 2.0d
 			y: 6.0d
 		}
@@ -392,7 +389,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Zanite Sword"
 			x: 4.0d
 			y: 6.0d
 		}
@@ -410,7 +407,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Peridot Sword"
 			x: 6.0d
 			y: 6.0d
 		}
@@ -428,7 +425,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Ruby Sword"
 			x: 8.0d
 			y: 6.0d
 		}
@@ -446,7 +443,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Diamond Sword"
 			x: 10.0d
 			y: 6.0d
 		}
@@ -464,7 +461,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Knightmetal Sword"
 			x: 12.0d
 			y: 6.0d
 		}
@@ -482,7 +479,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Engineer's Hammer"
 			x: 16.0d
 			y: 6.0d
 		}
@@ -492,7 +489,7 @@
 			id: "3F1D90FCCF262D91"
 			shape: "square"
 			size: 1.5d
-			title: "&4&lS"
+			title: "&a&lC-Tier"
 			x: -2.0d
 			y: 9.0d
 		}
@@ -510,7 +507,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Steeleaf Sword"
 			x: 0.0d
 			y: 9.0d
 		}
@@ -528,7 +525,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Manasteel Sword"
 			x: 2.0d
 			y: 9.0d
 		}
@@ -540,7 +537,7 @@
 				item: "techreborn:silver_sword"
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Silver Sword"
 			x: 4.0d
 			y: 9.0d
 		}
@@ -558,7 +555,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Bronze Sword"
 			x: 6.0d
 			y: 9.0d
 		}
@@ -576,25 +573,25 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Iron Sword"
 			x: 8.0d
 			y: 9.0d
 		}
 		{
-			description: ["&9Aether&r\n&7Decent early Aether weapon, faster at low health. Available from Aether exploration.\n&aPhase 2."]
+			description: ["&bAether&r\n&7The first weapon available in the Aether. Craft immediately upon arrival.\n&aPhase 2."]
 			id: "209C54BC28168CBD"
 			tasks: [{
 				id: "32C4B3EDDC8574E2"
 				item: {
 					Count: 1
-					id: "aether:zanite_sword"
+					id: "aether:holystone_sword"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Holystone Sword"
 			x: 10.0d
 			y: 9.0d
 		}
@@ -604,7 +601,7 @@
 			id: "6BC78C396E539652"
 			shape: "square"
 			size: 1.5d
-			title: "&4&lS"
+			title: "&7&lD-Tier"
 			x: -2.0d
 			y: 12.0d
 		}
@@ -622,7 +619,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Stone Sword"
 			x: 0.0d
 			y: 12.0d
 		}
@@ -640,7 +637,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Wooden Sword"
 			x: 2.0d
 			y: 12.0d
 		}
@@ -658,7 +655,7 @@
 				}
 				type: "item"
 			}]
-			title: "&4&lS"
+			title: "Golden Sword"
 			x: 4.0d
 			y: 12.0d
 		}
@@ -668,11 +665,11 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "4C63B0E97B070FF1"
-				title: "&4&lS"
-				type: "checkmark"
+				id: "6AA38F099E972EB5"
+				item: "draconicevolution:draconic_chestplate"
+				type: "item"
 			}]
-			title: "&4&lS"
+			title: "&e&l\u26E8 Armor \u25b8 Chestplates"
 			x: 2.0d
 			y: 15.0d
 		}
@@ -783,7 +780,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Wyvern Chestplate"
 			x: 2.0d
 			y: 17.5d
 		}
@@ -795,7 +792,7 @@
 				item: "techreborn:quantum_chestplate"
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Quantum Chestplate"
 			x: 4.0d
 			y: 17.5d
 		}
@@ -807,7 +804,7 @@
 				item: "bloodmagic:bound_chestplate"
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Bound Chestplate"
 			x: 6.0d
 			y: 17.5d
 		}
@@ -825,7 +822,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Aeternium Chestplate"
 			x: 8.0d
 			y: 17.5d
 		}
@@ -835,7 +832,7 @@
 			id: "2B324712405F50EC"
 			shape: "square"
 			size: 1.5d
-			title: "&7&lD"
+			title: "&6&lA-Tier"
 			x: -2.0d
 			y: 20.5d
 		}
@@ -853,7 +850,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Netherite Chestplate"
 			x: 0.0d
 			y: 20.5d
 		}
@@ -871,7 +868,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Fiery Chestplate"
 			x: 2.0d
 			y: 20.5d
 		}
@@ -889,7 +886,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Yeti Chestplate"
 			x: 4.0d
 			y: 20.5d
 		}
@@ -907,7 +904,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Terrasteel Chestplate"
 			x: 6.0d
 			y: 20.5d
 		}
@@ -919,7 +916,7 @@
 				item: "techreborn:nano_chestplate"
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Nano Chestplate"
 			x: 8.0d
 			y: 20.5d
 		}
@@ -937,7 +934,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Dragon Chestplate"
 			x: 10.0d
 			y: 20.5d
 		}
@@ -955,7 +952,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Phoenix Chestplate"
 			x: 12.0d
 			y: 20.5d
 		}
@@ -967,7 +964,7 @@
 				item: "ironjetpacks:basic_jetpack"
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Iron Jetpack"
 			x: 14.0d
 			y: 20.5d
 		}
@@ -977,7 +974,7 @@
 			id: "4DE81E32A8FEFDA6"
 			shape: "square"
 			size: 1.5d
-			title: "&7&lD"
+			title: "&e&lB-Tier"
 			x: -2.0d
 			y: 23.5d
 		}
@@ -995,7 +992,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Diamond Chestplate"
 			x: 0.0d
 			y: 23.5d
 		}
@@ -1013,7 +1010,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Elementium Chestplate"
 			x: 2.0d
 			y: 23.5d
 		}
@@ -1031,7 +1028,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Gravitite Chestplate"
 			x: 4.0d
 			y: 23.5d
 		}
@@ -1049,7 +1046,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Knightmetal Chestplate"
 			x: 6.0d
 			y: 23.5d
 		}
@@ -1067,7 +1064,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Terminite Chestplate"
 			x: 8.0d
 			y: 23.5d
 		}
@@ -1078,14 +1075,14 @@
 				id: "367C17CFC3C44CBF"
 				item: {
 					Count: 1
-					id: "techreborn:peridot_chestplate"
+					id: "techreborn:ruby_chestplate"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Ruby Chestplate"
 			x: 10.0d
 			y: 23.5d
 		}
@@ -1097,7 +1094,7 @@
 				item: "knightquest:paladin_armor_chestplate"
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Paladin Chestplate"
 			x: 12.0d
 			y: 23.5d
 		}
@@ -1115,7 +1112,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Steeleaf Chestplate"
 			x: 14.0d
 			y: 23.5d
 		}
@@ -1125,7 +1122,7 @@
 			id: "70DEFFDA15429469"
 			shape: "square"
 			size: 1.5d
-			title: "&7&lD"
+			title: "&a&lC-Tier"
 			x: -2.0d
 			y: 26.5d
 		}
@@ -1143,7 +1140,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Iron Chestplate"
 			x: 0.0d
 			y: 26.5d
 		}
@@ -1161,7 +1158,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Manasteel Chestplate"
 			x: 2.0d
 			y: 26.5d
 		}
@@ -1179,7 +1176,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Zanite Chestplate"
 			x: 4.0d
 			y: 26.5d
 		}
@@ -1197,7 +1194,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Bronze Chestplate"
 			x: 6.0d
 			y: 26.5d
 		}
@@ -1233,7 +1230,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Faraday Chestplate"
 			x: 10.0d
 			y: 26.5d
 		}
@@ -1243,7 +1240,7 @@
 			id: "16A17E428F62864E"
 			shape: "square"
 			size: 1.5d
-			title: "&7&lD"
+			title: "&7&lD-Tier"
 			x: -2.0d
 			y: 29.5d
 		}
@@ -1261,7 +1258,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Leather Chestplate"
 			x: 0.0d
 			y: 29.5d
 		}
@@ -1279,7 +1276,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Golden Chestplate"
 			x: 2.0d
 			y: 29.5d
 		}
@@ -1297,25 +1294,25 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Chainmail Chestplate"
 			x: 4.0d
 			y: 29.5d
 		}
 		{
-			description: ["&cTech Reborn&r\n&7If you cannot find diamond, this is a usable pre-enchant option.\n&aPhase 1 backup."]
+			description: ["&7Tech Reborn&r\n&7Similar to iron. Small bonus defense. Cheap early-game option.\n&aPhase 1."]
 			id: "0125CC2061E33CDA"
 			tasks: [{
 				id: "0BA1102372213F1A"
 				item: {
 					Count: 1
-					id: "techreborn:ruby_chestplate"
+					id: "techreborn:silver_chestplate"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Silver Chestplate"
 			x: 6.0d
 			y: 29.5d
 		}
@@ -1325,11 +1322,17 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "1A03AC27AEEF680A"
-				title: "&7&lD"
-				type: "checkmark"
+				id: "67F5B65505F223F9"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
-			title: "&7&lD"
+			title: "&e&l\u26CF Tools \u25b8 Pickaxes"
 			x: 2.0d
 			y: 33.0d
 		}
@@ -1339,7 +1342,7 @@
 			id: "24A8167301DE5442"
 			shape: "square"
 			size: 1.5d
-			title: "&7&lD"
+			title: "&4&lS-Tier"
 			x: -2.0d
 			y: 35.5d
 		}
@@ -1351,7 +1354,7 @@
 				item: "draconicevolution:draconic_pickaxe"
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Draconic Pickaxe"
 			x: 0.0d
 			y: 35.5d
 		}
@@ -1363,7 +1366,7 @@
 				item: "mekanism:atomic_disassembler"
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Atomic Disassembler"
 			x: 2.0d
 			y: 35.5d
 		}
@@ -1375,7 +1378,7 @@
 				item: "mekanism:digital_miner"
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Digital Miner"
 			x: 4.0d
 			y: 35.5d
 		}
@@ -1387,7 +1390,7 @@
 				item: "techreborn:industrial_drill"
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Industrial Drill"
 			x: 6.0d
 			y: 35.5d
 		}
@@ -1397,7 +1400,7 @@
 			id: "635E7F17A4BBF1B0"
 			shape: "square"
 			size: 1.5d
-			title: "&7&lD"
+			title: "&6&lA-Tier"
 			x: -2.0d
 			y: 38.5d
 		}
@@ -1416,7 +1419,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Tinkers' Sledge Hammer"
 			x: 0.0d
 			y: 38.5d
 		}
@@ -1435,7 +1438,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Tinkers' Pickaxe (Cobalt)"
 			x: 2.0d
 			y: 38.5d
 		}
@@ -1447,7 +1450,7 @@
 				item: "draconicevolution:wyvern_pickaxe"
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Wyvern Pickaxe"
 			x: 4.0d
 			y: 38.5d
 		}
@@ -1465,7 +1468,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Fiery Pickaxe"
 			x: 6.0d
 			y: 38.5d
 		}
@@ -1475,7 +1478,7 @@
 			id: "5C43A6802BC3BDB2"
 			shape: "square"
 			size: 1.5d
-			title: "&7&lD"
+			title: "&e&lB-Tier"
 			x: -2.0d
 			y: 41.5d
 		}
@@ -1493,18 +1496,18 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Netherite Pickaxe"
 			x: 0.0d
 			y: 41.5d
 		}
 		{
-			description: ["&7Tinkers' Construct&r\n&7Before Cobalt from Twilight, Steel Tinkers' + modifiers beats vanilla Netherite.\n&ePhase 1-2."]
+			description: ["&7Tinkers' Construct&r\n&7AOE hammer that mines full ore veins. Apply Fortune for maximum yield.\n&ePhase 2."]
 			id: "7B4B8349998694A1"
 			tasks: [{
 				id: "492E95E7E14CE940"
 				item: {
 					Count: 1
-					id: "tconstruct:pickaxe"
+					id: "tconstruct:vein_hammer"
 					tag: {
 						Damage: 0
 						tic_broken: 0b
@@ -1512,7 +1515,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Vein Hammer"
 			x: 2.0d
 			y: 41.5d
 		}
@@ -1524,7 +1527,7 @@
 				item: "techreborn:diamond_drill"
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Diamond Drill"
 			x: 4.0d
 			y: 41.5d
 		}
@@ -1534,7 +1537,7 @@
 			id: "37AAF5A1A6DD18A1"
 			shape: "square"
 			size: 1.5d
-			title: "&7&lD"
+			title: "&a&lC-Tier"
 			x: -2.0d
 			y: 44.5d
 		}
@@ -1552,7 +1555,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Diamond Pickaxe"
 			x: 0.0d
 			y: 44.5d
 		}
@@ -1570,7 +1573,7 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Iron Pickaxe"
 			x: 2.0d
 			y: 44.5d
 		}
@@ -1582,7 +1585,7 @@
 				item: "techreborn:bronze_drill"
 				type: "item"
 			}]
-			title: "&7&lD"
+			title: "Bronze Drill"
 			x: 4.0d
 			y: 44.5d
 		}
@@ -1592,7 +1595,7 @@
 			id: "6B2FD93BD4A6260E"
 			shape: "square"
 			size: 1.5d
-			title: "&7&lD"
+			title: "&7&lD-Tier"
 			x: -2.0d
 			y: 47.5d
 		}
