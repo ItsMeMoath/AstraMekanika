@@ -1,23 +1,29 @@
 # Astra Mekanika
 
-Astra Mekanika is a high-tech, high-magic odyssey centered on the progression from basic survival to intergalactic dominance. This pack bridges the gap between industrial automation and ancient arts, demanding mastery over both the machine and the soul.
+**Minecraft 1.20.1 | Forge 47.4.0 | ~221 mods**
 
-The Four Pillars of Astra Mekanika
-🚀 Interstellar Conquest (Ad Astra & Beyond Earth)
-Leave the Overworld behind. Build advanced rocketry to explore the solar system, establish oxygen-rich colonies on distant moons, and survive the vacuum of space.
+A five-phase progression modpack built around industrial automation, arcane mastery, and a single endgame goal: **Vault Convergence**.
 
-⚡ The Pinnacle of Power (Mekanism & NuclearCraft)
-Construct massive fusion reactors and intricate 5x ore-processing factories. From digital miners to high-tier energy storage, Mekanism and NuclearCraft provide the technical backbone for your industrial empire.
+Each phase is gated by a craftable Seal. Complete a phase's objectives, forge the Seal, and the next chapter unlocks in your Quest Book.
 
-🔮 Arcane Mastery (Blood Magic & Botania)
-Harness the world's hidden energies. Use Blood Magic to sacrifice for power or master the floral alchemy of Botania to automate your world through mana. Your journey isn't just mechanical—it's spiritual.
+| Phase | Theme |
+|-------|-------|
+| I — The Awakening | Survival, basic automation, first machines |
+| II — Circuits & Sorcery | Create machinery, Iron's Spellbooks, Phase Seal crafting |
+| III — The Forest Beyond | Twilight Forest, advanced magic, mid-tier tech |
+| IV — The Infinite Architecture | Applied Energistics 2, PneumaticCraft, endgame prep |
+| V — The Architect's Ascent | Vault Hunters convergence, prestige system |
 
-⚙️ Infinite Energy & Storage (Applied Energistics 2 & Thermal)
-Manage your growing empire with AE2’s digital storage networks. Generate and transport massive amounts of RF/FE across dimensions to keep your machines running 24/7.
+## Installation
 
-The Expedition Kit
-Custom Tools: Forge evolving gear with Tinkers' Construct and Apotheosis.
+Install via the **CurseForge App** or **Modrinth** — search for *Astra Mekanika*.
 
-Integrated Tech: Seamlessly blend magic and machinery to solve complex logistical puzzles.
+Manual install: place the `mods/`, `config/`, `kubejs/`, and `resourcepacks/` folders alongside your Forge 47.4.0 installation. Allocate at least **6 GB RAM**.
 
-Dimensional Transit: Use Waystones and Iron Jetpacks to navigate between your terrestrial factories and orbital stations.
+## Server Setup
+
+See [`server_pack/README.md`](server_pack/README.md) for dedicated server instructions.
+
+## Credits
+
+Pack by **MoathCo**. Five-phase structure, custom quests, economy system, and FancyMenu design by the MoathCo team.
