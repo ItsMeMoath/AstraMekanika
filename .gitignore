@@ -22,6 +22,8 @@
 !/.gitignore
 !/options.txt
 !/instance.png
+!/manifest.json
+!/*.py
 
 # -----------------
 # EXCLUDED CACHES & LOCAL DATA
